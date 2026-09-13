@@ -1,0 +1,29 @@
+command: C:\Users\DanieLeRoux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityOfCapeTown\00_Scripts\coct_tender_pull_and_clean.py
+return_code: 3221225786
+elapsed_seconds: 2.49
+
+--- STDOUT ---
+2026-08-06 08:01:09,055 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-06 08:01:09,058 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityOfCapeTown
+2026-08-06 08:01:09,058 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityOfCapeTown\01_RawData
+2026-08-06 08:01:09,058 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityOfCapeTown\02_Outputs
+2026-08-06 08:01:09,059 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityOfCapeTown\03_Logs
+2026-08-06 08:01:09,059 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityOfCapeTown\04_State
+2026-08-06 08:01:09,511 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityOfCapeTown\01_RawData\coct_raw_page.html
+2026-08-06 08:01:09,567 | INFO | Raw tender table rows: 45 | cols: 11
+2026-08-06 08:01:09,570 | INFO | Saved raw CSV: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityOfCapeTown\01_RawData\coct_raw.csv
+2026-08-06 08:01:09,681 | INFO | Saved raw Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityOfCapeTown\01_RawData\coct_raw_full.xlsx
+2026-08-06 08:01:09,693 | INFO | Filtered current tenders by closing date: 43 -> 37 rows
+2026-08-06 08:01:10,249 | INFO | Delta (NEW) rows this run: 0
+2026-08-06 08:01:10,250 | INFO | Updates (CHANGED) rows this run: 12
+2026-08-06 08:01:10,250 | INFO | Top delta rows this run: 0
+
+--- STDERR ---
+C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityOfCapeTown\00_Scripts\coct_tender_pull_and_clean.py:313: UserWarning: Parsing dates in %Y-%m-%d format when dayfirst=True was specified. Pass `dayfirst=False` or specify a format to silence this warning.
+  return pd.to_datetime(series, errors="coerce", dayfirst=True)
+C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityOfCapeTown\00_Scripts\coct_tender_pull_and_clean.py:313: UserWarning: Parsing dates in %Y-%m-%d %I:%M %p format when dayfirst=True was specified. Pass `dayfirst=False` or specify a format to silence this warning.
+  return pd.to_datetime(series, errors="coerce", dayfirst=True)
+C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityOfCapeTown\00_Scripts\coct_tender_pull_and_clean.py:313: UserWarning: Parsing dates in %Y-%m-%d format when dayfirst=True was specified. Pass `dayfirst=False` or specify a format to silence this warning.
+  return pd.to_datetime(series, errors="coerce", dayfirst=True)
+C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityOfCapeTown\00_Scripts\coct_tender_pull_and_clean.py:313: UserWarning: Parsing dates in %Y-%m-%d %I:%M %p format when dayfirst=True was specified. Pass `dayfirst=False` or specify a format to silence this warning.
+  return pd.to_datetime(series, errors="coerce", dayfirst=True)

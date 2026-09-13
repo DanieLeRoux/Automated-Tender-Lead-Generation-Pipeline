@@ -1,0 +1,461 @@
+2026-07-05 05:02:53,064 | INFO | Using tender scrapers root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-05 05:02:53,065 | INFO | Using source root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-07-05 05:02:53,065 | INFO | Using raw directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-07-05 05:02:53,065 | INFO | Using output directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-07-05 05:02:53,069 | INFO | Using log directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-07-05 05:02:53,069 | INFO | Using state directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-07-05 05:02:53,072 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-07-05 05:02:54,142 | INFO | Parsed NamWater rows: 6
+2026-07-05 05:02:54,154 | INFO | Raw NamWater rows: 6 | cols: 40
+2026-07-05 05:02:54,368 | INFO | NamWater hash/state version changed or was not recorded. Re-baselining and suppressing delta/update alerts for this run.
+2026-07-05 05:02:54,530 | INFO | Saved NamWater outputs | raw=6 master=6 delta=0 updates=0 top_delta=0
+2026-07-05 06:43:29,889 | INFO | Using tender scrapers root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-05 06:43:29,889 | INFO | Using source root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-07-05 06:43:29,889 | INFO | Using raw directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-07-05 06:43:29,889 | INFO | Using output directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-07-05 06:43:29,889 | INFO | Using log directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-07-05 06:43:29,889 | INFO | Using state directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-07-05 06:43:29,890 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-07-05 06:43:30,977 | INFO | Parsed NamWater rows: 6
+2026-07-05 06:43:30,987 | INFO | Raw NamWater rows: 6 | cols: 40
+2026-07-05 06:43:31,238 | INFO | Saved NamWater outputs | raw=6 master=6 delta=0 updates=0 top_delta=0
+2026-07-05 06:59:02,068 | INFO | Using tender scrapers root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-05 06:59:02,068 | INFO | Using source root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-07-05 06:59:02,069 | INFO | Using raw directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-07-05 06:59:02,069 | INFO | Using output directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-07-05 06:59:02,069 | INFO | Using log directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-07-05 06:59:02,069 | INFO | Using state directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-07-05 06:59:02,070 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-07-05 06:59:03,093 | INFO | Parsed NamWater rows: 6
+2026-07-05 06:59:03,096 | INFO | Raw NamWater rows: 6 | cols: 40
+2026-07-05 06:59:03,295 | INFO | Saved NamWater outputs | raw=6 master=6 delta=0 updates=0 top_delta=0
+2026-07-05 07:06:14,155 | INFO | Using tender scrapers root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-05 07:06:14,155 | INFO | Using source root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-07-05 07:06:14,156 | INFO | Using raw directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-07-05 07:06:14,156 | INFO | Using output directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-07-05 07:06:14,156 | INFO | Using log directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-07-05 07:06:14,156 | INFO | Using state directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-07-05 07:06:14,158 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-07-05 07:06:15,110 | INFO | Parsed NamWater rows: 6
+2026-07-05 07:06:15,119 | INFO | Raw NamWater rows: 6 | cols: 40
+2026-07-05 07:06:15,387 | INFO | Saved NamWater outputs | raw=6 master=6 delta=0 updates=0 top_delta=0
+2026-07-05 07:19:04,875 | INFO | Using tender scrapers root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-05 07:19:04,875 | INFO | Using source root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-07-05 07:19:04,875 | INFO | Using raw directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-07-05 07:19:04,875 | INFO | Using output directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-07-05 07:19:04,876 | INFO | Using log directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-07-05 07:19:04,876 | INFO | Using state directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-07-05 07:19:04,876 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-07-05 07:19:05,841 | INFO | Parsed NamWater rows: 6
+2026-07-05 07:19:05,845 | INFO | Raw NamWater rows: 6 | cols: 40
+2026-07-05 07:19:06,153 | INFO | Saved NamWater outputs | raw=6 master=6 delta=0 updates=0 top_delta=0
+2026-07-05 07:32:35,069 | INFO | Using tender scrapers root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-05 07:32:35,069 | INFO | Using source root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-07-05 07:32:35,070 | INFO | Using raw directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-07-05 07:32:35,070 | INFO | Using output directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-07-05 07:32:35,070 | INFO | Using log directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-07-05 07:32:35,070 | INFO | Using state directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-07-05 07:32:35,070 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-07-05 07:32:36,074 | INFO | Parsed NamWater rows: 6
+2026-07-05 07:32:36,081 | INFO | Raw NamWater rows: 6 | cols: 40
+2026-07-05 07:32:36,395 | INFO | Saved NamWater outputs | raw=6 master=6 delta=0 updates=0 top_delta=0
+2026-07-06 08:04:52,800 | INFO | Using tender scrapers root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-06 08:04:52,804 | INFO | Using source root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-07-06 08:04:52,804 | INFO | Using raw directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-07-06 08:04:52,804 | INFO | Using output directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-07-06 08:04:52,804 | INFO | Using log directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-07-06 08:04:52,805 | INFO | Using state directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-07-06 08:04:52,806 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-07-06 08:04:54,093 | INFO | Parsed NamWater rows: 6
+2026-07-06 08:04:54,100 | INFO | Raw NamWater rows: 6 | cols: 40
+2026-07-06 08:04:54,476 | INFO | Saved NamWater outputs | raw=6 master=6 delta=0 updates=0 top_delta=0
+2026-07-06 17:24:38,386 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-06 17:24:38,533 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-07-06 17:24:38,533 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-07-06 17:24:38,533 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-07-06 17:24:38,534 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-07-06 17:24:38,534 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-07-06 17:24:38,536 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-07-06 17:24:39,323 | INFO | Parsed NamWater rows: 6
+2026-07-06 17:24:39,328 | INFO | Raw NamWater rows: 6 | cols: 40
+2026-07-06 17:24:42,975 | INFO | Saved NamWater outputs | raw=6 master=6 delta=0 updates=0 top_delta=0
+2026-07-13 08:03:51,106 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-13 08:03:51,107 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-07-13 08:03:51,108 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-07-13 08:03:51,108 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-07-13 08:03:51,108 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-07-13 08:03:51,108 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-07-13 08:03:51,110 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-07-13 08:03:53,269 | INFO | Parsed NamWater rows: 4
+2026-07-13 08:03:53,286 | INFO | Raw NamWater rows: 4 | cols: 40
+2026-07-13 08:03:54,968 | INFO | Saved NamWater outputs | raw=4 master=4 delta=0 updates=1 top_delta=0
+2026-07-14 08:02:13,147 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-14 08:02:13,148 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-07-14 08:02:13,148 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-07-14 08:02:13,148 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-07-14 08:02:13,149 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-07-14 08:02:13,149 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-07-14 08:02:13,150 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-07-14 08:02:13,752 | INFO | Parsed NamWater rows: 5
+2026-07-14 08:02:13,755 | INFO | Raw NamWater rows: 5 | cols: 40
+2026-07-14 08:02:14,103 | INFO | Saved NamWater outputs | raw=5 master=5 delta=1 updates=0 top_delta=1
+2026-07-15 08:02:06,311 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-15 08:02:06,347 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-07-15 08:02:06,347 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-07-15 08:02:06,347 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-07-15 08:02:06,347 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-07-15 08:02:06,347 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-07-15 08:02:06,349 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-07-15 08:02:07,023 | INFO | Parsed NamWater rows: 5
+2026-07-15 08:02:07,028 | INFO | Raw NamWater rows: 5 | cols: 40
+2026-07-15 08:02:07,450 | INFO | Saved NamWater outputs | raw=5 master=5 delta=0 updates=1 top_delta=0
+2026-07-16 08:02:05,056 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-16 08:02:05,057 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-07-16 08:02:05,057 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-07-16 08:02:05,058 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-07-16 08:02:05,058 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-07-16 08:02:05,058 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-07-16 08:02:05,058 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-07-16 08:02:05,712 | INFO | Parsed NamWater rows: 6
+2026-07-16 08:02:05,715 | INFO | Raw NamWater rows: 6 | cols: 40
+2026-07-16 08:02:06,045 | INFO | Saved NamWater outputs | raw=6 master=6 delta=1 updates=0 top_delta=1
+2026-07-17 08:02:14,771 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-17 08:02:14,773 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-07-17 08:02:14,773 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-07-17 08:02:14,773 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-07-17 08:02:14,773 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-07-17 08:02:14,773 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-07-17 08:02:14,774 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-07-17 08:02:15,326 | INFO | Parsed NamWater rows: 7
+2026-07-17 08:02:15,329 | INFO | Raw NamWater rows: 7 | cols: 40
+2026-07-17 08:02:15,668 | INFO | Saved NamWater outputs | raw=7 master=7 delta=1 updates=0 top_delta=1
+2026-07-20 08:02:19,886 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-20 08:02:19,888 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-07-20 08:02:19,888 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-07-20 08:02:19,888 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-07-20 08:02:19,888 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-07-20 08:02:19,888 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-07-20 08:02:19,889 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-07-20 08:02:25,653 | INFO | Parsed NamWater rows: 6
+2026-07-20 08:02:25,663 | INFO | Raw NamWater rows: 6 | cols: 40
+2026-07-20 08:02:26,625 | INFO | Saved NamWater outputs | raw=6 master=6 delta=1 updates=0 top_delta=1
+2026-07-21 08:03:41,521 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-21 08:03:41,523 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-07-21 08:03:41,523 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-07-21 08:03:41,523 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-07-21 08:03:41,523 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-07-21 08:03:41,523 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-07-21 08:03:41,524 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-07-21 08:03:42,257 | INFO | Parsed NamWater rows: 6
+2026-07-21 08:03:42,261 | INFO | Raw NamWater rows: 6 | cols: 40
+2026-07-21 08:03:42,616 | INFO | Saved NamWater outputs | raw=6 master=6 delta=0 updates=0 top_delta=0
+2026-07-22 08:02:08,450 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-22 08:02:08,451 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-07-22 08:02:08,451 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-07-22 08:02:08,452 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-07-22 08:02:08,452 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-07-22 08:02:08,452 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-07-22 08:02:08,452 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-07-22 08:02:09,104 | INFO | Parsed NamWater rows: 6
+2026-07-22 08:02:09,107 | INFO | Raw NamWater rows: 6 | cols: 40
+2026-07-22 08:02:09,457 | INFO | Saved NamWater outputs | raw=6 master=6 delta=0 updates=0 top_delta=0
+2026-07-23 08:05:47,710 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-23 08:05:47,712 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-07-23 08:05:47,713 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-07-23 08:05:47,713 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-07-23 08:05:47,713 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-07-23 08:05:47,713 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-07-23 08:05:47,714 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-07-23 08:05:48,333 | INFO | Parsed NamWater rows: 6
+2026-07-23 08:05:48,336 | INFO | Raw NamWater rows: 6 | cols: 40
+2026-07-23 08:05:48,697 | INFO | Saved NamWater outputs | raw=6 master=6 delta=0 updates=0 top_delta=0
+2026-07-24 08:06:27,448 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-24 08:06:27,451 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-07-24 08:06:27,452 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-07-24 08:06:27,452 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-07-24 08:06:27,452 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-07-24 08:06:27,452 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-07-24 08:06:27,453 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-07-24 08:06:28,280 | INFO | Parsed NamWater rows: 7
+2026-07-24 08:06:28,283 | INFO | Raw NamWater rows: 7 | cols: 40
+2026-07-24 08:06:28,609 | INFO | Saved NamWater outputs | raw=7 master=7 delta=1 updates=0 top_delta=1
+2026-07-27 08:04:28,330 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-27 08:04:28,332 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-07-27 08:04:28,333 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-07-27 08:04:28,333 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-07-27 08:04:28,333 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-07-27 08:04:28,334 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-07-27 08:04:28,335 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-07-27 08:04:29,047 | INFO | Parsed NamWater rows: 3
+2026-07-27 08:04:29,059 | INFO | Raw NamWater rows: 3 | cols: 40
+2026-07-27 08:04:30,787 | INFO | Saved NamWater outputs | raw=3 master=3 delta=0 updates=0 top_delta=0
+2026-07-28 08:02:18,395 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-28 08:02:18,397 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-07-28 08:02:18,398 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-07-28 08:02:18,398 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-07-28 08:02:18,398 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-07-28 08:02:18,398 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-07-28 08:02:18,398 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-07-28 08:02:19,072 | INFO | Parsed NamWater rows: 3
+2026-07-28 08:02:19,075 | INFO | Raw NamWater rows: 3 | cols: 40
+2026-07-28 08:02:19,464 | INFO | Saved NamWater outputs | raw=3 master=3 delta=0 updates=0 top_delta=0
+2026-07-29 08:02:13,032 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-29 08:02:13,034 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-07-29 08:02:13,034 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-07-29 08:02:13,034 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-07-29 08:02:13,034 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-07-29 08:02:13,034 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-07-29 08:02:13,035 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-07-29 08:02:14,978 | INFO | Parsed NamWater rows: 3
+2026-07-29 08:02:14,981 | INFO | Raw NamWater rows: 3 | cols: 40
+2026-07-29 08:02:15,670 | INFO | Saved NamWater outputs | raw=3 master=3 delta=0 updates=0 top_delta=0
+2026-07-30 08:04:32,020 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-30 08:04:32,021 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-07-30 08:04:32,022 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-07-30 08:04:32,022 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-07-30 08:04:32,022 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-07-30 08:04:32,022 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-07-30 08:04:32,023 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-07-30 08:04:32,696 | INFO | Parsed NamWater rows: 4
+2026-07-30 08:04:32,699 | INFO | Raw NamWater rows: 4 | cols: 40
+2026-07-30 08:04:33,212 | INFO | Saved NamWater outputs | raw=4 master=4 delta=1 updates=0 top_delta=1
+2026-07-31 08:02:25,005 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-31 08:02:25,006 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-07-31 08:02:25,006 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-07-31 08:02:25,007 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-07-31 08:02:25,007 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-07-31 08:02:25,007 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-07-31 08:02:25,009 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-07-31 08:02:25,692 | INFO | Parsed NamWater rows: 4
+2026-07-31 08:02:25,697 | INFO | Raw NamWater rows: 4 | cols: 40
+2026-07-31 08:02:26,052 | INFO | Saved NamWater outputs | raw=4 master=4 delta=0 updates=0 top_delta=0
+2026-08-03 08:03:22,742 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-03 08:03:22,743 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-08-03 08:03:22,743 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-08-03 08:03:22,744 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-08-03 08:03:22,744 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-08-03 08:03:22,744 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-08-03 08:03:22,745 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-08-03 08:03:23,363 | INFO | Parsed NamWater rows: 4
+2026-08-03 08:03:23,382 | INFO | Raw NamWater rows: 4 | cols: 40
+2026-08-03 08:03:24,925 | INFO | Saved NamWater outputs | raw=4 master=4 delta=0 updates=0 top_delta=0
+2026-08-04 08:03:23,871 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-04 08:03:23,874 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-08-04 08:03:23,874 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-08-04 08:03:23,874 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-08-04 08:03:23,874 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-08-04 08:03:23,874 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-08-04 08:03:23,875 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-08-04 08:03:24,552 | INFO | Parsed NamWater rows: 4
+2026-08-04 08:03:24,555 | INFO | Raw NamWater rows: 4 | cols: 40
+2026-08-04 08:03:24,916 | INFO | Saved NamWater outputs | raw=4 master=4 delta=0 updates=0 top_delta=0
+2026-08-05 08:02:34,808 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-05 08:02:34,809 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-08-05 08:02:34,810 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-08-05 08:02:34,810 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-08-05 08:02:34,810 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-08-05 08:02:34,810 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-08-05 08:02:34,811 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-08-05 08:02:35,395 | INFO | Parsed NamWater rows: 4
+2026-08-05 08:02:35,398 | INFO | Raw NamWater rows: 4 | cols: 40
+2026-08-05 08:02:35,804 | INFO | Saved NamWater outputs | raw=4 master=4 delta=0 updates=0 top_delta=0
+2026-08-07 08:02:22,378 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-07 08:02:22,380 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-08-07 08:02:22,380 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-08-07 08:02:22,380 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-08-07 08:02:22,380 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-08-07 08:02:22,380 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-08-07 08:02:22,381 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-08-07 08:02:23,121 | INFO | Parsed NamWater rows: 4
+2026-08-07 08:02:23,129 | INFO | Raw NamWater rows: 4 | cols: 40
+2026-08-07 08:02:24,066 | INFO | Saved NamWater outputs | raw=4 master=4 delta=0 updates=0 top_delta=0
+2026-08-10 08:03:17,710 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-10 08:03:17,712 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-08-10 08:03:17,712 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-08-10 08:03:17,713 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-08-10 08:03:17,713 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-08-10 08:03:17,713 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-08-10 08:03:17,713 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-08-10 08:03:18,659 | INFO | Parsed NamWater rows: 4
+2026-08-10 08:03:18,662 | INFO | Raw NamWater rows: 4 | cols: 40
+2026-08-10 08:03:19,129 | INFO | Saved NamWater outputs | raw=4 master=4 delta=0 updates=0 top_delta=0
+2026-08-11 08:02:06,729 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-11 08:02:06,730 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-08-11 08:02:06,730 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-08-11 08:02:06,730 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-08-11 08:02:06,730 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-08-11 08:02:06,730 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-08-11 08:02:06,731 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-08-11 08:02:07,360 | INFO | Parsed NamWater rows: 4
+2026-08-11 08:02:07,368 | INFO | Raw NamWater rows: 4 | cols: 40
+2026-08-11 08:02:07,990 | INFO | Saved NamWater outputs | raw=4 master=4 delta=0 updates=0 top_delta=0
+2026-08-12 08:02:08,774 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-12 08:02:08,775 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-08-12 08:02:08,775 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-08-12 08:02:08,776 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-08-12 08:02:08,776 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-08-12 08:02:08,776 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-08-12 08:02:08,777 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-08-12 08:02:09,697 | INFO | Parsed NamWater rows: 4
+2026-08-12 08:02:09,701 | INFO | Raw NamWater rows: 4 | cols: 40
+2026-08-12 08:02:10,207 | INFO | Saved NamWater outputs | raw=4 master=4 delta=0 updates=0 top_delta=0
+2026-08-14 08:01:41,683 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-14 08:01:41,684 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-08-14 08:01:41,684 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-08-14 08:01:41,684 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-08-14 08:01:41,685 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-08-14 08:01:41,685 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-08-14 08:01:41,686 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-08-14 08:01:42,496 | INFO | Parsed NamWater rows: 6
+2026-08-14 08:01:42,531 | INFO | Raw NamWater rows: 6 | cols: 40
+2026-08-14 08:01:42,925 | INFO | Saved NamWater outputs | raw=6 master=6 delta=2 updates=0 top_delta=2
+2026-08-17 08:03:19,262 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-17 08:03:19,314 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-08-17 08:03:19,315 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-08-17 08:03:19,316 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-08-17 08:03:19,316 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-08-17 08:03:19,319 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-08-17 08:03:19,328 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-08-17 08:03:20,438 | INFO | Parsed NamWater rows: 6
+2026-08-17 08:03:20,450 | INFO | Raw NamWater rows: 6 | cols: 40
+2026-08-17 08:03:22,806 | INFO | Saved NamWater outputs | raw=6 master=6 delta=0 updates=0 top_delta=0
+2026-08-18 08:02:10,229 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-18 08:02:10,230 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-08-18 08:02:10,230 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-08-18 08:02:10,230 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-08-18 08:02:10,230 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-08-18 08:02:10,230 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-08-18 08:02:10,231 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-08-18 08:02:11,227 | INFO | Parsed NamWater rows: 6
+2026-08-18 08:02:11,230 | INFO | Raw NamWater rows: 6 | cols: 40
+2026-08-18 08:02:11,540 | INFO | Saved NamWater outputs | raw=6 master=6 delta=0 updates=1 top_delta=0
+2026-08-20 08:02:07,745 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-20 08:02:07,746 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-08-20 08:02:07,746 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-08-20 08:02:07,747 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-08-20 08:02:07,747 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-08-20 08:02:07,747 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-08-20 08:02:07,748 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-08-20 08:02:08,451 | INFO | Parsed NamWater rows: 6
+2026-08-20 08:02:08,456 | INFO | Raw NamWater rows: 6 | cols: 40
+2026-08-20 08:02:08,892 | INFO | Saved NamWater outputs | raw=6 master=6 delta=0 updates=0 top_delta=0
+2026-08-21 08:01:33,949 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-21 08:01:33,975 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-08-21 08:01:33,975 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-08-21 08:01:33,975 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-08-21 08:01:33,975 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-08-21 08:01:33,975 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-08-21 08:01:33,976 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-08-21 08:01:34,648 | INFO | Parsed NamWater rows: 6
+2026-08-21 08:01:34,659 | INFO | Raw NamWater rows: 6 | cols: 40
+2026-08-21 08:01:35,294 | INFO | Saved NamWater outputs | raw=6 master=6 delta=0 updates=0 top_delta=0
+2026-08-24 08:02:37,265 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-24 08:02:37,317 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-08-24 08:02:37,318 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-08-24 08:02:37,319 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-08-24 08:02:37,327 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-08-24 08:02:37,328 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-08-24 08:02:37,352 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-08-24 08:02:38,304 | INFO | Parsed NamWater rows: 6
+2026-08-24 08:02:38,332 | INFO | Raw NamWater rows: 6 | cols: 40
+2026-08-24 08:02:39,657 | INFO | Saved NamWater outputs | raw=6 master=6 delta=0 updates=0 top_delta=0
+2026-08-25 08:02:16,623 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-25 08:02:16,625 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-08-25 08:02:16,625 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-08-25 08:02:16,626 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-08-25 08:02:16,626 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-08-25 08:02:16,626 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-08-25 08:02:16,626 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-08-25 08:02:18,300 | INFO | Parsed NamWater rows: 6
+2026-08-25 08:02:18,303 | INFO | Raw NamWater rows: 6 | cols: 40
+2026-08-25 08:02:18,668 | INFO | Saved NamWater outputs | raw=6 master=6 delta=0 updates=0 top_delta=0
+2026-08-26 08:01:38,766 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-26 08:01:38,767 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-08-26 08:01:38,767 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-08-26 08:01:38,767 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-08-26 08:01:38,767 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-08-26 08:01:38,767 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-08-26 08:01:38,768 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-08-26 08:01:39,536 | INFO | Parsed NamWater rows: 6
+2026-08-26 08:01:39,539 | INFO | Raw NamWater rows: 6 | cols: 40
+2026-08-26 08:01:40,052 | INFO | Saved NamWater outputs | raw=6 master=6 delta=0 updates=0 top_delta=0
+2026-08-28 08:01:40,160 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-28 08:01:40,161 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-08-28 08:01:40,161 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-08-28 08:01:40,161 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-08-28 08:01:40,161 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-08-28 08:01:40,161 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-08-28 08:01:40,162 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-08-28 08:01:40,894 | INFO | Parsed NamWater rows: 9
+2026-08-28 08:01:40,898 | INFO | Raw NamWater rows: 9 | cols: 40
+2026-08-28 08:01:41,255 | INFO | Saved NamWater outputs | raw=9 master=9 delta=3 updates=0 top_delta=3
+2026-08-31 10:06:45,190 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-31 10:06:45,239 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-08-31 10:06:45,240 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-08-31 10:06:45,241 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-08-31 10:06:45,241 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-08-31 10:06:45,242 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-08-31 10:06:45,245 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-08-31 10:06:46,576 | INFO | Parsed NamWater rows: 9
+2026-08-31 10:06:46,590 | INFO | Raw NamWater rows: 9 | cols: 40
+2026-08-31 10:06:48,053 | INFO | Saved NamWater outputs | raw=9 master=9 delta=0 updates=1 top_delta=0
+2026-09-02 14:58:15,410 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-09-02 14:58:15,412 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-09-02 14:58:15,412 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-09-02 14:58:15,413 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-09-02 14:58:15,413 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-09-02 14:58:15,414 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-09-02 14:58:15,427 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-09-02 14:58:16,352 | INFO | Parsed NamWater rows: 9
+2026-09-02 14:58:16,370 | INFO | Raw NamWater rows: 9 | cols: 40
+2026-09-02 14:58:18,438 | INFO | Saved NamWater outputs | raw=9 master=9 delta=0 updates=0 top_delta=0
+2026-09-05 13:27:07,403 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-09-05 13:27:07,404 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-09-05 13:27:07,404 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-09-05 13:27:07,404 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-09-05 13:27:07,404 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-09-05 13:27:07,404 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-09-05 13:27:07,405 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-09-05 13:27:08,272 | INFO | Parsed NamWater rows: 11
+2026-09-05 13:27:08,276 | INFO | Raw NamWater rows: 11 | cols: 40
+2026-09-05 13:27:08,684 | INFO | Saved NamWater outputs | raw=11 master=11 delta=2 updates=0 top_delta=2
+2026-09-07 08:03:57,806 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-09-07 08:03:57,808 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-09-07 08:03:57,809 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-09-07 08:03:57,809 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-09-07 08:03:57,809 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-09-07 08:03:57,810 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-09-07 08:03:57,812 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-09-07 08:03:58,691 | INFO | Parsed NamWater rows: 11
+2026-09-07 08:03:58,697 | INFO | Raw NamWater rows: 11 | cols: 40
+2026-09-07 08:04:00,752 | INFO | Saved NamWater outputs | raw=11 master=11 delta=0 updates=0 top_delta=0
+2026-09-08 08:01:41,093 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-09-08 08:01:41,095 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-09-08 08:01:41,096 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-09-08 08:01:41,096 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-09-08 08:01:41,096 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-09-08 08:01:41,096 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-09-08 08:01:41,097 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-09-08 08:01:41,771 | INFO | Parsed NamWater rows: 11
+2026-09-08 08:01:41,774 | INFO | Raw NamWater rows: 11 | cols: 40
+2026-09-08 08:01:42,083 | INFO | Saved NamWater outputs | raw=11 master=11 delta=0 updates=0 top_delta=0
+2026-09-09 13:50:33,716 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-09-09 13:50:33,718 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-09-09 13:50:33,718 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-09-09 13:50:33,718 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-09-09 13:50:33,718 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-09-09 13:50:33,718 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-09-09 13:50:33,719 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-09-09 13:50:34,541 | INFO | Parsed NamWater rows: 11
+2026-09-09 13:50:34,544 | INFO | Raw NamWater rows: 11 | cols: 40
+2026-09-09 13:50:34,897 | INFO | Saved NamWater outputs | raw=11 master=11 delta=0 updates=1 top_delta=0
+2026-09-13 03:32:34,335 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-09-13 03:32:34,359 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-09-13 03:32:34,360 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-09-13 03:32:34,360 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-09-13 03:32:34,360 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-09-13 03:32:34,360 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-09-13 03:32:34,361 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-09-13 03:32:35,195 | INFO | Parsed NamWater rows: 12
+2026-09-13 03:32:35,199 | INFO | Raw NamWater rows: 12 | cols: 40
+2026-09-13 03:32:35,533 | INFO | Saved NamWater outputs | raw=12 master=12 delta=1 updates=0 top_delta=1

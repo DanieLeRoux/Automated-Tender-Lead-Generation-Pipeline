@@ -1,0 +1,25 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260905132337
+Username: AzureAD\DanieLeRoux
+RunAs User: AzureAD\DanieLeRoux
+Configuration Name: 
+Machine: LAPTOP-DANIELR (Microsoft Windows NT 10.0.26200.0)
+Host Application: powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\daily_run.ps1
+Process ID: 18400
+PSVersion: 5.1.26100.8875
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8875
+BuildVersion: 10.0.26100.8875
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\05_SystemLogs\DailyRun\daily_run_2026-09-05_13-23-37.log
+Project root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+Registry: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\00_Config\sources_registry.xlsx
+Log file: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\05_SystemLogs\DailyRun\daily_run_2026-09-05_13-23-37.log
+Python command: py -3
+
+Running source scrapers...

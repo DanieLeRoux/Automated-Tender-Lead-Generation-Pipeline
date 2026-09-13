@@ -1,0 +1,23 @@
+command: C:\Users\DanieLeRoux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NECSA\00_Scripts\necsa_tender_pull_and_clean.py
+return_code: 0
+elapsed_seconds: 9.38
+
+--- STDOUT ---
+2026-09-07 08:04:03,164 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-09-07 08:04:03,215 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NECSA
+2026-09-07 08:04:03,216 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NECSA\01_RawData
+2026-09-07 08:04:03,216 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NECSA\02_Outputs
+2026-09-07 08:04:03,216 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NECSA\03_Logs
+2026-09-07 08:04:03,217 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NECSA\04_State
+2026-09-07 08:04:03,219 | INFO | Fetching NECSA tender page: https://www.necsa.co.za/tenders/
+2026-09-07 08:04:06,873 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NECSA\01_RawData\necsa_raw_page.html
+2026-09-07 08:04:07,397 | INFO | Parsed NECSA tender rows: 10
+2026-09-07 08:04:07,425 | INFO | Raw NECSA rows: 10 | cols: 40
+2026-09-07 08:04:07,446 | INFO | Filtered current NECSA tenders: 10 -> 2 rows
+2026-09-07 08:04:09,855 | INFO | Saved NECSA outputs | raw=10 master=2 delta=0 updates=0 top_delta=0
+2026-09-07 08:04:09,876 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NECSA\02_Outputs\necsa_delta.xlsx | rows: 0
+2026-09-07 08:04:10,109 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NECSA\02_Outputs\necsa_updates.xlsx | rows: 0
+2026-09-07 08:04:10,124 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NECSA\02_Outputs\necsa_top_delta.xlsx | rows: 0
+2026-09-07 08:04:10,126 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NECSA\02_Outputs\necsa_master.xlsx | rows: 2
+
+--- STDERR ---

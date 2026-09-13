@@ -1,0 +1,30 @@
+command: C:\Users\DanieLeRoux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbombela\00_Scripts\city_mbombela_tender_pull_and_clean.py
+return_code: 0
+elapsed_seconds: 44.10
+
+--- STDOUT ---
+2026-08-27 08:00:15,499 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbombela
+2026-08-27 08:00:15,502 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbombela\01_RawData
+2026-08-27 08:00:15,502 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbombela\02_Outputs
+2026-08-27 08:00:15,502 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbombela\03_Logs
+2026-08-27 08:00:15,502 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbombela\04_State
+2026-08-27 08:00:15,503 | INFO | Fetching City of Mbombela listing page 1: https://www.mbombela.gov.za/downloads/tenders/
+2026-08-27 08:00:16,095 | INFO | Found Mbombela listing entries on page 1: 10
+2026-08-27 08:00:18,405 | WARNING | Failed to fetch Mbombela page https://www.mbombela.gov.za/download/com93-2026-construction-of-nkohlakalo-bhejukufa-road-and-bridge-ward-33/: 500 Server Error: Internal Server Error for url: https://www.mbombela.gov.za/download/com93-2026-construction-of-nkohlakalo-bhejukufa-road-and-bridge-ward-33/
+2026-08-27 08:00:21,950 | WARNING | Failed to fetch Mbombela page https://www.mbombela.gov.za/download/com96-2026-appointment-of-a-service-provider-to-render-catering-services-for-the-city-of-mbombela-mens-empowerment-programme/: 500 Server Error: Internal Server Error for url: https://www.mbombela.gov.za/download/com96-2026-appointment-of-a-service-provider-to-render-catering-services-for-the-city-of-mbombela-mens-empowerment-programme/
+2026-08-27 08:00:25,205 | INFO | Fetching City of Mbombela listing page 2: https://www.mbombela.gov.za/downloads/tenders/page/2/
+2026-08-27 08:00:25,767 | INFO | Found Mbombela listing entries on page 2: 10
+2026-08-27 08:00:31,771 | WARNING | Failed to fetch Mbombela page https://www.mbombela.gov.za/download/com92-2026-construction-of-shikisha-road-with-vehicular-bridge-ward-33/: 500 Server Error: Internal Server Error for url: https://www.mbombela.gov.za/download/com92-2026-construction-of-shikisha-road-with-vehicular-bridge-ward-33/
+2026-08-27 08:00:36,285 | INFO | Fetching City of Mbombela listing page 3: https://www.mbombela.gov.za/downloads/tenders/page/3/
+2026-08-27 08:00:36,876 | INFO | Found Mbombela listing entries on page 3: 10
+2026-08-27 08:00:43,698 | WARNING | Failed to fetch Mbombela page https://www.mbombela.gov.za/download/com76-2026-appointment-of-an-event-management-service-address-at-kamashego-community-hall/: 500 Server Error: Internal Server Error for url: https://www.mbombela.gov.za/download/com76-2026-appointment-of-an-event-management-service-address-at-kamashego-community-hall/
+2026-08-27 08:00:47,192 | INFO | Fetching City of Mbombela listing page 4: https://www.mbombela.gov.za/downloads/tenders/page/4/
+2026-08-27 08:00:47,728 | INFO | Found Mbombela listing entries on page 4: 10
+2026-08-27 08:00:53,386 | WARNING | Failed to fetch Mbombela page https://www.mbombela.gov.za/download/com155-2025-appointment-of-a-service-provider-for-the-monitoring-rapid-response-maintenance-and-installation-of-security-surveillance/: 500 Server Error: Internal Server Error for url: https://www.mbombela.gov.za/download/com155-2025-appointment-of-a-service-provider-for-the-monitoring-rapid-response-maintenance-and-installation-of-security-surveillance/
+2026-08-27 08:00:58,638 | INFO | Saved raw outputs | rows: 40
+2026-08-27 08:00:58,638 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbombela\02_Outputs\city_mbombela_master.xlsx | rows: 39
+2026-08-27 08:00:58,638 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbombela\02_Outputs\city_mbombela_delta.xlsx | rows: 2
+2026-08-27 08:00:58,638 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbombela\02_Outputs\city_mbombela_updates.xlsx | rows: 8
+2026-08-27 08:00:58,639 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbombela\02_Outputs\city_mbombela_top_delta.xlsx | rows: 2
+
+--- STDERR ---

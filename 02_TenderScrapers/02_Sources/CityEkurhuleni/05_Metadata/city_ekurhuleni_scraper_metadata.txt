@@ -1,0 +1,77 @@
+City of Ekurhuleni Tender Scraper Metadata
+=========================================
+
+Source name
+-----------
+City of Ekurhuleni
+
+Source URL
+----------
+https://www.ekurhuleni.gov.za/for-my-business/tenders/open-tenders/
+
+Detail-page pattern
+-------------------
+https://www.ekurhuleni.gov.za/business/tenders/<tender-slug>/
+
+Purpose
+-------
+Scrapes City of Ekurhuleni open tenders over R750 000 and enriches listing-page records by opening each tender detail page.
+
+Working folder
+--------------
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\CityEkurhuleni
+
+Output files
+------------
+Outputs\city_ekurhuleni_raw.csv
+Outputs\city_ekurhuleni_raw_full.xlsx
+Outputs\city_ekurhuleni_raw_page.html
+Outputs\city_ekurhuleni_master.xlsx
+Outputs\city_ekurhuleni_delta.xlsx
+Outputs\city_ekurhuleni_updates.xlsx
+Outputs\city_ekurhuleni_top_delta.xlsx
+
+Captured fields
+---------------
+- source
+- opportunity_key
+- tender_number / reference_number
+- title
+- description
+- client
+- province / country
+- briefing_date
+- closing_date
+- closing_datetime
+- document_names
+- document_urls
+- document_count
+- contact_person
+- contact_email
+- contact_telephone
+- submission_method
+- conditions
+- source_url
+
+Scraper behaviour
+-----------------
+1. Fetches the City of Ekurhuleni Open Tenders listing page.
+2. Detects tender detail links under /business/tenders/.
+3. Probes numbered open-tender listing pages, such as /open-tenders/2/.
+4. Opens each tender detail page.
+5. Extracts bid number, full description, closing date/time, information-session details, contact details, submission instructions and document links.
+6. Writes raw outputs, filters current tenders into the master, and calculates source-level delta/update/top-delta outputs.
+
+Known limitations
+-----------------
+- The open-tenders listing page uses short descriptions; full details are primarily on each tender detail page.
+- Pagination may change if the website structure is updated.
+- The source-level master only retains current tenders with valid closing dates.
+- The central consolidated daily review applies the standard exclusion and scope-fit filters, so operational ICT, supply, repairs, maintenance and similar tenders may be retained in the source master but excluded from the bid-manager review.
+
+Default source values
+---------------------
+client = City of Ekurhuleni
+province = Gauteng
+country_name = South Africa
+sector = Municipal Infrastructure

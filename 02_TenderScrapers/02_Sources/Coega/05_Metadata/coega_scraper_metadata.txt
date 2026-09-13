@@ -1,0 +1,322 @@
+COEGA SCRAPER METADATA
+======================
+
+Scraper Name
+------------
+COEGA Current Tenders Scraper
+
+Script File
+-----------
+coega_tender_pull_and_clean_v2.py
+
+Source Website
+--------------
+https://www.coega.co.za/site/tenders/current-tenders
+
+Source Type
+-----------
+JavaScript-rendered public tender webpage.
+
+The COEGA page initially returns a static loading shell. The scraper first attempts to parse the static HTML and, if no tender rows are found, falls back to Selenium to render the page before parsing the tender content.
+
+Purpose
+-------
+The scraper monitors the COEGA Development Corporation current tenders page, captures tender opportunities, filters for active/current tenders, detects new and updated records, applies a priority score, and produces Excel outputs for daily tender review.
+
+Root Folder
+-----------
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\Coega
+
+Folder Structure Created
+------------------------
+Logs
+Outputs
+State
+
+Main Run Command
+----------------
+& "C:/Users/Danie le Roux/AppData/Local/Programs/Python/Python314/python.exe" "C:/Users/Danie le Roux/OneDrive - Henry Fagan/Desktop/Data Analytics/Coega/coega_tender_pull_and_clean_v2.py"
+
+Optional Run Commands
+---------------------
+Include expired tenders in clean outputs:
+& "C:/Users/Danie le Roux/AppData/Local/Programs/Python/Python314/python.exe" "C:/Users/Danie le Roux/OneDrive - Henry Fagan/Desktop/Data Analytics/Coega/coega_tender_pull_and_clean_v2.py" --include-expired
+
+Include cancellation / withdrawal notices in clean outputs:
+& "C:/Users/Danie le Roux/AppData/Local/Programs/Python/Python314/python.exe" "C:/Users/Danie le Roux/OneDrive - Henry Fagan/Desktop/Data Analytics/Coega/coega_tender_pull_and_clean_v2.py" --include-cancellations
+
+Change top-delta limit:
+& "C:/Users/Danie le Roux/AppData/Local/Programs/Python/Python314/python.exe" "C:/Users/Danie le Roux/OneDrive - Henry Fagan/Desktop/Data Analytics/Coega/coega_tender_pull_and_clean_v2.py" --top-delta-limit 50
+
+Change minimum score for top-delta output:
+& "C:/Users/Danie le Roux/AppData/Local/Programs/Python/Python314/python.exe" "C:/Users/Danie le Roux/OneDrive - Henry Fagan/Desktop/Data Analytics/Coega/coega_tender_pull_and_clean_v2.py" --top-delta-min-score 3
+
+Required Python Packages
+------------------------
+requests
+pandas
+beautifulsoup4
+lxml
+xlsxwriter
+openpyxl
+selenium
+
+Notes:
+- Selenium is required if the static HTML does not contain rendered tender rows.
+- The scraper is designed to attempt static parsing first and Selenium rendering second.
+
+Outputs
+-------
+The scraper creates the following files in the Outputs folder:
+
+1. coega_raw_page_static.html
+   - Static HTML returned by the first direct request.
+   - Usually contains the COEGA loading shell.
+   - Useful for debugging the first-stage request.
+
+2. coega_raw_page_rendered.html
+   - Selenium-rendered HTML after the JavaScript page has loaded.
+   - Used for debugging if parsing fails or COEGA changes the page layout.
+
+3. coega_raw.csv
+   - Raw parsed tender rows before operational filtering.
+   - Retained for audit/debugging.
+
+4. coega_raw_full.xlsx
+   - Excel version of the raw parsed tender rows.
+
+5. coega_master.xlsx
+   - Latest cleaned and filtered current snapshot.
+   - Deduplicated by opportunity_key.
+
+6. coega_delta.xlsx
+   - New current tenders discovered in the current run only.
+   - Rows are marked with change_type = NEW.
+
+7. coega_updates.xlsx
+   - Existing current tenders where key operational fields changed.
+   - Rows are marked with change_type = UPDATED.
+
+8. coega_top_delta.xlsx
+   - Highest-scoring new tenders from the current delta list.
+   - Sorted by weight_score descending, then closing_date ascending, then date_published ascending.
+
+Expected Output Location
+------------------------
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\Coega\Outputs
+
+Log File
+--------
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\Coega\Logs\coega_run.log
+
+Lock File
+---------
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\Coega\State\run.lock
+
+The lock file prevents two scraper runs from executing at the same time. If a run is interrupted and the script later reports that a lock file exists, confirm no run is active and then remove the lock file manually.
+
+Captured Fields
+---------------
+The scraper standardises the COEGA tender data into the following fields:
+
+source
+opportunity_key
+tender_number
+notice_type
+description
+client
+province
+date_published
+closing_date
+closing_datetime
+document_names
+document_urls
+document_count
+source_url
+cancellation_flag
+priority_notice_type_match
+matched_description_keywords
+description_keyword_match_count
+weight_score
+row_hash
+run_timestamp
+change_type
+previous_row_hash
+
+Field Notes
+-----------
+source:
+Always set to COEGA.
+
+opportunity_key:
+Stable unique identifier used for deduplication and change tracking. Where a tender number is available, the key is based on that tender number. Where no tender number is available, a stable hash is generated from available identifying fields.
+
+tender_number:
+Extracted from the rendered tender text where possible. If no tender number is visible, the scraper creates a fallback COEGA hash-based reference.
+
+notice_type:
+Inferred from the tender text. Typical values may include RFP, RFQ, RFI, EOI, Invitation to Tender, Tender, or Notice.
+
+description:
+Cleaned tender description derived from the rendered tender card or table row.
+
+client:
+Set to Coega Development Corporation.
+
+province:
+Set to Eastern Cape.
+
+date_published:
+Parsed published date where available.
+
+closing_date:
+Parsed closing date. Used to determine whether the tender is current.
+
+closing_datetime:
+Original closing date/time text where available.
+
+document_names / document_urls:
+Names and URLs of downloadable tender documents captured from links in the tender block.
+
+document_count:
+Number of unique document links captured.
+
+source_url:
+The COEGA current tenders page URL.
+
+cancellation_flag:
+True where the tender text suggests a cancellation, cancelled notice, withdrawal, or withdrawn notice.
+
+priority_notice_type_match:
+True where notice_type is one of the configured priority notice types.
+
+matched_description_keywords:
+Semicolon-separated list of matched priority keywords.
+
+description_keyword_match_count:
+Number of matched priority keyword categories.
+
+weight_score:
+Priority score used to rank tenders for daily review.
+
+row_hash:
+SHA256 hash of key operational fields. Used to detect updates.
+
+run_timestamp:
+Date and time when the scraper ran.
+
+change_type:
+NEW for delta rows, UPDATED for update rows. Blank in master/raw outputs unless inherited.
+
+previous_row_hash:
+Previous stored hash for updated records.
+
+Filtering Rules
+---------------
+Raw outputs are not filtered.
+
+Clean outputs are filtered by default as follows:
+
+1. Exclude cancellation / withdrawal notices.
+2. Exclude expired tenders.
+3. Keep only rows where closing_date is present and closing_date >= today.
+
+The filtering can be overridden using:
+--include-expired
+--include-cancellations
+
+Update Detection
+----------------
+The scraper calculates a row_hash using the following operational fields:
+
+description
+tender_number
+notice_type
+date_published
+closing_date
+closing_datetime
+document_names
+document_urls
+
+If an opportunity already exists in coega_master.xlsx but the row_hash changes, the opportunity is written to coega_updates.xlsx.
+
+Scoring Logic
+-------------
+The scraper applies a weight_score after filtering.
+
+Current formula:
+weight_score = (description_keyword_match_count x 1) + (priority_notice_type_match x 3) + 2
+
+Scoring weights:
+- COEGA/source base score: 2 points
+- Priority notice type match: 3 points
+- Each matched description keyword category: 1 point
+
+Configured Priority Notice Types
+--------------------------------
+RFP
+RFQ
+RFI
+EOI
+Invitation to Tender
+Tender
+
+Keyword Themes
+--------------
+Water and Sanitation
+Housing
+Education
+Transport
+Nuclear
+Bus Rapid Transit / BRT
+Design
+Refurbishment / Repairs / Maintenance
+Engineering, Procurement and Construction / EPC
+Fire Engineering
+HVAC
+Mechanical
+Electrical
+Electronic
+Wet Services
+Project Management
+Programme Management
+Project Management Office / PMO
+Advisory Services / Consulting / Consultancy
+Structural Engineering
+Civil Engineering / Civil Works
+Feasibility Study
+Construction / Construct / Completion Contract
+
+Excel Formatting
+----------------
+Each operational Excel output is written with headers, frozen top row, and an Excel table where rows exist. Empty outputs are still created so the user can confirm the script ran successfully even where no rows qualify.
+
+Raw-vs-Clean Principle
+----------------------
+Raw files are retained to preserve the source scrape and assist with debugging.
+Master, delta, updates, and top-delta are the operational files used for monitoring and review.
+
+Known Limitations
+-----------------
+1. The scraper depends on the public COEGA website structure.
+2. The page is JavaScript-rendered, so static scraping may return only the loading shell.
+3. Selenium may be required to render the current tender list.
+4. If COEGA changes the Angular page structure, the parser may need to be updated.
+5. The scraper captures tender document links but does not parse the content of each downloadable document.
+6. The current scoring model is not yet fully standardised with the other scrapers.
+
+Recommended Review Workflow
+---------------------------
+1. Run scraper daily.
+2. Review coega_top_delta.xlsx first.
+3. Review coega_delta.xlsx for all new opportunities.
+4. Review coega_updates.xlsx for changed opportunities.
+5. Use document_urls to open official COEGA tender documentation.
+
+Recommended Future Improvements
+-------------------------------
+1. Standardise scoring across all tender scrapers.
+2. Add optional document/PDF enrichment for top-scoring COEGA tenders.
+3. Add duplicate detection between COEGA and eTenders where the same notice appears on both portals.
+4. Add Power Automate integration for delta and top-delta files.
+5. Add alerting for high-score opportunities.

@@ -1,0 +1,27 @@
+command: C:\Users\DanieLeRoux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\DBSA\00_Scripts\dbsa_procurement_pull_and_clean.py
+return_code: 0
+elapsed_seconds: 1.10
+
+--- STDOUT ---
+2026-07-17 08:01:52,843 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-17 08:01:52,844 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\DBSA
+2026-07-17 08:01:52,844 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\DBSA\01_RawData
+2026-07-17 08:01:52,844 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\DBSA\02_Outputs
+2026-07-17 08:01:52,845 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\DBSA\03_Logs
+2026-07-17 08:01:52,845 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\DBSA\04_State
+2026-07-17 08:01:52,964 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\DBSA\01_RawData\dbsa_raw_page.html
+2026-07-17 08:01:52,969 | INFO | Tokenised DBSA page: 211 tokens | notice blocks: 11
+2026-07-17 08:01:52,977 | INFO | Parsed DBSA notice rows: 10 | cols: 14
+2026-07-17 08:01:52,980 | INFO | Saved raw CSV: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\DBSA\01_RawData\dbsa_raw.csv
+2026-07-17 08:01:53,035 | INFO | Saved raw Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\DBSA\01_RawData\dbsa_raw_full.xlsx
+2026-07-17 08:01:53,036 | INFO | Filtered cancellation notices: 10 -> 10 rows
+2026-07-17 08:01:53,036 | INFO | Filtered current tenders by closing date: 10 -> 0 rows
+2026-07-17 08:01:53,198 | INFO | Delta (NEW) rows this run: 0
+2026-07-17 08:01:53,198 | INFO | Updates (CHANGED) rows this run: 0
+2026-07-17 08:01:53,198 | INFO | Top delta rows this run: 0
+2026-07-17 08:01:53,222 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\DBSA\02_Outputs\dbsa_delta.xlsx | rows: 0
+2026-07-17 08:01:53,246 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\DBSA\02_Outputs\dbsa_updates.xlsx | rows: 0
+2026-07-17 08:01:53,269 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\DBSA\02_Outputs\dbsa_top_delta.xlsx | rows: 0
+2026-07-17 08:01:53,304 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\DBSA\02_Outputs\dbsa_master.xlsx | rows: 7
+
+--- STDERR ---

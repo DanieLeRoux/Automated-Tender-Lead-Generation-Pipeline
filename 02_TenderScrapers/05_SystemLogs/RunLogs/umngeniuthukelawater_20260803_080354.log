@@ -1,0 +1,30 @@
+command: C:\Users\DanieLeRoux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\uMngeniUthukelaWater\00_Scripts\umngeni_uthukela_tender_pull_and_clean.py
+return_code: 0
+elapsed_seconds: 3.41
+
+--- STDOUT ---
+2026-08-03 08:03:52,833 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\uMngeniUthukelaWater
+2026-08-03 08:03:52,836 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\uMngeniUthukelaWater\01_RawData
+2026-08-03 08:03:52,837 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\uMngeniUthukelaWater\02_Outputs
+2026-08-03 08:03:52,837 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\uMngeniUthukelaWater\04_State
+2026-08-03 08:03:52,966 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\uMngeniUthukelaWater\01_RawData\umngeni_uthukela_raw_page.html
+2026-08-03 08:03:53,067 | INFO | Detected uMngeni-uThukela tender table with headers: title | reference | view tender | issue date | closing date | open | archived | final result
+2026-08-03 08:03:53,222 | INFO | Parsed rows using direct table parser: 136
+2026-08-03 08:03:53,232 | INFO | Raw parsed rows: 132 | cols: 18
+2026-08-03 08:03:53,238 | INFO | Saved raw CSV: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\uMngeniUthukelaWater\01_RawData\umngeni_uthukela_raw.csv
+2026-08-03 08:03:53,378 | INFO | Saved raw Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\uMngeniUthukelaWater\01_RawData\umngeni_uthukela_raw_full.xlsx
+2026-08-03 08:03:53,380 | INFO | Filtered cancellation/withdrawal notices: 132 -> 132 rows
+2026-08-03 08:03:53,383 | INFO | Filtered archived notices: 132 -> 67 rows
+2026-08-03 08:03:53,386 | INFO | Filtered current tenders by closing_datetime >= now: 67 -> 3 rows
+2026-08-03 08:03:53,631 | INFO | Filtered cancellation/withdrawal notices: 1 -> 1 rows
+2026-08-03 08:03:53,632 | INFO | Filtered archived notices: 1 -> 1 rows
+2026-08-03 08:03:53,633 | INFO | Filtered current tenders by closing_datetime >= now: 1 -> 1 rows
+2026-08-03 08:03:53,646 | INFO | Delta rows this run: 2
+2026-08-03 08:03:53,646 | INFO | Updates rows this run: 0
+2026-08-03 08:03:53,646 | INFO | Top delta rows this run: 2
+2026-08-03 08:03:53,721 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\uMngeniUthukelaWater\02_Outputs\umngeni_uthukela_delta.xlsx | rows: 2
+2026-08-03 08:03:53,807 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\uMngeniUthukelaWater\02_Outputs\umngeni_uthukela_updates.xlsx | rows: 0
+2026-08-03 08:03:53,903 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\uMngeniUthukelaWater\02_Outputs\umngeni_uthukela_top_delta.xlsx | rows: 2
+2026-08-03 08:03:54,028 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\uMngeniUthukelaWater\02_Outputs\umngeni_uthukela_master.xlsx | rows: 3
+
+--- STDERR ---

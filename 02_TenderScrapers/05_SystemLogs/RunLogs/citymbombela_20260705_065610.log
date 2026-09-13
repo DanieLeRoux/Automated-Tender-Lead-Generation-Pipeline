@@ -1,0 +1,25 @@
+command: C:\Users\Danie le Roux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbombela\00_Scripts\city_mbombela_tender_pull_and_clean.py
+return_code: 0
+elapsed_seconds: 53.97
+
+--- STDOUT ---
+2026-07-05 06:55:17,471 | INFO | Using source root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbombela
+2026-07-05 06:55:17,471 | INFO | Using raw directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbombela\01_RawData
+2026-07-05 06:55:17,471 | INFO | Using output directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbombela\02_Outputs
+2026-07-05 06:55:17,471 | INFO | Using log directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbombela\03_Logs
+2026-07-05 06:55:17,471 | INFO | Using state directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbombela\04_State
+2026-07-05 06:55:17,472 | INFO | Fetching City of Mbombela listing page 1: https://www.mbombela.gov.za/downloads/tenders/
+2026-07-05 06:55:18,227 | INFO | Found Mbombela listing entries on page 1: 10
+2026-07-05 06:55:30,741 | INFO | Fetching City of Mbombela listing page 2: https://www.mbombela.gov.za/downloads/tenders/page/2/
+2026-07-05 06:55:31,371 | INFO | Found Mbombela listing entries on page 2: 10
+2026-07-05 06:55:44,081 | INFO | Fetching City of Mbombela listing page 3: https://www.mbombela.gov.za/downloads/tenders/page/3/
+2026-07-05 06:55:44,864 | INFO | Found Mbombela listing entries on page 3: 10
+2026-07-05 06:55:57,530 | INFO | Fetching City of Mbombela listing page 4: https://www.mbombela.gov.za/downloads/tenders/page/4/
+2026-07-05 06:55:58,231 | INFO | Found Mbombela listing entries on page 4: 10
+2026-07-05 06:56:10,545 | INFO | Saved raw outputs | rows: 40
+2026-07-05 06:56:10,545 | INFO | Saved master Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbombela\02_Outputs\city_mbombela_master.xlsx | rows: 39
+2026-07-05 06:56:10,546 | INFO | Saved delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbombela\02_Outputs\city_mbombela_delta.xlsx | rows: 0
+2026-07-05 06:56:10,546 | INFO | Saved updates Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbombela\02_Outputs\city_mbombela_updates.xlsx | rows: 0
+2026-07-05 06:56:10,546 | INFO | Saved top_delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbombela\02_Outputs\city_mbombela_top_delta.xlsx | rows: 0
+
+--- STDERR ---

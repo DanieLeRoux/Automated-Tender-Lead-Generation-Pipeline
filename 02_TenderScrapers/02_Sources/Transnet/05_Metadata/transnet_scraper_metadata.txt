@@ -1,0 +1,279 @@
+Transnet eSupplier Tender Scraper Metadata
+=========================================
+
+Script Name
+-----------
+transnet_esupplier_tender_pull_and_clean.py
+
+Source
+------
+Organisation: Transnet SOC Ltd
+Source URL: https://esupplierportal.transnet.net/portal/advertisedTenders
+Secondary/optional URL: https://esupplierportal.transnet.net/portal/otherTenders
+Source Type: JavaScript-rendered public portal scraper with Selenium fallback
+
+Purpose
+-------
+The scraper monitors the Transnet eSupplier Portal advertised tenders page, extracts tender notices, stores raw outputs for audit/debugging, filters to currently open tenders, applies a priority score, and maintains master, delta, updates, and top-delta Excel outputs.
+
+Root Folder
+-----------
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\Transnet
+
+Folder Structure
+----------------
+Logs:
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\Transnet\Logs
+
+Outputs:
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\Transnet\Outputs
+
+State:
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\Transnet\State
+
+Generated Output Files
+----------------------
+Raw CSV:
+transnet_raw.csv
+
+Raw Excel:
+transnet_raw_full.xlsx
+
+Static Raw HTML:
+transnet_raw_page_static.html
+
+Rendered Raw HTML:
+transnet_raw_page_rendered.html
+
+Master Excel:
+transnet_master.xlsx
+
+Delta Excel:
+transnet_delta.xlsx
+
+Updates Excel:
+transnet_updates.xlsx
+
+Top Delta Excel:
+transnet_top_delta.xlsx
+
+Log File
+--------
+transnet_run.log
+
+State File
+----------
+seen_ids.json
+
+Lock File
+---------
+run.lock
+
+Run Command
+-----------
+Standard daily run:
+python transnet_esupplier_tender_pull_and_clean.py
+
+Full PowerShell command:
+& "C:/Users/Danie le Roux/AppData/Local/Programs/Python/Python314/python.exe" "C:/Users/Danie le Roux/OneDrive - Henry Fagan/Desktop/Data Analytics/Transnet/transnet_esupplier_tender_pull_and_clean.py"
+
+Required / Recommended Dependencies
+-----------------------------------
+Core dependencies:
+requests
+pandas
+beautifulsoup4
+openpyxl
+xlsxwriter
+urllib3
+
+JavaScript rendering dependency:
+selenium
+
+Install Selenium if required:
+pip install selenium
+
+The script first tries to scrape the static HTML. If the static page does not expose tender rows, it falls back to Selenium to render the JavaScript table and then parses the rendered HTML.
+
+Optional Run Arguments
+----------------------
+--include-expired
+Includes expired, closed, cancelled, awarded, withdrawn, or otherwise non-current tenders in the clean outputs.
+
+--no-selenium
+Disables the Selenium fallback and uses only the static HTML response.
+
+--include-other-tenders
+Also scrapes the portal's Other Tenders page in addition to the advertised tenders page.
+
+--top-delta-limit 50
+Changes the maximum number of rows written to transnet_top_delta.xlsx. Use 0 to include all qualifying delta rows.
+
+--top-delta-min-score 3
+Sets the minimum weight_score required for inclusion in transnet_top_delta.xlsx.
+
+--state-file "path"
+Overrides the default JSON state file used to store seen opportunity keys.
+
+Data Extraction Method
+----------------------
+The scraper fetches the Transnet eSupplier Portal advertised tenders page and saves the static HTML as transnet_raw_page_static.html.
+
+If the static page does not contain parseable tender rows, the scraper uses Selenium to render the page in a browser session and saves the rendered HTML as transnet_raw_page_rendered.html.
+
+The parser then extracts the advertised tender table fields from the available HTML.
+
+Core Extracted Fields
+---------------------
+source
+opportunity_key
+reference_number
+tender_name
+description
+briefing_session
+closing_date
+tender_status
+client
+source_url
+document_names
+document_urls
+document_count
+
+Generated / Processing Fields
+-----------------------------
+priority_source_match
+matched_description_keywords
+description_keyword_match_count
+weight_score
+row_hash
+run_timestamp
+change_type
+previous_row_hash
+
+Unique Identifier
+-----------------
+The scraper uses opportunity_key as the unique tender identifier.
+
+Format:
+transnet:<normalised reference number>
+
+The reference_number field is treated as the primary identifier from the Transnet portal.
+
+Filtering Logic
+---------------
+Raw outputs are unfiltered and preserve the parsed portal result.
+
+Clean outputs are filtered by default to only include current tenders where:
+closing_date is present; and
+closing_date >= today's date; and
+tender_status does not contain closed, cancelled, awarded, withdrawn, or expired wording.
+
+Expired or non-current tenders are excluded by default unless --include-expired is used.
+
+Scoring Logic
+-------------
+All records are from Transnet, so priority_source_match is set to True for all rows.
+
+Current scoring:
+Priority source match = 10 points
+Each matched description keyword = 1 point
+
+Formula:
+weight_score = 10 + description_keyword_match_count
+
+The score is used to prioritise tenders for daily review. Higher weight_score rows appear first in delta and top-delta outputs.
+
+Description Keyword Rules
+-------------------------
+The scraper checks tender_name, description, and briefing_session for the following keyword labels and related phrases:
+
+Water and Sanitation
+Housing
+Education
+Transport
+Nuclear
+Bus Rapid Transit / BRT
+International Transition Plan Network / ITPN
+Design
+Refurbishment / Rehabilitation / Upgrade
+Engineering, Procurement, and Construction / EPC
+Fire Engineering / Fire Protection / Fire Detection
+HVAC / Heating Ventilation Air Conditioning / Air Conditioning
+Mechanical
+Electrical
+Electronic
+Wet Services
+Project Management
+Programme Management / Program Management
+Project Management Office / PMO
+Advisory Services / Transaction Advisory / Technical Advisory
+Structural Engineering
+Civil Engineering
+Feasibility Study / Feasibility
+
+Top Delta Logic
+---------------
+transnet_top_delta.xlsx is created from transnet_delta.xlsx only.
+
+Rows are sorted by:
+1. weight_score descending
+2. closing_date ascending
+
+Default top-delta settings:
+Top delta limit: 20
+Minimum score: 0
+
+Delta Logic
+-----------
+transnet_delta.xlsx contains tenders from the current run that are not already present in the existing master file, based on opportunity_key.
+
+Updates Logic
+-------------
+transnet_updates.xlsx contains existing tenders whose operational hash has changed since the previous master file.
+
+Hash / Change Detection Fields
+------------------------------
+The following fields are used to determine whether an existing tender has materially changed:
+
+tender_name
+description
+briefing_session
+closing_date
+tender_status
+document_urls
+
+Document URLs are included because Transnet may add, remove, or revise tender documents, addenda, or clarification files.
+
+Excel Formatting
+----------------
+Each operational Excel output is written with headers, a frozen top row, and an Excel table where rows exist. Empty outputs are still created so the user can confirm the script ran successfully even where no rows qualify.
+
+Raw-vs-Clean Principle
+----------------------
+Raw files are retained to preserve the source scrape and assist with debugging.
+
+Master, delta, updates, and top-delta are the operational files used for monitoring and review.
+
+Known Limitations
+-----------------
+1. The advertised tenders page is JavaScript-rendered, so the scraper may require Selenium.
+2. Selenium requires a compatible browser installation. Selenium Manager should usually handle the browser driver automatically.
+3. The scraper depends on the public portal table structure. If Transnet changes the layout, parser updates may be required.
+4. Some tender documentation or submission functionality may require supplier portal registration or login.
+5. The scraper captures document links where available but does not parse every downloadable document.
+
+Recommended Review Workflow
+---------------------------
+1. Run scraper daily.
+2. Review transnet_top_delta.xlsx first.
+3. Review transnet_delta.xlsx for all new opportunities.
+4. Review transnet_updates.xlsx for changed opportunities.
+5. Use document_urls and source_url to open official Transnet tender information.
+
+Recommended Future Improvements
+-------------------------------
+1. Add document/PDF enrichment for top-scoring tenders where public document links are available.
+2. Add duplicate detection between Transnet, eTenders, and other portals.
+3. Add a consolidated cross-source tender register.
+4. Add Power Automate integration for delta and top-delta files.
+5. Add alerting for high-score Transnet opportunities.

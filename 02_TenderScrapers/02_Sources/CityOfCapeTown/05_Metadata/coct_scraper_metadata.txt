@@ -1,0 +1,442 @@
+CITY OF CAPE TOWN TENDER SCRAPER - METADATA
+============================================
+
+Script name:
+coct_tender_pull_and_clean.py
+
+Purpose:
+Fetch public tender notices from the City of Cape Town Tender Portal, clean and normalise the records, identify new and updated opportunities, apply a priority score, and produce prioritised outputs for daily tender review.
+
+Source portal:
+City of Cape Town Tender Portal
+https://web1.capetown.gov.za/web1/tenderportal/Tender
+
+Source type:
+HTML table scrape.
+
+API status:
+No clean public API is currently used by this scraper. The script reads the public tender list rendered in the HTML table on the City of Cape Town portal.
+
+Important access note:
+The public portal exposes the tender notice list. Additional tender detail may require supplier registration/login. The scraper therefore captures the public table and available row-level detail URLs, but it does not log in or scrape protected detail content.
+
+Local root folder:
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\CityOfCapeTown
+
+Folder structure created by script:
+- Logs
+- Outputs
+- State
+
+Main outputs:
+- Outputs\coct_raw.csv
+- Outputs\coct_raw_full.xlsx
+- Outputs\coct_raw_page.html
+- Outputs\coct_master.xlsx
+- Outputs\coct_delta.xlsx
+- Outputs\coct_updates.xlsx
+- Outputs\coct_top_delta.xlsx
+
+Log file:
+- Logs\coct_run.log
+
+State file:
+- State\seen_ids.json
+
+Lock file:
+- State\run.lock
+
+Default run command:
+& "C:/Users/Danie le Roux/AppData/Local/Programs/Python/Python314/python.exe" "C:/Users/Danie le Roux/OneDrive - Henry Fagan/Desktop/Data Analytics/CityOfCapeTown/coct_tender_pull_and_clean.py"
+
+Recommended scheduled run:
+Run once per day, preferably early morning, after network/OneDrive sync is available.
+
+Default fetch behaviour:
+- Fetches the public City of Cape Town tender portal page.
+- Saves the full raw HTML page.
+- Parses the visible public tender table.
+- Extracts available row-level detail links from the HTML.
+- Saves the raw table as CSV and Excel.
+- Cleans and normalises the tender notice data.
+- Filters out expired tenders by default using the closing date/datetime.
+- Applies priority scoring.
+- Produces master, delta, updates and top-delta outputs.
+
+Current tender filter:
+By default, the script keeps only tenders where the closing date or closing datetime has not passed.
+
+Current filter logic:
+closing_datetime >= today, where available.
+If closing_datetime is not available, closing_date >= today is used.
+
+Optional command-line parameters:
+--include-expired
+    Do not filter out closed tenders.
+
+--state-file <path>
+    Override the default seen_ids.json state file location.
+
+--top-delta-limit 20
+    Maximum number of rows to write to coct_top_delta.xlsx.
+    Use 0 to include all qualifying delta rows.
+
+--top-delta-min-score 0
+    Minimum weight_score required for inclusion in coct_top_delta.xlsx.
+
+Raw public table fields expected:
+- Tender Number
+- Description
+- Directorate
+- Department
+- Closing Date
+- Closing Date.1
+- Posted Date
+- Posted Date.1
+
+Notes on duplicate date columns:
+The portal table may expose duplicate labels for date and time fields. The scraper renames duplicate fields by appending .1, then maps them to separate date/datetime fields.
+
+Column mapping:
+Raw Portal Field       Clean Field
+-------------------------------------------
+Tender Number          tender_number
+Description            description
+Directorate            directorate
+Department             department
+Closing Date           closing_date
+Closing Date.1         closing_datetime
+Posted Date            posted_date
+Posted Date.1          posted_datetime
+
+Additional fields added by scraper:
+- source
+- opportunity_key
+- details_url
+- detail_id
+- priority_directorate_match
+- matched_description_keywords
+- description_keyword_match_count
+- weight_score
+- row_hash
+- run_timestamp
+- change_type
+- previous_row_hash
+
+Normalised output fields:
+- source
+- opportunity_key
+- tender_number
+- description
+- directorate
+- department
+- closing_date
+- closing_datetime
+- posted_date
+- posted_datetime
+- details_url
+- detail_id
+- priority_directorate_match
+- matched_description_keywords
+- description_keyword_match_count
+- weight_score
+- row_hash
+- run_timestamp
+- change_type
+- previous_row_hash
+
+Unique identifier:
+opportunity_key
+
+Opportunity key logic:
+- Built from the tender number.
+- Prefix: coct:
+- Example: coct:242s/2025/26
+- Tender numbers are stripped and case-normalised for stable comparison.
+
+Master logic:
+- Maintains the latest cleaned snapshot per opportunity_key.
+- Deduplicates by opportunity_key.
+- Incoming rows win ties so newly fetched fields can refresh the master.
+- The master is sorted for review after update.
+
+Delta logic:
+- Delta contains records found in the current run that do not already exist in the master file.
+- change_type is set to NEW.
+
+Updates logic:
+- Updates contains existing records where the row hash has changed.
+- change_type is set to UPDATED.
+- previous_row_hash is included for comparison/audit purposes.
+
+Hash/change detection fields:
+- description
+- directorate
+- department
+- closing_date
+- closing_datetime
+- posted_date
+- posted_datetime
+- details_url
+
+Update logic:
+A tender is treated as UPDATED when:
+- Its opportunity_key already exists in the master file; and
+- The newly calculated row_hash differs from the previous row_hash in the master file.
+
+A tender is treated as NEW when:
+- Its opportunity_key does not exist in the master file.
+
+Top delta logic:
+- Based only on delta records.
+- Sorts by weight_score descending.
+- Secondary sorting uses closing_datetime, closing_date and posted_datetime where available.
+- Default top list limit: 20 records.
+- Default minimum score: 0.
+
+Sorting logic:
+1. weight_score descending
+2. closing_datetime ascending
+3. closing_date ascending
+4. posted_datetime ascending
+
+Weight scoring:
+The scraper applies a score to each clean record.
+
+Scoring columns added:
+- priority_directorate_match
+- matched_description_keywords
+- description_keyword_match_count
+- weight_score
+
+Scoring constants:
+WEIGHT_DIRECTORATE_MATCH = 5
+WEIGHT_DESCRIPTION_KEYWORD = 1
+
+Scoring formula:
+weight_score =
+(priority_directorate_match * 5) + (description_keyword_match_count * 1)
+
+Priority directorate matching:
+The directorate field is matched after text normalisation:
+- Case-insensitive
+- Leading/trailing spaces ignored
+- Repeated spaces collapsed
+
+Priority directorates:
+- Water and Sanitation
+- Human Settlements
+- Urban Mobility
+- Energy
+- Future Planning and Resilience
+- Corporate Services
+
+Description keyword matching:
+Description keyword matching is:
+- Case-insensitive
+- Punctuation-tolerant
+- Based on phrase matching with token boundaries
+
+Description keyword rules:
+Water and Sanitation:
+- Water and Sanitation
+
+Housing:
+- Housing
+
+Education:
+- Education
+
+Transport:
+- Transport
+
+Nuclear:
+- Nuclear
+
+Bus Rapid Transit (BRT):
+- Bus Rapid Transit
+- BRT
+- IRT
+
+International Transition Plan Network (ITPN):
+- International Transition Plan Network
+- ITPN
+
+Design:
+- Design
+
+Refurbishment:
+- Refurbishment
+
+Engineering, Procurement, and Construction (EPC):
+- Engineering, Procurement, and Construction
+- Engineering Procurement and Construction
+- EPC
+
+Fire Engineering:
+- Fire Engineering
+
+HVAC:
+- HVAC
+
+Mechanical:
+- Mechanical
+
+Electrical:
+- Electrical
+
+Electronic:
+- Electronic
+
+Wet Services:
+- Wet Services
+
+Project Management:
+- Project Management
+
+Programme Management:
+- Programme Management
+
+Project Management Office (PMO):
+- Project Management Office
+- PMO
+
+Advisory Services:
+- Advisory Services
+
+Structural Engineering:
+- Structural Engineering
+
+Civil Engineering:
+- Civil Engineering
+
+Feasibility Study:
+- Feasibility Study
+
+Professional Services:
+- Professional Services
+
+Consulting:
+- Consulting
+- Consultant
+- Consultancy
+
+Infrastructure:
+- Infrastructure
+
+Wastewater:
+- Wastewater
+- Waste Water
+
+Sewer:
+- Sewer
+- Sewerage
+
+Stormwater:
+- Stormwater
+- Storm Water
+
+Raw output behaviour:
+- coct_raw_page.html stores the full public portal HTML page.
+- coct_raw.csv stores the raw parsed tender table.
+- coct_raw_full.xlsx stores the raw parsed tender table in Excel.
+- Raw outputs are not deduplicated, scored or filtered for current tenders.
+
+Clean output behaviour:
+- coct_master.xlsx, coct_delta.xlsx, coct_updates.xlsx and coct_top_delta.xlsx use the cleaned and scored data.
+- Expired tenders are excluded by default unless --include-expired is used.
+
+Excel formatting:
+Each Excel file is written using xlsxwriter.
+
+When rows exist:
+- The output is formatted as an Excel table.
+- Header row is frozen.
+
+When no rows exist:
+- The workbook is still created with headers.
+- An autofilter is applied.
+- This confirms the script ran even when there were no qualifying rows.
+
+Logging includes:
+- Base root
+- Output directory
+- Raw HTML save path
+- Raw tender table row count
+- Raw tender table column count
+- Current tender filter row count
+- Delta row count
+- Update row count
+- Top delta row count
+- Saved output paths
+
+Dependencies:
+Python packages:
+- requests
+- pandas
+- openpyxl
+- xlsxwriter
+- urllib3
+- lxml, or another pandas-compatible HTML parser for pandas.read_html
+
+Standard library modules:
+- argparse
+- hashlib
+- io
+- json
+- logging
+- os
+- re
+- sys
+- html.parser
+- typing
+- urllib.parse
+
+Known design decisions:
+1. The scraper uses the public HTML table rather than an API.
+   This is because no clean public API is currently used or exposed for the tender list.
+
+2. Raw HTML is saved.
+   This helps diagnose portal structure changes if parsing fails.
+
+3. Detail URLs are captured but not scraped.
+   Public detail pages may require login or supplier registration. Capturing the URL is useful for manual follow-up without making the scraper depend on login-only content.
+
+4. Current tenders are determined locally using closing date/datetime.
+   This avoids relying on portal labels alone.
+
+5. The master is updated from all currently fetched and cleaned records.
+   Delta and updates remain daily exception lists; master remains the latest available current tender snapshot.
+
+6. Update detection includes description, directorate, department, date fields and details_url.
+   This means changes to tender description, allocation, closing date/time, posted date/time, or detail URL can trigger an update.
+
+7. The scoring model is rule-based.
+   It does not infer relevance beyond exact directorate matching and description keyword matching.
+
+Recommended daily workflow:
+1. Run the scraper once per day.
+2. Review coct_top_delta.xlsx first.
+3. Review coct_delta.xlsx for all newly detected current tenders.
+4. Review coct_updates.xlsx for changed tender details.
+5. Use coct_master.xlsx as the latest City of Cape Town tender register.
+6. Use coct_raw_page.html and raw files only when troubleshooting portal changes or checking missing records.
+
+Current limitations:
+- The scraper only uses publicly visible tender list data.
+- Additional supplier-login detail is not scraped.
+- PDF or attached tender documents are not downloaded.
+- If the portal HTML structure changes, table parsing may need to be adjusted.
+- If the portal changes date formatting, the current tender filter may need to be reviewed.
+- The scoring model is a first-pass rule-based prioritisation model.
+
+Future enhancements:
+1. Add document download support if public tender documents are exposed without login.
+2. Add second-stage scraping for accessible public detail pages.
+3. Add exclusion keywords to suppress irrelevant tenders.
+4. Add deadline urgency scoring.
+5. Add department-specific scoring.
+6. Add tender status/review columns maintained outside the scraper.
+7. Add a consolidated output across eTenders, World Bank, City of Cape Town and future scrapers.
+8. Add Power BI-ready combined output.
+9. Add email or Teams notifications for high-scoring top-delta tenders.

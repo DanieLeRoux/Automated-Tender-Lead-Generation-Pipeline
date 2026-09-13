@@ -1,0 +1,128 @@
+2026-07-05 05:09:35,011 | INFO | Using tender scrapers root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-05 05:09:35,011 | INFO | Using source root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR
+2026-07-05 05:09:35,011 | INFO | Using raw directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\01_RawData
+2026-07-05 05:09:35,011 | INFO | Using output directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs
+2026-07-05 05:09:35,012 | INFO | Using log directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\03_Logs
+2026-07-05 05:09:35,015 | INFO | Using state directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\04_State
+2026-07-05 05:09:35,016 | INFO | Fetching NNR tenders: https://nnr.co.za/tenders/
+2026-07-05 05:09:57,410 | INFO | Saved raw HTML: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\01_RawData\nnr_raw_page.html
+2026-07-05 05:09:57,564 | INFO | Parsed NNR open tender rows: 1
+2026-07-05 05:09:57,705 | INFO | Saved raw outputs
+2026-07-05 05:09:57,710 | INFO | Filtered current NNR tenders: 1 -> 0 rows
+2026-07-05 05:09:57,824 | WARNING | Current NNR parse returned no open/current rows. Preserving existing master.
+2026-07-05 05:09:57,913 | INFO | Saved delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs\nnr_delta.xlsx | rows: 0
+2026-07-05 05:09:57,914 | INFO | Saved updates Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs\nnr_updates.xlsx | rows: 0
+2026-07-05 05:09:57,915 | INFO | Saved top delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs\nnr_top_delta.xlsx | rows: 0
+2026-07-05 05:09:57,915 | INFO | Saved master Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs\nnr_master.xlsx | rows: 3
+2026-07-05 06:43:37,048 | INFO | Using tender scrapers root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-05 06:43:37,048 | INFO | Using source root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR
+2026-07-05 06:43:37,048 | INFO | Using raw directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\01_RawData
+2026-07-05 06:43:37,048 | INFO | Using output directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs
+2026-07-05 06:43:37,048 | INFO | Using log directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\03_Logs
+2026-07-05 06:43:37,048 | INFO | Using state directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\04_State
+2026-07-05 06:43:37,049 | INFO | Fetching NNR tenders: https://nnr.co.za/tenders/
+2026-07-05 06:43:59,381 | INFO | Saved raw HTML: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\01_RawData\nnr_raw_page.html
+2026-07-05 06:43:59,515 | INFO | Parsed NNR open tender rows: 1
+2026-07-05 06:43:59,579 | INFO | Saved raw outputs
+2026-07-05 06:43:59,581 | INFO | Filtered current NNR tenders: 1 -> 0 rows
+2026-07-05 06:43:59,724 | WARNING | Current NNR parse returned no open/current rows. Preserving existing master.
+2026-07-05 06:43:59,828 | INFO | Saved delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs\nnr_delta.xlsx | rows: 0
+2026-07-05 06:43:59,828 | INFO | Saved updates Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs\nnr_updates.xlsx | rows: 0
+2026-07-05 06:43:59,828 | INFO | Saved top delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs\nnr_top_delta.xlsx | rows: 0
+2026-07-05 06:43:59,828 | INFO | Saved master Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs\nnr_master.xlsx | rows: 3
+2026-07-05 06:59:09,506 | INFO | Using tender scrapers root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-05 06:59:09,507 | INFO | Using source root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR
+2026-07-05 06:59:09,507 | INFO | Using raw directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\01_RawData
+2026-07-05 06:59:09,507 | INFO | Using output directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs
+2026-07-05 06:59:09,508 | INFO | Using log directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\03_Logs
+2026-07-05 06:59:09,508 | INFO | Using state directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\04_State
+2026-07-05 06:59:09,509 | INFO | Fetching NNR tenders: https://nnr.co.za/tenders/
+2026-07-05 06:59:31,988 | INFO | Saved raw HTML: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\01_RawData\nnr_raw_page.html
+2026-07-05 06:59:32,146 | INFO | Parsed NNR open tender rows: 1
+2026-07-05 06:59:32,238 | INFO | Saved raw outputs
+2026-07-05 06:59:32,240 | INFO | Filtered current NNR tenders: 1 -> 0 rows
+2026-07-05 06:59:32,349 | WARNING | Current NNR parse returned no open/current rows. Preserving existing master.
+2026-07-05 06:59:32,417 | INFO | Saved delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs\nnr_delta.xlsx | rows: 0
+2026-07-05 06:59:32,417 | INFO | Saved updates Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs\nnr_updates.xlsx | rows: 0
+2026-07-05 06:59:32,417 | INFO | Saved top delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs\nnr_top_delta.xlsx | rows: 0
+2026-07-05 06:59:32,417 | INFO | Saved master Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs\nnr_master.xlsx | rows: 3
+2026-07-05 07:06:22,313 | INFO | Using tender scrapers root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-05 07:06:22,314 | INFO | Using source root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR
+2026-07-05 07:06:22,314 | INFO | Using raw directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\01_RawData
+2026-07-05 07:06:22,314 | INFO | Using output directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs
+2026-07-05 07:06:22,314 | INFO | Using log directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\03_Logs
+2026-07-05 07:06:22,314 | INFO | Using state directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\04_State
+2026-07-05 07:06:22,315 | INFO | Fetching NNR tenders: https://nnr.co.za/tenders/
+2026-07-05 07:06:44,688 | INFO | Saved raw HTML: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\01_RawData\nnr_raw_page.html
+2026-07-05 07:06:44,819 | INFO | Parsed NNR open tender rows: 1
+2026-07-05 07:06:44,949 | INFO | Saved raw outputs
+2026-07-05 07:06:44,953 | INFO | Filtered current NNR tenders: 1 -> 0 rows
+2026-07-05 07:06:45,166 | WARNING | Current NNR parse returned no open/current rows. Preserving existing master.
+2026-07-05 07:06:45,293 | INFO | Saved delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs\nnr_delta.xlsx | rows: 0
+2026-07-05 07:06:45,294 | INFO | Saved updates Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs\nnr_updates.xlsx | rows: 0
+2026-07-05 07:06:45,294 | INFO | Saved top delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs\nnr_top_delta.xlsx | rows: 0
+2026-07-05 07:06:45,294 | INFO | Saved master Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs\nnr_master.xlsx | rows: 3
+2026-07-05 07:19:12,330 | INFO | Using tender scrapers root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-05 07:19:12,331 | INFO | Using source root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR
+2026-07-05 07:19:12,331 | INFO | Using raw directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\01_RawData
+2026-07-05 07:19:12,332 | INFO | Using output directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs
+2026-07-05 07:19:12,332 | INFO | Using log directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\03_Logs
+2026-07-05 07:19:12,332 | INFO | Using state directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\04_State
+2026-07-05 07:19:12,334 | INFO | Fetching NNR tenders: https://nnr.co.za/tenders/
+2026-07-05 07:19:34,825 | INFO | Saved raw HTML: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\01_RawData\nnr_raw_page.html
+2026-07-05 07:19:34,975 | INFO | Parsed NNR open tender rows: 1
+2026-07-05 07:19:35,082 | INFO | Saved raw outputs
+2026-07-05 07:19:35,085 | INFO | Filtered current NNR tenders: 1 -> 0 rows
+2026-07-05 07:19:35,264 | WARNING | Current NNR parse returned no open/current rows. Preserving existing master.
+2026-07-05 07:19:35,328 | INFO | Saved delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs\nnr_delta.xlsx | rows: 0
+2026-07-05 07:19:35,328 | INFO | Saved updates Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs\nnr_updates.xlsx | rows: 0
+2026-07-05 07:19:35,329 | INFO | Saved top delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs\nnr_top_delta.xlsx | rows: 0
+2026-07-05 07:19:35,329 | INFO | Saved master Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs\nnr_master.xlsx | rows: 3
+2026-07-05 07:32:42,073 | INFO | Using tender scrapers root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-05 07:32:42,074 | INFO | Using source root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR
+2026-07-05 07:32:42,074 | INFO | Using raw directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\01_RawData
+2026-07-05 07:32:42,074 | INFO | Using output directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs
+2026-07-05 07:32:42,074 | INFO | Using log directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\03_Logs
+2026-07-05 07:32:42,075 | INFO | Using state directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\04_State
+2026-07-05 07:32:42,076 | INFO | Fetching NNR tenders: https://nnr.co.za/tenders/
+2026-07-05 07:33:04,812 | INFO | Saved raw HTML: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\01_RawData\nnr_raw_page.html
+2026-07-05 07:33:05,050 | INFO | Parsed NNR open tender rows: 1
+2026-07-05 07:33:05,207 | INFO | Saved raw outputs
+2026-07-05 07:33:05,215 | INFO | Filtered current NNR tenders: 1 -> 0 rows
+2026-07-05 07:33:05,407 | WARNING | Current NNR parse returned no open/current rows. Preserving existing master.
+2026-07-05 07:33:05,522 | INFO | Saved delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs\nnr_delta.xlsx | rows: 0
+2026-07-05 07:33:05,523 | INFO | Saved updates Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs\nnr_updates.xlsx | rows: 0
+2026-07-05 07:33:05,523 | INFO | Saved top delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs\nnr_top_delta.xlsx | rows: 0
+2026-07-05 07:33:05,523 | INFO | Saved master Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs\nnr_master.xlsx | rows: 3
+2026-07-06 08:05:03,757 | INFO | Using tender scrapers root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-06 08:05:03,760 | INFO | Using source root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR
+2026-07-06 08:05:03,761 | INFO | Using raw directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\01_RawData
+2026-07-06 08:05:03,762 | INFO | Using output directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs
+2026-07-06 08:05:03,762 | INFO | Using log directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\03_Logs
+2026-07-06 08:05:03,762 | INFO | Using state directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\04_State
+2026-07-06 08:05:03,764 | INFO | Fetching NNR tenders: https://nnr.co.za/tenders/
+2026-07-06 08:05:27,302 | INFO | Saved raw HTML: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\01_RawData\nnr_raw_page.html
+2026-07-06 08:05:27,976 | INFO | Parsed NNR open tender rows: 1
+2026-07-06 08:05:28,555 | INFO | Saved raw outputs
+2026-07-06 08:05:28,569 | INFO | Filtered current NNR tenders: 1 -> 0 rows
+2026-07-06 08:05:29,512 | WARNING | Current NNR parse returned no open/current rows. Preserving existing master.
+2026-07-06 08:05:30,204 | INFO | Saved delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs\nnr_delta.xlsx | rows: 0
+2026-07-06 08:05:30,206 | INFO | Saved updates Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs\nnr_updates.xlsx | rows: 0
+2026-07-06 08:05:30,209 | INFO | Saved top delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs\nnr_top_delta.xlsx | rows: 0
+2026-07-06 08:05:30,211 | INFO | Saved master Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs\nnr_master.xlsx | rows: 3
+2026-07-06 17:24:53,830 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-06 17:24:54,804 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR
+2026-07-06 17:24:54,805 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\01_RawData
+2026-07-06 17:24:54,805 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs
+2026-07-06 17:24:54,805 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\03_Logs
+2026-07-06 17:24:54,805 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\04_State
+2026-07-06 17:24:54,806 | INFO | Fetching NNR tenders: https://nnr.co.za/tenders/
+2026-07-06 17:25:17,214 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\01_RawData\nnr_raw_page.html
+2026-07-06 17:25:17,325 | INFO | Parsed NNR open tender rows: 1
+2026-07-06 17:25:17,454 | INFO | Saved raw outputs
+2026-07-06 17:25:17,456 | INFO | Filtered current NNR tenders: 1 -> 0 rows
+2026-07-06 17:25:19,135 | WARNING | Current NNR parse returned no open/current rows. Preserving existing master.
+2026-07-06 17:25:19,224 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs\nnr_delta.xlsx | rows: 0
+2026-07-06 17:25:19,224 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs\nnr_updates.xlsx | rows: 0
+2026-07-06 17:25:19,224 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs\nnr_top_delta.xlsx | rows: 0
+2026-07-06 17:25:19,224 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs\nnr_master.xlsx | rows: 3

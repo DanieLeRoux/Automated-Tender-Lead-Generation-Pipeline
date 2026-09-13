@@ -1,0 +1,24 @@
+command: C:\Users\DanieLeRoux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\JohannesburgWater\00_Scripts\johannesburg_water_tender_pull_and_clean.py
+return_code: 0
+elapsed_seconds: 5.23
+
+--- STDOUT ---
+2026-09-09 13:50:28,473 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-09-09 13:50:28,475 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\JohannesburgWater
+2026-09-09 13:50:28,475 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\JohannesburgWater\01_RawData
+2026-09-09 13:50:28,475 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\JohannesburgWater\02_Outputs
+2026-09-09 13:50:28,475 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\JohannesburgWater\03_Logs
+2026-09-09 13:50:28,475 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\JohannesburgWater\04_State
+2026-09-09 13:50:28,476 | INFO | Fetching Johannesburg Water Tender page: https://scm.johannesburgwater.co.za/supply-chain/tenders/all-open-tenders/
+2026-09-09 13:50:30,345 | INFO | Parsed Johannesburg Water Tender rows: 13
+2026-09-09 13:50:30,345 | INFO | Fetching Johannesburg Water RFP page: https://scm.johannesburgwater.co.za/supply-chain/request-for-proposal/all-advertised-rfps/
+2026-09-09 13:50:32,212 | INFO | No table rows parsed for RFP. Trying text fallback.
+2026-09-09 13:50:32,228 | INFO | Parsed Johannesburg Water RFP rows: 0
+2026-09-09 13:50:32,240 | INFO | Raw Johannesburg Water rows: 13 | cols: 40
+2026-09-09 13:50:32,656 | INFO | Filtered current Johannesburg Water rows: 13 -> 13
+2026-09-09 13:50:32,893 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\JohannesburgWater\02_Outputs\johannesburg_water_delta.xlsx | rows: 0
+2026-09-09 13:50:32,893 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\JohannesburgWater\02_Outputs\johannesburg_water_updates.xlsx | rows: 1
+2026-09-09 13:50:32,893 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\JohannesburgWater\02_Outputs\johannesburg_water_top_delta.xlsx | rows: 0
+2026-09-09 13:50:32,893 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\JohannesburgWater\02_Outputs\johannesburg_water_master.xlsx | rows: 13
+
+--- STDERR ---

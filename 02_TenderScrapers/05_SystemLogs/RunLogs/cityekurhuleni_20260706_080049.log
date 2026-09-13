@@ -1,0 +1,19 @@
+command: C:\Users\Danie le Roux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityEkurhuleni\00_Scripts\city_ekurhuleni_tender_pull_and_clean.py
+return_code: 0
+elapsed_seconds: 35.03
+
+--- STDOUT ---
+2026-07-06 08:00:16,232 | INFO | Using tender scrapers root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-06 08:00:16,267 | INFO | Using source root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityEkurhuleni
+2026-07-06 08:00:16,267 | INFO | Using raw directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityEkurhuleni\01_RawData
+2026-07-06 08:00:16,268 | INFO | Using output directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityEkurhuleni\02_Outputs
+2026-07-06 08:00:18,072 | INFO | City of Ekurhuleni listing pages queued: 8
+2026-07-06 08:00:18,254 | INFO | City of Ekurhuleni detail links from https://www.ekurhuleni.gov.za/for-my-business/tenders/open-tenders/: 8
+2026-07-06 08:00:20,519 | INFO | City of Ekurhuleni detail links from https://www.ekurhuleni.gov.za/for-my-business/tenders/open-tenders/2/: 2
+2026-07-06 08:00:25,213 | INFO | City of Ekurhuleni detail links from https://www.ekurhuleni.gov.za/for-my-business/tenders/open-tenders/3/: 0
+2026-07-06 08:00:25,214 | INFO | City of Ekurhuleni unique tender detail links: 10
+2026-07-06 08:00:47,270 | INFO | Parsed City of Ekurhuleni raw rows: 10
+2026-07-06 08:00:47,286 | INFO | Filtered current City of Ekurhuleni tenders: 10 -> 10 rows
+2026-07-06 08:00:49,304 | INFO | Saved City of Ekurhuleni outputs | raw=10 master=10 delta=0 updates=0 top_delta=0
+
+--- STDERR ---

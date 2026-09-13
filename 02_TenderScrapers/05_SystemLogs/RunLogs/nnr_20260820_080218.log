@@ -1,0 +1,22 @@
+command: C:\Users\DanieLeRoux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\00_Scripts\nnr_tender_pull_and_clean.py
+return_code: 0
+elapsed_seconds: 4.42
+
+--- STDOUT ---
+2026-08-20 08:02:15,371 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-20 08:02:15,372 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR
+2026-08-20 08:02:15,372 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\01_RawData
+2026-08-20 08:02:15,372 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs
+2026-08-20 08:02:15,372 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\03_Logs
+2026-08-20 08:02:15,372 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\04_State
+2026-08-20 08:02:15,373 | INFO | Fetching NNR tenders: https://nnr.co.za/tenders/
+2026-08-20 08:02:17,851 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\01_RawData\nnr_raw_page.html
+2026-08-20 08:02:18,101 | INFO | Parsed NNR open tender rows: 0
+2026-08-20 08:02:18,206 | INFO | Saved raw outputs
+2026-08-20 08:02:18,485 | WARNING | Current NNR parse returned no open/current rows. Preserving existing master.
+2026-08-20 08:02:18,757 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs\nnr_delta.xlsx | rows: 0
+2026-08-20 08:02:18,757 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs\nnr_updates.xlsx | rows: 0
+2026-08-20 08:02:18,757 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs\nnr_top_delta.xlsx | rows: 0
+2026-08-20 08:02:18,757 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Outputs\nnr_master.xlsx | rows: 3
+
+--- STDERR ---

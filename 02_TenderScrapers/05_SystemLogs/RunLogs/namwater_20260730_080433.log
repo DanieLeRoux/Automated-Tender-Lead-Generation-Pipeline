@@ -1,0 +1,17 @@
+command: C:\Users\DanieLeRoux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\00_Scripts\namwater_tender_pull_and_clean.py
+return_code: 0
+elapsed_seconds: 2.25
+
+--- STDOUT ---
+2026-07-30 08:04:32,020 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-30 08:04:32,021 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-07-30 08:04:32,022 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\01_RawData
+2026-07-30 08:04:32,022 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\02_Outputs
+2026-07-30 08:04:32,022 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\03_Logs
+2026-07-30 08:04:32,022 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater\04_State
+2026-07-30 08:04:32,023 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-07-30 08:04:32,696 | INFO | Parsed NamWater rows: 4
+2026-07-30 08:04:32,699 | INFO | Raw NamWater rows: 4 | cols: 40
+2026-07-30 08:04:33,212 | INFO | Saved NamWater outputs | raw=4 master=4 delta=1 updates=0 top_delta=1
+
+--- STDERR ---

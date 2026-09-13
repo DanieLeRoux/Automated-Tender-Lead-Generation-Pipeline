@@ -1,0 +1,26 @@
+command: C:\Users\DanieLeRoux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\VaalCentralWater\00_Scripts\vcwb_tender_pull_and_clean.py
+return_code: 0
+elapsed_seconds: 4.36
+
+--- STDOUT ---
+2026-08-20 08:02:40,502 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\VaalCentralWater
+2026-08-20 08:02:40,503 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\VaalCentralWater\01_RawData
+2026-08-20 08:02:40,503 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\VaalCentralWater\02_Outputs
+2026-08-20 08:02:40,503 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\VaalCentralWater\04_State
+2026-08-20 08:02:42,949 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\VaalCentralWater\01_RawData\vcwb_raw_page.html
+2026-08-20 08:02:42,985 | INFO | VCWB parser tokens found: 90
+2026-08-20 08:02:42,986 | INFO | VCWB notice blocks found: 6
+2026-08-20 08:02:42,994 | INFO | Parsed VCWB notice rows: 6 | cols: 12
+2026-08-20 08:02:43,000 | INFO | Saved raw CSV: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\VaalCentralWater\01_RawData\vcwb_raw.csv
+2026-08-20 08:02:43,117 | INFO | Saved raw Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\VaalCentralWater\01_RawData\vcwb_raw_full.xlsx
+2026-08-20 08:02:43,122 | INFO | Filtered current tenders by closing date: 6 -> 4 rows
+2026-08-20 08:02:43,412 | INFO | Filtered current tenders by closing date: 4 -> 4 rows
+2026-08-20 08:02:43,420 | INFO | Delta (NEW) rows this run: 0
+2026-08-20 08:02:43,420 | INFO | Updates (CHANGED) rows this run: 1
+2026-08-20 08:02:43,421 | INFO | Top delta rows this run: 0
+2026-08-20 08:02:43,463 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\VaalCentralWater\02_Outputs\vcwb_delta.xlsx | rows: 0
+2026-08-20 08:02:43,505 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\VaalCentralWater\02_Outputs\vcwb_top_delta.xlsx | rows: 0
+2026-08-20 08:02:43,557 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\VaalCentralWater\02_Outputs\vcwb_updates.xlsx | rows: 1
+2026-08-20 08:02:43,629 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\VaalCentralWater\02_Outputs\vcwb_master.xlsx | rows: 4
+
+--- STDERR ---

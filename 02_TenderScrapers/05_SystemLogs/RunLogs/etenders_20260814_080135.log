@@ -1,0 +1,28 @@
+command: C:\Users\DanieLeRoux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\eTenders\00_Scripts\etenders_pull_and_clean.py
+return_code: 0
+elapsed_seconds: 9.94
+
+--- STDOUT ---
+2026-08-14 08:01:26,310 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-14 08:01:26,312 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\eTenders
+2026-08-14 08:01:26,312 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\eTenders\01_RawData
+2026-08-14 08:01:26,312 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\eTenders\02_Outputs
+2026-08-14 08:01:26,312 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\eTenders\03_Logs
+2026-08-14 08:01:26,312 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\eTenders\04_State
+2026-08-14 08:01:33,921 | INFO | Fetched rows: 1867 (pages: 10, total: 1867)
+2026-08-14 08:01:33,946 | INFO | Raw rows fetched: 1867 | cols: 61
+2026-08-14 08:01:33,989 | INFO | Saved raw CSV: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\eTenders\01_RawData\etenders_active_raw.csv
+2026-08-14 08:01:34,643 | INFO | Saved raw Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\eTenders\01_RawData\etenders_active_raw_full.xlsx
+2026-08-14 08:01:34,679 | INFO | Filtered clean output to category 'Services: Professional': 1867 -> 242 rows
+2026-08-14 08:01:35,042 | INFO | Filtered clean output to category 'Services: Professional': 1126 -> 1126 rows
+2026-08-14 08:01:35,062 | INFO | Delta (NEW) rows this run after category filter: 41
+2026-08-14 08:01:35,062 | INFO | Updates (CHANGED) rows this run after category filter: 5
+2026-08-14 08:01:35,062 | INFO | Top delta rows this run: 20 | min_score: 0 | limit: 20
+2026-08-14 08:01:35,110 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\eTenders\02_Outputs\etenders_delta.xlsx | rows: 41
+2026-08-14 08:01:35,152 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\eTenders\02_Outputs\etenders_top_delta.xlsx | rows: 20
+2026-08-14 08:01:35,189 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\eTenders\02_Outputs\etenders_updates.xlsx | rows: 5
+2026-08-14 08:01:35,494 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\eTenders\02_Outputs\etenders_master.xlsx | rows: 1167
+
+--- STDERR ---
+C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\eTenders\00_Scripts\etenders_pull_and_clean.py:881: UserWarning: Cell contents too long (41212), truncated to 32767 characters
+  df_full.to_excel(writer, index=False, sheet_name="Raw_Data")

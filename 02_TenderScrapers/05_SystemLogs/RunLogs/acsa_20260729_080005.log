@@ -1,0 +1,30 @@
+command: C:\Users\DanieLeRoux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\ACSA\00_Scripts\acsa_tender_pull_and_clean.py
+return_code: 0
+elapsed_seconds: 2.12
+
+--- STDOUT ---
+2026-07-29 08:00:04,761 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-29 08:00:04,762 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\ACSA
+2026-07-29 08:00:04,762 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\ACSA\01_RawData
+2026-07-29 08:00:04,762 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\ACSA\02_Outputs
+2026-07-29 08:00:05,224 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\ACSA\01_RawData\acsa_raw_page.html
+2026-07-29 08:00:05,259 | INFO | HTML tables found: 9
+2026-07-29 08:00:05,288 | INFO | Parsed tender rows from likely table: 30
+2026-07-29 08:00:05,308 | INFO | Parsed tender rows from likely table: 30
+2026-07-29 08:00:05,317 | INFO | Parsed ACSA notice rows: 29 | cols: 16
+2026-07-29 08:00:05,321 | INFO | Saved raw CSV: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\ACSA\01_RawData\acsa_raw.csv
+2026-07-29 08:00:05,465 | INFO | Saved raw Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\ACSA\01_RawData\acsa_raw_full.xlsx
+2026-07-29 08:00:05,467 | INFO | Filtered cancellation/withdrawal notices: 29 -> 29 rows
+2026-07-29 08:00:05,469 | INFO | Filtered current tenders by closing date: 29 -> 5 rows
+2026-07-29 08:00:05,635 | INFO | Filtered cancellation/withdrawal notices: 9 -> 9 rows
+2026-07-29 08:00:05,636 | INFO | Filtered current tenders by closing date: 9 -> 9 rows
+2026-07-29 08:00:05,642 | INFO | Delta (NEW) rows this run: 0
+2026-07-29 08:00:05,642 | INFO | Updates (CHANGED) rows this run: 0
+2026-07-29 08:00:05,642 | INFO | Top delta rows this run: 0
+2026-07-29 08:00:05,669 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\ACSA\02_Outputs\acsa_delta.xlsx | rows: 0
+2026-07-29 08:00:05,699 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\ACSA\02_Outputs\acsa_updates.xlsx | rows: 0
+2026-07-29 08:00:05,728 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\ACSA\02_Outputs\acsa_top_delta.xlsx | rows: 0
+2026-07-29 08:00:05,820 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\ACSA\02_Outputs\acsa_master.xlsx | rows: 9
+2026-07-29 08:00:05,823 | INFO | Saved seen IDs state file: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\ACSA\04_State\seen_ids.json
+
+--- STDERR ---

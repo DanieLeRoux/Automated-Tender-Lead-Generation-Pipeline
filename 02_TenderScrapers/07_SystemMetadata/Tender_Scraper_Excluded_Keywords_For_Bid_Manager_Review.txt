@@ -1,0 +1,200 @@
+TenderScrapers - Current Excluded Keyword / Theme List
+=====================================================
+
+Purpose
+-------
+These terms and themes are currently used to exclude tenders from the bid-manager daily review. Excluded records are still retained in the consolidated master register for audit and review.
+
+Important Principle
+-------------------
+Priority clients should boost relevant tenders, but a priority client should not make an irrelevant tender appear in the daily review.
+
+Current Exclusion Themes
+------------------------
+
+1. Repairs / Maintenance
+- repairs
+- repair
+- maintenance
+- service and maintenance
+- servicing
+- operational maintenance
+
+2. Financial / Legal / Audit / Admin
+- financial advisory
+- legal services
+- legal advisory
+- internal audit
+- external audit
+- forensic services
+- VAT recovery
+- annual financial statements
+- financial statements
+- expected credit loss
+- ECL model
+- audit firms
+- conveyancer
+- company secretarial
+- board evaluation
+
+3. HR / Employee / Language / Medical
+- employee wellness
+- employee assistance
+- labour
+- labour broker
+- recruitment agency
+- leadership assessment
+- psychometric assessment
+- training
+- defensive driving
+- language practitioners
+- translation
+- interpreting
+- medical surveillance
+- medical testing
+- locum
+- pharmacist
+
+4. Cleaning / Facilities / Office
+- cleaning
+- hygiene services
+- facilities management
+- furniture
+- office furniture
+- office equipment
+- appliances
+- canteen consumables
+- consumables
+
+5. ICT / Software / Platforms
+- software
+- software licence
+- software license
+- licences
+- licenses
+- Microsoft 365
+- Azure
+- SQL
+- ICT
+- IT system
+- ERP
+- SAP
+- S/4 HANA
+- JDE
+- system upgrade
+- online platform
+- digital platform
+- subscription platform
+- database subscription
+- legal research platform
+- digital display
+- signage solution
+- metadata automation
+- AI
+- artificial intelligence
+
+6. Operational Equipment / Hardware
+- equipment
+- transformer
+- distribution transformer
+- circuit breaker
+- substation equipment
+- electrical COC
+- fire COC
+- certificate of compliance
+- hardware
+- vehicle
+- vehicles
+- towing services
+
+7. Storage / Blasting / Publication / Media
+- document storage
+- storage facilities
+- blasting
+- shot blasting
+- digital media
+- annual report
+- copyediting
+- proofreading
+- layout
+- printing
+- publication
+- graphic design
+- editorial
+- corporate communications
+- newsletters
+
+8. Landscaping / Plants / Animals
+- invasive plants
+- vegetation clearing
+- landscaping
+- gardening
+- horticulture
+- animal
+- animals
+- pest control
+- veterinary
+
+9. Auctioning / Cemeteries / Grave-Related
+- auctioning
+- auctioneer
+- grave preparations
+- grave digging
+- cemetery
+- cemeteries
+
+10. Waste / Refuse / Sludge
+- sludge disposal
+- refuse collection
+- waste collection
+- recyclables
+- recycling collection
+- landfill
+- weighbridge
+
+11. Travel / Security / Transport Services
+- security services
+- physical security
+- guarding
+- access control services
+- surveillance services
+- travel management
+- travel agency
+- shuttle services
+- staff transport
+- passenger transport
+
+12. Supply-Only
+- supply and delivery
+- supply, delivery
+- supply and install
+- rental of equipment
+
+13. CIDB Below 7
+- CIDB grades 1 to 6 are excluded where detected.
+- This includes examples such as:
+  - CIDB 1
+  - CIDB 2
+  - CIDB 3
+  - CIDB 4
+  - CIDB 5
+  - CIDB 6
+  - 1CE
+  - 2GB
+  - 4ME
+  - 6EP
+- CIDB 7, 8 and 9 are not excluded by this rule.
+
+Caution / Review Notes
+----------------------
+Some terms should not be excluded too broadly:
+
+- "plant" should not be excluded generally because water treatment plant may be relevant.
+- "transport" should not be excluded generally because transport planning and BRT may be relevant.
+- "design" should not be excluded generally because engineering design is relevant, although graphic design/publication design is excluded.
+- "financial advisory" should be reviewed carefully because infrastructure transaction advisory may be relevant, while accounting/financial admin advisory may not be.
+- "refurbishment" should not be excluded globally where the tender is for professional engineering services linked to infrastructure or treatment works.
+
+Suggested Bid Manager Feedback
+------------------------------
+Please review whether any of the above exclusions are too broad or whether additional irrelevant categories should be added.

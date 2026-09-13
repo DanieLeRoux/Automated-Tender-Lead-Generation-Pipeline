@@ -1,0 +1,25 @@
+command: C:\Users\DanieLeRoux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityOfCapeTown\00_Scripts\coct_tender_pull_and_clean.py
+return_code: 0
+elapsed_seconds: 2.73
+
+--- STDOUT ---
+2026-08-12 08:01:00,391 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-12 08:01:00,393 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityOfCapeTown
+2026-08-12 08:01:00,394 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityOfCapeTown\01_RawData
+2026-08-12 08:01:00,394 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityOfCapeTown\02_Outputs
+2026-08-12 08:01:00,394 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityOfCapeTown\03_Logs
+2026-08-12 08:01:00,394 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityOfCapeTown\04_State
+2026-08-12 08:01:01,765 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityOfCapeTown\01_RawData\coct_raw_page.html
+2026-08-12 08:01:01,791 | INFO | Raw tender table rows: 41 | cols: 11
+2026-08-12 08:01:01,794 | INFO | Saved raw CSV: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityOfCapeTown\01_RawData\coct_raw.csv
+2026-08-12 08:01:01,866 | INFO | Saved raw Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityOfCapeTown\01_RawData\coct_raw_full.xlsx
+2026-08-12 08:01:01,875 | INFO | Filtered current tenders by closing date: 40 -> 5 rows
+2026-08-12 08:01:02,104 | INFO | Delta (NEW) rows this run: 0
+2026-08-12 08:01:02,104 | INFO | Updates (CHANGED) rows this run: 5
+2026-08-12 08:01:02,104 | INFO | Top delta rows this run: 0
+2026-08-12 08:01:02,137 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityOfCapeTown\02_Outputs\coct_delta.xlsx | rows: 0
+2026-08-12 08:01:02,199 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityOfCapeTown\02_Outputs\coct_updates.xlsx | rows: 5
+2026-08-12 08:01:02,230 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityOfCapeTown\02_Outputs\coct_top_delta.xlsx | rows: 0
+2026-08-12 08:01:02,297 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityOfCapeTown\02_Outputs\coct_master.xlsx | rows: 122
+
+--- STDERR ---

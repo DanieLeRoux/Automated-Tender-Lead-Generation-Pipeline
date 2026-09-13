@@ -1,0 +1,32 @@
+# Credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors and Windows
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+
+# Operational data
+outputs/
+downloads/
+logs/
+temp/
+data/raw/
+data/processed/
+*.db
+*.sqlite
+*.log
+
+# Excel temporary files
+~$*.xlsx

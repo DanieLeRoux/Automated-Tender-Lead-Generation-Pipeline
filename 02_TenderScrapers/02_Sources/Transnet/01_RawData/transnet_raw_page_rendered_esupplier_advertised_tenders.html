@@ -1,0 +1,194 @@
+<html><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Transnet eTenders and Supplier Relationship Management Portal ">
+  <meta name="author" content="">
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="Expires" content="0">
+  <link rel="shortcut icon" href="/static/css/custom/img/transnet.png">
+
+
+  <title>Transnet SRM</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css">
+  
+  <link rel="stylesheet" href="/static/srm_site/assets/css/eTenderingControls.css?v=1783317939">
+  <link rel="stylesheet" href="/static/srm_site/assets/css/eTendersCustom.css?v=1783317939">
+  <link rel="stylesheet" href="/static/srm_site/assets/css/site.min.css?v=1783317939">
+  <link rel="stylesheet" href="/static/srm_site/assets/css/jquery.dataTables.min.css?v=1783317939">
+  <link rel="stylesheet" href="/static/srm_site/assets/css/Transnet_Internet.css?v=1783317939">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/static/srm_site/assets/css/fonts.css?v=1783317939">
+  <!-- Bootstrap CSS -->
+  <!-- Bootstrap Font Icon CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+
+  
+<div role="heading" id="header" class=" header masthead ms-dialogHidden">
+  <div class="">
+    
+    <div class="row">
+      <div class="col-md-12">
+        <div class="header clearfix">
+          <div class="container-fluid ">
+            <div id="DeltaSiteLogo" class="pull-right">
+              <a id="ctl00_x36d5bee949a7480783b3afc048c15598" class="ms-siteicon-a" href="index.html">
+                <img id="ctl00_x74bbee6762f840edad4fe46f496d8c78" class="ms-siteicon-img" name="onetidHeadbnnr0" src="/static/srm_site/assets/images/logo.png" alt="Transnet">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <nav class="navbar navbar-inverse" style="margin-bottom: 0px !important;">
+      <div class="container" style="    width: 100%;">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse">
+          
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="/portal/">Home</a>
+            </li>
+            <li>
+              <a class="nav-link dropdown-toggle" href="/portal/advertisedTenders">Advertised Tenders</a>
+            </li>
+            <li>
+              <a class="nav-link dropdown-toggle" href="/portal/otherTenders">Other Tenders</a>
+            </li>
+            <li>
+              <a href="/portal/contact">Contact</a>
+            </li>
+          </ul>
+          
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="/portal/supplier/login">Sign in/Register</a>
+            </li>
+            <li>
+              <a href="/portal/complaint?source=portal">SCM Complaints</a>
+            </li>
+            <li>
+              <a style="padding-top:15px !important;padding-bottom:15px !important;" href="/portal/help_guide">
+                Help Guide
+              </a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
+  
+
+  <div class="container-fluid  body-content">
+
+        
+    <div style="margin-top: 40px;"></div>
+    
+    <section class="page-section text-white mb-0">
+        <div class="container">
+            <div class="OD_header">Advertised Tenders</div>
+            <div class="row" id="advertised">
+                <div class="col-lg-12 ms-auto">
+                    <ul class="nav nav-tabs">
+                      <li class="active"><a data-toggle="tab" href="AdvertisedTenders.html#opentender">Open Tenders</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="opentender" class="tab-pane fade in active">
+                          <div id="_advertisedTenders_wrapper" class="dataTables_wrapper no-footer"><div class="dataTables_length" id="_advertisedTenders_length"><label>Show <select name="_advertisedTenders_length" aria-controls="_advertisedTenders" class=""><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div><div id="_advertisedTenders_filter" class="dataTables_filter"><label>Search:<input type="search" class="" placeholder="" aria-controls="_advertisedTenders"></label></div><table class="table table-dark table-hover table-striped dataTable no-footer" id="_advertisedTenders" data-page-length="5" role="grid" aria-describedby="_advertisedTenders_info" style="width: 1144px;"><thead><tr role="row"><th class="sorting" tabindex="0" aria-controls="_advertisedTenders" rowspan="1" colspan="1" aria-label="Reference Number: activate to sort column ascending" style="width: 191px;">Reference Number</th><th class="sorting" tabindex="0" aria-controls="_advertisedTenders" rowspan="1" colspan="1" aria-label="Tender Name: activate to sort column ascending" style="width: 181px;">Tender Name</th><th class="sorting" tabindex="0" aria-controls="_advertisedTenders" rowspan="1" colspan="1" aria-label="Description: activate to sort column ascending" style="width: 269px;">Description</th><th class="sorting" tabindex="0" aria-controls="_advertisedTenders" rowspan="1" colspan="1" aria-label="Briefing Session: activate to sort column ascending" style="width: 60px;">Briefing Session</th><th class="sorting sorting_desc" tabindex="0" aria-controls="_advertisedTenders" rowspan="1" colspan="1" aria-sort="descending" aria-label="Closing Date: activate to sort column ascending" style="width: 54px;">Closing Date</th><th class="sorting" tabindex="0" aria-controls="_advertisedTenders" rowspan="1" colspan="1" aria-label="Tender Status: activate to sort column ascending" style="width: 51px;">Tender Status</th><th class="sorting" tabindex="0" aria-controls="_advertisedTenders" rowspan="1" colspan="1" aria-label=": activate to sort column ascending" style="width: 86px;"></th></tr></thead><tbody><tr class="odd"><td>TPT/2026/02/0056/1105/RFP</td><td>REFURBISHMENT OF THE SUBSTATIONS AT THE PORT OF CAPE TOWN</td><td>REFURBISHMENT OF THE SUBSTATIONS AT THE PORT OF CAPE TOWN, CONTAINER TERMINAL OF TRANSNET SOC LTD (REG.NO.1990/000900/30) OPERATING AS TRANSNET PORT TERMINALS, (HEREINAFTER REFERRED TO AS “TPT”)</td><td>2026-07-15 10:00:00</td><td class="sorting_1">2026-08-04</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/1105">View Details</a></td></tr><tr class="even"><td>TE/2026/06/2139/6742/RFQ</td><td>REPAIRS TO THE RAIL LINE AT LINE 1 TO 2 FOR SOUTH DUNES WAGONS DEPOT.</td><td>REPAIRS TO THE RAIL LINE AT LINE 1 TO 2 FOR SOUTH DUNES WAGONS DEPOT.</td><td>2026-07-13 11:00:00</td><td class="sorting_1">2026-07-27</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/6742">View Details</a></td></tr><tr class="odd"><td>TNPA/2026/05/0913/5154/RFQ</td><td>Repairs and Maintenance of Diver's Den and Boat house in the Port of Richards Bay</td><td>Repairs and Maintenance of Diver's Den and Boat house in the Port of Richards Bay</td><td>2026-07-02 10:00:00</td><td class="sorting_1">2026-07-24</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/5154">View Details</a></td></tr><tr class="even"><td>TNPA/2026/06/1128/6293/RFQ</td><td>FOR THE PROVISION OF: OF A SERVICE PROVIDER TO CONDUCT HEAVY METALS CONTAMINANT TRACING AT THE PORT OF EAST LONDON FOR A PERIOD OF TWELVE (12) MONTHS</td><td>THE APPOINTMENT OF A SERVICE PROVIDER TO CONDUCT HEAVY METALS CONTAMINANT TRACING AT THE PORT OF EAST LONDON</td><td>2026-07-07 11:00:00</td><td class="sorting_1">2026-07-21</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/6293">View Details</a></td></tr><tr class="odd"><td>TNPA/2026/06/1161/6481/RFQ</td><td>ROOF RREPAIRS AND GENERAL BUILDING MAINTENANCE SERVICES AT THE EX-TRANSTEL BUILDING</td><td>Roof repairs and general building maintenance for a period of five (5) months at the Port of Richards Bay, TNPA.</td><td>2026-07-06 10:00:00</td><td class="sorting_1">2026-07-20</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/6481">View Details</a></td></tr><tr class="even"><td>TNPA/2026/06/1333/7530/RFQ</td><td>REFURBISHMENT OF KITCHENS</td><td>REFURBISHMENT OF KITCHENS FOR PORT ADMIN, PORT CONTROL AND CLINIC BUILDINGS AT THE PORT OF PORT ELIZABETH FOR A ONCE-OFF PERIOD</td><td>2026-07-10 10:00:00</td><td class="sorting_1">2026-07-20</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/7530">View Details</a></td></tr><tr class="odd"><td>TE/2026/06/2485/7674/RFQ</td><td>RFQ FOR THE PROVISION OF SERVICES OF MAINT, EQUIP; NETWORK DATA, COMM SERV, BLUE TRAIN AT SALVOKOP, ON ‘AS AND WHEN REQUIRED BASIS’.</td><td>RFQ FOR THE PROVISION OF SERVICES OF MAINT, EQUIP; NETWORK DATA, COMM SERV,
+BLUE TRAIN AT SALVOKOP, ON ‘AS AND WHEN REQUIRED BASIS’.</td><td>2026-07-07 10:30:00</td><td class="sorting_1">2026-07-17</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/7674">View Details</a></td></tr><tr class="even"><td>TNPA/2026/07/1435/8139/RFQ</td><td>Remove and replace glazings at Bird Island Lighthouse, TNPA Lighthouses and Navigational Systems (LNS), Eastern Cape.</td><td>REMOVE AND REPLACE GLAZINGS AT BIRD ISLAND AS PER SCOPE OF WORK ATTACHED.
+
+You may contact Fezile Dyalvani for site viewing on 083 375 1491.</td><td>-</td><td class="sorting_1">2026-07-17</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/8139">View Details</a></td></tr><tr class="odd"><td>TPT/2026/03/0165/2748/RFP</td><td>FOR THE PROVISION OF FLEET AIR CONDITION MAINTENANCE &amp; REPAIR SERVICES FOR TRANSNET SOC LTD OPERATING AS TRANSNET PORT TERMINALS (HEREIN AFTER REFERED TO AS “TPT”) AT THE PORT OF DURBAN, FOR A PERIOD OF 36 MONTHS</td><td>Fleet Air Conditioner's Maintenance Contract for BBC Terminals for the Period of 36 Months</td><td>2026-07-10 10:00:00</td><td class="sorting_1">2026-07-17</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/2748">View Details</a></td></tr><tr class="even"><td>TPT/2026/06/0551/6294/RFP</td><td>PROVISION FOR INDUSTRIAL CLEANING OF EQUIPMENT, WORKSHOPS AND SUBSTATIONS FOR TRANSNET PORT TERMINAS - WESTERN CAPE</td><td>PROVISION FOR INDUSTRIAL CLEANING OF EQUIPMENT, WORKSHOPS AND SUBSTATIONS FOR TRANSNET SOC LTD (REG.NO.1990/000900/30) OPERATING AS TRANSNET PORT TERMINALS (HEREINAFTER REFERRED TO AS “TPT) AT CAPE TOWN TERMINALS FOR A PERIOD OF THIRTYSIX (36) MONTHS.</td><td>2026-07-03 10:30:00</td><td class="sorting_1">2026-07-17</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/6294">View Details</a></td></tr><tr class="odd"><td>TPT/2026/06/0606/6763/RFP</td><td>FOR THE PROVISION OF FINANCE RESOURCES FOR TPT DURBAN CONTAINER TERMINALS PIER 1, ON AN AS AND WHEN REQUIRED BASIS FOR A PERIOD OF THIRTY-SIX (36) MONTHS.</td><td>FOR THE PROVISION OF FINANCE RESOURCES FOR TRANSNET PORT TERMINALS, (HEREINAFTER REFERRED TO AS "TPT") OPERATING DIVISION OF TRANSNET SOC LTD (Reg. 1990/000900/30) AT DURBAN CONTAINER TERMINALS PIER 1, ON AN AS AND WHEN REQUIRED BASIS FOR A PERIOD OF THIRTY-SIX (36) MONTHS</td><td>2026-07-07 13:00:00</td><td class="sorting_1">2026-07-17</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/6763">View Details</a></td></tr><tr class="even"><td>TPT/2026/06/0670/7525/RFQ</td><td>PPA-127393 -  J02 Tripper-Car Assembly</td><td>PROVISION OF J02 TRIPPER CAR DRIVE ASSEMBLY FOR TRANSNET PORT TERMINALS IN RICHARDS BAY AS ONCE OFF</td><td>2026-07-09 11:00:00</td><td class="sorting_1">2026-07-16</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/7525">View Details</a></td></tr><tr class="odd"><td>TE/2026/07/2675/8131/RFQ</td><td>Reloading Software and Repair CNC Pipe Bender</td><td>request for reloading software and repair CNC pipe bender</td><td>2026-07-09 22:30:00</td><td class="sorting_1">2026-07-15</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/8131">View Details</a></td></tr><tr class="even"><td>TFR/2026/06/0180/6373/RFQ</td><td>For the supply, deliver and install Air Conditioners at Ogies Test Room under control Depot Engineer, Ermelo</td><td>Supply, delivery and installation of Air conditioning system.</td><td>-</td><td class="sorting_1">2026-07-15</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/6373">View Details</a></td></tr><tr class="odd"><td>TNPA/2026/06/1248/7066/RFQ</td><td>For the provision professional Diving services for period of twenty-four months (24), as and when required</td><td>REQUEST FOR THE PROVISION OF PROFFESSIONAL DIVING SERVICES TO SUPPORT LIGHTHOUSE AND NAVIGATION SYSTEMS AS PART OF ROUTINE MAINTENANCE AND EMERGENCY RESPONSE OPERATIONS FOR TRANSNET SOC</td><td>-</td><td class="sorting_1">2026-07-14</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/7066">View Details</a></td></tr><tr class="even"><td>TPL/2026/02/0028/1145/RFP</td><td>FOR THE PROVISION OF CONSULTING SERVICES FOR THE SAP EHP UPGRADE, REDESIGN OF SLUG NUMBER, SAP S/4 HANA CONVERSION AND REDESIGN OF CUSTOMER PORTAL FOR TRANSNET PIPELINES FOR A PERIOD OF 24 (TWENTY-FOUR)</td><td>FOR THE PROVISION OF CONSULTING SERVICES FOR THE SAP EHP UPGRADE, REDESIGN OF SLUG NUMBER, SAP S/4 HANA CONVERSION AND REDESIGN OF CUSTOMER PORTAL FOR TRANSNET PIPELINES FOR A PERIOD OF 24 (TWENTY-FOUR)</td><td>-</td><td class="sorting_1">2026-07-14</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/1145">View Details</a></td></tr><tr class="odd"><td>TPT/2026/06/0643/7292/RFP</td><td>PROVISION OF CARGO HANDLING SERVICES</td><td>PROVISION OF CARGO HANDLING SERVICES [INCLUDING
+MATERIAL HANDLING EQUIPMENT] AND OPERATORS – SIX
+(6) FRONT-END LOADERS, FOURTEEN (14) DUMPER TRUCKS
+(4) TIPPER TRUCKS, FOUR (4) PUSHER AND ONE (1)
+SPECIALLY ADAPTED EXCAVATOR FOR TRANSNET SOC
+LIMITED (REGISTRATION NO. 1990/000900/30) OPERATING AS
+TRANSNET PORT TERMINALS AT MAYDON WHARF AND
+AGRIBULK TERMINALS FOR THE FOLLOWING COMMODITIES
+(I.E. FERROCHROME, CHROME, MANGANESE, METCOKE,
+COAL AND GRAINS) FOR A PERIOD OF THREE [3] YEARS.</td><td>2026-07-02 12:00:00</td><td class="sorting_1">2026-07-14</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/7292">View Details</a></td></tr><tr class="even"><td>TE/2026/07/2674/8129/RFQ</td><td>Repair &amp; Re-certification of Spray Booth Safety Devices</td><td>VARIOUS MACHINES | TE_2025/26_PEMM: FACILITIES &amp; INFRASTRUCTURE_IDP_59</td><td>2026-07-08 10:00:00</td><td class="sorting_1">2026-07-13</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/8129">View Details</a></td></tr><tr class="odd"><td>TNPA/2026/06/1124/6271/RFQ</td><td>PPA-123122 (Pest Control)</td><td>PROVIDE, SERVICES; Provide pest control services for Transnet National Ports Authority buildings and facilities in the Port of Saldanha, including monitoring, prevention, and treatment of pests, for a duration not exceeding thirty-six (36) months.</td><td>2026-07-02 10:00:00</td><td class="sorting_1">2026-07-13</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/6271">View Details</a></td></tr><tr class="even"><td>TPT/2026/06/0697/7773/RFQ</td><td>PPA-127838  - B03 Moving-head structural Alterations and D03 Conveyor Structural Repairs</td><td>B03 Moving-head structural Alterations and D03 Conveyor Structural Repairs</td><td>2026-07-07 11:00:00</td><td class="sorting_1">2026-07-13</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/7773">View Details</a></td></tr><tr class="odd"><td>TNPA/2026/02/0309/2080/RFQ</td><td>Provision for maintenance, service and ad hoc repairs of IMS centralised air-condition sever room plant for a period of 36 months for Transnet National Ports Authority- Port of Richards Bay</td><td>Provision for maintenance, service and ad hoc repairs of IMS centralised air-condition sever room plant for a period of 36 months for Transnet National Ports Authority- Port of Richards Bay</td><td>-</td><td class="sorting_1">2026-07-10</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/2080">View Details</a></td></tr><tr class="even"><td>TNPA/2026/05/0931/5219/RFP</td><td>CONSTRUCTION OF A NEW FIRE BUILDING FOR PORT OF PORT ELIZABETH</td><td>PE NATIONAL FIRE SERVICES INFRASTRUCTURE AND EQUIPMENT UPGRADE PHASE 2A (CONSTRUCTION OF A NEW FIRE BUILDING)</td><td>-</td><td class="sorting_1">2026-07-10</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/5219">View Details</a></td></tr><tr class="odd"><td>TNPA/2026/05/0942/5279/RFQ</td><td>Repairs and Maintenance of Osizweni and Marine Building</td><td>Repairs and Maintenance of Osizweni and Marine Building</td><td>2026-07-01 10:00:00</td><td class="sorting_1">2026-07-10</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/5279">View Details</a></td></tr><tr class="even"><td>TNPA/2026/05/0964/5417/RFQ</td><td>PROVISION OF RENOVATION WORKS TO THE ENVIRONMENTAL OFFICE (B4/144) LOCATED AT THE BAYHEAD PRECINCT IN THE PORT OF DURBAN</td><td>PROVISION OF RENOVATION WORKS TO THE ENVIRONMENTAL OFFICE (B4/144) LOCATED AT THE BAYHEAD PRECINCT IN THE PORT OF DURBAN FOR A PERIOD OF THREE (3) MONTHS.</td><td>-</td><td class="sorting_1">2026-07-10</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/5417">View Details</a></td></tr><tr class="odd"><td>TNPA/2026/06/1237/6984/RFQ</td><td>PROVISION OF CLINIC PARTITIONING WORKS AND INSTALLATION OF GLASS DOORS AT EMENDI BUILDING AT THE PORT OF NGQURA, FOR A ONCE-OFF PERIOD</td><td>PROVISION OF CLINIC PARTITIONING WORKS AND INSTALLATION OF GLASS DOORS AT EMENDI BUILDING AT THE PORT OF NGQURA, FOR A ONCE-OFF PERIOD.</td><td>2026-07-03 10:00:00</td><td class="sorting_1">2026-07-10</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/6984">View Details</a></td></tr><tr class="even"><td>TNPA/2026/06/1347/7606/RFQ</td><td>SUPPLY AND INSTALL MENTIS BARRIERS (HANDRAILS) AT THE PORT OF CAPE TOWN, TANKER BASIN</td><td>SUPPLY AND INSTALL MENTIS BARRIERS (HANDRAILS) AT THE PORT OF CAPE TOWN, TANKER BASIN</td><td>2026-07-03 10:00:00</td><td class="sorting_1">2026-07-10</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/7606">View Details</a></td></tr><tr class="odd"><td>TPL/2026/06/0373/6747/RFQ</td><td>INSTALLATION OF PRECAST CONCRETE WALL ENCLOSURE FOR MOTORIZED BLOCK VALVE (MBV15) AT TRANSNET PIPELINES FOR FIVE (5) MONTHS PERIOD.</td><td>INSTALLATION OF PRECAST CONCRETE WALL ENCLOSURE FOR MOTORIZED BLOCK VALVE (MBV15) AT TRANSNET PIPELINES FOR FIVE (5) MONTHS PERIOD.</td><td>-</td><td class="sorting_1">2026-07-10</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/6747">View Details</a></td></tr><tr class="even"><td>TPT/2026/03/0156/2592/RFP</td><td>PROVISION OF CANTEEN SERVICES</td><td>RFP FOR THE PROVISION OF CANTEEN SERVICES AT TRANSNET SOC LTD (REG.NO.1990/000900/30) OPERATING AS TRANSNET PORT TERMINALS (HEREINAFTER
+REFERRED TO AS “TPT”) PORT OF DURBAN MULTI -PURPOSE TERMINALS, AUTO TERMINAL, MAYDON WHARF MPT, DURBAN CONTAINER TERMINAL PIER 1 FOR A PERIOD
+OF (5) FIVE YEARS</td><td>-</td><td class="sorting_1">2026-07-10</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/2592">View Details</a></td></tr><tr class="odd"><td>TPT/2026/05/0524/6043/RFQ</td><td>Cherry picker hire for a period of 12 months</td><td>HIRING OF ONE (X1) CHERRY PICKER FOR TRANSNET SOC LTD (REG NO. 1990/000900/30) OPERATING AS TRANSNET PORT TERMINALS (HEREINAFTER REFERRED AS “TPT”) FOR NGQURA CONTAINER TERMINAL FOR A PERIOD OF 12 MONTHS.</td><td>-</td><td class="sorting_1">2026-07-10</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/6043">View Details</a></td></tr><tr class="even"><td>TPT/2026/06/0662/7454/RFQ</td><td>Repairs of Side Panels at Camco buliding</td><td>Provision to repair side panels at Camco building for Transnet SOC LTD (Reg No 1990/000900/30) Operating as Transnet port Terminals (Hereinafter referred to as “TPT”) for Ngqura Container Terminal as once off.</td><td>2026-07-03 10:00:00</td><td class="sorting_1">2026-07-10</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/7454">View Details</a></td></tr><tr class="odd"><td>TRIM/2026/04/0798/4785/RFQ</td><td>Transformer refurbishment for electrical department under koedoespoort infra depot</td><td>Transformer refurbishment for electrical department under koedoespoort infra depot</td><td>-</td><td class="sorting_1">2026-07-10</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/4785">View Details</a></td></tr><tr class="even"><td>TRIM/2026/06/1351/7211/RFQ</td><td>Queenstown Scaffolding</td><td>HIRE OF 3X SCAFFOLDING FOR SANDBLASTING AND PAINTING OF QUEENSTWON PEDESTRIAN BRIDGE AT RAILWAY STATION.</td><td>-</td><td class="sorting_1">2026-07-10</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/7211">View Details</a></td></tr><tr class="odd"><td>TNPA/2026/06/1346/7597/RFQ</td><td>PROVISION OF ANNUAL MAINTENANCE FOR MINI-SUBSTATIONS AND RMU AT TNPA – INFRA-ELECTRICAL DEPARTMENT IN THE PORT OF RICHARDS BAY</td><td>Annual Maintenance for Mini-Sub and RMU</td><td>-</td><td class="sorting_1">2026-07-09</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/7597">View Details</a></td></tr><tr class="even"><td>TPL/2026/04/0220/3975/RFQ</td><td>Unblock Sewerage around Coalbrook Transnet Pipeline Operations Depot</td><td>Unblock Sewerage around Coalbrook Transnet Pipeline Operations Depot</td><td>2026-07-06 09:00:00</td><td class="sorting_1">2026-07-09</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/3975">View Details</a></td></tr><tr class="odd"><td>TPL/2026/06/0407/7651/RFQ</td><td>For the Provision of Removal, Repair, Testing and Reinstallation of 62.5 kVA Alternator for Transnet Pipelines Villiers Metering Station for a Once-Off Period.</td><td>For the Provision of Removal, Repair, Testing and Reinstallation of 62.5 kVA Alternator for Transnet Pipelines Villiers Metering Station for a Once-Off Period.</td><td>2026-07-06 11:00:00</td><td class="sorting_1">2026-07-09</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/7651">View Details</a></td></tr><tr class="even"><td>TPL/2026/06/0417/7713/RFQ</td><td>FOR PROVISION OF CLEANING SERVICES FOR A PERIOD OF 36 MONTHS AT NOC PINETOWN DEPOT.</td><td>FOR PROVISION OF CLEANING SERVICES FOR A PERIOD OF 36 MONTHS AT NOC PINETOWN DEPOT.</td><td>2026-07-07 09:00:00</td><td class="sorting_1">2026-07-09</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/7713">View Details</a></td></tr><tr class="odd"><td>TPL/2026/06/0429/7936/RFQ</td><td>For the Provision of Gardening Services for a period of 36 months at NOC Pinetown Depot.</td><td>For the Provision of Gardening Services for a period of 36 months at NOC Pinetown Depot.</td><td>2026-07-07 10:00:00</td><td class="sorting_1">2026-07-09</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/7936">View Details</a></td></tr><tr class="even"><td>TPL/2026/06/0431/7985/RFQ</td><td>Supply and Installation of Blinds X 21 at ALRODE DEPOT</td><td>Supply and Installation of Blinds X 21 at ALRODE DEPOT                                                                  
+PVC BROWN WOODEN VENETIAN BLINDS
+
+@ NO 35 GARFIELD ROAD, ALRODE, ALBERTON</td><td>-</td><td class="sorting_1">2026-07-09</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/7985">View Details</a></td></tr><tr class="odd"><td>TPT/2026/06/0560/6399/RFQ</td><td>PPA - 147685</td><td>Repair gallery cladding for Magnetite route Shutdown</td><td>2026-07-01 10:00:00</td><td class="sorting_1">2026-07-09</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/6399">View Details</a></td></tr><tr class="even"><td>TNPA/2026/07/1422/8046/RFQ</td><td>Refurbish Marelli Alternators in Durban, TNPA Lighthouses and Navigational Systems (LNS)</td><td>Refurbish Marelli Alternators as per the
+scope of work at three locations.
+Durban Workshop is situated at 4
+Bayhead Road, Durban. 
+North Sands Bluff Lighthouse – Port Edward, 180 kms south of Durban.</td><td>-</td><td class="sorting_1">2026-07-08</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/8046">View Details</a></td></tr><tr class="odd"><td>TP/2026/06/0119/7802/RFQ</td><td>Cleaning Services - Limpopo &amp; Surroundigs</td><td>FOR THE PROVISION OF FOR THE PROVISION OF OFFICE CLEANING, HYGIENE, AND GARDENING SERVICES FOR TRANSNET SOC LIMITED TRADING AS TRANSNET PROPERTY IN THE NORTHERN REGION ON “AS AND WHEN REQUIRED BASIS” AT LIMPOPO PROVINCE AND SURROUNDING AREAS FOR A PERIOD OF SIX (6) MONTHS. [PHALABORWA CLUSTER]</td><td>-</td><td class="sorting_1">2026-07-08</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/7802">View Details</a></td></tr><tr class="even"><td>TE/2026/07/2632/8021/RFQ</td><td>Wagon material</td><td>Request to purchase wagon materials</td><td>-</td><td class="sorting_1">2026-07-07</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/8021">View Details</a></td></tr><tr class="odd"><td>TNPA/2026/04/0830/4703/RFQ</td><td>THE MAINTENANCE OF BLUFF RADAR TOWER IN THE PORT OF DURBAN</td><td>THE MAINTENANCE OF BLUFF RADAR TOWER IN THE PORT OF DURBAN FOR A PERIOD OF THREE (3) MONTHS</td><td>-</td><td class="sorting_1">2026-07-07</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/4703">View Details</a></td></tr><tr class="even"><td>TPL/2026/06/0367/6494/RFQ</td><td>UNDERGROUND HDPE FIRE WATER PIPE REPAIRS AT WALTLOO DEPOT</td><td>UNDERGROUND HDPE FIRE WATER PIPE REPAIRS AT WALTLOO DEPOT</td><td>2026-06-25 11:00:00</td><td class="sorting_1">2026-07-07</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/6494">View Details</a></td></tr><tr class="odd"><td>TPL/2026/06/0424/7861/RFQ</td><td>FOR THE SUPPLY OF BATTERIES FOR MV GENERATOR FOR TRANSNET PIPELINES TWINI PUMP STATION FOR A ONCE-OFF PERIOD.</td><td>FOR THE SUPPLY OF BATTERIES FOR MV GENERATOR FOR TRANSNET PIPELINES TWINI PUMP STATION FOR A ONCE-OFF PERIOD.</td><td>-</td><td class="sorting_1">2026-07-07</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/7861">View Details</a></td></tr><tr class="even"><td>TPL/2026/06/0425/7900/RFQ</td><td>Supply and deliver: 20x Sealed Acid 12v 5.2AH HR UPS Batteries</td><td>Supply and deliver: 20x Sealed Acid 12v 5.2AH HR UPS Batteries</td><td>-</td><td class="sorting_1">2026-07-07</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/7900">View Details</a></td></tr><tr class="odd"><td>TPL/2026/06/0426/7912/RFQ</td><td>SUPPLY AND DELIVERY TONER CARTRIDGE FOR ALRODE OPERATIONS</td><td>SUPPLY AND DELIVERY TONER CARTRIDGE FOR ALRODE OPERATIONS
+HP LASERJET (151 A) W 1510 A (BLACK) X 4
+HP LASERJET PRO (4003, MFP4103)</td><td>-</td><td class="sorting_1">2026-07-07</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/7912">View Details</a></td></tr><tr class="even"><td>TPL/2026/07/0435/8110/RFQ</td><td>SUPPLY AND DELIVERY OF BATTERIES OVER A ONCE OFF PERIOD TO LADYSMITH STORE</td><td>SUPPLY AND DELIVERY OF BATTERIES OVER A ONCE OFF PERIOD TO LADYSMITH STORE</td><td>-</td><td class="sorting_1">2026-07-07</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/8110">View Details</a></td></tr><tr class="odd"><td>TPT/2026/07/0717/8016/RFQ</td><td>Overhead Crane Maintenance</td><td>Overhead Crane Maintenance for Transnet SOC Limited (Reg. No. 1990/000900/30) operating as Transnet Port Terminals (hereinafter referred to as “TPT”) at the Port of Port Elizabeth Multi-Purpose Terminal as a once off service.</td><td>-</td><td class="sorting_1">2026-07-07</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/8016">View Details</a></td></tr><tr class="even"><td>TE/2026/05/1686/5505/RFQ</td><td>CYLINDER LOW AND HIGH PRESSURE</td><td>CYLINDER LOW AND HIGH PRESSURE</td><td>-</td><td class="sorting_1">2026-07-06</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/5505">View Details</a></td></tr><tr class="odd"><td>TNPA/2026/06/1243/7027/RFQ</td><td>FOR THE SUPPLY, DELIVERY, REMOVAL OF EXISTING UNINTERRUPTIBLE POWER SUPPLIES (UPS), AND THE INSTALLATION, TESTING, AND COMMISSIONING OF THREE (3) NEW UPS SYSTEMS AT THE PORT OF EAST LONDON FOR A PERIOD OF SIX (6) MONTHS.</td><td>FOR THE SUPPLY, DELIVERY, REMOVAL OF EXISTING UNINTERRUPTIBLE POWER SUPPLIES (UPS), AND THE INSTALLATION, TESTING, AND COMMISSIONING OF THREE (3) NEW UPS SYSTEMS AT THE PORT OF EAST LONDON FOR A PERIOD OF SIX (6) MONTHS.</td><td>-</td><td class="sorting_1">2026-07-06</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/7027">View Details</a></td></tr><tr class="even"><td>TPL/2026/07/0432/8018/RFQ</td><td>Request for the service provider to supply a road tanker to load and transport Intermixture of petrol/diesel product from Transnet Sasolburg depot and deliver to Transnet pipelines IRP Tarlton Depot on a once off basis.</td><td>Request for the service provider to supply a
+road tanker to load and transport Intermixture of petrol/diesel product
+from Transnet Sasolburg depot and deliver to Transnet pipelines IRP
+Tarlton Depot on a once off basis.</td><td>-</td><td class="sorting_1">2026-07-06</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/8018">View Details</a></td></tr><tr class="odd"><td>TPT/2026/07/0716/8015/RFQ</td><td>TPT/2026/07/0716/8015/RFQ – PPA 151786</td><td>Industrial Cleaning - Detarping  services  1 month</td><td>-</td><td class="sorting_1">2026-07-06</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/8015">View Details</a></td></tr></tbody></table><div class="dataTables_info" id="_advertisedTenders_info" role="status" aria-live="polite">Showing 1 to 53 of 53 entries</div><div class="dataTables_paginate paging_full_numbers" id="_advertisedTenders_paginate"><a class="paginate_button first disabled" aria-controls="_advertisedTenders" data-dt-idx="0" tabindex="-1" id="_advertisedTenders_first">First</a><a class="paginate_button previous disabled" aria-controls="_advertisedTenders" data-dt-idx="1" tabindex="-1" id="_advertisedTenders_previous">Previous</a><span><a class="paginate_button current" aria-controls="_advertisedTenders" data-dt-idx="2" tabindex="0">1</a></span><a class="paginate_button next disabled" aria-controls="_advertisedTenders" data-dt-idx="3" tabindex="-1" id="_advertisedTenders_next">Next</a><a class="paginate_button last disabled" aria-controls="_advertisedTenders" data-dt-idx="4" tabindex="-1" id="_advertisedTenders_last">Last</a></div></div>
+                            <div class="row" id="advertisedTendersEmpty" style="display: none;">
+                                <div class="col-lg-12 ms-auto">
+                                    Loading...
+                                </div>
+                            </div>
+                        </div> 
+                       
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+    
+    
+            <hr>
+    
+  </div>
+
+  
+<div id="footer" class="mastfooter ms-dialogHidden">
+  <div class="">
+    <div class="">
+      <div class="">
+        <div class="footer">
+          <a href="/portal/privacy_policy">
+            Privacy Policy
+          </a>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                    
+          <a href="/portal/contact">
+          Contact Us
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" crossorigin="anonymous" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"></script>
+<script src="/static/srm_site/assets/js/site.min.js?v=1783317939 "></script>
+<script src="/static/srm_site/assets/js/jquery.dm-uploader.min.js?v=1783317939 "></script>
+<script src="/static/srm_site/assets/js/jquery.uploadfile.min.js?v=1783317939 "></script>
+<script src="/static/srm_site/assets/js/e-TendersCustom.js?v=1783317939 "></script>
+<script src="/static/srm_site/assets/js/jquery.dataTables.min.js?v=1783317939 "></script>
+<script src="/static/srm_site/assets/js/ui-multiple.js?v=1783317939"></script>
+<script src="/static/srm_site/assets/js/datetime.js?v=1783317939"></script>
+<script src="/static/srm_site/assets/js/currency.min.js?v=1783317939"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+      
+    
+
+
+</body></html>

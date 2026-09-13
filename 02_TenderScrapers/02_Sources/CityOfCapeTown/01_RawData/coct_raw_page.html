@@ -1,0 +1,1902 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta charset="utf-8" />
+    <title>Procurement Administration Portal</title>
+    <link href="/web1/tenderportal/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width" />
+
+    <script type="text/javascript">
+        function getUrl(action, controller) {
+            var url = '/web1/tenderportal/--Controller--/--Action--'.replace("--Action--", action).replace("--Controller--", controller);
+            return url;
+        }
+    </script>
+
+    
+    <script src="/web1/tenderportal/bundles/jquery?v=UgyEMAYOuSB9Bb6HcOEVHpd6fIIp54yF086SRNVcdIY1"></script>
+
+    <link href="/web1/tenderportal/Content/css?v=ZGhJSP3W3N59xYKfyNx3QZW6iHtdEBL2Fy9unTiZqYY1" rel="stylesheet"/>
+
+    <script src="/web1/tenderportal/bundles/modernizr?v=qVODBytEBVVePTNtSFXgRX0NCEjh9U_Oj8ePaSiRcGg1"></script>
+
+    <link href="/web1/tenderportal/Content/themes/base/css?v=WHDFs5Tqfc1aqq03K-r53IRVxAVZdg_AQ069a2chq9o1" rel="stylesheet"/>
+
+    <script src="/web1/tenderportal/bundles/jqueryui?v=H5JR8C7P6LOCtPw8V_YAwOjYqjMVkDN7dk4N9v-ab7Q1"></script>
+
+    <script src="/web1/tenderportal/bundles/jqueryval?v=2ghtVqCM8JIEPGxCuZopth4zGa5gMbhnh7aDTCdn_Mw1"></script>
+
+
+    <link href="/web1/tenderportal/Content/City_of_CT.css" rel="stylesheet" />
+
+    <script src="/web1/tenderportal/Scripts/jquery-ui-timepicker-addon.js"></script>
+    <link href="/web1/tenderportal/Content/jquery-ui-timepicker-addon.css" rel="stylesheet" />
+    <link href="/web1/tenderportal/Content/DataTables-1.9.4/media/css/jquery.dataTables.css" rel="stylesheet" />
+    <script src="/web1/tenderportal/Scripts/DataTables-1.9.4/media/js/jquery.dataTables.min.js"></script>
+    <link href="/web1/tenderportal/Content/CustomStyle.css" rel="stylesheet" />
+    <link href="/web1/tenderportal/Content/Menu.css" rel="stylesheet" />
+
+    <script src="/web1/tenderportal/Scripts/MasterScript.js"></script>
+    <script src="/web1/tenderportal/Scripts/RequiredIf.js"></script>
+
+    <!--[if IE 8]>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("select").each(function () {
+                $(this).mousedown(function () {
+                    $(this).css("width", "auto");
+                });
+                $(this).change(function () {
+                    $(this).width("200px");
+                });
+                $(this).blur(function () {
+                    $(this).width("200px");
+                });
+            });
+        });
+    </script>
+    <![endif]-->
+
+    <script type="text/javascript">
+        $.ajaxSetup({ cache: false });
+    </script>
+
+    
+
+<script>NS_CSM_td=270881566;NS_CSM_pd=275116671;NS_CSM_u="/clm10";NS_CSM_col="AAAAAAXqpd9/RomOiFYkId1zC7dmeUvlRqL6G+EwT8gtOHglHTTn6Btu6660B/patxCzJ6Ch6ji68zeN0wMiIQmt79L3";</script><script type="text/javascript">function sendTimingInfoInit(){setTimeout(sendTimingInfo,0)}function sendTimingInfo(){var wp=window.performance;if(wp){var c1,c2,t;c1=wp.timing;if(c1){var cm={};cm.ns=c1.navigationStart;if((t=c1.unloadEventStart)>0)cm.us=t;if((t=c1.unloadEventEnd)>0)cm.ue=t;if((t=c1.redirectStart)>0)cm.rs=t;if((t=c1.redirectEnd)>0)cm.re=t;cm.fs=c1.fetchStart;cm.dls=c1.domainLookupStart;cm.dle=c1.domainLookupEnd;cm.cs=c1.connectStart;cm.ce=c1.connectEnd;if((t=c1.secureConnectionStart)>0)cm.scs=t;cm.rqs=c1.requestStart;cm.rss=c1.responseStart;cm.rse=c1.responseEnd;cm.dl=c1.domLoading;cm.di=c1.domInteractive;cm.dcls=c1.domContentLoadedEventStart;cm.dcle=c1.domContentLoadedEventEnd;cm.dc=c1.domComplete;if((t=c1.loadEventStart)>0)cm.ls=t;if((t=c1.loadEventEnd)>0)cm.le=t;cm.tid=NS_CSM_td;cm.pid=NS_CSM_pd;cm.ac=NS_CSM_col;var xhttp=new XMLHttpRequest();if(xhttp){var JSON=JSON||{};JSON.stringify=JSON.stringify||function(ob){var t=typeof(ob);if(t!="object"||ob===null){if(t=="string")ob='"'+ob+'"';return String(ob);}else{var n,v,json=[],arr=(ob&&ob.constructor==Array);for(n in ob){v=ob[n];t=typeof(v);if(t=="string")v='"'+v+'"';else if(t=="object"&&v!==null)v=JSON.stringify(v);json.push((arr?"":'"'+n+'":')+String(v));}return(arr?"[":"{")+String(json)+(arr?"]":"}");}};xhttp.open("POST",NS_CSM_u,true);xhttp.send(JSON.stringify(cm));}}}}if(window.addEventListener)window.addEventListener("load",sendTimingInfoInit,false);else if(window.attachEvent)window.attachEvent("onload",sendTimingInfoInit);else window.onload=sendTimingInfoInit;</script></head>
+<body>
+    <div id="container">
+        <div id="masthead">
+            <div id="left-banner">
+            </div>
+        </div>
+        <div id="navbar-top">
+            <div class="nav-left">
+                &nbsp;| <a class="nav" href=https://www.capetown.gov.za/>CITY&nbsp;Home</a>&nbsp;|&nbsp;
+                <a class="nav" href=https://www.capetown.gov.za/General/Help>Site&nbsp;Guide</a>&nbsp;|&nbsp;&nbsp;
+            </div>
+            <div class="nav-right">
+                <script type="text/javascript">
+
+                    var today = new Date();
+                    var month = new Array(12);
+                    var dayNames = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
+
+                    month[0] = "January";
+                    month[1] = "February";
+                    month[2] = "March";
+                    month[3] = "April";
+                    month[4] = "May";
+                    month[5] = "June";
+                    month[6] = "July";
+                    month[7] = "August";
+                    month[8] = "September";
+                    month[9] = "October";
+                    month[10] = "November";
+                    month[11] = "December";
+
+                    document.write(dayNames[today.getDay()] + "&nbsp;");
+                    document.write(today.getDate() + '&nbsp;');
+                    document.write(month[today.getMonth()] + '&nbsp;');
+                    document.write(today.getFullYear());
+
+                </script>
+            </div>
+        </div>
+        <div id="main_title_box">
+            <div class="main_title leftMargin10 whiteText" style="float: left;">
+                Tender Portal
+            </div>
+            <div id="login" class="main_title whiteText">
+&nbsp;|&nbsp;<a class="nav whiteText" href="/web1/tenderportal/Account/Register">Register</a>&nbsp;|&nbsp;<a class="nav whiteText" href="/web1/tenderportal/Account/LogOn">Log in</a>&nbsp;|&nbsp;            </div>
+        </div>
+
+        <div id="menubar">
+            <ul class="menuTemplate4 decor4_1">
+                <li><a href="/web1/tenderportal/">Home</a></li>
+                <li class="separator"></li>
+                <li><a href="/web1/tenderportal/Tender">Tender</a></li>
+
+
+            </ul>
+        </div>
+
+
+
+        <br />
+
+        <div id="main-content">
+            
+            <section class="content-wrapper main-content clear-fix">
+                
+
+<style>
+    .filter-left {
+        text-align: left;
+    }
+
+    .filter-centre {
+        text-align: center;
+    }
+
+    .filter-right {
+        text-align: right;
+    }
+
+    .filter-input {
+        width: 200px;
+    }
+
+    .filterSubheading {
+        width: 100px;
+        text-align: left;
+    }
+
+    .LoginDetails {
+        font-family: Verdana, Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+        font: normal normal 100%;
+        font-weight: bold;
+        float: right;
+        color: #DC001E;
+        font-size: 12px;
+        line-height: 18px;
+    }
+</style>
+
+<label class="MainHeadText" for="">Home</label>
+<br />
+<br />
+
+<label class="LoginDetails" for="">In order to access additional detail, suppliers are required to register and log in.                  </label><br />
+<br />
+
+<form action="/web1/tenderportal/Tender" method="post"><input data-val="true" data-val-required="The IsViewerOnly field is required." id="IsViewerOnly" name="IsViewerOnly" type="hidden" value="False" />    <div class="form-controls">
+
+        <div class="filter-container">
+            <div id="filter-visibility">
+                <input type="button" value="<<" id="filterShowHideButton" />
+            </div>
+            <div class="filters">
+                <label class="MainHeadText" for="filterHeading">FILTERS:</label>
+
+                <label class="filterSubHeading" for="filterLabel">Tender No./Description:</label>
+                <div>
+                    <br />
+                    <input class="filterControlWidth" id="KeywordOrTenderFilter" name="KeywordOrTenderFilter" type="text" value="" />
+                    <input id="FilterButton" type="submit" value="" />
+                    <input id="ClearButton" type="button" value="" class="clearFilter filter-right" />
+                    <br />
+                </div>
+
+
+                <label class="filterSubHeading" for="">Org Unit:</label>
+                <input class="filterControlWidth" id="DirectorateDepartmentFilter" name="DirectorateDepartmentFilter" type="text" value="" />
+                <br/>
+
+                <label class="filterSubHeading" for="closingDate">Closing Date:</label>
+                <br />
+                <div id="closingDateDiv">
+                    <b>Start:&nbsp;&nbsp;</b> <input class="datePickerFields" data-val="true" data-val-date="The field ClosingDateStartFilter must be a date." id="ClosingDateStartFilter" name="ClosingDateStartFilter" type="text" value="" />
+                    <br />
+                    <b>End:&nbsp;&nbsp;</b> <input class="datePickerFields leftMargin7" data-val="true" data-val-date="The field ClosingDateEndFilter must be a date." id="ClosingDateEndFilter" name="ClosingDateEndFilter" type="text" value="" />
+                </div>
+
+                <label class="filterSubHeading" for="postedDate">Posted Date:</label>
+                <br />
+                <div id="postedDateDiv">
+                    <b>Start:&nbsp;&nbsp;</b> <input class="datePickerFields" data-val="true" data-val-date="The field PostedDateStartFilter must be a date." id="PostedDateStartFilter" name="PostedDateStartFilter" type="text" value="" />
+                    <br />
+
+                    <b>End:&nbsp;&nbsp;</b> <input class="datePickerFields leftMargin7" data-val="true" data-val-date="The field PostedDateEndFilter must be a date." id="PostedDateEndFilter" name="PostedDateEndFilter" type="text" value="" />
+                </div>
+
+
+
+                
+
+                <div>
+                    <label class="filterSubHeading leftFloat" for="isnotice">Show Notices:</label>
+                    <input data-val="true" data-val-required="The IsNotice field is required." id="IsNotice" name="IsNotice" type="checkbox" value="true" /><input name="IsNotice" type="hidden" value="false" />
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="listing-container">
+            <table id="rfqsTable">
+                <thead>
+                    <tr>
+                        <th style="width: 60px;">
+                            <label class="gridHeadings" for="Tender_Number">Tender Number</label>
+                        </th>
+                        <th>
+                            <label class="gridHeadings" for="Description">Description</label>
+                        </th>
+                        <th>
+                            <label class="gridHeadings" for="Directorate">Directorate</label>
+                        </th>
+                        <th>
+                            <label class="gridHeadings" for="Department">Department</label>
+                        </th>
+                        <th style="width: 60px; padding-right: 10px;">
+                            <label class="gridHeadings" for="Closing_Date">Closing Date</label>
+                        </th>
+                        <th style="width: 60px; padding-right: 10px;">
+                            <label class="gridHeadings" for="Closing_Date">Closing Date</label>
+                        </th>
+                        <th style="width: 60px; padding-right: 10px;">
+                            <label class="gridHeadings" for="Posted_Date">Posted Date</label>
+                        </th>
+                        <th style="width: 60px; padding-right: 10px;">
+                            <label class="gridHeadings" for="Posted_Date">Posted Date</label>
+                        </th>
+                        <th style="width: 25px; padding-right: 10px;"></th>
+                        <th style="width: 25px; padding-right: 5px;"></th>
+                        <th style="width: 25px; padding-right: 5px;"></th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                        <tr class="gridDetails">
+                            <td style="width: 70px;">
+                                021S/2026/27
+                            </td>
+                            <td>
+                        <pre class="descriptionColumn gridDetails lineBreaks" title="Supply, implementation, maintenance and support of a unified channel management (contact centre) solution with integrated telephony for the city of cape town emergency and non-emergency contact centres">Supply, implementation, maintenance and support of a unified channel management (contact centre) sol...</pre>
+
+                            </td>
+                            <td>
+                                CORPORATE SERVICES
+                            </td>
+                            <td>
+                                Information Systems and Technology
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-16
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-16 10:00 AM
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-08-21
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-08-21 13:09 PM
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="linkDetails" href="/web1/tenderportal/Tender/Details/327190" title="Details"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="addnotice" href="/web1/tenderportal/Tender/AddNotice/327190" title="Add Notice"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="deleteRFQ" href="/web1/tenderportal/Tender/Delete/327190" onclick="return confirm(&#39;Are you sure you want to delete this Tender?&#39;)" title="Delete Tender"> </a>
+                            </td>
+                        </tr>
+                        <tr class="gridDetails">
+                            <td style="width: 70px;">
+                                046S/2026/27
+                            </td>
+                            <td>
+                        <pre class="descriptionColumn gridDetails lineBreaks" title="Appointment of main banker and other financial services
+for the city of cape town">Appointment of main banker and other financial services
+for the city of cape town</pre>
+
+                            </td>
+                            <td>
+                                FINANCE
+                            </td>
+                            <td>
+                                Treasury Services
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-10-23
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-10-23 10:00 AM
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-08-27
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-08-27 11:12 AM
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="linkDetails" href="/web1/tenderportal/Tender/Details/328391" title="Details"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="addnotice" href="/web1/tenderportal/Tender/AddNotice/328391" title="Add Notice"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="deleteRFQ" href="/web1/tenderportal/Tender/Delete/328391" onclick="return confirm(&#39;Are you sure you want to delete this Tender?&#39;)" title="Delete Tender"> </a>
+                            </td>
+                        </tr>
+                        <tr class="gridDetails">
+                            <td style="width: 70px;">
+                                021S/2026/27
+                            </td>
+                            <td>
+                        <pre class="descriptionColumn gridDetails lineBreaks" title="Supply, implementation, maintenance and support of a unified channel management (contact centre) solution with integrated telephony for the city of cape town emergency and non-emergency contact centres">Supply, implementation, maintenance and support of a unified channel management (contact centre) sol...</pre>
+
+                            </td>
+                            <td>
+                                CORPORATE SERVICES
+                            </td>
+                            <td>
+                                Information Systems and Technology
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-16
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-16 10:00 AM
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-08-21
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-08-21 13:09 PM
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="linkDetails" href="/web1/tenderportal/Tender/Details/327192" title="Details"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="addnotice" href="/web1/tenderportal/Tender/AddNotice/327192" title="Add Notice"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="deleteRFQ" href="/web1/tenderportal/Tender/Delete/327192" onclick="return confirm(&#39;Are you sure you want to delete this Tender?&#39;)" title="Delete Tender"> </a>
+                            </td>
+                        </tr>
+                        <tr class="gridDetails">
+                            <td style="width: 70px;">
+                                48Q/2026/27
+                            </td>
+                            <td>
+                        <pre class="descriptionColumn gridDetails lineBreaks" title="Rehabilitation of swartklip road from spine road to japhta k masemola road">Rehabilitation of swartklip road from spine road to japhta k masemola road</pre>
+
+                            </td>
+                            <td>
+                                URBAN MOBILITY
+                            </td>
+                            <td>
+                                Roads Infrastructure Management
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-10-02
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-10-02 10:00 AM
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-08-28
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-08-28 09:08 AM
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="linkDetails" href="/web1/tenderportal/Tender/Details/328438" title="Details"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="addnotice" href="/web1/tenderportal/Tender/AddNotice/328438" title="Add Notice"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="deleteRFQ" href="/web1/tenderportal/Tender/Delete/328438" onclick="return confirm(&#39;Are you sure you want to delete this Tender?&#39;)" title="Delete Tender"> </a>
+                            </td>
+                        </tr>
+                        <tr class="gridDetails">
+                            <td style="width: 70px;">
+                                038S/2026/27
+                            </td>
+                            <td>
+                        <pre class="descriptionColumn gridDetails lineBreaks" title="Technologies for the enablement of smart transportation in cape town">Technologies for the enablement of smart transportation in cape town</pre>
+
+                            </td>
+                            <td>
+                                URBAN MOBILITY
+                            </td>
+                            <td>
+                                Transport Shared Services
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-23
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-23 10:00 AM
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-03
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-03 07:01 AM
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="linkDetails" href="/web1/tenderportal/Tender/Details/328730" title="Details"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="addnotice" href="/web1/tenderportal/Tender/AddNotice/328730" title="Add Notice"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="deleteRFQ" href="/web1/tenderportal/Tender/Delete/328730" onclick="return confirm(&#39;Are you sure you want to delete this Tender?&#39;)" title="Delete Tender"> </a>
+                            </td>
+                        </tr>
+                        <tr class="gridDetails">
+                            <td style="width: 70px;">
+                                52G/2026/27
+                            </td>
+                            <td>
+                        <pre class="descriptionColumn gridDetails lineBreaks" title="Appointment of a panel of service providers for the manufacture, supply and delivery of new trailers and the conversion of existing trailers for the city of cape town">Appointment of a panel of service providers for the manufacture, supply and delivery of new trailers...</pre>
+
+                            </td>
+                            <td>
+                                CORPORATE SERVICES
+                            </td>
+                            <td>
+                                Fleet Management
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-30
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-30 10:00 AM
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-08-28
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-08-28 09:11 AM
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="linkDetails" href="/web1/tenderportal/Tender/Details/328441" title="Details"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="addnotice" href="/web1/tenderportal/Tender/AddNotice/328441" title="Add Notice"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="deleteRFQ" href="/web1/tenderportal/Tender/Delete/328441" onclick="return confirm(&#39;Are you sure you want to delete this Tender?&#39;)" title="Delete Tender"> </a>
+                            </td>
+                        </tr>
+                        <tr class="gridDetails">
+                            <td style="width: 70px;">
+                                42Q/2026/27
+                            </td>
+                            <td>
+                        <pre class="descriptionColumn gridDetails lineBreaks" title="Framework tender: dune rehabilitation, vegetation management and maintenance for the city of cape town.">Framework tender: dune rehabilitation, vegetation management and maintenance for the city of cape to...</pre>
+
+                            </td>
+                            <td>
+                                SPATIAL PLANNING AND ENVIRONMENT
+                            </td>
+                            <td>
+                                Environmental Management
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-14
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-14 10:00 AM
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-03
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-03 13:26 PM
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="linkDetails" href="/web1/tenderportal/Tender/Details/328773" title="Details"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="addnotice" href="/web1/tenderportal/Tender/AddNotice/328773" title="Add Notice"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="deleteRFQ" href="/web1/tenderportal/Tender/Delete/328773" onclick="return confirm(&#39;Are you sure you want to delete this Tender?&#39;)" title="Delete Tender"> </a>
+                            </td>
+                        </tr>
+                        <tr class="gridDetails">
+                            <td style="width: 70px;">
+                                021S/2026/27
+                            </td>
+                            <td>
+                        <pre class="descriptionColumn gridDetails lineBreaks" title="Supply, implementation, maintenance and support of a unified channel management (contact centre) solution with integrated telephony for the city of cape town emergency and non-emergency contact centres">Supply, implementation, maintenance and support of a unified channel management (contact centre) sol...</pre>
+
+                            </td>
+                            <td>
+                                CORPORATE SERVICES
+                            </td>
+                            <td>
+                                Information Systems and Technology
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-16
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-16 10:00 AM
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-09
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-09 10:03 AM
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="linkDetails" href="/web1/tenderportal/Tender/Details/328964" title="Details"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="addnotice" href="/web1/tenderportal/Tender/AddNotice/328964" title="Add Notice"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="deleteRFQ" href="/web1/tenderportal/Tender/Delete/328964" onclick="return confirm(&#39;Are you sure you want to delete this Tender?&#39;)" title="Delete Tender"> </a>
+                            </td>
+                        </tr>
+                        <tr class="gridDetails">
+                            <td style="width: 70px;">
+                                61S/2026/27
+                            </td>
+                            <td>
+                        <pre class="descriptionColumn gridDetails lineBreaks" title="Appointment of a service provider to enable digital accessibility of real estate related information">Appointment of a service provider to enable digital accessibility of real estate related information</pre>
+
+                            </td>
+                            <td>
+                                ECONOMIC GROWTH
+                            </td>
+                            <td>
+                                Property Transactions
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-10-07
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-10-07 10:00 AM
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-04
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-04 11:38 AM
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="linkDetails" href="/web1/tenderportal/Tender/Details/328823" title="Details"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="addnotice" href="/web1/tenderportal/Tender/AddNotice/328823" title="Add Notice"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="deleteRFQ" href="/web1/tenderportal/Tender/Delete/328823" onclick="return confirm(&#39;Are you sure you want to delete this Tender?&#39;)" title="Delete Tender"> </a>
+                            </td>
+                        </tr>
+                        <tr class="gridDetails">
+                            <td style="width: 70px;">
+                                62G/2026/27
+                            </td>
+                            <td>
+                        <pre class="descriptionColumn gridDetails lineBreaks" title="Supply and delivery of coated class a reflective glass beads for road marking">Supply and delivery of coated class a reflective glass beads for road marking</pre>
+
+                            </td>
+                            <td>
+                                URBAN MOBILITY
+                            </td>
+                            <td>
+                                Roads Infrastructure Management
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-10-20
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-10-20 10:00 AM
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-11
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-11 13:15 PM
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="linkDetails" href="/web1/tenderportal/Tender/Details/329089" title="Details"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="addnotice" href="/web1/tenderportal/Tender/AddNotice/329089" title="Add Notice"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="deleteRFQ" href="/web1/tenderportal/Tender/Delete/329089" onclick="return confirm(&#39;Are you sure you want to delete this Tender?&#39;)" title="Delete Tender"> </a>
+                            </td>
+                        </tr>
+                        <tr class="gridDetails">
+                            <td style="width: 70px;">
+                                61S/2026/27
+                            </td>
+                            <td>
+                        <pre class="descriptionColumn gridDetails lineBreaks" title="Appointment of a service provider to enable digital accessibility of real estate related information">Appointment of a service provider to enable digital accessibility of real estate related information</pre>
+
+                            </td>
+                            <td>
+                                ECONOMIC GROWTH
+                            </td>
+                            <td>
+                                Property Transactions
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-10-07
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-10-07 10:00 AM
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-04
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-04 11:38 AM
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="linkDetails" href="/web1/tenderportal/Tender/Details/328824" title="Details"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="addnotice" href="/web1/tenderportal/Tender/AddNotice/328824" title="Add Notice"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="deleteRFQ" href="/web1/tenderportal/Tender/Delete/328824" onclick="return confirm(&#39;Are you sure you want to delete this Tender?&#39;)" title="Delete Tender"> </a>
+                            </td>
+                        </tr>
+                        <tr class="gridDetails">
+                            <td style="width: 70px;">
+                                26G/2026/27
+                            </td>
+                            <td>
+                        <pre class="descriptionColumn gridDetails lineBreaks" title="The supply and delivery of step-out uniform and equipment for the safety and security directorate">The supply and delivery of step-out uniform and equipment for the safety and security directorate</pre>
+
+                            </td>
+                            <td>
+                                SAFETY AND SECURITY
+                            </td>
+                            <td>
+                                Metropolitan Police Services
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-23
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-23 10:00 AM
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-08
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-08 10:30 AM
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="linkDetails" href="/web1/tenderportal/Tender/Details/328920" title="Details"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="addnotice" href="/web1/tenderportal/Tender/AddNotice/328920" title="Add Notice"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="deleteRFQ" href="/web1/tenderportal/Tender/Delete/328920" onclick="return confirm(&#39;Are you sure you want to delete this Tender?&#39;)" title="Delete Tender"> </a>
+                            </td>
+                        </tr>
+                        <tr class="gridDetails">
+                            <td style="width: 70px;">
+                                45G/2026/27
+                            </td>
+                            <td>
+                        <pre class="descriptionColumn gridDetails lineBreaks" title="Term tender for the supply and delivery of lifeguard equipment and uniforms for the city of cape town">Term tender for the supply and delivery of lifeguard equipment and uniforms for the city of cape tow...</pre>
+
+                            </td>
+                            <td>
+                                COMMUNITY SERVICES AND HEALTH
+                            </td>
+                            <td>
+                                Recreation and Parks
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-22
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-22 10:00 AM
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-08-21
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-08-21 08:45 AM
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="linkDetails" href="/web1/tenderportal/Tender/Details/327162" title="Details"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="addnotice" href="/web1/tenderportal/Tender/AddNotice/327162" title="Add Notice"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="deleteRFQ" href="/web1/tenderportal/Tender/Delete/327162" onclick="return confirm(&#39;Are you sure you want to delete this Tender?&#39;)" title="Delete Tender"> </a>
+                            </td>
+                        </tr>
+                        <tr class="gridDetails">
+                            <td style="width: 70px;">
+                                RFI180/2026/27
+                            </td>
+                            <td>
+                        <pre class="descriptionColumn gridDetails lineBreaks" title="72.5 kv indoor gas-insulated switchgear">72.5 kv indoor gas-insulated switchgear</pre>
+
+                            </td>
+                            <td>
+                                ENERGY
+                            </td>
+                            <td>
+                                Electricity Generation and Distribution
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-10-08
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-10-08 16:00 PM
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-08
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-08 10:51 AM
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="linkDetails" href="/web1/tenderportal/Tender/Details/328924" title="Details"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="addnotice" href="/web1/tenderportal/Tender/AddNotice/328924" title="Add Notice"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="deleteRFQ" href="/web1/tenderportal/Tender/Delete/328924" onclick="return confirm(&#39;Are you sure you want to delete this Tender?&#39;)" title="Delete Tender"> </a>
+                            </td>
+                        </tr>
+                        <tr class="gridDetails">
+                            <td style="width: 70px;">
+                                32Q/2026/27
+                            </td>
+                            <td>
+                        <pre class="descriptionColumn gridDetails lineBreaks" title="Construction of the rietvlei sewage pump station, rising main and associated tie-in works at the bellville wastewater treatment works">Construction of the rietvlei sewage pump station, rising main and associated tie-in works at the bel...</pre>
+
+                            </td>
+                            <td>
+                                WATER AND SANITATION
+                            </td>
+                            <td>
+                                Distribution Services
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-11-02
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-11-02 10:00 AM
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-08-07
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-08-07 12:47 PM
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="linkDetails" href="/web1/tenderportal/Tender/Details/326707" title="Details"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="addnotice" href="/web1/tenderportal/Tender/AddNotice/326707" title="Add Notice"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="deleteRFQ" href="/web1/tenderportal/Tender/Delete/326707" onclick="return confirm(&#39;Are you sure you want to delete this Tender?&#39;)" title="Delete Tender"> </a>
+                            </td>
+                        </tr>
+                        <tr class="gridDetails">
+                            <td style="width: 70px;">
+                                36Q/2026/27
+                            </td>
+                            <td>
+                        <pre class="descriptionColumn gridDetails lineBreaks" title="Elsies river infill housing project: erven 36706, 37031 and 34159, goodwood: construction of 376 top structures, electrical infrastructure including streetlights,
+landscaping and sidewalks">Elsies river infill housing project: erven 36706, 37031 and 34159, goodwood: construction of 376 top...</pre>
+
+                            </td>
+                            <td>
+                                HUMAN SETTLEMENTS
+                            </td>
+                            <td>
+                                Housing Development
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-17
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-17 10:00 AM
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-08-13
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-08-13 10:17 AM
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="linkDetails" href="/web1/tenderportal/Tender/Details/326829" title="Details"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="addnotice" href="/web1/tenderportal/Tender/AddNotice/326829" title="Add Notice"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="deleteRFQ" href="/web1/tenderportal/Tender/Delete/326829" onclick="return confirm(&#39;Are you sure you want to delete this Tender?&#39;)" title="Delete Tender"> </a>
+                            </td>
+                        </tr>
+                        <tr class="gridDetails">
+                            <td style="width: 70px;">
+                                57S/2026/27
+                            </td>
+                            <td>
+                        <pre class="descriptionColumn gridDetails lineBreaks" title="Provision of fine contravention services to the city of cape town.">Provision of fine contravention services to the city of cape town.</pre>
+
+                            </td>
+                            <td>
+                                SAFETY AND SECURITY
+                            </td>
+                            <td>
+                                Public Safety
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-10-02
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-10-02 10:00 AM
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-08-28
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-08-28 09:17 AM
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="linkDetails" href="/web1/tenderportal/Tender/Details/328446" title="Details"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="addnotice" href="/web1/tenderportal/Tender/AddNotice/328446" title="Add Notice"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="deleteRFQ" href="/web1/tenderportal/Tender/Delete/328446" onclick="return confirm(&#39;Are you sure you want to delete this Tender?&#39;)" title="Delete Tender"> </a>
+                            </td>
+                        </tr>
+                        <tr class="gridDetails">
+                            <td style="width: 70px;">
+                                151S/2025/26
+                            </td>
+                            <td>
+                        <pre class="descriptionColumn gridDetails lineBreaks" title="City of cape town waste to energy independent power producer (ipp) program for embedded or wheeled generation for a period of 20 years">City of cape town waste to energy independent power producer (ipp) program for embedded or wheeled g...</pre>
+
+                            </td>
+                            <td>
+                                ENERGY
+                            </td>
+                            <td>
+                                Sustainable Energy Markets
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-10-30
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-10-30 10:00 AM
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-08-26
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-08-26 15:08 PM
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="linkDetails" href="/web1/tenderportal/Tender/Details/328358" title="Details"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="addnotice" href="/web1/tenderportal/Tender/AddNotice/328358" title="Add Notice"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="deleteRFQ" href="/web1/tenderportal/Tender/Delete/328358" onclick="return confirm(&#39;Are you sure you want to delete this Tender?&#39;)" title="Delete Tender"> </a>
+                            </td>
+                        </tr>
+                        <tr class="gridDetails">
+                            <td style="width: 70px;">
+                                060G/2026/27
+                            </td>
+                            <td>
+                        <pre class="descriptionColumn gridDetails lineBreaks" title="Manufacture, testing, supply and delivery of lv wiring cable and flexible cords">Manufacture, testing, supply and delivery of lv wiring cable and flexible cords</pre>
+
+                            </td>
+                            <td>
+                                ENERGY
+                            </td>
+                            <td>
+                                Electricity Generation and Distribution
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-10-05
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-10-05 10:00 AM
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-09
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-09 09:25 AM
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="linkDetails" href="/web1/tenderportal/Tender/Details/328963" title="Details"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="addnotice" href="/web1/tenderportal/Tender/AddNotice/328963" title="Add Notice"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="deleteRFQ" href="/web1/tenderportal/Tender/Delete/328963" onclick="return confirm(&#39;Are you sure you want to delete this Tender?&#39;)" title="Delete Tender"> </a>
+                            </td>
+                        </tr>
+                        <tr class="gridDetails">
+                            <td style="width: 70px;">
+                                53G/2026/27
+                            </td>
+                            <td>
+                        <pre class="descriptionColumn gridDetails lineBreaks" title="Term tender for supply and delivery of single cement bases for city of cape town litter bins">Term tender for supply and delivery of single cement bases for city of cape town litter bins</pre>
+
+                            </td>
+                            <td>
+                                URBAN WASTE MANAGEMENT
+                            </td>
+                            <td>
+                                Waste Services
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-29
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-29 10:00 AM
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-08-28
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-08-28 09:12 AM
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="linkDetails" href="/web1/tenderportal/Tender/Details/328442" title="Details"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="addnotice" href="/web1/tenderportal/Tender/AddNotice/328442" title="Add Notice"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="deleteRFQ" href="/web1/tenderportal/Tender/Delete/328442" onclick="return confirm(&#39;Are you sure you want to delete this Tender?&#39;)" title="Delete Tender"> </a>
+                            </td>
+                        </tr>
+                        <tr class="gridDetails">
+                            <td style="width: 70px;">
+                                36Q/2026/27
+                            </td>
+                            <td>
+                        <pre class="descriptionColumn gridDetails lineBreaks" title="Elsies river infill housing project: erven 36706, 37031 and 34159, goodwood: construction of 376 top structures, electrical infrastructure including streetlights,
+landscaping and sidewalks">Elsies river infill housing project: erven 36706, 37031 and 34159, goodwood: construction of 376 top...</pre>
+
+                            </td>
+                            <td>
+                                HUMAN SETTLEMENTS
+                            </td>
+                            <td>
+                                Housing Development
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-17
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-17 10:00 AM
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-08
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-08 15:53 PM
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="linkDetails" href="/web1/tenderportal/Tender/Details/328942" title="Details"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="addnotice" href="/web1/tenderportal/Tender/AddNotice/328942" title="Add Notice"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="deleteRFQ" href="/web1/tenderportal/Tender/Delete/328942" onclick="return confirm(&#39;Are you sure you want to delete this Tender?&#39;)" title="Delete Tender"> </a>
+                            </td>
+                        </tr>
+                        <tr class="gridDetails">
+                            <td style="width: 70px;">
+                                050G/2026/27
+                            </td>
+                            <td>
+                        <pre class="descriptionColumn gridDetails lineBreaks" title="The supply and delivery of electricity meters">The supply and delivery of electricity meters</pre>
+
+                            </td>
+                            <td>
+                                ENERGY
+                            </td>
+                            <td>
+                                Electricity Generation and Distribution
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-28
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-28 10:00 AM
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-08-27
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-08-27 13:40 PM
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="linkDetails" href="/web1/tenderportal/Tender/Details/328398" title="Details"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="addnotice" href="/web1/tenderportal/Tender/AddNotice/328398" title="Add Notice"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="deleteRFQ" href="/web1/tenderportal/Tender/Delete/328398" onclick="return confirm(&#39;Are you sure you want to delete this Tender?&#39;)" title="Delete Tender"> </a>
+                            </td>
+                        </tr>
+                        <tr class="gridDetails">
+                            <td style="width: 70px;">
+                                RFI177/2026/27
+                            </td>
+                            <td>
+                        <pre class="descriptionColumn gridDetails lineBreaks" title="Hire of trucks and equipment and adhoc disposal of contaminated/mixed waste">Hire of trucks and equipment and adhoc disposal of contaminated/mixed waste</pre>
+
+                            </td>
+                            <td>
+                                CORPORATE SERVICES
+                            </td>
+                            <td>
+                                Fleet Management
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-16
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-16 16:00 PM
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-08-27
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-08-27 15:22 PM
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="linkDetails" href="/web1/tenderportal/Tender/Details/328407" title="Details"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="addnotice" href="/web1/tenderportal/Tender/AddNotice/328407" title="Add Notice"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="deleteRFQ" href="/web1/tenderportal/Tender/Delete/328407" onclick="return confirm(&#39;Are you sure you want to delete this Tender?&#39;)" title="Delete Tender"> </a>
+                            </td>
+                        </tr>
+                        <tr class="gridDetails">
+                            <td style="width: 70px;">
+                                59G/2026/27
+                            </td>
+                            <td>
+                        <pre class="descriptionColumn gridDetails lineBreaks" title=" manufacture, testing, supply and delivery of high voltage (12kv) current limiting fuse-links"> manufacture, testing, supply and delivery of high voltage (12kv) current limiting fuse-links</pre>
+
+                            </td>
+                            <td>
+                                ENERGY
+                            </td>
+                            <td>
+                                Electricity Generation and Distribution
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-10-06
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-10-06 10:00 AM
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-08-31
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-08-31 09:35 AM
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="linkDetails" href="/web1/tenderportal/Tender/Details/328471" title="Details"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="addnotice" href="/web1/tenderportal/Tender/AddNotice/328471" title="Add Notice"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="deleteRFQ" href="/web1/tenderportal/Tender/Delete/328471" onclick="return confirm(&#39;Are you sure you want to delete this Tender?&#39;)" title="Delete Tender"> </a>
+                            </td>
+                        </tr>
+                        <tr class="gridDetails">
+                            <td style="width: 70px;">
+                                021S/2026/27
+                            </td>
+                            <td>
+                        <pre class="descriptionColumn gridDetails lineBreaks" title="Supply, implementation, maintenance and support of a unified channel management (contact centre) solution with integrated telephony for the city of cape town emergency and non-emergency contact centres">Supply, implementation, maintenance and support of a unified channel management (contact centre) sol...</pre>
+
+                            </td>
+                            <td>
+                                CORPORATE SERVICES
+                            </td>
+                            <td>
+                                Information Systems and Technology
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-16
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-16 10:00 AM
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-09
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-09 10:04 AM
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="linkDetails" href="/web1/tenderportal/Tender/Details/328966" title="Details"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="addnotice" href="/web1/tenderportal/Tender/AddNotice/328966" title="Add Notice"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="deleteRFQ" href="/web1/tenderportal/Tender/Delete/328966" onclick="return confirm(&#39;Are you sure you want to delete this Tender?&#39;)" title="Delete Tender"> </a>
+                            </td>
+                        </tr>
+                        <tr class="gridDetails">
+                            <td style="width: 70px;">
+                                54S/2026/27
+                            </td>
+                            <td>
+                        <pre class="descriptionColumn gridDetails lineBreaks" title="Term tender for the supply, delivery and servicing of mobile dual cabin toilets for waste services: cleansing branch">Term tender for the supply, delivery and servicing of mobile dual cabin toilets for waste services: ...</pre>
+
+                            </td>
+                            <td>
+                                URBAN WASTE MANAGEMENT
+                            </td>
+                            <td>
+                                Waste Services
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-29
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-29 10:00 AM
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-08-28
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-08-28 09:13 AM
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="linkDetails" href="/web1/tenderportal/Tender/Details/328443" title="Details"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="addnotice" href="/web1/tenderportal/Tender/AddNotice/328443" title="Add Notice"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="deleteRFQ" href="/web1/tenderportal/Tender/Delete/328443" onclick="return confirm(&#39;Are you sure you want to delete this Tender?&#39;)" title="Delete Tender"> </a>
+                            </td>
+                        </tr>
+                        <tr class="gridDetails">
+                            <td style="width: 70px;">
+                                44G/2026/27
+                            </td>
+                            <td>
+                        <pre class="descriptionColumn gridDetails lineBreaks" title="Supply, delivery, installation and off- loading of firearm safes">Supply, delivery, installation and off- loading of firearm safes</pre>
+
+                            </td>
+                            <td>
+                                SAFETY AND SECURITY
+                            </td>
+                            <td>
+                                Metropolitan Police Services
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-21
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-21 10:00 AM
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-09
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-09 11:23 AM
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="linkDetails" href="/web1/tenderportal/Tender/Details/328974" title="Details"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="addnotice" href="/web1/tenderportal/Tender/AddNotice/328974" title="Add Notice"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="deleteRFQ" href="/web1/tenderportal/Tender/Delete/328974" onclick="return confirm(&#39;Are you sure you want to delete this Tender?&#39;)" title="Delete Tender"> </a>
+                            </td>
+                        </tr>
+                        <tr class="gridDetails">
+                            <td style="width: 70px;">
+                                51C/2026/27
+                            </td>
+                            <td>
+                        <pre class="descriptionColumn gridDetails lineBreaks" title="The provision of people, management, leadership development, organisational design and innovation professional services">The provision of people, management, leadership development, organisational design and innovation pr...</pre>
+
+                            </td>
+                            <td>
+                                FUTURE PLANNING AND RESILIENCE
+                            </td>
+                            <td>
+                                Organisational Effectiveness &amp; Innovation
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-10-09
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-10-09 10:00 AM
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-08-28
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-08-28 13:16 PM
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="linkDetails" href="/web1/tenderportal/Tender/Details/328457" title="Details"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="addnotice" href="/web1/tenderportal/Tender/AddNotice/328457" title="Add Notice"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="deleteRFQ" href="/web1/tenderportal/Tender/Delete/328457" onclick="return confirm(&#39;Are you sure you want to delete this Tender?&#39;)" title="Delete Tender"> </a>
+                            </td>
+                        </tr>
+                        <tr class="gridDetails">
+                            <td style="width: 70px;">
+                                RFI181/2026/27
+                            </td>
+                            <td>
+                        <pre class="descriptionColumn gridDetails lineBreaks" title="Supply and deliver small plant equipment">Supply and deliver small plant equipment</pre>
+
+                            </td>
+                            <td>
+                                CORPORATE SERVICES
+                            </td>
+                            <td>
+                                Fleet Management
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-10-01
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-10-01 16:00 PM
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-10
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-10 14:13 PM
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="linkDetails" href="/web1/tenderportal/Tender/Details/329032" title="Details"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="addnotice" href="/web1/tenderportal/Tender/AddNotice/329032" title="Add Notice"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="deleteRFQ" href="/web1/tenderportal/Tender/Delete/329032" onclick="return confirm(&#39;Are you sure you want to delete this Tender?&#39;)" title="Delete Tender"> </a>
+                            </td>
+                        </tr>
+                        <tr class="gridDetails">
+                            <td style="width: 70px;">
+                                43G/2026/27
+                            </td>
+                            <td>
+                        <pre class="descriptionColumn gridDetails lineBreaks" title="Manufacture, testing, supply, delivery and offloading of
+insulated hard-drawn copper overhead cable, hard-drawn copper overhead
+conductor and anti-theft earthing conductor">Manufacture, testing, supply, delivery and offloading of
+insulated hard-drawn copper overhead cable...</pre>
+
+                            </td>
+                            <td>
+                                ENERGY
+                            </td>
+                            <td>
+                                Electricity Generation and Distribution
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-15
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-15 10:00 AM
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-02
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-02 14:35 PM
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="linkDetails" href="/web1/tenderportal/Tender/Details/328682" title="Details"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="addnotice" href="/web1/tenderportal/Tender/AddNotice/328682" title="Add Notice"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="deleteRFQ" href="/web1/tenderportal/Tender/Delete/328682" onclick="return confirm(&#39;Are you sure you want to delete this Tender?&#39;)" title="Delete Tender"> </a>
+                            </td>
+                        </tr>
+                        <tr class="gridDetails">
+                            <td style="width: 70px;">
+                                RFI178/2026/27
+                            </td>
+                            <td>
+                        <pre class="descriptionColumn gridDetails lineBreaks" title="Neutral data centre hosting facilities in greater cape town area">Neutral data centre hosting facilities in greater cape town area</pre>
+
+                            </td>
+                            <td>
+                                CORPORATE SERVICES
+                            </td>
+                            <td>
+                                Information Systems and Technology
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-10-09
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-10-09 17:00 PM
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-01
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-01 13:48 PM
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="linkDetails" href="/web1/tenderportal/Tender/Details/328589" title="Details"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="addnotice" href="/web1/tenderportal/Tender/AddNotice/328589" title="Add Notice"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="deleteRFQ" href="/web1/tenderportal/Tender/Delete/328589" onclick="return confirm(&#39;Are you sure you want to delete this Tender?&#39;)" title="Delete Tender"> </a>
+                            </td>
+                        </tr>
+                        <tr class="gridDetails">
+                            <td style="width: 70px;">
+                                63S/2026/27
+                            </td>
+                            <td>
+                        <pre class="descriptionColumn gridDetails lineBreaks" title="Term tender for the collection, loading, transport and disposal of animal carcasses and associated emergency response services">Term tender for the collection, loading, transport and disposal of animal carcasses and associated e...</pre>
+
+                            </td>
+                            <td>
+                                URBAN WASTE MANAGEMENT
+                            </td>
+                            <td>
+                                Waste Services
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-10-12
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-10-12 10:00 AM
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-11
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-11 11:14 AM
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="linkDetails" href="/web1/tenderportal/Tender/Details/329081" title="Details"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="addnotice" href="/web1/tenderportal/Tender/AddNotice/329081" title="Add Notice"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="deleteRFQ" href="/web1/tenderportal/Tender/Delete/329081" onclick="return confirm(&#39;Are you sure you want to delete this Tender?&#39;)" title="Delete Tender"> </a>
+                            </td>
+                        </tr>
+                        <tr class="gridDetails">
+                            <td style="width: 70px;">
+                                RFI176/2026/27
+                            </td>
+                            <td>
+                        <pre class="descriptionColumn gridDetails lineBreaks" title="To assess available video production solution offerings available in the market for a 12-episode safety and security reality television series">To assess available video production solution offerings available in the market for a 12-episode saf...</pre>
+
+                            </td>
+                            <td>
+                                SAFETY AND SECURITY
+                            </td>
+                            <td>
+                                Support Services (S&amp;S)
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-30
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-30 16:00 PM
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-01
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-01 12:43 PM
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="linkDetails" href="/web1/tenderportal/Tender/Details/328586" title="Details"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="addnotice" href="/web1/tenderportal/Tender/AddNotice/328586" title="Add Notice"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="deleteRFQ" href="/web1/tenderportal/Tender/Delete/328586" onclick="return confirm(&#39;Are you sure you want to delete this Tender?&#39;)" title="Delete Tender"> </a>
+                            </td>
+                        </tr>
+                        <tr class="gridDetails">
+                            <td style="width: 70px;">
+                                47S/2026/27
+                            </td>
+                            <td>
+                        <pre class="descriptionColumn gridDetails lineBreaks" title="Framework for the ad-hoc detection and location of underground services and ad-hoc surveying within the city of cape town">Framework for the ad-hoc detection and location of underground services and ad-hoc surveying within ...</pre>
+
+                            </td>
+                            <td>
+                                URBAN MOBILITY
+                            </td>
+                            <td>
+                                Roads Infrastructure Management
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-21
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-21 10:00 AM
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-10
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-10 10:08 AM
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="linkDetails" href="/web1/tenderportal/Tender/Details/329022" title="Details"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="addnotice" href="/web1/tenderportal/Tender/AddNotice/329022" title="Add Notice"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="deleteRFQ" href="/web1/tenderportal/Tender/Delete/329022" onclick="return confirm(&#39;Are you sure you want to delete this Tender?&#39;)" title="Delete Tender"> </a>
+                            </td>
+                        </tr>
+                        <tr class="gridDetails">
+                            <td style="width: 70px;">
+                                RFI179/2026/27
+                            </td>
+                            <td>
+                        <pre class="descriptionColumn gridDetails lineBreaks" title="Cleaning of windows and ledges at city of cape town facilities">Cleaning of windows and ledges at city of cape town facilities</pre>
+
+                            </td>
+                            <td>
+                                CORPORATE SERVICES
+                            </td>
+                            <td>
+                                Facilities Management
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-10-02
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-10-02 16:00 PM
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-10
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-10 14:38 PM
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="linkDetails" href="/web1/tenderportal/Tender/Details/329034" title="Details"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="addnotice" href="/web1/tenderportal/Tender/AddNotice/329034" title="Add Notice"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="deleteRFQ" href="/web1/tenderportal/Tender/Delete/329034" onclick="return confirm(&#39;Are you sure you want to delete this Tender?&#39;)" title="Delete Tender"> </a>
+                            </td>
+                        </tr>
+                        <tr class="gridDetails">
+                            <td style="width: 70px;">
+                                56S/2026/27
+                            </td>
+                            <td>
+                        <pre class="descriptionColumn gridDetails lineBreaks" title="Energy efficiency schools programme (eesp) 2027/2028/2029
+contract period: from the commencement date of the contract until 30 june 2029">Energy efficiency schools programme (eesp) 2027/2028/2029
+contract period: from the commencement da...</pre>
+
+                            </td>
+                            <td>
+                                ENERGY
+                            </td>
+                            <td>
+                                Sustainable Energy Markets
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-30
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-30 10:00 AM
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-08
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-08 09:05 AM
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="linkDetails" href="/web1/tenderportal/Tender/Details/328908" title="Details"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="addnotice" href="/web1/tenderportal/Tender/AddNotice/328908" title="Add Notice"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="deleteRFQ" href="/web1/tenderportal/Tender/Delete/328908" onclick="return confirm(&#39;Are you sure you want to delete this Tender?&#39;)" title="Delete Tender"> </a>
+                            </td>
+                        </tr>
+                        <tr class="gridDetails">
+                            <td style="width: 70px;">
+                                68S/2026/27
+                            </td>
+                            <td>
+                        <pre class="descriptionColumn gridDetails lineBreaks" title="Tree management and maintenance services for the city of cape town">Tree management and maintenance services for the city of cape town</pre>
+
+                            </td>
+                            <td>
+                                COMMUNITY SERVICES AND HEALTH
+                            </td>
+                            <td>
+                                Recreation and Parks
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-10-14
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-10-14 10:00 AM
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-11
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-11 13:19 PM
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="linkDetails" href="/web1/tenderportal/Tender/Details/329091" title="Details"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="addnotice" href="/web1/tenderportal/Tender/AddNotice/329091" title="Add Notice"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="deleteRFQ" href="/web1/tenderportal/Tender/Delete/329091" onclick="return confirm(&#39;Are you sure you want to delete this Tender?&#39;)" title="Delete Tender"> </a>
+                            </td>
+                        </tr>
+                        <tr class="gridDetails">
+                            <td style="width: 70px;">
+                                58S/2026/27
+                            </td>
+                            <td>
+                        <pre class="descriptionColumn gridDetails lineBreaks" title="Framework agreement for the statutory inspection, testing, servicing and repair of pressure equipment for the city of cape town">Framework agreement for the statutory inspection, testing, servicing and repair of pressure equipmen...</pre>
+
+                            </td>
+                            <td>
+                                WATER AND SANITATION
+                            </td>
+                            <td>
+                                Technical Services
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-10-05
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-10-05 10:00 AM
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-08
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-08 10:55 AM
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="linkDetails" href="/web1/tenderportal/Tender/Details/328925" title="Details"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="addnotice" href="/web1/tenderportal/Tender/AddNotice/328925" title="Add Notice"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="deleteRFQ" href="/web1/tenderportal/Tender/Delete/328925" onclick="return confirm(&#39;Are you sure you want to delete this Tender?&#39;)" title="Delete Tender"> </a>
+                            </td>
+                        </tr>
+                        <tr class="gridDetails">
+                            <td style="width: 70px;">
+                                55G/2026/27
+                            </td>
+                            <td>
+                        <pre class="descriptionColumn gridDetails lineBreaks" title="Valves: supply, installation, servicing, repairing, and reconditioning of valves and associated pipework for water and sanitation for the city of cape town">Valves: supply, installation, servicing, repairing, and reconditioning of valves and associated pipe...</pre>
+
+                            </td>
+                            <td>
+                                WATER AND SANITATION
+                            </td>
+                            <td>
+                                Technical Services
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-28
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-28 10:00 AM
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-08
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-08 11:00 AM
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="linkDetails" href="/web1/tenderportal/Tender/Details/328926" title="Details"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="addnotice" href="/web1/tenderportal/Tender/AddNotice/328926" title="Add Notice"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="deleteRFQ" href="/web1/tenderportal/Tender/Delete/328926" onclick="return confirm(&#39;Are you sure you want to delete this Tender?&#39;)" title="Delete Tender"> </a>
+                            </td>
+                        </tr>
+                        <tr class="gridDetails">
+                            <td style="width: 70px;">
+                                27P/2026/27
+                            </td>
+                            <td>
+                        <pre class="descriptionColumn gridDetails lineBreaks" title="Call for proposals for the sale and development of remainder of erf 36554, milnerton situated at 13 oyster street annandale farm, cape town">Call for proposals for the sale and development of remainder of erf 36554, milnerton situated at 13 ...</pre>
+
+                            </td>
+                            <td>
+                                HUMAN SETTLEMENTS
+                            </td>
+                            <td>
+                                Human Settlements Planning
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-10-21
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-10-21 10:00 AM
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-08
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-08 15:56 PM
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="linkDetails" href="/web1/tenderportal/Tender/Details/328943" title="Details"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="addnotice" href="/web1/tenderportal/Tender/AddNotice/328943" title="Add Notice"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="deleteRFQ" href="/web1/tenderportal/Tender/Delete/328943" onclick="return confirm(&#39;Are you sure you want to delete this Tender?&#39;)" title="Delete Tender"> </a>
+                            </td>
+                        </tr>
+                        <tr class="gridDetails">
+                            <td style="width: 70px;">
+                                49S/2026/27
+                            </td>
+                            <td>
+                        <pre class="descriptionColumn gridDetails lineBreaks" title="Term tender for the supply and delivery of maintenance, repair, upgrade and refurbishment services for high voltage air insulated switchgear (ais).">Term tender for the supply and delivery of maintenance, repair, upgrade and refurbishment services f...</pre>
+
+                            </td>
+                            <td>
+                                ENERGY
+                            </td>
+                            <td>
+                                Electricity Generation and Distribution
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-10-20
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-10-20 10:00 AM
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-09
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-09 15:51 PM
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="linkDetails" href="/web1/tenderportal/Tender/Details/328999" title="Details"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="addnotice" href="/web1/tenderportal/Tender/AddNotice/328999" title="Add Notice"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="deleteRFQ" href="/web1/tenderportal/Tender/Delete/328999" onclick="return confirm(&#39;Are you sure you want to delete this Tender?&#39;)" title="Delete Tender"> </a>
+                            </td>
+                        </tr>
+                        <tr class="gridDetails">
+                            <td style="width: 70px;">
+                                64S/2026/27
+                            </td>
+                            <td>
+                        <pre class="descriptionColumn gridDetails lineBreaks" title="Clearance, collection, transport and safe disposal/incineration of illegally dumped medical/ hazardous/ toxic waste">Clearance, collection, transport and safe disposal/incineration of illegally dumped medical/ hazardo...</pre>
+
+                            </td>
+                            <td>
+                                URBAN WASTE MANAGEMENT
+                            </td>
+                            <td>
+                                Waste Services
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-10-13
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-10-13 10:00 AM
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-11
+                            </td>
+                            <td style="width: 70px; padding-right: 10px;">
+                                2026-09-11 11:16 AM
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="linkDetails" href="/web1/tenderportal/Tender/Details/329082" title="Details"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="addnotice" href="/web1/tenderportal/Tender/AddNotice/329082" title="Add Notice"> </a>
+                            </td>
+                            <td style="width: 10px; padding-right: 5px; padding-left: 5px;">
+                                <a class="deleteRFQ" href="/web1/tenderportal/Tender/Delete/329082" onclick="return confirm(&#39;Are you sure you want to delete this Tender?&#39;)" title="Delete Tender"> </a>
+                            </td>
+                        </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</form>
+
+<script src="/web1/tenderportal/bundles/PAP"></script>
+
+<script src="/web1/tenderportal/Scripts/Filter.js"></script>
+
+<script type="text/javascript">
+
+    if (!Modernizr.inputtypes.date) {
+        $("#ClosingDateStartFilter").datepicker({
+            dateFormat: "yy/mm/dd", changeMonth: true, changeYear: true, showAnim: "slideDown",
+            onClose: function (selectedDate) {
+                $("#ClosingDateEndFilter").datepicker("option", "minDate", selectedDate);
+                if ($("#ClosingDateStartFilter").val() != "") {
+                    $("form").submit();
+                }
+            }
+        });
+        $("#ClosingDateEndFilter").datepicker({
+            dateFormat: "yy/mm/dd", changeMonth: true, changeYear: true, showAnim: "slideDown",
+            onClose: function (selectedDate) {
+                $("#ClosingDateStartFilter").datepicker("option", "maxDate", selectedDate);
+                if ($("#ClosingDateEndFilter").val() != "") {
+                    $("form").submit();
+                }
+            }
+        });
+
+
+        $("#PostedDateStartFilter").datepicker({
+            dateFormat: "yy/mm/dd", changeMonth: true, changeYear: true, showAnim: "slideDown",
+            onClose: function (selectedDate) {
+                $("#PostedDateEndFilter").datepicker("option", "minDate", selectedDate);
+                if ($("#PostedDateStartFilter").val() != "") {
+                    $("form").submit();
+                }
+            }
+        });
+        $("#PostedDateEndFilter").datepicker({
+            dateFormat: "yy/mm/dd", changeMonth: true, changeYear: true, showAnim: "slideDown",
+            onClose: function (selectedDate) {
+                $("#PostedDateStartFilter").datepicker("option", "maxDate", selectedDate);
+                if ($("#PostedDateEndFilter").val() != "") {
+                    $("form").submit();
+                }
+            }
+        });
+
+    }
+
+    $(document).ready(function () {
+
+        var expr = new RegExp('>[ \t\r\n\v\f]*<', 'g');
+        var tbhtml = $('#rfqsTable').html();
+        $('#rfqsTable').html(tbhtml.replace(expr, '><'));
+
+        $('#rfqsTable').dataTable({
+            "sPaginationType": "full_numbers",
+            "bFilter": false,
+            "bLengthChange": false,
+            "bProcessing": true,
+            "bAutoWidth": false,
+            "iDisplayLength": 15,
+            "bSort": true,
+            "aoColumns": [
+          null,
+          null,
+          null,
+          null,
+          //{ "iDataSort": 4 },
+          { "bVisible": false, "sType": 'date' },
+          { "bVisible": true, "sType": 'date' },
+           { "bVisible": false, "sType": 'date' },
+           { "bVisible": true, "sType": 'date' },
+          { "bSortable": false },
+           { "bSortable": false },
+           { "bSortable": false }
+            ],
+            "aaSorting": [[7, "desc"]]
+
+        });
+    });
+
+    $(function () {
+        var isViewOnly = $("#IsViewerOnly").val();
+        if (isViewOnly == "True") {
+            $('#rfqsTable tr *:nth-child(7)').css('display', 'none');
+            $('#rfqsTable tr *:nth-child(8)').css('display', 'none');
+            $('#rfqsTable tr *:nth-child(9)').css('display', 'none');
+            $('#rfqsTable tr *:nth-child(10)').css('display', 'none');
+        }
+    });
+</script>
+<script type="text/javascript">
+</script>
+
+            </section>
+        </div>
+        <footer>
+            <div id="navbar-bottom">
+                <div class="nav-left">
+                    City of Cape Town, 2026© 
+                </div>
+                <div class="nav-right">
+                    | <a class="nav" href=https://www.capetown.gov.za/termsofuse>Copyright</a>
+                    | <a class="nav" href=https://www.capetown.gov.za/termsofuse>Disclaimer</a> | <a class="nav"
+                        href=https://www.capetown.gov.za/termsofuse>Privacy</a> |
+                </div>
+
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>

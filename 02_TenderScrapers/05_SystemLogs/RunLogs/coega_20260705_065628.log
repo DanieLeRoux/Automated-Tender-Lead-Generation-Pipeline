@@ -1,0 +1,34 @@
+command: C:\Users\Danie le Roux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Coega\00_Scripts\coega_tender_pull_and_clean.py
+return_code: 0
+elapsed_seconds: 11.36
+
+--- STDOUT ---
+2026-07-05 06:56:17,766 | INFO | Using tender scrapers root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-05 06:56:17,767 | INFO | Using source root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Coega
+2026-07-05 06:56:17,767 | INFO | Using raw directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Coega\01_RawData
+2026-07-05 06:56:17,767 | INFO | Using output directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Coega\02_Outputs
+2026-07-05 06:56:17,767 | INFO | Using log directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Coega\03_Logs
+2026-07-05 06:56:17,767 | INFO | Using state directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Coega\04_State
+2026-07-05 06:56:18,171 | INFO | Saved static HTML: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Coega\01_RawData\coega_raw_page_static.html
+2026-07-05 06:56:18,187 | INFO | No parseable Coega HTML tables found: No tables found
+2026-07-05 06:56:18,188 | INFO | Candidate Coega tender blocks found: 0
+2026-07-05 06:56:18,188 | INFO | No Coega rows found in static HTML; attempting Selenium render.
+2026-07-05 06:56:27,266 | INFO | Saved rendered HTML: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Coega\01_RawData\coega_raw_page_rendered.html
+2026-07-05 06:56:27,295 | INFO | No parseable Coega HTML tables found: No tables found
+2026-07-05 06:56:27,305 | INFO | Candidate Coega tender blocks found: 10
+2026-07-05 06:56:27,325 | INFO | Parsed Coega rows from tender blocks: 10
+2026-07-05 06:56:27,326 | INFO | Rendered HTML parse rows: 10
+2026-07-05 06:56:27,326 | INFO | Parsed Coega notice rows: 10
+2026-07-05 06:56:27,331 | INFO | Saved raw CSV: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Coega\01_RawData\coega_raw.csv
+2026-07-05 06:56:27,400 | INFO | Saved raw Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Coega\01_RawData\coega_raw_full.xlsx
+2026-07-05 06:56:27,403 | INFO | Filtered cancellation/withdrawal notices: 10 -> 1 rows
+2026-07-05 06:56:27,404 | INFO | Filtered current tenders by closing date: 1 -> 1 rows
+2026-07-05 06:56:27,577 | INFO | Delta rows this run: 0
+2026-07-05 06:56:27,577 | INFO | Updates rows this run: 0
+2026-07-05 06:56:27,577 | INFO | Top delta rows this run: 0
+2026-07-05 06:56:27,626 | INFO | Saved delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Coega\02_Outputs\coega_delta.xlsx | rows: 0
+2026-07-05 06:56:27,677 | INFO | Saved updates Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Coega\02_Outputs\coega_updates.xlsx | rows: 0
+2026-07-05 06:56:27,734 | INFO | Saved top delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Coega\02_Outputs\coega_top_delta.xlsx | rows: 0
+2026-07-05 06:56:27,868 | INFO | Saved master Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Coega\02_Outputs\coega_master.xlsx | rows: 2
+
+--- STDERR ---

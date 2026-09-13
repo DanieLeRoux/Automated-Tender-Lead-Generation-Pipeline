@@ -1,0 +1,346 @@
+ACSA SCRAPER METADATA
+=====================
+
+Scraper Name
+------------
+ACSA Tender Bulletin Scraper
+
+Script File
+-----------
+acsa_tender_pull_and_clean.py
+
+Source Website
+--------------
+https://www.airports.co.za/Pages/Tender-Bulletin.aspx
+
+Source Type
+-----------
+HTML / SharePoint-style public tender bulletin page.
+This scraper does not use a formal API. It downloads the public ACSA Tender Bulletin webpage and parses the visible tender table.
+
+Purpose
+-------
+The scraper monitors the Airports Company South Africa public Tender Bulletin page, captures advertised tender opportunities, filters for current active opportunities, detects new and updated records, applies a priority score, and produces Excel outputs for daily tender review.
+
+Root Folder
+-----------
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\ACSA
+
+Folder Structure Created
+------------------------
+Logs
+Outputs
+State
+
+Main Run Command
+----------------
+& "C:/Users/Danie le Roux/AppData/Local/Programs/Python/Python314/python.exe" "C:/Users/Danie le Roux/OneDrive - Henry Fagan/Desktop/Data Analytics/ACSA/acsa_tender_pull_and_clean.py"
+
+Optional Run Commands
+---------------------
+Include expired tenders in clean outputs:
+& "C:/Users/Danie le Roux/AppData/Local/Programs/Python/Python314/python.exe" "C:/Users/Danie le Roux/OneDrive - Henry Fagan/Desktop/Data Analytics/ACSA/acsa_tender_pull_and_clean.py" --include-expired
+
+Include cancellation / withdrawal notices in clean outputs:
+& "C:/Users/Danie le Roux/AppData/Local/Programs/Python/Python314/python.exe" "C:/Users/Danie le Roux/OneDrive - Henry Fagan/Desktop/Data Analytics/ACSA/acsa_tender_pull_and_clean.py" --include-cancellations
+
+Change top-delta limit:
+& "C:/Users/Danie le Roux/AppData/Local/Programs/Python/Python314/python.exe" "C:/Users/Danie le Roux/OneDrive - Henry Fagan/Desktop/Data Analytics/ACSA/acsa_tender_pull_and_clean.py" --top-delta-limit 50
+
+Change minimum score for top-delta output:
+& "C:/Users/Danie le Roux/AppData/Local/Programs/Python/Python314/python.exe" "C:/Users/Danie le Roux/OneDrive - Henry Fagan/Desktop/Data Analytics/ACSA/acsa_tender_pull_and_clean.py" --top-delta-min-score 3
+
+Outputs
+-------
+The scraper creates the following files in the Outputs folder:
+
+1. acsa_raw_page.html
+   - Raw downloaded HTML page.
+   - Used for debugging if the parser breaks or ACSA changes the page structure.
+
+2. acsa_raw.csv
+   - Raw parsed tender rows before filtering.
+   - Useful for audit/debugging.
+
+3. acsa_raw_full.xlsx
+   - Excel version of the raw parsed tender rows.
+
+4. acsa_master.xlsx
+   - Latest cleaned and filtered current snapshot.
+   - Deduplicated by opportunity_key.
+
+5. acsa_delta.xlsx
+   - New current tenders discovered in the current run only.
+   - Rows are marked with change_type = NEW.
+
+6. acsa_updates.xlsx
+   - Existing current tenders where key operational fields changed.
+   - Rows are marked with change_type = UPDATED.
+
+7. acsa_top_delta.xlsx
+   - Highest-scoring new tenders from the current delta list.
+   - Sorted by weight_score descending, then closing_date ascending, then briefing_date ascending.
+
+Log File
+--------
+Logs\acsa_run.log
+
+Lock File
+---------
+State\run.lock
+
+The lock file prevents two scraper runs from executing at the same time. If a run is interrupted and the script later reports that a lock file exists, confirm no run is active and then remove the lock file manually.
+
+Captured Fields
+---------------
+The scraper standardises the ACSA tender data into the following fields:
+
+source
+opportunity_key
+tender_number
+notice_type
+airport
+category
+description
+briefing_date
+closing_date
+primary_document_name
+primary_document_url
+additional_document_names
+additional_document_urls
+document_count
+source_url
+cancellation_flag
+priority_category_match
+matched_description_keywords
+description_keyword_match_count
+weight_score
+row_hash
+run_timestamp
+change_type
+previous_row_hash
+
+Field Notes
+-----------
+source:
+Always set to ACSA.
+
+opportunity_key:
+Stable unique identifier used for deduplication and change tracking. Where a clear tender number is available, the key is based on that. Where no clear tender number is available, a stable hash is created from available identifying fields.
+
+tender_number:
+Extracted from the description and/or document names where possible. The scraper looks for common ACSA-style reference patterns.
+
+notice_type:
+Inferred from the text. Possible values include RFP, RFB, RFQ, RFI, or Tender.
+
+airport:
+Airport listed in the ACSA tender bulletin.
+
+category:
+ACSA tender category / TCategory value.
+
+description:
+Tender description from the public bulletin.
+
+briefing_date:
+Parsed briefing date, where available.
+
+closing_date:
+Parsed closing date. Used to determine whether the tender is current.
+
+primary_document_name / primary_document_url:
+Name and URL of the main document linked in the Name column.
+
+additional_document_names / additional_document_urls:
+Names and URLs of documents linked in the Additional Documents column.
+
+document_count:
+Number of primary and additional document links captured.
+
+cancellation_flag:
+True where the text suggests the tender is a cancellation, cancelled notice, withdrawal, or withdrawn notice.
+
+priority_category_match:
+True where the ACSA category matches one of the configured priority categories.
+
+matched_description_keywords:
+Semicolon-separated list of matched priority keywords.
+
+description_keyword_match_count:
+Number of matched priority keyword categories.
+
+weight_score:
+Priority score used to rank tenders for review.
+
+row_hash:
+SHA256 hash of key operational fields. Used to detect updates.
+
+run_timestamp:
+Date and time when the scraper ran.
+
+change_type:
+NEW for delta rows, UPDATED for update rows. Blank in master/raw outputs unless inherited.
+
+previous_row_hash:
+Previous stored hash for updated records.
+
+Filtering Rules
+---------------
+Raw outputs are not filtered.
+
+Clean outputs are filtered by default as follows:
+
+1. Exclude cancellation / withdrawal notices.
+2. Exclude expired tenders.
+3. Keep only rows where closing_date is present and closing_date >= today.
+
+The filtering can be overridden using:
+--include-expired
+--include-cancellations
+
+Scoring Logic
+-------------
+The scraper applies a priority weight score after filtering.
+
+Scoring weights:
+- Priority category match: 5 points
+- Each matched description/category/airport keyword: 1 point
+
+Configured Priority Categories
+------------------------------
+Professional Services
+Provision of services of a consultant
+Maintenance and Engineering
+Electrical Maintenance
+Technical Solution Services
+Building and Maintenance
+Property Development
+Corporate Affairs
+
+Configured Keyword Rules
+------------------------
+Water and Sanitation
+Housing
+Education
+Transport
+Airport
+Runway
+Nuclear
+Bus Rapid Transit (BRT)
+International Transition Plan Network (ITPN)
+Design
+Refurbishment
+Engineering, Procurement, and Construction (EPC)
+Fire Engineering
+HVAC
+Mechanical
+Electrical
+Electronic
+Wet Services
+Project Management
+Programme Management
+Project Management Office (PMO)
+Advisory Services
+Structural Engineering
+Civil Engineering
+Feasibility Study
+Construction
+Maintenance
+
+Change Detection
+----------------
+Updates are detected by comparing the row_hash in the current run against the row_hash stored in the master file.
+
+The row_hash is calculated from the following fields:
+
+airport
+category
+description
+briefing_date
+closing_date
+primary_document_name
+primary_document_url
+additional_document_names
+additional_document_urls
+document_count
+cancellation_flag
+
+A tender is treated as UPDATED when the opportunity_key already exists in the master file but the row_hash has changed.
+
+Master Logic
+------------
+The master file is deduplicated by opportunity_key.
+Incoming rows from the latest run take priority over older master rows.
+The master is sorted by weight_score descending, closing_date ascending, and briefing_date ascending.
+
+Delta Logic
+-----------
+The delta file contains records where the opportunity_key does not already exist in the master file.
+These records are marked as change_type = NEW.
+
+Updates Logic
+-------------
+The updates file contains records where the opportunity_key already exists in the master file, but the row_hash differs from the previously stored row_hash.
+These records are marked as change_type = UPDATED.
+
+Top Delta Logic
+---------------
+The top-delta file is created from the current run's delta list only.
+It is sorted by:
+1. weight_score descending
+2. closing_date ascending
+3. briefing_date ascending
+
+Defaults:
+- Top delta limit: 20 rows
+- Minimum score: 0
+
+Use --top-delta-limit 0 to include all qualifying delta rows.
+
+Dependencies
+------------
+Python packages required:
+
+requests
+pandas
+openpyxl
+xlsxwriter
+beautifulsoup4
+urllib3
+
+Installation command if required:
+pip install requests pandas openpyxl xlsxwriter beautifulsoup4 urllib3
+
+Operational Notes
+-----------------
+1. The scraper relies on the public ACSA Tender Bulletin HTML structure.
+2. If ACSA changes the SharePoint page/table layout, the parser may need to be updated.
+3. The raw HTML file should be checked first if the scraper suddenly returns zero rows.
+4. The clean outputs are based only on public information visible on the ACSA Tender Bulletin page.
+5. The scraper captures tender document links, but it does not currently download or parse the tender PDFs/documents.
+6. If additional detail is required later, a second-stage document enrichment scraper can be added for high-scoring tenders.
+
+Suggested Review Process
+------------------------
+1. Run the scraper daily.
+2. Review acsa_top_delta.xlsx first.
+3. Review acsa_delta.xlsx for all new tenders.
+4. Review acsa_updates.xlsx for changed opportunities.
+5. Use acsa_master.xlsx as the current clean register.
+6. Use raw files only for audit/debugging.
+
+Maintenance Notes
+-----------------
+If the scraper returns zero rows:
+1. Open acsa_raw_page.html and confirm whether the tender table is present.
+2. Confirm the ACSA website did not change its table headings.
+3. Check whether the page now requires JavaScript rendering.
+4. Check the log file for parser warnings.
+5. Update the table parsing logic if the visible structure has changed.
+
+If Excel files do not update:
+1. Confirm no workbook is open in Excel.
+2. Check whether State\run.lock exists from a failed prior run.
+3. Confirm the script has write permission to the Outputs folder.
+

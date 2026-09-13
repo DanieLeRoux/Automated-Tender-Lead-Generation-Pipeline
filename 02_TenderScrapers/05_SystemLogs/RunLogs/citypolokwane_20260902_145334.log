@@ -1,0 +1,22 @@
+command: C:\Users\DanieLeRoux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityPolokwane\00_Scripts\city_polokwane_tender_pull_and_clean.py
+return_code: 0
+elapsed_seconds: 31.83
+
+--- STDOUT ---
+2026-09-02 14:53:04,313 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityPolokwane
+2026-09-02 14:53:04,314 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityPolokwane\01_RawData
+2026-09-02 14:53:04,315 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityPolokwane\02_Outputs
+2026-09-02 14:53:04,315 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityPolokwane\03_Logs
+2026-09-02 14:53:04,315 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityPolokwane\04_State
+2026-09-02 14:53:04,315 | INFO | Using metadata directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityPolokwane\05_Metadata
+2026-09-02 14:53:04,316 | INFO | Fetching Polokwane tender page: https://www.polokwane.gov.za/tender-documents/
+2026-09-02 14:53:15,567 | INFO | Parsed Polokwane rows from https://www.polokwane.gov.za/tender-documents/: 121
+2026-09-02 14:53:15,568 | INFO | Fetching Polokwane tender page: https://www.polokwane.gov.za/bids-advertisements/
+2026-09-02 14:53:32,136 | INFO | Parsed Polokwane rows from https://www.polokwane.gov.za/bids-advertisements/: 91
+2026-09-02 14:53:32,334 | INFO | Parsed City of Polokwane raw rows: 212
+2026-09-02 14:53:34,476 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityPolokwane\02_Outputs\city_polokwane_master.xlsx | rows: 212
+2026-09-02 14:53:34,476 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityPolokwane\02_Outputs\city_polokwane_delta.xlsx | rows: 0
+2026-09-02 14:53:34,476 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityPolokwane\02_Outputs\city_polokwane_updates.xlsx | rows: 0
+2026-09-02 14:53:34,476 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityPolokwane\02_Outputs\city_polokwane_top_delta.xlsx | rows: 0
+
+--- STDERR ---

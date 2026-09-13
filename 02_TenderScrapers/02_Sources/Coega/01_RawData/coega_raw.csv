@@ -1,0 +1,1 @@
+source,opportunity_key,tender_number,notice_type,description,client,province,date_published,closing_date,closing_datetime,document_names,document_urls,document_count,source_url,cancellation_flag,priority_notice_type_match,matched_description_keywords,description_keyword_match_count,weight_score

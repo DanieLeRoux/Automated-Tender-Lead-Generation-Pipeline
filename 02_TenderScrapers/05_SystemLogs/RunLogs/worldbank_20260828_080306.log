@@ -1,0 +1,47 @@
+command: C:\Users\DanieLeRoux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\WorldBank\00_Scripts\worldbank_procurement_pull_and_clean.py
+return_code: 0
+elapsed_seconds: 37.72
+
+--- STDOUT ---
+2026-08-28 08:02:29,204 | INFO | Using base root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-28 08:02:29,205 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\WorldBank
+2026-08-28 08:02:29,205 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\WorldBank\01_RawData
+2026-08-28 08:02:29,206 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\WorldBank\02_Outputs
+2026-08-28 08:02:29,206 | INFO | Using country_name filter: Eastern and Southern Africa|Africa|South Africa|Western and Central Africa|Central Africa|Western Africa|Eastern Africa|United Kingdom|Saudi Arabia|Netherlands
+2026-08-28 08:02:29,207 | INFO | Fetching World Bank latest tail-window only; local filters will determine current notices.
+2026-08-28 08:02:29,701 | INFO | World Bank dataset count: 415699 | fetching latest window from skip=395000 to end (window requested: 20000 records)
+2026-08-28 08:02:30,521 | INFO | Fetched tail page 1 | skip=395000 | rows=1000 | total so far=1000
+2026-08-28 08:02:33,083 | INFO | Fetched tail page 2 | skip=396000 | rows=1000 | total so far=2000
+2026-08-28 08:02:34,209 | INFO | Fetched tail page 3 | skip=397000 | rows=1000 | total so far=3000
+2026-08-28 08:02:35,666 | INFO | Fetched tail page 4 | skip=398000 | rows=1000 | total so far=4000
+2026-08-28 08:02:36,832 | INFO | Fetched tail page 5 | skip=399000 | rows=1000 | total so far=5000
+2026-08-28 08:02:37,927 | INFO | Fetched tail page 6 | skip=400000 | rows=1000 | total so far=6000
+2026-08-28 08:02:39,435 | INFO | Fetched tail page 7 | skip=401000 | rows=1000 | total so far=7000
+2026-08-28 08:02:40,546 | INFO | Fetched tail page 8 | skip=402000 | rows=1000 | total so far=8000
+2026-08-28 08:02:41,669 | INFO | Fetched tail page 9 | skip=403000 | rows=1000 | total so far=9000
+2026-08-28 08:02:44,113 | INFO | Fetched tail page 10 | skip=404000 | rows=1000 | total so far=10000
+2026-08-28 08:02:45,483 | INFO | Fetched tail page 11 | skip=405000 | rows=1000 | total so far=11000
+2026-08-28 08:02:46,608 | INFO | Fetched tail page 12 | skip=406000 | rows=1000 | total so far=12000
+2026-08-28 08:02:47,823 | INFO | Fetched tail page 13 | skip=407000 | rows=1000 | total so far=13000
+2026-08-28 08:02:48,938 | INFO | Fetched tail page 14 | skip=408000 | rows=1000 | total so far=14000
+2026-08-28 08:02:55,181 | INFO | Fetched tail page 15 | skip=409000 | rows=1000 | total so far=15000
+2026-08-28 08:02:56,324 | INFO | Fetched tail page 16 | skip=410000 | rows=1000 | total so far=16000
+2026-08-28 08:02:57,447 | INFO | Fetched tail page 17 | skip=411000 | rows=1000 | total so far=17000
+2026-08-28 08:02:58,729 | INFO | Fetched tail page 18 | skip=412000 | rows=1000 | total so far=18000
+2026-08-28 08:02:59,808 | INFO | Fetched tail page 19 | skip=413000 | rows=1000 | total so far=19000
+2026-08-28 08:03:00,994 | INFO | Fetched tail page 20 | skip=414000 | rows=1000 | total so far=20000
+2026-08-28 08:03:02,119 | INFO | Fetched tail page 21 | skip=415000 | rows=699 | total so far=20699
+2026-08-28 08:03:02,127 | INFO | Fetched World Bank rows after raw de-duplication: 20699
+2026-08-28 08:03:02,235 | INFO | Raw rows fetched: 20699 | cols: 15
+2026-08-28 08:03:02,403 | INFO | Saved raw CSV: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\WorldBank\01_RawData\worldbank_raw.csv
+2026-08-28 08:03:05,279 | INFO | Saved raw Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\WorldBank\01_RawData\worldbank_raw_full.xlsx
+2026-08-28 08:03:05,405 | INFO | Rows after local filters: 48
+2026-08-28 08:03:05,662 | INFO | Delta (NEW) rows this run: 6
+2026-08-28 08:03:05,663 | INFO | Updates (CHANGED) rows this run: 1
+2026-08-28 08:03:05,663 | INFO | Top delta rows this run: 6
+2026-08-28 08:03:05,735 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\WorldBank\02_Outputs\worldbank_delta.xlsx | rows: 6
+2026-08-28 08:03:05,782 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\WorldBank\02_Outputs\worldbank_updates.xlsx | rows: 1
+2026-08-28 08:03:05,878 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\WorldBank\02_Outputs\worldbank_top_delta.xlsx | rows: 6
+2026-08-28 08:03:06,117 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\WorldBank\02_Outputs\worldbank_master.xlsx | rows: 334
+
+--- STDERR ---

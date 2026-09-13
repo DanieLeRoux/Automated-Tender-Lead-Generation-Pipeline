@@ -1,0 +1,24 @@
+command: C:\Users\DanieLeRoux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\TCTA\00_Scripts\tcta_tender_pull_and_clean.py
+return_code: 0
+elapsed_seconds: 1.48
+
+--- STDOUT ---
+2026-09-08 08:01:53,153 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-09-08 08:01:53,154 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\TCTA
+2026-09-08 08:01:53,154 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\TCTA\01_RawData
+2026-09-08 08:01:53,154 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\TCTA\02_Outputs
+2026-09-08 08:01:53,154 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\TCTA\03_Logs
+2026-09-08 08:01:53,154 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\TCTA\04_State
+2026-09-08 08:01:53,155 | INFO | Fetching TCTA tenders: https://www.tcta.co.za/tenders/
+2026-09-08 08:01:53,732 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\TCTA\01_RawData\tcta_raw_page.html
+2026-09-08 08:01:53,753 | INFO | Candidate TCTA tender title headings found: 8
+2026-09-08 08:01:53,756 | INFO | Parsed TCTA tender rows: 8 | rows with closing dates: 8
+2026-09-08 08:01:53,759 | INFO | Parsed TCTA raw rows: 8 | cols: 41
+2026-09-08 08:01:53,761 | INFO | Filtered current TCTA tenders: 8 -> 3 rows
+2026-09-08 08:01:53,978 | INFO | Saved raw CSV: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\TCTA\01_RawData\tcta_raw.csv | rows: 8
+2026-09-08 08:01:53,979 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\TCTA\02_Outputs\tcta_master.xlsx | rows: 3
+2026-09-08 08:01:53,979 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\TCTA\02_Outputs\tcta_delta.xlsx | rows: 0
+2026-09-08 08:01:53,979 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\TCTA\02_Outputs\tcta_updates.xlsx | rows: 0
+2026-09-08 08:01:53,979 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\TCTA\02_Outputs\tcta_top_delta.xlsx | rows: 0
+
+--- STDERR ---

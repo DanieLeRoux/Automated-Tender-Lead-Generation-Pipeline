@@ -1,0 +1,897 @@
+TenderScrapers Operational Metadata
+====================================
+
+Document Status
+---------------
+Updated master metadata for the current TenderScrapers implementation after completion of the priority source expansion, reporting refinement, date-parsing fixes, source deactivations/deferred-source decisions, and latest scraper integration work.
+
+Current Practical Version
+-------------------------
+TenderScrapers Full Implementation v1
++ Combined QA Hotfixes
++ Document / Action Link Hotfix
++ Final QA Hotfix
++ Daily Review Simplification Hotfix
++ eTenders Document Link Hotfix v5
++ Filtering Hotfix v6
++ Filtering Hotfix v7
++ Filtering Hotfix v8
++ GTAC Source Hotfix v9
++ NECSA Source Hotfix v10
++ NECSA / COEGA Integration Hotfix v11
++ NNR Source Hotfix v12
++ Reporting Refinement Hotfix v13
++ Rand Water Source Hotfix v14
++ Rand Water SSL Hotfix v15
++ TCTA Source Hotfix v16
++ TCTA Parser Hotfix v17
++ TCTA Date Parser Hotfix v18
++ Duplicate Date Coalescing Hotfix v19
++ Duplicate Date Repair Hotfix v20
++ Excel Serial Date Hotfix v21
++ City of Ekurhuleni Source Hotfix v22
++ Johannesburg Water Source Hotfix v23
++ City of Mbombela Source Hotfix v24
++ City of Mbombela Robust Hotfix v25
++ City of Polokwane Source Hotfix v26
++ COGTA Source Hotfix v27
++ COGTA Deactivation + COEGA Link Cleanup Hotfix v28
++ NamWater Source Hotfix v29
+
+Last Updated
+------------
+2026-05-31
+
+Purpose
+-------
+The TenderScrapers system monitors multiple tender portals, extracts current tender opportunities, standardises source-specific data into a common structure, applies a central scoring model, deduplicates repeated opportunities across sources, filters out low-relevance tenders from the bid-manager daily review, and produces consolidated daily review workbooks for bid screening.
+
+The system is intended as a tender discovery, prioritisation and monitoring tool. It does not replace bid/no-bid judgement.
+
+Default Root Folder
+-------------------
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\TenderScrapers
+
+Data Analytics Root
+-------------------
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics
+
+Source Working Folders
+----------------------
+The individual source scraper folders remain outside the TenderScrapers control folder and should not be deleted unless the configuration and source paths are deliberately refactored.
+
+Current active/deployed source working folders include:
+
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\eTenders
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\WorldBank
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\CityOfCapeTown
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\CityEkurhuleni
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\DBSA
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\VaalCentralWater
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\Transnet
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\ACSA
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\Coega
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\DHS
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\uMngeniUthukelaWater
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\GTAC
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\NECSA
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\NNR
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\RandWater
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\TCTA
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\JohannesburgWater
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\CityMbombela
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\CityPolokwane
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\NamWater
+
+Inactive/deferred source folders may exist if previous tests were performed. They should not be treated as active unless enabled in the TenderScrapers configuration.
+
+Active Sources
+--------------
+1. eTenders
+2. World Bank
+3. City of Cape Town
+4. City of Ekurhuleni
+5. DBSA
+6. Vaal Central Water Board / VCWB
+7. Transnet eSupplier
+8. ACSA
+9. COEGA
+10. Department of Human Settlements
+11. uMngeni-uThukela Water
+12. GTAC
+13. NECSA
+14. NNR
+15. Rand Water
+16. TCTA
+17. Johannesburg Water
+18. City of Mbombela
+19. City of Polokwane
+20. NamWater
+
+Disabled / Excluded Sources
+---------------------------
+Sibanye-Stillwater
+    Status: Disabled / manual-check source.
+    Reason: Website blocked automated access through Incapsula/Imperva during testing.
+
+COGTA
+    Status: Disabled / covered via eTenders/manual check.
+    Reason: Source was slow, produced repeated SSL verification issues, crawled historical/non-current content, and generated noisy link-heavy output rather than a clean current-tender register. It should remain disabled unless a cleaner public endpoint becomes available.
+
+Deferred / Not Built as Standalone Scrapers
+-------------------------------------------
+City of Tshwane
+    Status: Deferred / manual or eTenders-covered source.
+    Reason: Procurement has migrated to SAP Ariba Business Network. Likely requires login/supplier registration. Do not automate unless public/API access is confirmed.
+
+Lepelle Northern Water
+    Status: Deferred / manual or eTenders-covered source.
+    Reason: Public tenders page currently exposes headings but no usable tender records.
+
+National Treasury
+    Status: Covered via eTenders; standalone scraper deferred.
+    Reason: National Treasury has a departmental tender information page, but current tender publication is primarily through eTenders. Separate scraper likely adds duplication and limited operational value.
+
+Western Cape Infrastructure
+    Status: Covered via eTenders; standalone scraper deferred.
+    Reason: Department of Infrastructure page is primarily informational and does not expose a clean current-tender register. Later awards scraping may be useful for competitor intelligence.
+
+DID / Gauteng Department of Infrastructure Development
+    Status: Covered via eTenders / Gauteng e-Tenders; standalone DID scraper deferred.
+    Reason: No clean standalone DID tender portal identified. Relevant Gauteng departmental opportunities are better handled through eTenders or a future Gauteng e-Tenders scraper.
+
+Amatola Water
+    Status: Deferred.
+    Reason: Source was not implemented in this cycle. SSL/website reliability concerns were noted. Reassess later if Amatola-specific opportunities become important.
+
+Core Design
+-----------
+The system is split into two levels:
+
+1. Source-level scrapers
+   - Each source scraper collects data from one tender portal.
+   - Each scraper produces raw, master, delta, updates and top-delta outputs for that source.
+   - Source outputs remain useful for audit, debugging and troubleshooting.
+
+2. Central consolidation layer
+   - Consolidates all source outputs into a standard schema.
+   - Recalculates current status centrally.
+   - Applies one standard scoring model across all sources.
+   - Applies review-eligibility filtering for the daily review.
+   - Deduplicates tenders where the same opportunity appears across more than one portal.
+   - Performs robust date parsing, including Excel serial dates.
+   - Produces consolidated master, delta, updates, top-delta and daily review workbooks.
+
+Key Scripts
+-----------
+install_source_scrapers.py
+    Installs or updates source scraper scripts into their respective source working folders.
+
+run_all_scrapers.py
+    Runs all enabled source scrapers and then runs consolidation.
+
+run_consolidation.py
+    Consolidates existing source outputs only, without rerunning the source scrapers.
+
+validate_outputs.py
+    Checks whether expected source and consolidated output files exist.
+
+daily_run.ps1
+    PowerShell daily runner. Suitable for Windows Task Scheduler once daily automation is enabled.
+
+Normal Manual Run Command
+-------------------------
+Run from PowerShell:
+
+cd "C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\TenderScrapers"
+
+& "C:/Users/Danie le Roux/AppData/Local/Programs/Python/Python314/python.exe" run_all_scrapers.py
+
+& "C:/Users/Danie le Roux/AppData/Local/Programs/Python/Python314/python.exe" validate_outputs.py
+
+Consolidation-Only Command
+--------------------------
+Use this if the source scrapers have already run and only the consolidated workbooks need to be refreshed:
+
+cd "C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\TenderScrapers"
+
+& "C:/Users/Danie le Roux/AppData/Local/Programs/Python/Python314/python.exe" run_consolidation.py
+
+Consolidated Output Folder
+--------------------------
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\TenderScrapers\Outputs\Consolidated
+
+Consolidated Outputs
+--------------------
+consolidated_master.xlsx
+    Full consolidated tender register with detailed/audit fields.
+
+consolidated_delta.xlsx
+    Newly detected consolidated opportunities.
+
+consolidated_updates.xlsx
+    Existing consolidated opportunities where key operational fields changed.
+
+consolidated_top_delta.xlsx
+    Highest-scoring new opportunities from the current run after central scoring and review-eligibility filtering.
+
+consolidated_daily_review.xlsx
+    Simplified bid-manager review workbook.
+
+source_top_delta_standardised.xlsx
+    Source-level top-delta records after central scoring standardisation.
+
+Daily Review Workbook
+---------------------
+The main operational workbook for the bid manager is:
+
+consolidated_daily_review.xlsx
+
+This workbook is intentionally simplified and should be used as the daily action list, not as the full audit dataset.
+
+Current daily review tabs:
+
+Very High Priority
+High Priority
+Medium Priority
+Closing Soon
+New Today
+Updated Today
+Needs Manual Date Check
+By Source
+Source Coverage
+Scraper Run Summary
+
+Daily Review Display Columns
+----------------------------
+The priority and operational review tabs use a simplified column set:
+
+priority_rank
+score_band
+weight_score
+source
+source_list
+tender_reference
+client
+description
+location
+closing_date_time
+days_to_close
+document_access_status
+action_url
+matched_keywords_all
+scoring_notes
+change_type
+notice_type
+date_published
+document_count
+contact_email
+
+Reporting Tabs
+--------------
+By Source
+    Shows all configured/enabled scraper sources and operational row counts, including sources that produced zero daily-review rows.
+
+Source Coverage
+    Shows sources represented in the current bid-manager review list. A source not appearing here does not necessarily mean it failed; it may have had no current/review-eligible tenders.
+
+Scraper Run Summary
+    Operational summary showing all configured sources and source-level row counts. This tab helps distinguish scraper execution status from bid-review relevance.
+
+Field Display Logic
+-------------------
+tender_reference
+    Consolidated display field using tender_number first, then reference_number, then opportunity_key.
+
+location
+    Uses province first, then country_name, then region. For South African sources, province is used where available. If province is available, country should be treated as South Africa conceptually.
+
+closing_date_time
+    Uses the aligned closing datetime field. This avoids showing both closing_date and closing_datetime separately in the daily review.
+
+action_url
+    The best available link for the bid manager to use. This may be:
+    - a direct document/download link;
+    - a tender detail page;
+    - a source portal page; or
+    - the eTenders portal for manual lookup.
+
+document_access_status
+    Indicates how the tender information can be accessed. Typical values include:
+    - Direct document available
+    - Source/detail page only
+    - Manual eTenders lookup required
+
+eTenders Treatment
+------------------
+eTenders is treated as a discovery feed with document-link enrichment where possible.
+
+The eTenders API/listing response includes supportDocument metadata for many opportunities. Where supportDocument data is available, the scraper constructs direct download URLs using the pattern:
+
+https://www.etenders.gov.za/home/Download/?blobName=<supportDocumentID><extension>&downloadedFileName=<URL-encoded fileName>
+
+For eTenders opportunities with supportDocument records:
+    document_access_status = Direct document available
+    action_url = first available eTenders document download link
+
+For eTenders opportunities without usable supportDocument records:
+    document_access_status = Manual eTenders lookup required
+    action_url = https://www.etenders.gov.za/Home/opportunities?id=1
+
+Where an eTenders opportunity is deduplicated with another entity source that provides a better detail/document link, the consolidated action_url should prefer the non-eTenders source link where appropriate.
+
+Source-Specific Defaults / Corrections
+--------------------------------------
+City of Cape Town:
+    client = City of Cape Town
+    province = Western Cape
+
+City of Ekurhuleni:
+    client = City of Ekurhuleni
+    province = Gauteng
+    country_name = South Africa
+
+World Bank:
+    client = World Bank
+    country_name / region fields are retained for geography, not treated as the issuing client.
+
+DBSA:
+    client defaults to Development Bank of Southern Africa where the source does not populate it clearly.
+
+uMngeni-uThukela Water:
+    Tender view/detail links are preserved for action_url where available.
+
+ACSA:
+    Duplicate entries are deduplicated where possible by document URL / normalised description and corrected date logic.
+
+GTAC:
+    client = Government Technical Advisory Centre
+    Detail-page links are used where available.
+
+NECSA:
+    client = South African Nuclear Energy Corporation
+    province = North West
+    country_name = South Africa
+    Relevant facility/design/HVAC professional-services items should pass the review filter where current.
+
+NNR:
+    client = National Nuclear Regulator
+    province = Gauteng
+    country_name = South Africa
+    Current NNR tenders may be scraped but often excluded by central filtering where irrelevant.
+
+Rand Water:
+    client = Rand Water
+    province = Gauteng
+    country_name = South Africa
+    SSL verification fallback is used for the public tender page where local certificate verification fails.
+
+TCTA:
+    client = Trans-Caledon Tunnel Authority
+    sector = Water
+    country_name = South Africa
+    Parser extracts tender numbers and closing dates from heading/metadata blocks.
+    TCTA duplicates with eTenders should retain the best available closing date.
+
+Johannesburg Water:
+    client = Johannesburg Water
+    province = Gauteng
+    country_name = South Africa
+    Scraper covers Advertised Tenders and Advertised RFPs. RFQs are not included in the first version due to likely noise.
+
+City of Mbombela:
+    client = City of Mbombela
+    province = Mpumalanga
+    country_name = South Africa
+    Listing pages are unstable. Scraper is resilient to 500 errors and keeps already parsed rows.
+
+City of Polokwane:
+    client = City of Polokwane
+    province = Limpopo
+    country_name = South Africa
+    Scraper captures bid-advertisement/tender-document rows and preserves rows even where dates are missing.
+
+NamWater:
+    client = NamWater
+    country_name = Namibia
+    Public bid-list page exposes bid number, description and document links, but does not consistently expose closing dates. Relevant rows without dates may require manual date checking.
+
+COEGA:
+    client = COEGA / Coega Development Corporation
+    province = Eastern Cape
+    country_name = South Africa
+    Document-link extraction has been tightened to reduce generic site/navigation links.
+
+Current Status and Date Logic
+-----------------------------
+The consolidation layer recalculates is_current centrally. It should not rely only on source-level is_current flags.
+
+General rule:
+    is_current = TRUE if closing_datetime is today/future.
+    If closing_datetime is missing but closing_date exists, closing_datetime is backfilled from closing_date.
+    If closing_datetime exists, closing_date is aligned to the date part of closing_datetime.
+
+Excel Serial Date Handling:
+    The central date parser supports Excel serial date values from source Excel files.
+    Example: 46191.4166666667 = 2026-06-18 10:00.
+    This fix prevents valid eTenders dates from being lost during consolidation.
+
+Duplicate Date Handling:
+    Where duplicated opportunities appear across multiple sources, the consolidation layer should keep the best available valid closing date.
+    If multiple valid dates exist, the earliest future date should generally be used.
+    Only unresolved records with no reliable date should appear in Needs Manual Date Check.
+
+Priority review tabs should only include current tenders with reliable closing dates, except for the separate Needs Manual Date Check tab.
+
+Manual Date Check Logic
+-----------------------
+Records without reliable closing dates are excluded from the main priority tabs and placed in:
+
+Needs Manual Date Check
+
+This tab is useful for review but should not drive daily priority screening until the closing date is confirmed. Current filtering rules also apply to this tab, so excluded low-relevance records should not appear there.
+
+After Excel Serial Date Hotfix v21, eTenders-derived records should generally not appear in Needs Manual Date Check merely because of date-format issues.
+
+Central Scoring Model
+---------------------
+The system recalculates the score centrally during consolidation. Source-specific original scores are not used for final prioritisation in the daily review.
+
+Current score weights:
+
+priority_client_match = 10
+strategic_sector_keyword = 5
+technical_keyword = 4
+service_keyword = 4
+procurement_delivery_keyword = 3
+notice_type_match = 2
+closing_soon = 2
+has_documents = 1
+has_contact_email = 1
+
+Score Bands
+-----------
+20+     Very High Priority
+12-19   High Priority
+6-11    Medium Priority
+1-5     Low Priority
+0       No Match
+
+Note:
+The daily review focuses on Very High, High, Medium, Closing Soon, New Today, Updated Today and Manual Date Check tabs. Low/No Match records are retained in the fuller consolidated outputs where applicable.
+
+Scoring Purpose
+---------------
+The score is a triage tool. It helps the bid manager review the most relevant opportunities first.
+
+The score does not make the bid/no-bid decision. Final assessment still requires bid judgement, including:
+- scope fit;
+- eligibility;
+- capacity;
+- location;
+- risk;
+- commercial attractiveness;
+- time to close;
+- strategic value.
+
+Priority Client / Source List
+-----------------------------
+Priority clients/sources currently include, among others:
+
+- NAMWATER / NamWater
+- Public Works
+- Department of Public Works and Infrastructure
+- NECSA
+- South African Nuclear Energy Corporation
+- NNR
+- National Nuclear Regulator
+- Vaal Central Water
+- Vaal Central Water Board
+- City of Cape Town
+- Amatola Water
+- City of Ekurhuleni
+- City of Johannesburg
+- City of Mbombela
+- City of Polokwane
+- City of Tshwane
+- Government Technical Advisory Centre
+- GTAC
+- Joburg Water
+- Johannesburg Water
+- Lepelle Northern Water
+- Cooperative Governance and Traditional Affairs
+- COGTA
+- National Treasury
+- Rand Water
+- Trans-Caledon Tunnel Authority
+- TCTA
+- Umgeni Water
+- uMngeni-uThukela Water
+- Western Cape Government
+- Department of Infrastructure Development
+- Gauteng Department of Infrastructure Development
+- DID
+- DBSA
+- Development Bank of Southern Africa
+- Transnet
+- ACSA
+- COEGA
+- Department of Human Settlements
+
+Important principle:
+Priority client can boost a relevant tender, but priority client alone should not make a tender review-eligible.
+
+Core Scope Gate
+---------------
+Filtering Hotfix v8 introduced a core scope gate.
+
+For tenders to appear in the bid-manager daily review, they must generally include at least one genuine professional/built-environment scope indicator, such as:
+
+- professional service provider
+- PSP
+- professional services
+- consultant
+- consultancy
+- consulting services
+- specialist consultant
+- engineering services
+- civil engineering
+- structural engineering
+- mechanical engineering
+- electrical engineering
+- project management
+- programme management
+- PMO
+- feasibility study
+- master plan
+- infrastructure master plan
+- implementation plan
+- technical advisory
+- transaction advisory
+- detailed design
+- design services
+- construction monitoring
+- contract administration
+- built environment
+- project preparation
+- planning support
+- infrastructure planning
+
+Tenders that only score because of priority client/source, but do not include a core scope indicator, should generally be excluded from the daily review.
+
+Review-Eligibility Filtering
+----------------------------
+The system applies review-eligibility filtering to reduce irrelevant tenders in the bid-manager daily review.
+
+Filtering produces the following fields in the consolidated master/delta/updates outputs:
+
+review_eligible
+excluded_by_filter
+exclusion_reason
+excluded_keyword_matches
+
+Excluded records remain in:
+    consolidated_master.xlsx
+
+Excluded records are removed from:
+    consolidated_daily_review.xlsx
+    consolidated_top_delta.xlsx
+
+The filtering is intended to remove operational, administrative, HR, legal, ICT, supply-only and non-core tenders from the daily bid-manager shortlist.
+
+Excluded Keyword / Theme List
+-----------------------------
+The current exclusion themes include:
+
+Repairs / maintenance:
+- repairs
+- repair
+- maintenance
+- service and maintenance
+- servicing
+- operational maintenance
+
+Financial / legal / audit / admin:
+- financial advisory
+- legal services
+- legal advisory
+- internal audit
+- external audit
+- forensic services
+- VAT recovery
+- annual financial statements
+- financial statements
+- expected credit loss
+- ECL model
+- audit firms
+- conveyancer
+- company secretarial
+- board evaluation
+
+HR / employee / language / medical:
+- employee wellness
+- employee assistance
+- labour
+- labour broker
+- recruitment agency
+- leadership assessment
+- psychometric assessment
+- training
+- defensive driving
+- language practitioners
+- translation
+- interpreting
+- medical surveillance
+- medical testing
+- locum
+- pharmacist
+
+Cleaning / facilities / office:
+- cleaning
+- hygiene services
+- facilities management
+- furniture
+- office furniture
+- office equipment
+- appliances
+- canteen consumables
+- consumables
+
+ICT / software / platforms:
+- software
+- software licence
+- software license
+- licences
+- licenses
+- Microsoft 365
+- Azure
+- SQL
+- ICT
+- IT system
+- ERP
+- SAP
+- S/4 HANA
+- JDE
+- system upgrade
+- online platform
+- digital platform
+- subscription platform
+- database subscription
+- legal research platform
+- digital display
+- signage solution
+- metadata automation
+- AI
+- artificial intelligence
+
+Operational equipment / hardware:
+- equipment
+- transformer
+- distribution transformer
+- circuit breaker
+- substation equipment
+- electrical COC
+- fire COC
+- certificate of compliance
+- hardware
+- vehicle
+- vehicles
+- towing services
+
+Storage / blasting / publication / media:
+- document storage
+- storage facilities
+- blasting
+- shot blasting
+- digital media
+- annual report
+- copyediting
+- proofreading
+- layout
+- printing
+- publication
+- graphic design
+- editorial
+- corporate communications
+- newsletters
+
+Landscaping / plants / animals:
+- invasive plants
+- vegetation clearing
+- landscaping
+- gardening
+- horticulture
+- animal
+- animals
+- pest control
+- veterinary
+
+Auctioning / cemeteries / grave-related:
+- auctioning
+- auctioneer
+- grave preparations
+- grave digging
+- cemetery
+- cemeteries
+
+Waste / refuse / sludge:
+- sludge disposal
+- refuse collection
+- waste collection
+- recyclables
+- recycling collection
+- landfill
+- weighbridge
+
+Travel / security / transport services:
+- security services
+- physical security
+- guarding
+- access control services
+- surveillance services
+- travel management
+- travel agency
+- shuttle services
+- staff transport
+- passenger transport
+
+Supply-only:
+- supply and delivery
+- supply, delivery
+- supply and install
+- rental of equipment
+
+CIDB below 7:
+- CIDB grades 1 to 6 should be excluded where detected.
+- Examples include CIDB 1, CIDB 2, CIDB 3, CIDB 4, CIDB 5, CIDB 6 and similar patterns such as 1CE, 2GB, 4ME, 6EP.
+- CIDB 7, 8 and 9 should not be excluded by this rule.
+
+Caution:
+Some keywords can create false exclusions if used too broadly. For example:
+- plant should not be excluded generally because water treatment plant may be relevant.
+- transport should not be excluded generally because transport planning and BRT may be relevant.
+- design should not be excluded generally because engineering design is relevant, although graphic design/publication design is excluded.
+- financial/transaction advisory must be interpreted carefully because infrastructure transaction advisory may be relevant, while financial/accounting advisory may not be.
+
+Scoring Keyword Categories
+--------------------------
+Strategic sector examples:
+- Water
+- Water and Sanitation
+- Housing
+- Human Settlements
+- Transport
+- Bus Rapid Transit / BRT
+- Nuclear
+- Infrastructure
+- Public Works
+- Ports
+- Airports
+- Healthcare
+
+Technical keyword examples:
+- Civil Engineering
+- Structural Engineering
+- Mechanical
+- Electrical
+- Electronic
+- HVAC
+- Fire Engineering
+- Wet Services
+- MEP
+- Engineering
+- Design
+- Construction
+- Refurbishment
+
+Service keyword examples:
+- Project Management
+- Programme Management
+- Project Management Office / PMO
+- Advisory Services
+- Feasibility Study
+- Professional Services
+- Consulting Services
+- Consultancy
+- Transaction Advisory
+- Technical Advisory
+
+Procurement / delivery keyword examples:
+- EPC
+- Engineering, Procurement and Construction
+- Design and Build
+- Turnkey
+- Framework Agreement
+- Panel
+- Professional Service Provider
+- Built Environment
+
+Deduplication
+-------------
+The consolidation process attempts to identify duplicated opportunities across sources.
+
+Example:
+A tender appearing on both eTenders and DBSA should be consolidated into one record where matching logic identifies them as the same opportunity.
+
+The system retains:
+- source
+- source_list
+- action_url
+- document_access_status
+- duplicate-related fields in the master/audit outputs
+
+For duplicated rows, field-level coalescing should preserve the best available source data, especially:
+- closing_datetime
+- action_url
+- document_urls
+- document_names
+- province
+- country_name
+- contact_email
+
+Daily Review vs Master
+----------------------
+consolidated_daily_review.xlsx
+    Simplified action list for the bid manager.
+
+consolidated_master.xlsx
+    Full audit/data register. Contains more technical fields and should be used for debugging, Power BI, deeper analysis and historical review.
+
+Power BI Recommendation
+-----------------------
+Power BI should preferably connect to:
+
+consolidated_master.xlsx
+
+rather than consolidated_daily_review.xlsx.
+
+The daily review workbook is presentation-oriented and operational. The master workbook is a fuller dataset and is better suited for Power BI modelling.
+
+Power BI should be refreshed after the scraper run has completed, not at the same time as the scraper is writing files.
+
+Recommended timing:
+    08:00 scraper run
+    08:30 Power BI refresh
+    08:45 daily email / review
+
+Development / Operational Roadmap
+----------------------------------
+Recommended next system improvements:
+
+1. Formal v1.0 operational release
+    Consolidate all hotfixes into one clean package.
+
+2. Config-driven rules
+    Move priority clients, exclusions, scope-fit keywords and scoring weights into configuration files.
+
+3. Run-status reporting
+    Add explicit run-status output showing source success/failure, run duration, row counts and error messages.
+
+4. Daily automation
+    Schedule the scraper run via Windows Task Scheduler or another stable automation environment.
+
+5. Email automation
+    Send the daily review automatically, preferably via OneDrive/SharePoint link rather than attachment.
+
+6. Historical archive
+    Store timestamped daily outputs for audit, trend analysis and recovery.
+
+7. Bid-manager feedback loop
+    Add review feedback fields such as Relevant / Not Relevant / Maybe / Reason.
+
+8. Power BI dashboard
+    Connect to consolidated_master.xlsx for trend reporting by client, source, sector, score band, close date and exclusion reason.
+
+9. Awarded tenders / competitor intelligence
+    Add awarded-tender scraping later where useful.
+
+Known Limitations
+-----------------
+1. Some eTenders items may still require manual lookup if supportDocument metadata is missing.
+2. Some source websites can change layout, which may break individual scrapers.
+3. Sibanye-Stillwater blocks automated access and is excluded.
+4. COGTA has been disabled due to low-quality, noisy and slow scraping behaviour.
+5. Some sources such as NamWater, City of Mbombela and City of Polokwane may not reliably expose closing dates on their own pages. Central consolidation may resolve duplicates from eTenders where available.
+6. The system prioritises based on keyword, client/source and scope logic. It does not evaluate eligibility or commercial feasibility.
+7. Source-specific portals may require login or manual lookup for full tender documentation.
+8. Filtering is intentionally conservative but should be refined based on bid-manager feedback to avoid over-filtering useful opportunities.

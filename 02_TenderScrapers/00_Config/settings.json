@@ -1,0 +1,9 @@
+{
+  "tender_scrapers_root": "C:/Users/Danie le Roux/OneDrive - Henry Fagan/Desktop/Data Analytics/02_TenderScrapers",
+  "sources_folder": "02_Sources",
+  "consolidation_folder": "03_Consolidation",
+  "final_outputs_folder": "04_FinalOutputs",
+  "system_logs_folder": "05_SystemLogs",
+  "system_state_folder": "06_SystemState",
+  "system_metadata_folder": "07_SystemMetadata"
+}

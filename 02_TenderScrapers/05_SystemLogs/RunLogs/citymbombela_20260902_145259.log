@@ -1,0 +1,31 @@
+command: C:\Users\DanieLeRoux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbombela\00_Scripts\city_mbombela_tender_pull_and_clean.py
+return_code: 0
+elapsed_seconds: 45.75
+
+--- STDOUT ---
+2026-09-02 14:52:15,055 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbombela
+2026-09-02 14:52:15,077 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbombela\01_RawData
+2026-09-02 14:52:15,077 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbombela\02_Outputs
+2026-09-02 14:52:15,078 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbombela\03_Logs
+2026-09-02 14:52:15,078 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbombela\04_State
+2026-09-02 14:52:15,081 | INFO | Fetching City of Mbombela listing page 1: https://www.mbombela.gov.za/downloads/tenders/
+2026-09-02 14:52:15,762 | INFO | Found Mbombela listing entries on page 1: 10
+2026-09-02 14:52:20,751 | WARNING | Failed to fetch Mbombela page https://www.mbombela.gov.za/download/com104-2026-supply-delivery-and-offloading-of-cement-paving-block-and-concrete-block-manufacturing-machines-for-the-city-of-mbombela/: 500 Server Error: Internal Server Error for url: https://www.mbombela.gov.za/download/com104-2026-supply-delivery-and-offloading-of-cement-paving-block-and-concrete-block-manufacturing-machines-for-the-city-of-mbombela/
+2026-09-02 14:52:26,690 | INFO | Fetching City of Mbombela listing page 2: https://www.mbombela.gov.za/downloads/tenders/page/2/
+2026-09-02 14:52:27,245 | INFO | Found Mbombela listing entries on page 2: 10
+2026-09-02 14:52:31,875 | WARNING | Failed to fetch Mbombela page https://www.mbombela.gov.za/download/com91-2026-construction-of-sawotini-road-msogwaba-ward-29/: 500 Server Error: Internal Server Error for url: https://www.mbombela.gov.za/download/com91-2026-construction-of-sawotini-road-msogwaba-ward-29/
+2026-09-02 14:52:37,679 | INFO | Fetching City of Mbombela listing page 3: https://www.mbombela.gov.za/downloads/tenders/page/3/
+2026-09-02 14:52:39,011 | INFO | Found Mbombela listing entries on page 3: 10
+2026-09-02 14:52:40,169 | WARNING | Failed to fetch Mbombela page https://www.mbombela.gov.za/download/com79-2026-supply-and-installation-of-compactor-truck-tyres-for-the-northern-and-southern-regions/: 500 Server Error: Internal Server Error for url: https://www.mbombela.gov.za/download/com79-2026-supply-and-installation-of-compactor-truck-tyres-for-the-northern-and-southern-regions/
+2026-09-02 14:52:45,986 | WARNING | Failed to fetch Mbombela page https://www.mbombela.gov.za/download/com75-2026/: 500 Server Error: Internal Server Error for url: https://www.mbombela.gov.za/download/com75-2026/
+2026-09-02 14:52:46,047 | WARNING | Failed to fetch Mbombela page https://www.mbombela.gov.za/download/com74-2026-appointment-of-an-event-management-service-address-at-kabokweni-community-hall/: 500 Server Error: Internal Server Error for url: https://www.mbombela.gov.za/download/com74-2026-appointment-of-an-event-management-service-address-at-kabokweni-community-hall/
+2026-09-02 14:52:47,137 | INFO | Fetching City of Mbombela listing page 4: https://www.mbombela.gov.za/downloads/tenders/page/4/
+2026-09-02 14:52:47,663 | INFO | Found Mbombela listing entries on page 4: 10
+2026-09-02 14:52:54,439 | WARNING | Failed to fetch Mbombela page https://www.mbombela.gov.za/download/com65-2026-supply-delivery-and-offloading-of-branded-tourism-promotional-equipment/: 500 Server Error: Internal Server Error for url: https://www.mbombela.gov.za/download/com65-2026-supply-delivery-and-offloading-of-branded-tourism-promotional-equipment/
+2026-09-02 14:52:58,766 | INFO | Saved raw outputs | rows: 40
+2026-09-02 14:52:58,766 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbombela\02_Outputs\city_mbombela_master.xlsx | rows: 39
+2026-09-02 14:52:58,766 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbombela\02_Outputs\city_mbombela_delta.xlsx | rows: 0
+2026-09-02 14:52:58,766 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbombela\02_Outputs\city_mbombela_updates.xlsx | rows: 5
+2026-09-02 14:52:58,766 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbombela\02_Outputs\city_mbombela_top_delta.xlsx | rows: 0
+
+--- STDERR ---

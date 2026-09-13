@@ -1,0 +1,442 @@
+eTenders Scraper Metadata
+==========================
+
+Script Name
+-----------
+etenders_pull_and_clean_weighted_v2.py
+
+Purpose
+-------
+Fetch currently advertised tenders from the South African eTenders API, clean and normalise the data, filter the clean outputs to professional services opportunities, apply a priority weight score, and maintain daily Excel outputs for master tracking, new tenders, changed tenders, and top-scoring new tenders.
+
+Source Portal
+-------------
+South African eTenders Portal
+
+Base Page
+---------
+https://www.etenders.gov.za/Home/opportunities?id=1
+
+API Endpoint
+------------
+https://www.etenders.gov.za/Home/PaginatedTenderOpportunities
+
+Primary Use Case
+----------------
+Daily tender monitoring for relevant professional services opportunities, with weighted prioritisation for Henry Fagan review.
+
+Default Root Folder
+-------------------
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\eTenders
+
+Folder Structure
+----------------
+Logs:
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\eTenders\Logs
+
+Outputs:
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\eTenders\Outputs
+
+State:
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\eTenders\State
+
+Output Files
+------------
+1. etenders_active_raw.csv
+   - Raw API output saved as CSV.
+   - Unfiltered.
+   - Used for audit/debugging.
+
+2. etenders_active_raw_full.xlsx
+   - Raw API output saved as Excel.
+   - Unfiltered.
+   - Used for audit/debugging.
+
+3. etenders_master.xlsx
+   - Latest clean snapshot of tenders within the target category.
+   - Deduplicated by bid_number.
+   - Incoming rows win during deduplication to backfill new or updated fields.
+
+4. etenders_delta.xlsx
+   - Brand new tenders discovered in the current run only.
+   - Newness is determined by bid_number not already existing in the master file.
+   - Filtered to the target category.
+
+5. etenders_updates.xlsx
+   - Existing tenders where selected operational fields have changed.
+   - Changes are detected by comparing row_hash values.
+   - Filtered to the target category.
+
+6. etenders_top_delta.xlsx
+   - Highest-scoring new tenders from the current run.
+   - Built from the delta file only.
+   - Sorted by weight_score descending, then closing_date ascending, then date_published ascending.
+
+State and Lock Files
+--------------------
+seen_ids.json
+- Stores previously seen bid_number values.
+- Used when the optional --stop-on-seen argument is applied.
+
+run.lock
+- Prevents two scraper runs from executing at the same time.
+
+Default Run Command
+-------------------
+python etenders_pull_and_clean_weighted_v2.py --since-days 14
+
+Alternative Run Commands
+------------------------
+python etenders_pull_and_clean_weighted_v2.py --since-days 21
+
+python etenders_pull_and_clean_weighted_v2.py --stop-on-seen
+
+python etenders_pull_and_clean_weighted_v2.py --top-delta-limit 10
+
+python etenders_pull_and_clean_weighted_v2.py --top-delta-limit 0
+
+python etenders_pull_and_clean_weighted_v2.py --top-delta-min-score 0
+
+API Fetch Settings
+------------------
+PAGE_SIZE = 200
+STATUS = 1
+ORDER_COL = 2
+ORDER_DIR = desc
+SLEEP_S = 0.4
+TIMEOUT_S = 60
+MAX_PAGES = 200
+
+Status Meaning
+--------------
+STATUS = 1 means currently advertised tenders.
+
+Clean Output Category Filter
+----------------------------
+Only records where category equals the following are kept in the clean outputs:
+
+Services: Professional
+
+Important:
+- This filter is applied only after raw files are saved.
+- Raw files remain unfiltered.
+- Master, delta, updates, and top delta use the filtered clean dataset.
+
+Primary Identifier
+------------------
+bid_number
+
+Normalisation Applied
+---------------------
+bid_number is:
+- Converted to string
+- Stripped of leading/trailing spaces
+- Lowercased
+- Blank bid numbers are removed
+
+Column Mapping
+--------------
+Raw API Field                         Clean Field
+---------------------------------------------------------
+tender_No                             bid_number
+description                           description
+categories_name                       category
+organ_of_State                        client
+provinces_name                        province
+closing_Date                          closing_date
+date_Published                        date_published
+status                                status
+type                                  type
+conditions                            conditions
+compulsory_briefing_session           briefing_session_details
+briefingVenue                         briefing_venue
+contactPerson                         contact_person
+email                                  contact_email
+telephone                              contact_telephone
+briefingCompulsory                     briefing_compulsory
+validity                               tender_validity_period
+
+Clean Field Order
+-----------------
+bid_number
+description
+category
+client
+province
+status
+type
+conditions
+date_published
+closing_date
+briefing_session_details
+briefing_venue
+briefing_compulsory
+contact_person
+contact_email
+contact_telephone
+tender_validity_period
+
+Date Fields
+-----------
+closing_date
+date_published
+
+Both are converted using pandas datetime conversion with errors coerced.
+
+Change Detection
+----------------
+The script creates a SHA256 row_hash using selected operational fields.
+
+Hash Columns
+------------
+closing_date
+briefing_session_details
+briefing_venue
+briefing_compulsory
+conditions
+contact_person
+contact_email
+contact_telephone
+tender_validity_period
+
+Update Logic
+------------
+A tender is treated as UPDATED when:
+- Its bid_number already exists in the master file, and
+- The new row_hash differs from the previous row_hash in the master file.
+
+A tender is treated as NEW when:
+- Its bid_number does not exist in the master file.
+
+Weight Scoring
+--------------
+The scraper applies a score to each clean record after the Services: Professional category filter.
+
+Scoring Columns Added
+---------------------
+priority_client_match
+matched_description_keywords
+description_keyword_match_count
+weight_score
+
+Scoring Constants
+-----------------
+WEIGHT_CLIENT_MATCH = 10
+WEIGHT_DESCRIPTION_KEYWORD = 1
+
+Scoring Formula
+---------------
+weight_score =
+(priority_client_match * 10) + (description_keyword_match_count * 1)
+
+Priority Client Matching
+------------------------
+The client field is matched after text normalisation:
+- Case-insensitive
+- Leading/trailing spaces ignored
+- Repeated spaces collapsed
+
+Priority Clients
+----------------
+Umgeni Water
+Johannesburg Water
+Vaal Central Water
+Department of Public Works and Roads
+Development Bank of Southern Africa
+Transnet SOC Ltd
+Transnet National Ports Authority
+Health
+South African Nuclear Energy Corporation Limited
+National Nuclear Regulator
+Polokwane Local Municipality
+
+Description Keyword Matching
+----------------------------
+Description keyword matching is:
+- Case-insensitive
+- Punctuation-tolerant
+- Based on phrase matching with token boundaries
+
+Description Keyword Rules
+-------------------------
+Water and Sanitation:
+- Water and Sanitation
+
+Housing:
+- Housing
+
+Education:
+- Education
+
+Transport:
+- Transport
+
+Nuclear:
+- Nuclear
+
+Bus Rapid Transit (BRT):
+- Bus Rapid Transit
+- BRT
+
+International Transition Plan Network (ITPN):
+- International Transition Plan Network
+- ITPN
+
+Design:
+- Design
+
+Refurbishment:
+- Refurbishment
+
+Engineering, Procurement, and Construction (EPC):
+- Engineering, Procurement, and Construction
+- Engineering Procurement and Construction
+- EPC
+
+Fire Engineering:
+- Fire Engineering
+
+HVAC:
+- HVAC
+
+Mechanical:
+- Mechanical
+
+Electrical:
+- Electrical
+
+Electronic:
+- Electronic
+
+Wet Services:
+- Wet Services
+
+Project Management:
+- Project Management
+
+Programme Management:
+- Programme Management
+
+Project Management Office (PMO):
+- Project Management Office
+- PMO
+
+Advisory Services:
+- Advisory Services
+
+Structural Engineering:
+- Structural Engineering
+
+Civil Engineering:
+- Civil Engineering
+
+Feasibility Study:
+- Feasibility Study
+
+Top Delta Logic
+---------------
+Default:
+- TOP_DELTA_LIMIT_DEFAULT = 20
+- TOP_DELTA_MIN_SCORE_DEFAULT = 0
+
+The top delta output is created from delta_df only.
+
+Sorting:
+1. weight_score descending
+2. closing_date ascending
+3. date_published ascending
+
+If --top-delta-limit is set to 0, all qualifying delta rows are included.
+
+Excel Formatting
+----------------
+Each Excel file is written using xlsxwriter.
+
+When rows exist:
+- The output is formatted as an Excel table.
+- Header row is frozen.
+
+When no rows exist:
+- The workbook is still created with headers.
+- An autofilter is applied.
+- This confirms the script ran even when there were no qualifying rows.
+
+Logging
+-------
+Log File:
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\eTenders\Logs\etenders_run.log
+
+Logging includes:
+- Base root
+- Output directory
+- Number of rows fetched
+- Number of rows after category filtering
+- Delta row count
+- Update row count
+- Top delta row count
+- Saved output paths
+
+Known Design Decisions
+----------------------
+1. Raw outputs are kept unfiltered.
+   This preserves the full API response for audit and debugging.
+
+2. Clean outputs are filtered to Services: Professional.
+   This avoids downstream review of irrelevant categories.
+
+3. The master is updated from all currently fetched Services: Professional rows.
+   This allows newly introduced columns such as conditions and weight_score to be backfilled.
+
+4. conditions is included in the hash.
+   This means changes to tender conditions will trigger an update.
+
+5. Description, category, client, and date_published are not used as hash fields.
+   This keeps update detection focused on operationally important changes.
+
+6. bid_number is lowercased.
+   This keeps deduplication stable even where API formatting varies.
+
+Dependencies
+------------
+Python packages:
+- requests
+- pandas
+- openpyxl
+- xlsxwriter
+- urllib3
+
+Standard library modules:
+- os
+- sys
+- time
+- json
+- logging
+- argparse
+- hashlib
+- re
+- typing
+
+Recommended Daily Workflow
+--------------------------
+1. Run the scraper using --since-days 14.
+2. Review etenders_top_delta.xlsx first.
+3. Review etenders_delta.xlsx for all new professional services tenders.
+4. Review etenders_updates.xlsx for changed tender details.
+5. Use etenders_master.xlsx as the latest consolidated professional services tender register.
+6. Use raw files only when checking whether a missing/odd tender was present in the API response.
+
+Current Limitation
+------------------
+The scoring model is rule-based. It does not infer relevance beyond exact client matching and description keyword matching.
+
+Future Enhancements
+-------------------
+1. Add separate scoring weights by keyword importance.
+2. Add province-based scoring.
+3. Add deadline urgency scoring.
+4. Add exclusion keywords to suppress irrelevant tenders.
+5. Add a unified consolidated report across eTenders and other tender portals.
+6. Add Power BI-ready combined output.
+7. Add email/Teams notification for top delta tenders.
+8. Add a tender review status column maintained outside the scraper.
+9. Add tender URL/detail-page extraction if useful and stable.

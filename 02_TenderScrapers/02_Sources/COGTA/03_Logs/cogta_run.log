@@ -1,0 +1,1272 @@
+2026-05-31 13:25:40,153 | INFO | Using base root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\COGTA
+2026-05-31 13:25:40,154 | INFO | Using output directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\COGTA\Outputs
+2026-05-31 13:25:40,154 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-05-31 13:25:40,844 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-05-31 13:26:14,759 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-05-31 13:26:14,761 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 1
+2026-05-31 13:26:14,761 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-05-31 13:26:15,446 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-05-31 13:26:31,621 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-05-31 13:26:31,622 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 1
+2026-05-31 13:26:31,622 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-05-31 13:26:32,507 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-05-31 13:26:59,313 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-05-31 13:26:59,313 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 10
+2026-05-31 13:26:59,879 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2026/05/26/minister-hlabisa-to-attend-the-national-launch-of-the-2026-local-government-elections/. Retrying without verification.
+2026-05-31 13:27:18,016 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2026/05/26/minister-hlabisa-to-attend-the-national-launch-of-the-2026-local-government-elections/. Retrying without verification.
+2026-05-31 13:27:42,411 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/2025/. Retrying without verification.
+2026-05-31 13:27:55,559 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2026/05/18/minister-hlabisa-to-lead-the-presentation-of-the-2026-27-cogta-budget-vote/. Retrying without verification.
+2026-05-31 13:28:20,786 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2026/03/05/deputy-minister-of-cogta-dr-namane-dickson-masemola-to-present-the-draft-revised-white-paper-on-local-government/. Retrying without verification.
+2026-05-31 13:28:45,750 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2026/03/04/deputy-minister-of-cogta-dr-namane-dickson-masemola-to-attend-the-limpopo-state-of-the-province-address-2026/. Retrying without verification.
+2026-05-31 13:29:05,218 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-05-31 13:29:27,491 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-05-31 13:29:51,678 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2018/01/22/cogta-t-03-2017/. Retrying without verification.
+2026-05-31 13:30:14,982 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-05-31 13:30:37,650 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/. Retrying without verification.
+2026-05-31 13:30:58,133 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-05-31 13:31:10,378 | INFO | Parsed COGTA raw rows: 8
+2026-05-31 13:31:10,854 | INFO | Saved master Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\COGTA\Outputs\cogta_master.xlsx | rows: 8
+2026-05-31 13:31:10,854 | INFO | Saved delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\COGTA\Outputs\cogta_delta.xlsx | rows: 8
+2026-05-31 13:31:10,855 | INFO | Saved updates Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\COGTA\Outputs\cogta_updates.xlsx | rows: 0
+2026-05-31 13:31:10,855 | INFO | Saved top_delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\COGTA\Outputs\cogta_top_delta.xlsx | rows: 8
+2026-07-04 17:18:12,697 | INFO | Using tender scrapers root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-04 17:18:12,698 | INFO | Using source root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-07-04 17:18:12,698 | INFO | Using raw directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-07-04 17:18:12,698 | INFO | Using output directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-07-04 17:18:12,698 | INFO | Using log directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-07-04 17:18:12,699 | INFO | Using state directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-07-04 17:18:12,699 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-07-04 17:18:13,274 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-07-04 17:18:58,096 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-07-04 17:18:58,096 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 1
+2026-07-04 17:18:58,097 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-07-04 17:18:58,908 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-07-04 17:19:05,674 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-04 17:19:05,674 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 1
+2026-07-04 17:19:05,675 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-07-04 17:19:06,255 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-07-04 17:19:11,851 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-07-04 17:19:11,851 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 10
+2026-07-04 17:19:12,480 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2026/07/01/deputy-minister-dr-masemola-to-address-the-3rd-saiga-local-government-summit/. Retrying without verification.
+2026-07-04 17:19:19,548 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2026/07/01/deputy-minister-dr-masemola-to-address-the-3rd-saiga-local-government-summit/. Retrying without verification.
+2026-07-04 17:19:25,913 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/2025/. Retrying without verification.
+2026-07-04 17:19:31,108 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2026/05/18/minister-hlabisa-to-lead-the-presentation-of-the-2026-27-cogta-budget-vote/. Retrying without verification.
+2026-07-04 17:19:38,473 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2026/03/05/deputy-minister-of-cogta-dr-namane-dickson-masemola-to-present-the-draft-revised-white-paper-on-local-government/. Retrying without verification.
+2026-07-04 17:19:45,983 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2026/03/04/deputy-minister-of-cogta-dr-namane-dickson-masemola-to-attend-the-limpopo-state-of-the-province-address-2026/. Retrying without verification.
+2026-07-04 17:19:52,843 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-07-04 17:19:58,121 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-07-04 17:20:06,598 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2018/01/22/cogta-t-03-2017/. Retrying without verification.
+2026-07-04 17:20:12,113 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-07-04 17:20:18,553 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/. Retrying without verification.
+2026-07-04 17:20:24,921 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-07-04 17:20:29,690 | INFO | Parsed COGTA raw rows: 9
+2026-07-04 17:20:29,783 | INFO | COGTA hash/state version changed or was not recorded. Re-baselining and suppressing delta/update alerts for this run.
+2026-07-04 17:20:30,007 | INFO | Saved master Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 9
+2026-07-04 17:20:30,008 | INFO | Saved delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-07-04 17:20:30,009 | INFO | Saved updates Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-07-04 17:20:30,010 | INFO | Saved top_delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-07-04 17:23:34,000 | INFO | Using tender scrapers root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-04 17:23:34,000 | INFO | Using source root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-07-04 17:23:34,000 | INFO | Using raw directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-07-04 17:23:34,000 | INFO | Using output directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-07-04 17:23:34,000 | INFO | Using log directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-07-04 17:23:34,000 | INFO | Using state directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-07-04 17:23:34,001 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-07-04 17:23:34,663 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-07-04 17:24:06,452 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-07-04 17:24:06,453 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-07-04 17:24:06,454 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-07-04 17:24:07,324 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-07-04 17:24:13,839 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-04 17:24:13,839 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-04 17:24:13,839 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-07-04 17:24:14,477 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-07-04 17:24:20,885 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-07-04 17:24:20,885 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-07-04 17:24:21,514 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-07-04 17:24:30,034 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-07-04 17:24:36,405 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-07-04 17:24:43,721 | INFO | Parsed COGTA raw rows: 3
+2026-07-04 17:24:44,033 | INFO | COGTA hash/state version changed or was not recorded. Re-baselining and suppressing delta/update alerts for this run.
+2026-07-04 17:24:44,191 | INFO | Saved master Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-07-04 17:24:44,192 | INFO | Saved delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-07-04 17:24:44,192 | INFO | Saved updates Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-07-04 17:24:44,193 | INFO | Saved top_delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-07-05 06:40:36,545 | INFO | Using tender scrapers root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-05 06:40:36,547 | INFO | Using source root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-07-05 06:40:36,547 | INFO | Using raw directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-07-05 06:40:36,548 | INFO | Using output directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-07-05 06:40:36,548 | INFO | Using log directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-07-05 06:40:36,549 | INFO | Using state directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-07-05 06:40:36,551 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-07-05 06:40:37,100 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-07-05 06:41:25,576 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-07-05 06:41:25,576 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-07-05 06:41:25,576 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-07-05 06:41:26,135 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-07-05 06:41:35,217 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-05 06:41:35,217 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-05 06:41:35,217 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-07-05 06:41:35,884 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-07-05 06:41:43,866 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-07-05 06:41:43,866 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-07-05 06:41:44,475 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-07-05 06:41:56,052 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-07-05 06:42:05,092 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-07-05 06:42:12,023 | INFO | Parsed COGTA raw rows: 3
+2026-07-05 06:42:12,464 | INFO | Saved master Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-07-05 06:42:12,465 | INFO | Saved delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-07-05 06:42:12,465 | INFO | Saved updates Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-07-05 06:42:12,465 | INFO | Saved top_delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-07-05 06:56:29,029 | INFO | Using tender scrapers root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-05 06:56:29,030 | INFO | Using source root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-07-05 06:56:29,030 | INFO | Using raw directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-07-05 06:56:29,030 | INFO | Using output directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-07-05 06:56:29,030 | INFO | Using log directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-07-05 06:56:29,031 | INFO | Using state directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-07-05 06:56:29,031 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-07-05 06:56:29,643 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-07-05 06:57:11,380 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-07-05 06:57:11,380 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-07-05 06:57:11,381 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-07-05 06:57:11,966 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-07-05 06:57:17,953 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-05 06:57:17,953 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-05 06:57:17,953 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-07-05 06:57:18,555 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-07-05 06:57:23,605 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-07-05 06:57:23,605 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-07-05 06:57:24,235 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-07-05 06:57:33,324 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-07-05 06:57:39,294 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-07-05 06:57:46,330 | INFO | Parsed COGTA raw rows: 3
+2026-07-05 06:57:46,636 | INFO | Saved master Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-07-05 06:57:46,636 | INFO | Saved delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-07-05 06:57:46,636 | INFO | Saved updates Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-07-05 06:57:46,636 | INFO | Saved top_delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-07-05 07:04:08,057 | INFO | Using tender scrapers root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-05 07:04:08,057 | INFO | Using source root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-07-05 07:04:08,057 | INFO | Using raw directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-07-05 07:04:08,058 | INFO | Using output directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-07-05 07:04:08,058 | INFO | Using log directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-07-05 07:04:08,058 | INFO | Using state directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-07-05 07:04:08,059 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-07-05 07:04:08,694 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-07-05 07:04:29,775 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-07-05 07:04:29,775 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-07-05 07:04:29,775 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-07-05 07:04:30,445 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-07-05 07:04:37,418 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-05 07:04:37,418 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-05 07:04:37,419 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-07-05 07:04:38,467 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-07-05 07:04:43,604 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-07-05 07:04:43,604 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-07-05 07:04:44,356 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-07-05 07:04:52,702 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-07-05 07:05:01,575 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-07-05 07:05:07,861 | INFO | Parsed COGTA raw rows: 3
+2026-07-05 07:05:08,386 | INFO | Saved master Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-07-05 07:05:08,386 | INFO | Saved delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-07-05 07:05:08,386 | INFO | Saved updates Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-07-05 07:05:08,386 | INFO | Saved top_delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-07-05 07:16:36,581 | INFO | Using tender scrapers root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-05 07:16:36,582 | INFO | Using source root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-07-05 07:16:36,582 | INFO | Using raw directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-07-05 07:16:36,582 | INFO | Using output directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-07-05 07:16:36,582 | INFO | Using log directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-07-05 07:16:36,582 | INFO | Using state directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-07-05 07:16:36,583 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-07-05 07:16:37,287 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-07-05 07:17:16,622 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-07-05 07:17:16,623 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-07-05 07:17:16,623 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-07-05 07:17:17,237 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-07-05 07:17:24,495 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-05 07:17:24,495 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-05 07:17:24,495 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-07-05 07:17:25,080 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-07-05 07:17:31,714 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-07-05 07:17:31,714 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-07-05 07:17:32,355 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-07-05 07:17:42,793 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-07-05 07:17:51,326 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-07-05 07:17:58,088 | INFO | Parsed COGTA raw rows: 3
+2026-07-05 07:17:58,356 | INFO | Saved master Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-07-05 07:17:58,357 | INFO | Saved delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-07-05 07:17:58,357 | INFO | Saved updates Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-07-05 07:17:58,357 | INFO | Saved top_delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-07-05 07:30:29,911 | INFO | Using tender scrapers root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-05 07:30:29,911 | INFO | Using source root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-07-05 07:30:29,911 | INFO | Using raw directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-07-05 07:30:29,911 | INFO | Using output directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-07-05 07:30:29,912 | INFO | Using log directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-07-05 07:30:29,912 | INFO | Using state directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-07-05 07:30:29,912 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-07-05 07:30:30,558 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-07-05 07:30:46,444 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-07-05 07:30:46,444 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-07-05 07:30:46,444 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-07-05 07:30:46,989 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-07-05 07:30:53,260 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-05 07:30:53,260 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-05 07:30:53,261 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-07-05 07:30:53,784 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-07-05 07:30:59,672 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-07-05 07:30:59,672 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-07-05 07:31:00,218 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-07-05 07:31:07,260 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-07-05 07:31:14,539 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-07-05 07:31:20,158 | INFO | Parsed COGTA raw rows: 3
+2026-07-05 07:31:20,602 | INFO | Saved master Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-07-05 07:31:20,602 | INFO | Saved delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-07-05 07:31:20,602 | INFO | Saved updates Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-07-05 07:31:20,602 | INFO | Saved top_delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-07-06 08:03:10,303 | INFO | Using tender scrapers root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-06 08:03:10,306 | INFO | Using source root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-07-06 08:03:10,306 | INFO | Using raw directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-07-06 08:03:10,307 | INFO | Using output directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-07-06 08:03:10,307 | INFO | Using log directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-07-06 08:03:10,307 | INFO | Using state directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-07-06 08:03:10,308 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-07-06 08:03:10,648 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-07-06 08:03:20,232 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-07-06 08:03:20,234 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-07-06 08:03:20,235 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-07-06 08:03:21,480 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-07-06 08:03:26,869 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-06 08:03:26,871 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-06 08:03:26,873 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-07-06 08:03:28,137 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-07-06 08:03:32,457 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-07-06 08:03:32,457 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-07-06 08:03:33,783 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-07-06 08:03:39,250 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-07-06 08:03:44,241 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-07-06 08:03:48,340 | INFO | Parsed COGTA raw rows: 3
+2026-07-06 08:03:50,244 | INFO | Saved master Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-07-06 08:03:50,245 | INFO | Saved delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-07-06 08:03:50,246 | INFO | Saved updates Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-07-06 08:03:50,247 | INFO | Saved top_delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-07-06 17:23:09,859 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-06 17:23:10,878 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-07-06 17:23:10,878 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-07-06 17:23:10,878 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-07-06 17:23:10,879 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-07-06 17:23:10,879 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-07-06 17:23:10,884 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-07-06 17:23:10,974 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-07-06 17:23:37,128 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-07-06 17:23:37,129 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-07-06 17:23:37,129 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-07-06 17:23:37,164 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-07-06 17:23:41,417 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-06 17:23:41,417 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-06 17:23:41,417 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-07-06 17:23:41,445 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-07-06 17:23:44,970 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-07-06 17:23:44,970 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-07-06 17:23:45,016 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-07-06 17:23:51,049 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-07-06 17:23:55,854 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-07-06 17:23:59,659 | INFO | Parsed COGTA raw rows: 3
+2026-07-06 17:24:02,364 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-07-06 17:24:02,364 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-07-06 17:24:02,364 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-07-06 17:24:02,364 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-07-13 08:02:36,628 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-13 08:02:36,630 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-07-13 08:02:36,630 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-07-13 08:02:36,630 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-07-13 08:02:36,630 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-07-13 08:02:36,630 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-07-13 08:02:36,631 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-07-13 08:02:36,714 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-07-13 08:02:45,611 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-07-13 08:02:45,612 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 1
+2026-07-13 08:02:45,612 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-07-13 08:02:45,650 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-07-13 08:02:49,886 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-13 08:02:49,888 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 1
+2026-07-13 08:02:49,889 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-07-13 08:02:49,941 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-07-13 08:02:55,747 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-07-13 08:02:55,748 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-07-13 08:02:55,840 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2026/07/10/deputy-minister-dr-namane-dickson-masemola-to-undertake-a-monitoring-and-oversight-visit-to-sekhukhune-district-municipality/. Retrying without verification.
+2026-07-13 08:03:02,247 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2026/07/10/deputy-minister-dr-namane-dickson-masemola-to-undertake-a-monitoring-and-oversight-visit-to-sekhukhune-district-municipality/. Retrying without verification.
+2026-07-13 08:03:06,244 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-07-13 08:03:10,506 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-07-13 08:03:14,662 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-07-13 08:03:19,750 | INFO | Parsed COGTA raw rows: 4
+2026-07-13 08:03:21,291 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 2
+2026-07-13 08:03:21,291 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 1
+2026-07-13 08:03:21,292 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 1
+2026-07-13 08:03:21,295 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 1
+2026-07-14 08:01:21,921 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-14 08:01:21,923 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-07-14 08:01:21,923 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-07-14 08:01:21,923 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-07-14 08:01:21,924 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-07-14 08:01:21,924 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-07-14 08:01:21,924 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-07-14 08:01:21,973 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-07-14 08:01:29,071 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-07-14 08:01:29,072 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-07-14 08:01:29,072 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-07-14 08:01:29,099 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-07-14 08:01:33,007 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-14 08:01:33,008 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-14 08:01:33,008 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-07-14 08:01:33,442 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-07-14 08:01:37,042 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-07-14 08:01:37,042 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-07-14 08:01:37,092 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-07-14 08:01:41,295 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-07-14 08:01:45,223 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-07-14 08:01:49,142 | INFO | Parsed COGTA raw rows: 3
+2026-07-14 08:01:49,502 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-07-14 08:01:49,502 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-07-14 08:01:49,502 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-07-14 08:01:49,502 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-07-15 08:01:08,231 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-15 08:01:08,232 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-07-15 08:01:08,232 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-07-15 08:01:08,232 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-07-15 08:01:08,232 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-07-15 08:01:08,233 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-07-15 08:01:08,233 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-07-15 08:01:08,267 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-07-15 08:01:15,375 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-07-15 08:01:15,375 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-07-15 08:01:15,375 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-07-15 08:01:15,404 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-07-15 08:01:20,437 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-15 08:01:20,438 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-15 08:01:20,438 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-07-15 08:01:20,460 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-07-15 08:01:24,365 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-07-15 08:01:24,365 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-07-15 08:01:24,446 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-07-15 08:01:28,382 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-07-15 08:01:32,234 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-07-15 08:01:36,029 | INFO | Parsed COGTA raw rows: 3
+2026-07-15 08:01:37,889 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-07-15 08:01:37,890 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-07-15 08:01:37,890 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 1
+2026-07-15 08:01:37,890 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-07-16 08:01:06,718 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-16 08:01:06,720 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-07-16 08:01:06,720 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-07-16 08:01:06,720 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-07-16 08:01:06,720 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-07-16 08:01:06,720 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-07-16 08:01:06,721 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-07-16 08:01:06,780 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-07-16 08:01:14,921 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-07-16 08:01:14,921 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-07-16 08:01:14,921 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-07-16 08:01:14,949 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-07-16 08:01:20,816 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-16 08:01:20,816 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-16 08:01:20,817 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-07-16 08:01:20,855 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-07-16 08:01:24,653 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-07-16 08:01:24,654 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-07-16 08:01:24,678 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-07-16 08:01:32,146 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-07-16 08:01:37,164 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-07-16 08:01:41,255 | INFO | Parsed COGTA raw rows: 3
+2026-07-16 08:01:41,881 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-07-16 08:01:41,882 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-07-16 08:01:41,882 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-07-16 08:01:41,882 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-07-17 08:01:04,862 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-17 08:01:04,865 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-07-17 08:01:04,865 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-07-17 08:01:04,865 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-07-17 08:01:04,865 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-07-17 08:01:04,865 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-07-17 08:01:04,866 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-07-17 08:01:04,905 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-07-17 08:01:30,542 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-07-17 08:01:30,542 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-07-17 08:01:30,543 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-07-17 08:01:30,958 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-07-17 08:01:34,948 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-17 08:01:34,949 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-17 08:01:34,949 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-07-17 08:01:34,977 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-07-17 08:01:38,308 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-07-17 08:01:38,308 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-07-17 08:01:38,328 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-07-17 08:01:44,465 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-07-17 08:01:48,068 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-07-17 08:01:51,846 | INFO | Parsed COGTA raw rows: 3
+2026-07-17 08:01:52,188 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-07-17 08:01:52,189 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-07-17 08:01:52,189 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-07-17 08:01:52,189 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-07-20 08:01:20,786 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-20 08:01:20,787 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-07-20 08:01:20,787 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-07-20 08:01:20,787 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-07-20 08:01:20,787 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-07-20 08:01:20,787 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-07-20 08:01:20,788 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-07-20 08:01:20,837 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-07-20 08:01:28,406 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-07-20 08:01:28,407 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-07-20 08:01:28,407 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-07-20 08:01:28,448 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-07-20 08:01:32,797 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-20 08:01:32,797 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-20 08:01:32,798 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-07-20 08:01:32,838 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-07-20 08:01:36,573 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-07-20 08:01:36,574 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-07-20 08:01:36,617 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-07-20 08:01:44,073 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-07-20 08:01:47,833 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-07-20 08:01:51,658 | INFO | Parsed COGTA raw rows: 3
+2026-07-20 08:01:52,639 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-07-20 08:01:52,639 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-07-20 08:01:52,640 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-07-20 08:01:52,640 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-07-21 08:01:16,769 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-21 08:01:16,771 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-07-21 08:01:16,771 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-07-21 08:01:16,771 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-07-21 08:01:16,772 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-07-21 08:01:16,772 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-07-21 08:01:16,773 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-07-21 08:01:16,835 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-07-21 08:02:07,071 | WARNING | Failed to fetch COGTA page https://www.cogta.gov.za/index.php/cogta-tenders/: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-07-21 08:02:07,072 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-07-21 08:02:07,132 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-07-21 08:02:57,447 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-21 08:02:57,447 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-21 08:02:57,449 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-07-21 08:02:57,501 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-07-21 08:03:01,280 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-07-21 08:03:01,283 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-07-21 08:03:01,332 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-07-21 08:03:09,071 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-07-21 08:03:12,822 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-07-21 08:03:16,472 | INFO | Parsed COGTA raw rows: 3
+2026-07-21 08:03:16,896 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-07-21 08:03:16,897 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-07-21 08:03:16,897 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-07-21 08:03:16,897 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-07-22 08:01:15,846 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-22 08:01:15,847 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-07-22 08:01:15,848 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-07-22 08:01:15,848 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-07-22 08:01:15,848 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-07-22 08:01:15,848 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-07-22 08:01:15,848 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-07-22 08:01:15,953 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-07-22 08:01:22,856 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-07-22 08:01:22,856 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-07-22 08:01:22,857 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-07-22 08:01:23,031 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-07-22 08:01:27,128 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-22 08:01:27,129 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-22 08:01:27,129 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-07-22 08:01:27,164 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-07-22 08:01:30,738 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-07-22 08:01:30,739 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-07-22 08:01:30,765 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-07-22 08:01:37,151 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-07-22 08:01:40,839 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-07-22 08:01:44,163 | INFO | Parsed COGTA raw rows: 3
+2026-07-22 08:01:44,933 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-07-22 08:01:44,933 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-07-22 08:01:44,933 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-07-22 08:01:44,933 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-07-23 08:04:12,253 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-23 08:04:12,254 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-07-23 08:04:12,254 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-07-23 08:04:12,254 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-07-23 08:04:12,254 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-07-23 08:04:12,254 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-07-23 08:04:12,255 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-07-23 08:04:13,194 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-07-23 08:04:24,437 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-07-23 08:04:24,438 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-07-23 08:04:24,438 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-07-23 08:04:24,476 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-07-23 08:04:36,623 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-23 08:04:36,624 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-23 08:04:36,624 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-07-23 08:04:36,743 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-07-23 08:04:43,849 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-07-23 08:04:43,850 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-07-23 08:04:43,909 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-07-23 08:04:56,081 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-07-23 08:05:10,945 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-07-23 08:05:20,853 | INFO | Parsed COGTA raw rows: 3
+2026-07-23 08:05:21,491 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-07-23 08:05:21,492 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-07-23 08:05:21,492 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-07-23 08:05:21,492 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-07-24 08:02:28,523 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-24 08:02:28,524 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-07-24 08:02:28,524 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-07-24 08:02:28,524 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-07-24 08:02:28,524 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-07-24 08:02:28,525 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-07-24 08:02:28,526 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-07-24 08:02:28,687 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-07-24 08:03:28,836 | WARNING | Failed to fetch COGTA page https://www.cogta.gov.za/index.php/cogta-tenders/: ('Connection broken: IncompleteRead(5428 bytes read, 4812 more expected)', IncompleteRead(5428 bytes read, 4812 more expected))
+2026-07-24 08:03:28,837 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-07-24 08:03:28,917 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-07-24 08:04:07,471 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-24 08:04:07,471 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-24 08:04:07,471 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-07-24 08:04:07,975 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-07-24 08:04:38,870 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-07-24 08:04:38,870 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-07-24 08:04:39,919 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-07-24 08:05:20,429 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-07-24 08:05:30,668 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-07-24 08:05:44,883 | INFO | Parsed COGTA raw rows: 3
+2026-07-24 08:05:45,273 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-07-24 08:05:45,273 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-07-24 08:05:45,275 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-07-24 08:05:45,275 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-07-27 08:01:42,006 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-27 08:01:42,009 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-07-27 08:01:42,010 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-07-27 08:01:42,011 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-07-27 08:01:42,011 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-07-27 08:01:42,012 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-07-27 08:01:42,014 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-07-27 08:01:42,095 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-07-27 08:02:32,350 | WARNING | Failed to fetch COGTA page https://www.cogta.gov.za/index.php/cogta-tenders/: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-07-27 08:02:32,351 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-07-27 08:02:32,437 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-07-27 08:03:22,550 | WARNING | Failed to fetch COGTA page https://www.cogta.gov.za/index.php/new-tender-page/: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-07-27 08:03:22,550 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-07-27 08:03:22,756 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-07-27 08:03:31,211 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-07-27 08:03:31,212 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-07-27 08:03:31,265 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-07-27 08:03:39,521 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-07-27 08:03:45,153 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-07-27 08:03:49,650 | INFO | Parsed COGTA raw rows: 3
+2026-07-27 08:03:51,012 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-07-27 08:03:51,013 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-07-27 08:03:51,013 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 1
+2026-07-27 08:03:51,014 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-07-28 08:01:10,670 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-28 08:01:10,673 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-07-28 08:01:10,673 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-07-28 08:01:10,673 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-07-28 08:01:10,673 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-07-28 08:01:10,673 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-07-28 08:01:10,674 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-07-28 08:01:10,964 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-07-28 08:01:21,513 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-07-28 08:01:21,514 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-07-28 08:01:21,514 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-07-28 08:01:21,551 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-07-28 08:01:27,011 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-28 08:01:27,011 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-28 08:01:27,012 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-07-28 08:01:27,038 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-07-28 08:01:31,896 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-07-28 08:01:31,897 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-07-28 08:01:31,924 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-07-28 08:01:39,615 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-07-28 08:01:44,403 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-07-28 08:01:50,472 | INFO | Parsed COGTA raw rows: 3
+2026-07-28 08:01:51,272 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-07-28 08:01:51,273 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-07-28 08:01:51,273 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-07-28 08:01:51,274 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-07-29 08:01:12,530 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-29 08:01:12,533 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-07-29 08:01:12,533 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-07-29 08:01:12,533 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-07-29 08:01:12,533 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-07-29 08:01:12,533 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-07-29 08:01:12,534 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-07-29 08:01:12,595 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-07-29 08:01:20,269 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-07-29 08:01:20,270 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-07-29 08:01:20,270 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-07-29 08:01:20,315 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-07-29 08:01:25,108 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-29 08:01:25,108 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-29 08:01:25,108 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-07-29 08:01:25,136 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-07-29 08:01:29,927 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-07-29 08:01:29,928 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-07-29 08:01:29,983 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-07-29 08:01:37,713 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-07-29 08:01:42,112 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-07-29 08:01:46,471 | INFO | Parsed COGTA raw rows: 3
+2026-07-29 08:01:47,159 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-07-29 08:01:47,160 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-07-29 08:01:47,160 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-07-29 08:01:47,160 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-07-30 08:02:48,497 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-30 08:02:48,547 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-07-30 08:02:48,547 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-07-30 08:02:48,547 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-07-30 08:02:48,547 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-07-30 08:02:48,547 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-07-30 08:02:48,549 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-07-30 08:02:48,646 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-07-30 08:03:29,420 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-07-30 08:03:29,420 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-07-30 08:03:29,421 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-07-30 08:03:29,496 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-07-30 08:03:35,518 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-30 08:03:35,518 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-30 08:03:35,518 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-07-30 08:03:35,557 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-07-30 08:03:41,544 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-07-30 08:03:41,544 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-07-30 08:03:41,579 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-07-30 08:03:50,158 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-07-30 08:03:56,954 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-07-30 08:04:02,716 | INFO | Parsed COGTA raw rows: 3
+2026-07-30 08:04:03,624 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-07-30 08:04:03,624 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-07-30 08:04:03,625 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-07-30 08:04:03,625 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-07-31 08:01:09,315 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-31 08:01:09,316 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-07-31 08:01:09,317 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-07-31 08:01:09,317 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-07-31 08:01:09,317 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-07-31 08:01:09,317 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-07-31 08:01:09,318 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-07-31 08:01:09,356 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-07-31 08:01:36,847 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-07-31 08:01:36,847 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-07-31 08:01:36,847 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-07-31 08:01:36,876 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-07-31 08:01:41,275 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-31 08:01:41,275 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-31 08:01:41,276 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-07-31 08:01:41,306 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-07-31 08:01:45,351 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-07-31 08:01:45,351 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-07-31 08:01:45,377 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-07-31 08:01:52,414 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-07-31 08:01:56,784 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-07-31 08:02:00,873 | INFO | Parsed COGTA raw rows: 3
+2026-07-31 08:02:01,568 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-07-31 08:02:01,569 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-07-31 08:02:01,569 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-07-31 08:02:01,569 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-08-03 08:01:41,202 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-03 08:01:41,204 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-08-03 08:01:41,204 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-08-03 08:01:41,205 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-08-03 08:01:41,205 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-08-03 08:01:41,205 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-08-03 08:01:41,206 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-08-03 08:01:41,279 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-08-03 08:02:10,518 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-08-03 08:02:10,518 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-08-03 08:02:10,518 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-08-03 08:02:10,557 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-08-03 08:02:16,165 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-08-03 08:02:16,165 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-08-03 08:02:16,165 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-08-03 08:02:16,206 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-08-03 08:02:21,165 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-08-03 08:02:21,167 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-08-03 08:02:21,217 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-08-03 08:02:29,597 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-08-03 08:02:34,845 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-08-03 08:02:39,338 | INFO | Parsed COGTA raw rows: 3
+2026-08-03 08:02:41,198 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-08-03 08:02:41,198 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-08-03 08:02:41,198 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-08-03 08:02:41,199 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-08-04 08:01:12,431 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-04 08:01:12,433 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-08-04 08:01:12,433 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-08-04 08:01:12,433 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-08-04 08:01:12,433 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-08-04 08:01:12,433 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-08-04 08:01:12,434 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-08-04 08:01:12,487 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-08-04 08:02:08,931 | WARNING | Failed to fetch COGTA page https://www.cogta.gov.za/index.php/cogta-tenders/: ('Connection broken: IncompleteRead(5428 bytes read, 4812 more expected)', IncompleteRead(5428 bytes read, 4812 more expected))
+2026-08-04 08:02:08,931 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-08-04 08:02:09,036 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-08-04 08:02:17,804 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-08-04 08:02:17,804 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-08-04 08:02:17,804 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-08-04 08:02:17,831 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-08-04 08:02:25,876 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-08-04 08:02:25,877 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-08-04 08:02:25,910 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-08-04 08:02:44,029 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-08-04 08:02:53,388 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-08-04 08:03:00,379 | INFO | Parsed COGTA raw rows: 3
+2026-08-04 08:03:01,039 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-08-04 08:03:01,040 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-08-04 08:03:01,040 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-08-04 08:03:01,040 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-08-05 08:01:16,359 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-05 08:01:16,361 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-08-05 08:01:16,361 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-08-05 08:01:16,361 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-08-05 08:01:16,361 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-08-05 08:01:16,362 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-08-05 08:01:16,364 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-08-05 08:01:16,433 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-08-05 08:01:44,941 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-08-05 08:01:44,942 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-08-05 08:01:44,942 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-08-05 08:01:44,984 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-08-05 08:01:49,256 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-08-05 08:01:49,256 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-08-05 08:01:49,256 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-08-05 08:01:49,298 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-08-05 08:01:53,229 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-08-05 08:01:53,229 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-08-05 08:01:53,264 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-08-05 08:02:00,222 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-08-05 08:02:04,395 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-08-05 08:02:08,640 | INFO | Parsed COGTA raw rows: 3
+2026-08-05 08:02:09,811 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-08-05 08:02:09,812 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-08-05 08:02:09,812 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-08-05 08:02:09,812 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-08-07 08:01:17,995 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-07 08:01:17,998 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-08-07 08:01:17,998 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-08-07 08:01:17,998 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-08-07 08:01:17,998 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-08-07 08:01:17,998 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-08-07 08:01:17,999 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-08-07 08:01:18,054 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-08-07 08:01:25,744 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-08-07 08:01:25,744 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-08-07 08:01:25,744 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-08-07 08:01:25,796 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-08-07 08:01:31,433 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-08-07 08:01:31,433 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-08-07 08:01:31,433 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-08-07 08:01:31,459 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-08-07 08:01:36,253 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-08-07 08:01:36,254 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-08-07 08:01:36,278 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-08-07 08:01:43,699 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-08-07 08:01:48,865 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-08-07 08:01:53,899 | INFO | Parsed COGTA raw rows: 3
+2026-08-07 08:01:54,638 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-08-07 08:01:54,639 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-08-07 08:01:54,639 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-08-07 08:01:54,645 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-08-10 08:01:24,037 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-10 08:01:24,038 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-08-10 08:01:24,038 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-08-10 08:01:24,038 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-08-10 08:01:24,038 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-08-10 08:01:24,039 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-08-10 08:01:24,039 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-08-10 08:01:24,536 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-08-10 08:01:46,042 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-08-10 08:01:46,045 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-08-10 08:01:46,046 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-08-10 08:01:46,513 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-08-10 08:01:57,425 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-08-10 08:01:57,425 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-08-10 08:01:57,425 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-08-10 08:01:57,842 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-08-10 08:02:05,419 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-08-10 08:02:05,419 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-08-10 08:02:05,776 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-08-10 08:02:15,582 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-08-10 08:02:24,174 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-08-10 08:02:32,992 | INFO | Parsed COGTA raw rows: 3
+2026-08-10 08:02:33,818 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-08-10 08:02:33,818 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-08-10 08:02:33,818 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-08-10 08:02:33,818 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-08-11 08:01:13,360 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-11 08:01:13,363 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-08-11 08:01:13,363 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-08-11 08:01:13,363 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-08-11 08:01:13,363 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-08-11 08:01:13,363 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-08-11 08:01:13,364 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-08-11 08:01:13,406 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-08-11 08:01:20,553 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-08-11 08:01:20,554 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-08-11 08:01:20,554 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-08-11 08:01:20,577 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-08-11 08:01:25,213 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-08-11 08:01:25,213 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-08-11 08:01:25,213 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-08-11 08:01:25,244 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-08-11 08:01:29,668 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-08-11 08:01:29,668 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-08-11 08:01:29,695 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-08-11 08:01:34,191 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-08-11 08:01:38,791 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-08-11 08:01:43,029 | INFO | Parsed COGTA raw rows: 3
+2026-08-11 08:01:43,638 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-08-11 08:01:43,639 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-08-11 08:01:43,639 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-08-11 08:01:43,639 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-08-12 08:01:08,998 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-12 08:01:08,999 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-08-12 08:01:08,999 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-08-12 08:01:08,999 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-08-12 08:01:08,999 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-08-12 08:01:08,999 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-08-12 08:01:09,000 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-08-12 08:01:10,797 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-08-12 08:01:19,045 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-08-12 08:01:19,046 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-08-12 08:01:19,046 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-08-12 08:01:19,074 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-08-12 08:01:23,684 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-08-12 08:01:23,684 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-08-12 08:01:23,684 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-08-12 08:01:23,723 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-08-12 08:01:27,444 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-08-12 08:01:27,444 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-08-12 08:01:27,471 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-08-12 08:01:31,691 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-08-12 08:01:35,803 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-08-12 08:01:39,924 | INFO | Parsed COGTA raw rows: 3
+2026-08-12 08:01:40,581 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-08-12 08:01:40,582 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-08-12 08:01:40,582 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-08-12 08:01:40,582 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-08-14 08:00:50,918 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-14 08:00:50,919 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-08-14 08:00:50,919 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-08-14 08:00:50,919 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-08-14 08:00:50,919 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-08-14 08:00:50,920 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-08-14 08:00:50,920 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-08-14 08:00:50,981 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-08-14 08:00:57,978 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-08-14 08:00:57,978 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-08-14 08:00:57,978 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-08-14 08:00:57,999 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-08-14 08:01:02,272 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-08-14 08:01:02,272 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-08-14 08:01:02,272 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-08-14 08:01:02,296 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-08-14 08:01:06,137 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-08-14 08:01:06,137 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-08-14 08:01:06,160 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-08-14 08:01:11,895 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-08-14 08:01:15,941 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-08-14 08:01:20,216 | INFO | Parsed COGTA raw rows: 3
+2026-08-14 08:01:20,920 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-08-14 08:01:20,920 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-08-14 08:01:20,920 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-08-14 08:01:20,920 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-08-17 08:02:02,768 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-17 08:02:02,819 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-08-17 08:02:02,820 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-08-17 08:02:02,820 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-08-17 08:02:02,820 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-08-17 08:02:02,820 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-08-17 08:02:02,822 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-08-17 08:02:03,227 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-08-17 08:02:11,765 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-08-17 08:02:11,766 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-08-17 08:02:11,767 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-08-17 08:02:11,824 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-08-17 08:02:16,709 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-08-17 08:02:16,709 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-08-17 08:02:16,709 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-08-17 08:02:16,767 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-08-17 08:02:21,270 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-08-17 08:02:21,270 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-08-17 08:02:21,309 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-08-17 08:02:26,320 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-08-17 08:02:30,622 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-08-17 08:02:35,263 | INFO | Parsed COGTA raw rows: 3
+2026-08-17 08:02:37,424 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-08-17 08:02:37,424 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-08-17 08:02:37,424 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-08-17 08:02:37,425 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-08-18 08:01:14,902 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-18 08:01:14,905 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-08-18 08:01:14,905 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-08-18 08:01:14,905 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-08-18 08:01:14,905 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-08-18 08:01:14,905 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-08-18 08:01:14,906 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-08-18 08:01:15,314 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-08-18 08:01:22,557 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-08-18 08:01:22,558 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-08-18 08:01:22,558 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-08-18 08:01:22,596 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-08-18 08:01:26,730 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-08-18 08:01:26,730 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-08-18 08:01:26,731 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-08-18 08:01:26,781 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-08-18 08:01:30,661 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-08-18 08:01:30,662 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-08-18 08:01:30,694 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-08-18 08:01:34,908 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-08-18 08:01:39,958 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-08-18 08:01:44,179 | INFO | Parsed COGTA raw rows: 3
+2026-08-18 08:01:44,770 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-08-18 08:01:44,770 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-08-18 08:01:44,771 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-08-18 08:01:44,771 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-08-20 08:01:13,072 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-20 08:01:13,073 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-08-20 08:01:13,073 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-08-20 08:01:13,073 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-08-20 08:01:13,074 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-08-20 08:01:13,074 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-08-20 08:01:13,074 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-08-20 08:01:13,157 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-08-20 08:01:20,371 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-08-20 08:01:20,372 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-08-20 08:01:20,372 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-08-20 08:01:20,401 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-08-20 08:01:24,677 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-08-20 08:01:24,678 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-08-20 08:01:24,679 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-08-20 08:01:24,718 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-08-20 08:01:28,749 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-08-20 08:01:28,749 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-08-20 08:01:28,774 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-08-20 08:01:35,718 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-08-20 08:01:39,724 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-08-20 08:01:43,971 | INFO | Parsed COGTA raw rows: 3
+2026-08-20 08:01:44,580 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-08-20 08:01:44,581 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-08-20 08:01:44,581 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-08-20 08:01:44,581 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-08-21 08:00:39,699 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-21 08:00:39,701 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-08-21 08:00:39,702 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-08-21 08:00:39,702 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-08-21 08:00:39,702 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-08-21 08:00:39,702 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-08-21 08:00:39,703 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-08-21 08:00:39,764 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-08-21 08:00:46,645 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-08-21 08:00:46,645 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-08-21 08:00:46,645 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-08-21 08:00:46,671 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-08-21 08:00:51,378 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-08-21 08:00:51,378 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-08-21 08:00:51,378 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-08-21 08:00:51,403 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-08-21 08:00:55,447 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-08-21 08:00:55,447 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-08-21 08:00:55,477 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-08-21 08:00:59,625 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-08-21 08:01:03,726 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-08-21 08:01:07,764 | INFO | Parsed COGTA raw rows: 3
+2026-08-21 08:01:08,318 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-08-21 08:01:08,318 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-08-21 08:01:08,318 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-08-21 08:01:08,319 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-08-24 08:01:10,855 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-24 08:01:10,858 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-08-24 08:01:10,858 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-08-24 08:01:10,859 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-08-24 08:01:10,859 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-08-24 08:01:10,859 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-08-24 08:01:10,861 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-08-24 08:01:10,930 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-08-24 08:01:19,165 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-08-24 08:01:19,166 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-08-24 08:01:19,166 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-08-24 08:01:19,217 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-08-24 08:01:24,759 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-08-24 08:01:24,759 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-08-24 08:01:24,759 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-08-24 08:01:24,798 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-08-24 08:01:29,692 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-08-24 08:01:29,692 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-08-24 08:01:29,860 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-08-24 08:01:34,746 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-08-24 08:01:39,636 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-08-24 08:01:44,893 | INFO | Parsed COGTA raw rows: 3
+2026-08-24 08:01:47,215 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-08-24 08:01:47,217 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-08-24 08:01:47,218 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-08-24 08:01:47,218 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-08-25 08:01:09,220 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-25 08:01:09,221 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-08-25 08:01:09,221 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-08-25 08:01:09,222 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-08-25 08:01:09,222 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-08-25 08:01:09,222 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-08-25 08:01:09,222 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-08-25 08:01:09,276 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-08-25 08:01:17,066 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-08-25 08:01:17,067 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-08-25 08:01:17,067 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-08-25 08:01:17,099 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-08-25 08:01:21,541 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-08-25 08:01:21,541 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-08-25 08:01:21,542 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-08-25 08:01:21,581 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-08-25 08:01:27,069 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-08-25 08:01:27,070 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-08-25 08:01:28,118 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-08-25 08:01:32,842 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-08-25 08:01:37,533 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-08-25 08:01:42,066 | INFO | Parsed COGTA raw rows: 3
+2026-08-25 08:01:43,926 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-08-25 08:01:43,927 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-08-25 08:01:43,927 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-08-25 08:01:43,927 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-08-26 08:00:31,187 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-26 08:00:31,189 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-08-26 08:00:31,189 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-08-26 08:00:31,189 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-08-26 08:00:31,189 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-08-26 08:00:31,189 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-08-26 08:00:31,190 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-08-26 08:00:31,236 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-08-26 08:00:39,488 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-08-26 08:00:39,488 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-08-26 08:00:39,489 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-08-26 08:00:39,515 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-08-26 08:00:44,031 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-08-26 08:00:44,032 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-08-26 08:00:44,032 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-08-26 08:00:44,062 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-08-26 08:00:48,242 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-08-26 08:00:48,243 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-08-26 08:00:48,273 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-08-26 08:00:53,128 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-08-26 08:00:57,589 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-08-26 08:01:02,604 | INFO | Parsed COGTA raw rows: 3
+2026-08-26 08:01:03,211 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-08-26 08:01:03,211 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-08-26 08:01:03,211 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-08-26 08:01:03,211 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-08-27 08:01:08,783 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-27 08:01:08,785 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-08-27 08:01:08,785 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-08-27 08:01:08,785 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-08-27 08:01:08,785 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-08-27 08:01:08,785 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-08-27 08:01:08,786 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-08-27 08:01:08,827 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-08-27 08:01:18,766 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-08-27 08:01:18,766 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-08-27 08:01:18,767 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-08-27 08:01:18,796 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-08-27 08:01:23,285 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-08-27 08:01:23,286 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-08-27 08:01:23,286 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-08-27 08:01:23,319 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-08-27 08:01:27,944 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-08-27 08:01:27,945 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-08-27 08:01:27,971 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-08-27 08:01:32,526 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-08-28 08:01:16,286 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-28 08:01:16,286 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-08-28 08:01:16,287 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-08-28 08:01:16,287 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-08-28 08:01:16,287 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-08-28 08:01:16,287 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-08-28 08:01:16,287 | ERROR | FAILED: Lock file exists; another run may be active: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State\run.lock
+Traceback (most recent call last):
+  File "C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\00_Scripts\cogta_tender_pull_and_clean.py", line 786, in main
+    acquire_lock(lock_file)
+    ~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\00_Scripts\cogta_tender_pull_and_clean.py", line 144, in acquire_lock
+    raise RuntimeError(f"Lock file exists; another run may be active: {lock_path}")
+RuntimeError: Lock file exists; another run may be active: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State\run.lock
+2026-08-31 10:04:17,113 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-31 10:04:17,130 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-08-31 10:04:17,131 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-08-31 10:04:17,131 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-08-31 10:04:17,131 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-08-31 10:04:17,131 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-08-31 10:04:17,161 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-08-31 10:04:18,622 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-08-31 10:04:35,456 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-08-31 10:04:35,456 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-08-31 10:04:35,456 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-08-31 10:04:35,854 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-08-31 10:04:43,680 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-08-31 10:04:43,680 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-08-31 10:04:43,681 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-08-31 10:04:44,096 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-08-31 10:04:52,474 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-08-31 10:04:52,475 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-08-31 10:04:52,851 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-08-31 10:05:01,851 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-08-31 10:05:10,505 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-08-31 10:05:20,372 | INFO | Parsed COGTA raw rows: 3
+2026-08-31 10:05:21,813 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-08-31 10:05:21,813 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-08-31 10:05:21,814 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-08-31 10:05:21,814 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-09-02 14:53:41,420 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-09-02 14:53:41,421 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-09-02 14:53:41,421 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-09-02 14:53:41,422 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-09-02 14:53:41,422 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-09-02 14:53:41,422 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-09-02 14:53:41,424 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-09-02 14:53:41,875 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-09-02 14:54:42,384 | WARNING | Failed to fetch COGTA page https://www.cogta.gov.za/index.php/cogta-tenders/: ('Connection broken: IncompleteRead(0 bytes read, 2 more expected)', IncompleteRead(0 bytes read, 2 more expected))
+2026-09-02 14:54:42,385 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-09-02 14:54:43,933 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-09-02 14:55:03,748 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-09-02 14:55:03,749 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-09-02 14:55:03,749 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-09-02 14:55:04,147 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-09-02 14:55:15,633 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-09-02 14:55:15,634 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-09-02 14:55:16,060 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-09-02 14:56:01,933 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-09-02 14:56:25,132 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-09-02 14:56:38,114 | INFO | Parsed COGTA raw rows: 3
+2026-09-02 14:56:39,977 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-09-02 14:56:39,978 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-09-02 14:56:39,989 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-09-02 14:56:39,994 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-09-05 13:24:53,293 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-09-05 13:24:53,294 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-09-05 13:24:53,294 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-09-05 13:24:53,295 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-09-05 13:24:53,295 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-09-05 13:24:53,295 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-09-05 13:24:53,296 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-09-05 13:24:54,592 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-09-05 13:25:30,133 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-09-05 13:25:30,134 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 1
+2026-09-05 13:25:30,134 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-09-05 13:25:31,211 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-09-05 13:25:37,047 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-09-05 13:25:37,047 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 1
+2026-09-05 13:25:37,047 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-09-05 13:25:37,404 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-09-05 13:25:42,847 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-09-05 13:25:42,847 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-09-05 13:25:43,206 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2026/09/04/opening-remarks-by-the-minister-of-cooperative-governance-and-traditional-affairs-honourable-vf-hlabisa-mp-at-the-joint-engagement-with-the-department-of-international-relations-and-cooperation-and/. Retrying without verification.
+2026-09-05 13:25:49,152 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2026/09/04/opening-remarks-by-the-minister-of-cooperative-governance-and-traditional-affairs-honourable-vf-hlabisa-mp-at-the-joint-engagement-with-the-department-of-international-relations-and-cooperation-and/. Retrying without verification.
+2026-09-05 13:25:55,367 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-09-05 13:26:04,145 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-09-05 13:26:11,692 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-09-05 13:26:18,330 | INFO | Parsed COGTA raw rows: 4
+2026-09-05 13:26:18,982 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 3
+2026-09-05 13:26:18,983 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 2
+2026-09-05 13:26:18,983 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 1
+2026-09-05 13:26:18,984 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 2
+2026-09-07 08:02:08,360 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-09-07 08:02:08,362 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-09-07 08:02:08,363 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-09-07 08:02:08,363 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-09-07 08:02:08,363 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-09-07 08:02:08,363 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-09-07 08:02:08,365 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-09-07 08:02:08,434 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-09-07 08:02:32,626 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-09-07 08:02:32,628 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 1
+2026-09-07 08:02:32,631 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-09-07 08:02:32,824 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-09-07 08:02:37,935 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-09-07 08:02:37,936 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 1
+2026-09-07 08:02:37,936 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-09-07 08:02:37,997 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-09-07 08:02:42,574 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-09-07 08:02:42,574 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-09-07 08:02:42,620 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2026/09/04/opening-remarks-by-the-minister-of-cooperative-governance-and-traditional-affairs-honourable-vf-hlabisa-mp-at-the-joint-engagement-with-the-department-of-international-relations-and-cooperation-and/. Retrying without verification.
+2026-09-07 08:02:47,360 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2026/09/04/opening-remarks-by-the-minister-of-cooperative-governance-and-traditional-affairs-honourable-vf-hlabisa-mp-at-the-joint-engagement-with-the-department-of-international-relations-and-cooperation-and/. Retrying without verification.
+2026-09-07 08:02:51,996 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-09-07 08:02:58,952 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-09-07 08:03:03,790 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-09-07 08:03:08,609 | INFO | Parsed COGTA raw rows: 4
+2026-09-07 08:03:11,383 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 3
+2026-09-07 08:03:11,383 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-09-07 08:03:11,383 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-09-07 08:03:11,383 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-09-08 08:00:41,574 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-09-08 08:00:41,575 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-09-08 08:00:41,575 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-09-08 08:00:41,576 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-09-08 08:00:41,576 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-09-08 08:00:41,576 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-09-08 08:00:41,576 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-09-08 08:00:41,619 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-09-08 08:00:50,612 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-09-08 08:00:50,612 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-09-08 08:00:50,613 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-09-08 08:00:50,650 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-09-08 08:00:57,100 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-09-08 08:00:57,100 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-09-08 08:00:57,100 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-09-08 08:00:57,149 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-09-08 08:01:01,502 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-09-08 08:01:01,502 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-09-08 08:01:01,550 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-09-08 08:01:06,355 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-09-08 08:01:11,262 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-09-08 08:01:16,263 | INFO | Parsed COGTA raw rows: 3
+2026-09-08 08:01:16,884 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-09-08 08:01:16,884 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-09-08 08:01:16,884 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-09-08 08:01:16,884 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-09-09 13:48:38,050 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-09-09 13:48:38,052 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-09-09 13:48:38,052 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-09-09 13:48:38,053 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-09-09 13:48:38,053 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-09-09 13:48:38,053 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-09-09 13:48:38,054 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-09-09 13:48:38,432 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-09-09 13:49:11,805 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-09-09 13:49:11,806 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-09-09 13:49:11,806 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-09-09 13:49:12,164 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-09-09 13:49:19,187 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-09-09 13:49:19,188 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-09-09 13:49:19,188 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-09-09 13:49:19,544 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-09-09 13:49:25,561 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-09-09 13:49:25,561 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-09-09 13:49:27,021 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-09-09 13:49:35,725 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-09-09 13:49:42,410 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-09-09 13:49:48,817 | INFO | Parsed COGTA raw rows: 3
+2026-09-09 13:49:49,431 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-09-09 13:49:49,431 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-09-09 13:49:49,431 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-09-09 13:49:49,432 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+2026-09-13 03:30:27,622 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-09-13 03:30:27,623 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-09-13 03:30:27,623 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-09-13 03:30:27,623 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-09-13 03:30:27,623 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-09-13 03:30:27,623 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-09-13 03:30:27,624 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-09-13 03:30:28,002 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-09-13 03:31:07,873 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-09-13 03:31:07,873 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-09-13 03:31:07,874 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-09-13 03:31:08,353 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-09-13 03:31:17,471 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-09-13 03:31:17,471 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-09-13 03:31:17,472 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-09-13 03:31:17,826 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-09-13 03:31:26,763 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-09-13 03:31:26,763 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-09-13 03:31:27,130 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-09-13 03:31:35,539 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-09-13 03:31:43,812 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-09-13 03:31:55,144 | INFO | Parsed COGTA raw rows: 3
+2026-09-13 03:31:55,888 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-09-13 03:31:55,889 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-09-13 03:31:55,889 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-09-13 03:31:55,889 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0

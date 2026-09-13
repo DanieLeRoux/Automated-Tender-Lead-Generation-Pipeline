@@ -1,0 +1,133 @@
+DHS Tender Scraper Metadata
+
+Scraper name:
+Department of Human Settlements Tender Scraper
+
+Script file:
+dhs_tender_pull_and_clean.py
+
+Source organisation:
+National Department of Human Settlements (DHS)
+
+Source URL:
+https://www.dhs.gov.za/tenders
+
+Purpose:
+The scraper monitors publicly advertised tender opportunities from the Department of Human Settlements tenders page and maintains raw, master, delta, updates, and top-delta Excel outputs for tender tracking and daily review.
+
+Scraper type:
+Hybrid HTML / Selenium scraper
+
+Reason for scraper type:
+The DHS tenders page uses tabbed content sections and may initially load content dynamically. The scraper first attempts to parse the static page and then falls back to Selenium-rendered HTML where required.
+
+Root folder:
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\DHS
+
+Folder structure:
+- Logs
+- Outputs
+- State
+
+Primary outputs:
+- dhs_raw.csv
+- dhs_raw_full.xlsx
+- dhs_raw_page.html
+- dhs_raw_page_rendered.html
+- dhs_master.xlsx
+- dhs_delta.xlsx
+- dhs_updates.xlsx
+- dhs_top_delta.xlsx
+
+Output logic:
+- Raw outputs retain the scraped tender data for audit and debugging.
+- Master contains the latest cleaned tender snapshot.
+- Delta contains newly identified tender opportunities.
+- Updates contains existing opportunities where monitored fields have changed.
+- Top Delta contains the highest-scoring new opportunities from the current run.
+
+Core fields captured:
+- source
+- opportunity_key
+- bid_number
+- notice_type
+- description
+- client
+- principle
+- closing_date
+- current_tenders_information
+- document_names
+- document_urls
+- document_count
+- bids_received_names
+- bids_received_urls
+- source_url
+- listing_section
+- cancellation_flag
+- weight_score
+- row_hash
+- run_timestamp
+- change_type
+- previous_row_hash
+
+Current tender filtering:
+By default, the cleaned outputs keep only tenders where:
+- closing_date is present; and
+- closing_date is greater than or equal to the scraper run date.
+
+Cancellation filtering:
+By default, cancellation / withdrawal notices are excluded from the cleaned operational outputs.
+
+Raw data treatment:
+Raw outputs remain unfiltered so the source data can be checked if the clean outputs appear incomplete or incorrect.
+
+Deduplication key:
+opportunity_key
+
+Update detection:
+The scraper calculates a row hash using key tender fields. If the same opportunity_key exists in the master but the hash changes, the record is written to the updates file.
+
+Scoring purpose:
+The weight_score is used to prioritise tender opportunities for daily review. The score is intended as a screening aid, not a final bid/no-bid decision.
+
+Scoring basis:
+The scraper applies keyword-based and notice-type/source relevance scoring to identify opportunities aligned to consulting, engineering, infrastructure, project management, housing, construction, advisory, feasibility, and related professional service opportunities.
+
+Recommended run command:
+& "C:/Users/Danie le Roux/AppData/Local/Programs/Python/Python314/python.exe" "C:/Users/Danie le Roux/Downloads/dhs_tender_pull_and_clean.py"
+
+Optional dependency:
+Selenium may be required if the static page does not expose the tender detail links.
+
+Install Selenium:
+pip install selenium
+
+Known limitations:
+- The scraper depends on the public DHS website structure.
+- If DHS changes the tab structure, URL pattern, or tender detail page layout, the parser may require adjustment.
+- The scraper only captures publicly available data.
+- It does not log into any restricted portal.
+- PDF or attachment contents are not deeply parsed unless exposed as text or links on the tender detail page.
+
+Maintenance notes:
+- Review dhs_raw_page.html and dhs_raw_page_rendered.html if no tenders are captured.
+- Check the log file in the Logs folder for parsing counts and errors.
+- Confirm that closing_date parsing remains correct if DHS changes date formatting.
+- Review scoring rules periodically to align with Henry Fagan’s priority sectors and service lines.
+
+Recommended consolidation fields:
+When compiling DHS outputs into a consolidated tender register, map to the common schema:
+- source
+- opportunity_key
+- reference_number / bid_number
+- description
+- client
+- category / notice_type
+- province / region
+- date_published
+- closing_date
+- briefing_date
+- document_urls
+- source_url
+- weight_score
+- run_timestamp

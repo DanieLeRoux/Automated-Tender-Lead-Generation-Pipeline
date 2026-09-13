@@ -1,0 +1,188 @@
+DBSA PROCUREMENT SCRAPER METADATA
+
+Scraper name:
+DBSA Procurement Scraper
+
+Current script version:
+dbsa_procurement_pull_and_clean_v2.py
+
+Purpose:
+Scrapes current procurement opportunities from the Development Bank of Southern Africa (DBSA) procurement webpage, cleans and structures the data, detects new and updated opportunities, and produces daily Excel outputs for review.
+
+Source website:
+https://www.dbsa.org/procurement
+
+Scraper type:
+HTML page scraper
+
+Reason for scraper type:
+DBSA does not appear to expose a clean public procurement API on the public procurement page. The scraper therefore reads the public HTML page, extracts visible procurement notice blocks, and captures associated document links where available.
+
+Root folder:
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\DBSA
+
+Folder structure:
+Logs
+Outputs
+State
+
+Primary run command:
+& "C:/Users/Danie le Roux/AppData/Local/Programs/Python/Python314/python.exe" "c:/Users/Danie le Roux/OneDrive - Henry Fagan/Desktop/Data Analytics/DBSA/dbsa_procurement_pull_and_clean_v2.py"
+
+Optional arguments:
+--include-expired
+    Includes tenders where the closing date has already passed.
+
+--include-cancellations
+    Includes notices identified as cancellation notices.
+
+--top-delta-limit
+    Sets the maximum number of rows in the top-delta output.
+
+--top-delta-min-score
+    Sets the minimum weight_score required for inclusion in the top-delta output.
+
+Outputs:
+dbsa_raw_page.html
+    Raw HTML copy of the DBSA procurement page for audit/debugging.
+
+dbsa_raw.csv
+    Parsed raw notice rows before operational filtering.
+
+dbsa_raw_full.xlsx
+    Parsed raw notice rows in Excel format.
+
+dbsa_master.xlsx
+    Latest master list of current DBSA opportunities, deduplicated by opportunity_key.
+
+dbsa_delta.xlsx
+    New opportunities identified in the current run only.
+
+dbsa_updates.xlsx
+    Existing opportunities where key tracked fields changed.
+
+dbsa_top_delta.xlsx
+    Highest-scoring new opportunities from the current delta list.
+
+Expected output location:
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\DBSA\Outputs
+
+Log file:
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\DBSA\Logs\dbsa_run.log
+
+State file:
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\DBSA\State\seen_ids.json
+
+Lock file:
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\DBSA\State\run.lock
+
+Main fields captured:
+source
+opportunity_key
+tender_number
+notice_type
+description
+document_names
+document_urls
+briefing_session_details
+date_published
+closing_date
+closing_datetime
+source_url
+cancellation_flag
+general_notice_flag
+priority_client_match
+matched_description_keywords
+description_keyword_match_count
+weight_score
+row_hash
+run_timestamp
+change_type
+previous_row_hash
+
+Unique identifier:
+opportunity_key
+
+Typical unique key basis:
+DBSA source prefix plus tender/reference number where available.
+
+Default filtering:
+1. Excludes cancellation notices.
+2. Excludes expired tenders.
+3. Keeps general notices only where they have a valid future closing date.
+4. Raw outputs remain broader for debugging; operational outputs are filtered.
+
+Change detection:
+The scraper calculates a row_hash using key operational fields. If an opportunity already exists in the master file but the row_hash changes, the opportunity is written to the updates file.
+
+Typical fields used for update detection:
+description
+document_names
+document_urls
+briefing_session_details
+date_published
+closing_date
+closing_datetime
+cancellation_flag
+general_notice_flag
+
+Scoring logic:
+The scraper applies a weight_score to support prioritisation of daily review items.
+
+Scoring components:
+1. Priority/client relevance component, where applicable.
+2. Description keyword match count.
+3. Each matched keyword increases the score.
+4. Higher weight_score records appear higher in delta and top-delta outputs.
+
+Keyword themes:
+Water and Sanitation
+Housing
+Education
+Transport
+Nuclear
+Bus Rapid Transit / BRT
+International Transition Plan Network / ITPN
+Design
+Refurbishment
+Engineering, Procurement and Construction / EPC
+Fire Engineering
+HVAC
+Mechanical
+Electrical
+Electronic
+Wet Services
+Project Management
+Programme Management
+Project Management Office / PMO
+Advisory Services
+Structural Engineering
+Civil Engineering
+Feasibility Study
+
+Excel formatting:
+Each operational Excel output is written with headers, frozen top row, and an Excel table where rows exist. Empty outputs are still created so the user can confirm the script ran successfully even where no rows qualify.
+
+Raw-vs-clean principle:
+Raw files are retained to preserve the source scrape and assist with debugging.
+Master, delta, updates, and top-delta are the operational files used for monitoring and review.
+
+Known limitations:
+1. The scraper depends on the public DBSA webpage structure.
+2. DBSA may alter its HTML layout, which may require parser updates.
+3. Some additional detail may exist inside downloadable tender documents, but the scraper currently captures the document links rather than parsing every document.
+4. PDF/document enrichment should only be added later if the visible page data is insufficient.
+
+Recommended review workflow:
+1. Run scraper daily.
+2. Review dbsa_top_delta.xlsx first.
+3. Review dbsa_delta.xlsx for all new opportunities.
+4. Review dbsa_updates.xlsx for changed opportunities.
+5. Use document_urls to open official DBSA tender documentation.
+
+Recommended future improvements:
+1. Add optional document/PDF enrichment for top-scoring tenders.
+2. Add consolidated cross-source tender register.
+3. Add duplicate detection between DBSA and eTenders where the same DBSA notice appears on both portals.
+4. Add Power Automate integration for the delta and top-delta files.
+5. Add alerting for high-score opportunities.

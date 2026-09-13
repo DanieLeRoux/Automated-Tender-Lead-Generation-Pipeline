@@ -1,0 +1,45 @@
+command: C:\Users\DanieLeRoux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Coega\00_Scripts\coega_tender_pull_and_clean.py
+return_code: 0
+elapsed_seconds: 4.31
+
+--- STDOUT ---
+2026-07-06 17:23:05,256 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-06 17:23:06,333 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Coega
+2026-07-06 17:23:06,333 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Coega\01_RawData
+2026-07-06 17:23:06,334 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Coega\02_Outputs
+2026-07-06 17:23:06,334 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Coega\03_Logs
+2026-07-06 17:23:06,335 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Coega\04_State
+2026-07-06 17:23:06,472 | INFO | Saved static HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Coega\01_RawData\coega_raw_page_static.html
+2026-07-06 17:23:06,481 | INFO | No parseable Coega HTML tables found: No tables found
+2026-07-06 17:23:06,481 | INFO | Candidate Coega tender blocks found: 0
+2026-07-06 17:23:06,481 | INFO | No Coega rows found in static HTML; attempting Selenium render.
+2026-07-06 17:23:06,482 | ERROR | Coega Selenium fallback failed; continuing with no newly parsed rows: No tender rows found in static HTML and Selenium is not installed. Install it with: pip install selenium
+Traceback (most recent call last):
+  File "C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Coega\00_Scripts\coega_tender_pull_and_clean.py", line 396, in fetch_rendered_html
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Coega\00_Scripts\coega_tender_pull_and_clean.py", line 682, in fetch_and_parse
+    rendered_html = fetch_rendered_html()
+  File "C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Coega\00_Scripts\coega_tender_pull_and_clean.py", line 402, in fetch_rendered_html
+    raise RuntimeError(
+    ...<2 lines>...
+    ) from exc
+RuntimeError: No tender rows found in static HTML and Selenium is not installed. Install it with: pip install selenium
+2026-07-06 17:23:06,483 | INFO | Parsed Coega notice rows: 0
+2026-07-06 17:23:06,486 | INFO | Saved raw CSV: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Coega\01_RawData\coega_raw.csv
+2026-07-06 17:23:06,532 | INFO | Saved raw Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Coega\01_RawData\coega_raw_full.xlsx
+2026-07-06 17:23:06,533 | INFO | Filtered cancellation/withdrawal notices: 0 -> 0 rows
+2026-07-06 17:23:06,534 | INFO | Filtered current tenders by closing date: 0 -> 0 rows
+2026-07-06 17:23:08,086 | INFO | Delta rows this run: 0
+2026-07-06 17:23:08,086 | INFO | Updates rows this run: 0
+2026-07-06 17:23:08,086 | INFO | Top delta rows this run: 0
+2026-07-06 17:23:08,121 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Coega\02_Outputs\coega_delta.xlsx | rows: 0
+2026-07-06 17:23:08,155 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Coega\02_Outputs\coega_updates.xlsx | rows: 0
+2026-07-06 17:23:08,175 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Coega\02_Outputs\coega_top_delta.xlsx | rows: 0
+2026-07-06 17:23:08,202 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Coega\02_Outputs\coega_master.xlsx | rows: 2
+
+--- STDERR ---

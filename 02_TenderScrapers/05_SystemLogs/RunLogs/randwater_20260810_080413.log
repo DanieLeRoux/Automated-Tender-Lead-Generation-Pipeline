@@ -1,0 +1,30 @@
+command: C:\Users\DanieLeRoux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\00_Scripts\randwater_tender_pull_and_clean.py
+return_code: 0
+elapsed_seconds: 25.00
+
+--- STDOUT ---
+2026-08-10 08:03:49,439 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-10 08:03:49,440 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-08-10 08:03:49,441 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-08-10 08:03:49,441 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-08-10 08:03:49,441 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-08-10 08:03:49,441 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-08-10 08:03:49,441 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-08-10 08:03:51,522 | WARNING | Rand Water request failed for https://www.randwater.co.za/availabletenders.php: HTTPSConnectionPool(host='www.randwater.co.za', port=443): Max retries exceeded with url: /availabletenders.php (Caused by NewConnectionError("HTTPSConnection(host='www.randwater.co.za', port=443): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-08-10 08:04:12,554 | WARNING | Rand Water request failed for http://www.randwater.co.za/availabletenders.php: HTTPConnectionPool(host='www.randwater.co.za', port=80): Max retries exceeded with url: /availabletenders.php (Caused by ConnectTimeoutError(<HTTPConnection(host='www.randwater.co.za', port=80) at 0x19853da6510>, 'Connection to www.randwater.co.za timed out. (connect timeout=60)'))
+2026-08-10 08:04:12,554 | ERROR | Rand Water fetch failed; preserving existing master where possible: Could not fetch Rand Water tender page after HTTPS/HTTP attempts: HTTPConnectionPool(host='www.randwater.co.za', port=80): Max retries exceeded with url: /availabletenders.php (Caused by ConnectTimeoutError(<HTTPConnection(host='www.randwater.co.za', port=80) at 0x19853da6510>, 'Connection to www.randwater.co.za timed out. (connect timeout=60)'))
+Traceback (most recent call last):
+  File "C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\00_Scripts\randwater_tender_pull_and_clean.py", line 574, in main
+    html = fetch_html(SOURCE_URL)
+  File "C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\00_Scripts\randwater_tender_pull_and_clean.py", line 154, in fetch_html
+    raise RuntimeError(f"Could not fetch Rand Water tender page after HTTPS/HTTP attempts: {last_exc}")
+RuntimeError: Could not fetch Rand Water tender page after HTTPS/HTTP attempts: HTTPConnectionPool(host='www.randwater.co.za', port=80): Max retries exceeded with url: /availabletenders.php (Caused by ConnectTimeoutError(<HTTPConnection(host='www.randwater.co.za', port=80) at 0x19853da6510>, 'Connection to www.randwater.co.za timed out. (connect timeout=60)'))
+2026-08-10 08:04:12,559 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData\randwater_raw_page.html
+2026-08-10 08:04:12,560 | INFO | Parsed Rand Water tender rows: 0
+2026-08-10 08:04:12,744 | INFO | Saved raw outputs
+2026-08-10 08:04:13,516 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_delta.xlsx | rows: 0
+2026-08-10 08:04:13,516 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_updates.xlsx | rows: 0
+2026-08-10 08:04:13,516 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_top_delta.xlsx | rows: 0
+2026-08-10 08:04:13,516 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_master.xlsx | rows: 5
+
+--- STDERR ---

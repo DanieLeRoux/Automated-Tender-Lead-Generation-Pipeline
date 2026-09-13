@@ -1,0 +1,751 @@
+2026-07-05 05:13:47,326 | INFO | Using tender scrapers root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-05 05:13:47,326 | INFO | Using source root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-07-05 05:13:47,327 | INFO | Using raw directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-07-05 05:13:47,327 | INFO | Using output directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-07-05 05:13:47,330 | INFO | Using log directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-07-05 05:13:47,330 | INFO | Using state directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-07-05 05:13:47,330 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-07-05 05:13:47,629 | WARNING | SSL verification failed for https://www.randwater.co.za/availabletenders.php. Retrying without certificate verification for this public tender page.
+2026-07-05 05:13:47,727 | INFO | Saved raw HTML: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData\randwater_raw_page.html
+2026-07-05 05:13:47,763 | INFO | HTML tables found: 1
+2026-07-05 05:13:47,776 | INFO | Parsed Rand Water tender rows: 3
+2026-07-05 05:13:47,881 | INFO | Saved raw outputs
+2026-07-05 05:13:47,883 | INFO | Filtered current Rand Water tenders: 3 -> 3 rows
+2026-07-05 05:13:48,023 | INFO | Rand Water hash/state version changed or was not recorded. Re-baselining and suppressing delta/update alerts for this run.
+2026-07-05 05:13:48,128 | INFO | Saved delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_delta.xlsx | rows: 0
+2026-07-05 05:13:48,128 | INFO | Saved updates Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_updates.xlsx | rows: 0
+2026-07-05 05:13:48,129 | INFO | Saved top delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_top_delta.xlsx | rows: 0
+2026-07-05 05:13:48,129 | INFO | Saved master Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_master.xlsx | rows: 4
+2026-07-05 05:14:02,364 | INFO | Using tender scrapers root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-05 05:14:02,365 | INFO | Using source root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-07-05 05:14:02,365 | INFO | Using raw directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-07-05 05:14:02,365 | INFO | Using output directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-07-05 05:14:02,365 | INFO | Using log directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-07-05 05:14:02,365 | INFO | Using state directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-07-05 05:14:02,365 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-07-05 05:14:02,602 | WARNING | SSL verification failed for https://www.randwater.co.za/availabletenders.php. Retrying without certificate verification for this public tender page.
+2026-07-05 05:14:02,738 | INFO | Saved raw HTML: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData\randwater_raw_page.html
+2026-07-05 05:14:02,751 | INFO | HTML tables found: 1
+2026-07-05 05:14:02,759 | INFO | Parsed Rand Water tender rows: 3
+2026-07-05 05:14:02,822 | INFO | Saved raw outputs
+2026-07-05 05:14:02,827 | INFO | Filtered current Rand Water tenders: 3 -> 3 rows
+2026-07-05 05:14:03,173 | INFO | Saved delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_delta.xlsx | rows: 0
+2026-07-05 05:14:03,174 | INFO | Saved updates Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_updates.xlsx | rows: 0
+2026-07-05 05:14:03,174 | INFO | Saved top delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_top_delta.xlsx | rows: 0
+2026-07-05 05:14:03,174 | INFO | Saved master Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_master.xlsx | rows: 4
+2026-07-05 06:44:00,702 | INFO | Using tender scrapers root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-05 06:44:00,703 | INFO | Using source root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-07-05 06:44:00,703 | INFO | Using raw directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-07-05 06:44:00,703 | INFO | Using output directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-07-05 06:44:00,703 | INFO | Using log directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-07-05 06:44:00,703 | INFO | Using state directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-07-05 06:44:00,703 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-07-05 06:44:00,936 | WARNING | SSL verification failed for https://www.randwater.co.za/availabletenders.php. Retrying without certificate verification for this public tender page.
+2026-07-05 06:44:01,050 | INFO | Saved raw HTML: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData\randwater_raw_page.html
+2026-07-05 06:44:01,073 | INFO | HTML tables found: 1
+2026-07-05 06:44:01,087 | INFO | Parsed Rand Water tender rows: 3
+2026-07-05 06:44:01,163 | INFO | Saved raw outputs
+2026-07-05 06:44:01,166 | INFO | Filtered current Rand Water tenders: 3 -> 3 rows
+2026-07-05 06:44:01,375 | INFO | Saved delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_delta.xlsx | rows: 0
+2026-07-05 06:44:01,375 | INFO | Saved updates Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_updates.xlsx | rows: 0
+2026-07-05 06:44:01,376 | INFO | Saved top delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_top_delta.xlsx | rows: 0
+2026-07-05 06:44:01,376 | INFO | Saved master Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_master.xlsx | rows: 4
+2026-07-05 06:59:33,209 | INFO | Using tender scrapers root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-05 06:59:33,210 | INFO | Using source root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-07-05 06:59:33,210 | INFO | Using raw directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-07-05 06:59:33,210 | INFO | Using output directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-07-05 06:59:33,210 | INFO | Using log directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-07-05 06:59:33,210 | INFO | Using state directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-07-05 06:59:33,210 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-07-05 06:59:33,526 | WARNING | SSL verification failed for https://www.randwater.co.za/availabletenders.php. Retrying without certificate verification for this public tender page.
+2026-07-05 06:59:33,639 | INFO | Saved raw HTML: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData\randwater_raw_page.html
+2026-07-05 06:59:33,646 | INFO | HTML tables found: 1
+2026-07-05 06:59:33,650 | INFO | Parsed Rand Water tender rows: 3
+2026-07-05 06:59:33,703 | INFO | Saved raw outputs
+2026-07-05 06:59:33,705 | INFO | Filtered current Rand Water tenders: 3 -> 3 rows
+2026-07-05 06:59:33,922 | INFO | Saved delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_delta.xlsx | rows: 0
+2026-07-05 06:59:33,922 | INFO | Saved updates Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_updates.xlsx | rows: 0
+2026-07-05 06:59:33,922 | INFO | Saved top delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_top_delta.xlsx | rows: 0
+2026-07-05 06:59:33,922 | INFO | Saved master Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_master.xlsx | rows: 4
+2026-07-05 07:06:46,121 | INFO | Using tender scrapers root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-05 07:06:46,122 | INFO | Using source root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-07-05 07:06:46,122 | INFO | Using raw directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-07-05 07:06:46,122 | INFO | Using output directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-07-05 07:06:46,122 | INFO | Using log directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-07-05 07:06:46,122 | INFO | Using state directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-07-05 07:06:46,122 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-07-05 07:06:46,321 | WARNING | SSL verification failed for https://www.randwater.co.za/availabletenders.php. Retrying without certificate verification for this public tender page.
+2026-07-05 07:06:46,435 | INFO | Saved raw HTML: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData\randwater_raw_page.html
+2026-07-05 07:06:46,465 | INFO | HTML tables found: 1
+2026-07-05 07:06:46,479 | INFO | Parsed Rand Water tender rows: 3
+2026-07-05 07:06:46,556 | INFO | Saved raw outputs
+2026-07-05 07:06:46,558 | INFO | Filtered current Rand Water tenders: 3 -> 3 rows
+2026-07-05 07:06:46,740 | INFO | Saved delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_delta.xlsx | rows: 0
+2026-07-05 07:06:46,740 | INFO | Saved updates Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_updates.xlsx | rows: 0
+2026-07-05 07:06:46,740 | INFO | Saved top delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_top_delta.xlsx | rows: 0
+2026-07-05 07:06:46,740 | INFO | Saved master Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_master.xlsx | rows: 4
+2026-07-05 07:19:36,651 | INFO | Using tender scrapers root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-05 07:19:36,653 | INFO | Using source root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-07-05 07:19:36,654 | INFO | Using raw directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-07-05 07:19:36,655 | INFO | Using output directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-07-05 07:19:36,655 | INFO | Using log directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-07-05 07:19:36,656 | INFO | Using state directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-07-05 07:19:36,656 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-07-05 07:19:37,090 | WARNING | SSL verification failed for https://www.randwater.co.za/availabletenders.php. Retrying without certificate verification for this public tender page.
+2026-07-05 07:19:37,259 | INFO | Saved raw HTML: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData\randwater_raw_page.html
+2026-07-05 07:19:37,283 | INFO | HTML tables found: 1
+2026-07-05 07:19:37,294 | INFO | Parsed Rand Water tender rows: 3
+2026-07-05 07:19:37,499 | INFO | Saved raw outputs
+2026-07-05 07:19:37,502 | INFO | Filtered current Rand Water tenders: 3 -> 3 rows
+2026-07-05 07:19:37,834 | INFO | Saved delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_delta.xlsx | rows: 0
+2026-07-05 07:19:37,835 | INFO | Saved updates Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_updates.xlsx | rows: 0
+2026-07-05 07:19:37,835 | INFO | Saved top delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_top_delta.xlsx | rows: 0
+2026-07-05 07:19:37,835 | INFO | Saved master Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_master.xlsx | rows: 4
+2026-07-05 07:33:06,386 | INFO | Using tender scrapers root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-05 07:33:06,387 | INFO | Using source root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-07-05 07:33:06,388 | INFO | Using raw directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-07-05 07:33:06,388 | INFO | Using output directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-07-05 07:33:06,388 | INFO | Using log directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-07-05 07:33:06,388 | INFO | Using state directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-07-05 07:33:06,388 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-07-05 07:33:06,666 | WARNING | SSL verification failed for https://www.randwater.co.za/availabletenders.php. Retrying without certificate verification for this public tender page.
+2026-07-05 07:33:06,747 | INFO | Saved raw HTML: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData\randwater_raw_page.html
+2026-07-05 07:33:06,761 | INFO | HTML tables found: 1
+2026-07-05 07:33:06,768 | INFO | Parsed Rand Water tender rows: 3
+2026-07-05 07:33:06,909 | INFO | Saved raw outputs
+2026-07-05 07:33:06,911 | INFO | Filtered current Rand Water tenders: 3 -> 3 rows
+2026-07-05 07:33:07,099 | INFO | Saved delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_delta.xlsx | rows: 0
+2026-07-05 07:33:07,099 | INFO | Saved updates Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_updates.xlsx | rows: 0
+2026-07-05 07:33:07,099 | INFO | Saved top delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_top_delta.xlsx | rows: 0
+2026-07-05 07:33:07,099 | INFO | Saved master Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_master.xlsx | rows: 4
+2026-07-06 08:05:31,884 | INFO | Using tender scrapers root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-06 08:05:31,887 | INFO | Using source root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-07-06 08:05:31,887 | INFO | Using raw directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-07-06 08:05:31,887 | INFO | Using output directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-07-06 08:05:31,888 | INFO | Using log directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-07-06 08:05:31,888 | INFO | Using state directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-07-06 08:05:31,888 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-07-06 08:05:32,267 | WARNING | SSL verification failed for https://www.randwater.co.za/availabletenders.php. Retrying without certificate verification for this public tender page.
+2026-07-06 08:05:32,412 | INFO | Saved raw HTML: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData\randwater_raw_page.html
+2026-07-06 08:05:32,440 | INFO | HTML tables found: 1
+2026-07-06 08:05:32,453 | INFO | Parsed Rand Water tender rows: 3
+2026-07-06 08:05:32,557 | INFO | Saved raw outputs
+2026-07-06 08:05:32,560 | INFO | Filtered current Rand Water tenders: 3 -> 3 rows
+2026-07-06 08:05:32,889 | INFO | Saved delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_delta.xlsx | rows: 0
+2026-07-06 08:05:32,890 | INFO | Saved updates Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_updates.xlsx | rows: 0
+2026-07-06 08:05:32,891 | INFO | Saved top delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_top_delta.xlsx | rows: 0
+2026-07-06 08:05:32,891 | INFO | Saved master Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_master.xlsx | rows: 4
+2026-07-13 08:04:04,701 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-13 08:04:04,750 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-07-13 08:04:04,751 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-07-13 08:04:04,751 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-07-13 08:04:04,751 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-07-13 08:04:04,752 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-07-13 08:04:04,752 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-07-13 08:04:04,831 | WARNING | SSL verification failed for https://www.randwater.co.za/availabletenders.php. Retrying without certificate verification for this public tender page.
+2026-07-13 08:04:04,955 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData\randwater_raw_page.html
+2026-07-13 08:04:04,984 | INFO | HTML tables found: 1
+2026-07-13 08:04:04,991 | INFO | Parsed Rand Water tender rows: 2
+2026-07-13 08:04:05,170 | INFO | Saved raw outputs
+2026-07-13 08:04:05,173 | INFO | Filtered current Rand Water tenders: 2 -> 2 rows
+2026-07-13 08:04:05,469 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_delta.xlsx | rows: 0
+2026-07-13 08:04:05,469 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_updates.xlsx | rows: 1
+2026-07-13 08:04:05,469 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_top_delta.xlsx | rows: 0
+2026-07-13 08:04:05,469 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_master.xlsx | rows: 4
+2026-07-14 08:02:21,562 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-14 08:02:21,564 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-07-14 08:02:21,564 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-07-14 08:02:21,564 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-07-14 08:02:21,564 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-07-14 08:02:21,564 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-07-14 08:02:21,564 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-07-14 08:02:21,647 | WARNING | SSL verification failed for https://www.randwater.co.za/availabletenders.php. Retrying without certificate verification for this public tender page.
+2026-07-14 08:02:21,741 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData\randwater_raw_page.html
+2026-07-14 08:02:21,755 | INFO | HTML tables found: 1
+2026-07-14 08:02:21,758 | INFO | Parsed Rand Water tender rows: 2
+2026-07-14 08:02:21,833 | INFO | Saved raw outputs
+2026-07-14 08:02:21,834 | INFO | Filtered current Rand Water tenders: 2 -> 2 rows
+2026-07-14 08:02:22,104 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_delta.xlsx | rows: 0
+2026-07-14 08:02:22,105 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_updates.xlsx | rows: 0
+2026-07-14 08:02:22,105 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_top_delta.xlsx | rows: 0
+2026-07-14 08:02:22,105 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_master.xlsx | rows: 4
+2026-07-15 08:02:16,843 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-15 08:02:16,845 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-07-15 08:02:16,845 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-07-15 08:02:16,846 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-07-15 08:02:16,846 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-07-15 08:02:16,847 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-07-15 08:02:16,847 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-07-15 08:02:16,931 | WARNING | SSL verification failed for https://www.randwater.co.za/availabletenders.php. Retrying without certificate verification for this public tender page.
+2026-07-15 08:02:17,035 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData\randwater_raw_page.html
+2026-07-15 08:02:17,055 | INFO | HTML tables found: 1
+2026-07-15 08:02:17,062 | INFO | Parsed Rand Water tender rows: 2
+2026-07-15 08:02:17,338 | INFO | Saved raw outputs
+2026-07-15 08:02:17,341 | INFO | Filtered current Rand Water tenders: 2 -> 2 rows
+2026-07-15 08:02:18,074 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_delta.xlsx | rows: 0
+2026-07-15 08:02:18,074 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_updates.xlsx | rows: 0
+2026-07-15 08:02:18,074 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_top_delta.xlsx | rows: 0
+2026-07-15 08:02:18,074 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_master.xlsx | rows: 4
+2026-07-16 08:02:14,601 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-16 08:02:14,603 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-07-16 08:02:14,604 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-07-16 08:02:14,604 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-07-16 08:02:14,604 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-07-16 08:02:14,604 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-07-16 08:02:14,604 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-07-16 08:02:14,660 | WARNING | SSL verification failed for https://www.randwater.co.za/availabletenders.php. Retrying without certificate verification for this public tender page.
+2026-07-16 08:02:14,744 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData\randwater_raw_page.html
+2026-07-16 08:02:14,758 | INFO | HTML tables found: 1
+2026-07-16 08:02:14,761 | INFO | Parsed Rand Water tender rows: 2
+2026-07-16 08:02:14,832 | INFO | Saved raw outputs
+2026-07-16 08:02:14,834 | INFO | Filtered current Rand Water tenders: 2 -> 2 rows
+2026-07-16 08:02:15,101 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_delta.xlsx | rows: 0
+2026-07-16 08:02:15,101 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_updates.xlsx | rows: 0
+2026-07-16 08:02:15,101 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_top_delta.xlsx | rows: 0
+2026-07-16 08:02:15,101 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_master.xlsx | rows: 4
+2026-07-17 08:02:23,511 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-17 08:02:23,512 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-07-17 08:02:23,512 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-07-17 08:02:23,512 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-07-17 08:02:23,512 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-07-17 08:02:23,512 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-07-17 08:02:23,512 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-07-17 08:02:23,556 | WARNING | SSL verification failed for https://www.randwater.co.za/availabletenders.php. Retrying without certificate verification for this public tender page.
+2026-07-17 08:02:23,655 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData\randwater_raw_page.html
+2026-07-17 08:02:23,669 | INFO | HTML tables found: 1
+2026-07-17 08:02:23,672 | INFO | Parsed Rand Water tender rows: 2
+2026-07-17 08:02:23,747 | INFO | Saved raw outputs
+2026-07-17 08:02:23,749 | INFO | Filtered current Rand Water tenders: 2 -> 2 rows
+2026-07-17 08:02:24,012 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_delta.xlsx | rows: 0
+2026-07-17 08:02:24,013 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_updates.xlsx | rows: 0
+2026-07-17 08:02:24,013 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_top_delta.xlsx | rows: 0
+2026-07-17 08:02:24,013 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_master.xlsx | rows: 4
+2026-07-20 08:02:57,733 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-20 08:02:57,783 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-07-20 08:02:57,784 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-07-20 08:02:57,784 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-07-20 08:02:57,784 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-07-20 08:02:57,785 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-07-20 08:02:57,785 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-07-20 08:02:57,855 | WARNING | SSL verification failed for https://www.randwater.co.za/availabletenders.php. Retrying without certificate verification for this public tender page.
+2026-07-20 08:02:57,986 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData\randwater_raw_page.html
+2026-07-20 08:02:58,012 | INFO | HTML tables found: 1
+2026-07-20 08:02:58,018 | INFO | Parsed Rand Water tender rows: 2
+2026-07-20 08:02:58,166 | INFO | Saved raw outputs
+2026-07-20 08:02:58,168 | INFO | Filtered current Rand Water tenders: 2 -> 2 rows
+2026-07-20 08:02:58,833 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_delta.xlsx | rows: 0
+2026-07-20 08:02:58,833 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_updates.xlsx | rows: 0
+2026-07-20 08:02:58,833 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_top_delta.xlsx | rows: 0
+2026-07-20 08:02:58,834 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_master.xlsx | rows: 4
+2026-07-21 08:03:51,314 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-21 08:03:51,316 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-07-21 08:03:51,316 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-07-21 08:03:51,317 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-07-21 08:03:51,317 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-07-21 08:03:51,317 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-07-21 08:03:51,317 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-07-21 08:03:51,402 | WARNING | SSL verification failed for https://www.randwater.co.za/availabletenders.php. Retrying without certificate verification for this public tender page.
+2026-07-21 08:03:51,592 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData\randwater_raw_page.html
+2026-07-21 08:03:51,610 | INFO | HTML tables found: 1
+2026-07-21 08:03:51,614 | INFO | Parsed Rand Water tender rows: 2
+2026-07-21 08:03:51,701 | INFO | Saved raw outputs
+2026-07-21 08:03:51,702 | INFO | Filtered current Rand Water tenders: 2 -> 2 rows
+2026-07-21 08:03:51,986 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_delta.xlsx | rows: 0
+2026-07-21 08:03:51,986 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_updates.xlsx | rows: 0
+2026-07-21 08:03:51,986 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_top_delta.xlsx | rows: 0
+2026-07-21 08:03:51,986 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_master.xlsx | rows: 4
+2026-07-22 08:02:39,789 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-22 08:02:39,792 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-07-22 08:02:39,792 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-07-22 08:02:39,792 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-07-22 08:02:39,792 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-07-22 08:02:39,792 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-07-22 08:02:39,792 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-07-22 08:02:39,840 | WARNING | SSL verification failed for https://www.randwater.co.za/availabletenders.php. Retrying without certificate verification for this public tender page.
+2026-07-22 08:02:39,958 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData\randwater_raw_page.html
+2026-07-22 08:02:39,973 | INFO | HTML tables found: 1
+2026-07-22 08:02:39,976 | INFO | Parsed Rand Water tender rows: 2
+2026-07-22 08:02:40,052 | INFO | Saved raw outputs
+2026-07-22 08:02:40,053 | INFO | Filtered current Rand Water tenders: 2 -> 2 rows
+2026-07-22 08:02:40,325 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_delta.xlsx | rows: 0
+2026-07-22 08:02:40,325 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_updates.xlsx | rows: 0
+2026-07-22 08:02:40,325 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_top_delta.xlsx | rows: 0
+2026-07-22 08:02:40,325 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_master.xlsx | rows: 4
+2026-07-23 08:05:57,422 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-23 08:05:57,423 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-07-23 08:05:57,423 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-07-23 08:05:57,423 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-07-23 08:05:57,424 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-07-23 08:05:57,424 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-07-23 08:05:57,424 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-07-23 08:05:57,479 | WARNING | SSL verification failed for https://www.randwater.co.za/availabletenders.php. Retrying without certificate verification for this public tender page.
+2026-07-23 08:05:57,588 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData\randwater_raw_page.html
+2026-07-23 08:05:57,606 | INFO | HTML tables found: 1
+2026-07-23 08:05:57,610 | INFO | Parsed Rand Water tender rows: 2
+2026-07-23 08:05:57,697 | INFO | Saved raw outputs
+2026-07-23 08:05:57,699 | INFO | Filtered current Rand Water tenders: 2 -> 2 rows
+2026-07-23 08:05:58,016 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_delta.xlsx | rows: 0
+2026-07-23 08:05:58,016 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_updates.xlsx | rows: 0
+2026-07-23 08:05:58,017 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_top_delta.xlsx | rows: 0
+2026-07-23 08:05:58,017 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_master.xlsx | rows: 4
+2026-07-24 08:06:57,796 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-24 08:06:57,798 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-07-24 08:06:57,798 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-07-24 08:06:57,798 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-07-24 08:06:57,798 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-07-24 08:06:57,799 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-07-24 08:06:57,799 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-07-24 08:06:57,858 | WARNING | SSL verification failed for https://www.randwater.co.za/availabletenders.php. Retrying without certificate verification for this public tender page.
+2026-07-24 08:06:57,971 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData\randwater_raw_page.html
+2026-07-24 08:06:57,985 | INFO | HTML tables found: 1
+2026-07-24 08:06:57,989 | INFO | Parsed Rand Water tender rows: 2
+2026-07-24 08:06:58,059 | INFO | Saved raw outputs
+2026-07-24 08:06:58,061 | INFO | Filtered current Rand Water tenders: 2 -> 2 rows
+2026-07-24 08:06:58,319 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_delta.xlsx | rows: 0
+2026-07-24 08:06:58,319 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_updates.xlsx | rows: 0
+2026-07-24 08:06:58,319 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_top_delta.xlsx | rows: 0
+2026-07-24 08:06:58,319 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_master.xlsx | rows: 4
+2026-07-27 08:05:07,700 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-27 08:05:07,702 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-07-27 08:05:07,703 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-07-27 08:05:07,704 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-07-27 08:05:07,704 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-07-27 08:05:07,705 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-07-27 08:05:07,705 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-07-27 08:05:07,778 | WARNING | SSL verification failed for https://www.randwater.co.za/availabletenders.php. Retrying without certificate verification for this public tender page.
+2026-07-27 08:05:07,895 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData\randwater_raw_page.html
+2026-07-27 08:05:07,947 | INFO | HTML tables found: 1
+2026-07-27 08:05:07,957 | INFO | Parsed Rand Water tender rows: 2
+2026-07-27 08:05:08,348 | INFO | Saved raw outputs
+2026-07-27 08:05:08,355 | INFO | Filtered current Rand Water tenders: 2 -> 2 rows
+2026-07-27 08:05:09,532 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_delta.xlsx | rows: 0
+2026-07-27 08:05:09,533 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_updates.xlsx | rows: 0
+2026-07-27 08:05:09,534 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_top_delta.xlsx | rows: 0
+2026-07-27 08:05:09,534 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_master.xlsx | rows: 4
+2026-07-28 08:02:29,422 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-28 08:02:29,424 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-07-28 08:02:29,425 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-07-28 08:02:29,425 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-07-28 08:02:29,425 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-07-28 08:02:29,425 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-07-28 08:02:29,425 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-07-28 08:02:29,501 | WARNING | SSL verification failed for https://www.randwater.co.za/availabletenders.php. Retrying without certificate verification for this public tender page.
+2026-07-28 08:02:29,606 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData\randwater_raw_page.html
+2026-07-28 08:02:29,622 | INFO | HTML tables found: 1
+2026-07-28 08:02:29,627 | INFO | Parsed Rand Water tender rows: 2
+2026-07-28 08:02:29,815 | INFO | Saved raw outputs
+2026-07-28 08:02:29,817 | INFO | Filtered current Rand Water tenders: 2 -> 2 rows
+2026-07-28 08:02:30,230 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_delta.xlsx | rows: 0
+2026-07-28 08:02:30,230 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_updates.xlsx | rows: 0
+2026-07-28 08:02:30,230 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_top_delta.xlsx | rows: 0
+2026-07-28 08:02:30,230 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_master.xlsx | rows: 4
+2026-07-29 08:02:46,805 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-29 08:02:46,807 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-07-29 08:02:46,808 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-07-29 08:02:46,810 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-07-29 08:02:46,810 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-07-29 08:02:46,811 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-07-29 08:02:46,811 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-07-29 08:02:46,900 | WARNING | SSL verification failed for https://www.randwater.co.za/availabletenders.php. Retrying without certificate verification for this public tender page.
+2026-07-29 08:02:47,033 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData\randwater_raw_page.html
+2026-07-29 08:02:47,050 | INFO | HTML tables found: 1
+2026-07-29 08:02:47,055 | INFO | Parsed Rand Water tender rows: 2
+2026-07-29 08:02:47,189 | INFO | Saved raw outputs
+2026-07-29 08:02:47,191 | INFO | Filtered current Rand Water tenders: 2 -> 2 rows
+2026-07-29 08:02:47,541 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_delta.xlsx | rows: 0
+2026-07-29 08:02:47,542 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_updates.xlsx | rows: 0
+2026-07-29 08:02:47,542 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_top_delta.xlsx | rows: 0
+2026-07-29 08:02:47,542 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_master.xlsx | rows: 4
+2026-07-30 08:04:44,299 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-30 08:04:44,299 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-07-30 08:04:44,299 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-07-30 08:04:44,299 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-07-30 08:04:44,300 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-07-30 08:04:44,300 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-07-30 08:04:44,300 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-07-30 08:04:44,348 | WARNING | SSL verification failed for https://www.randwater.co.za/availabletenders.php. Retrying without certificate verification for this public tender page.
+2026-07-30 08:04:44,467 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData\randwater_raw_page.html
+2026-07-30 08:04:44,495 | INFO | HTML tables found: 1
+2026-07-30 08:04:44,502 | INFO | Parsed Rand Water tender rows: 2
+2026-07-30 08:04:44,659 | INFO | Saved raw outputs
+2026-07-30 08:04:44,662 | INFO | Filtered current Rand Water tenders: 2 -> 2 rows
+2026-07-30 08:04:45,176 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_delta.xlsx | rows: 0
+2026-07-30 08:04:45,176 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_updates.xlsx | rows: 0
+2026-07-30 08:04:45,176 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_top_delta.xlsx | rows: 0
+2026-07-30 08:04:45,176 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_master.xlsx | rows: 4
+2026-07-31 08:02:55,655 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-31 08:02:55,657 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-07-31 08:02:55,657 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-07-31 08:02:55,658 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-07-31 08:02:55,658 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-07-31 08:02:55,658 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-07-31 08:02:55,658 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-07-31 08:02:55,717 | WARNING | SSL verification failed for https://www.randwater.co.za/availabletenders.php. Retrying without certificate verification for this public tender page.
+2026-07-31 08:02:55,809 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData\randwater_raw_page.html
+2026-07-31 08:02:55,823 | INFO | HTML tables found: 1
+2026-07-31 08:02:55,827 | INFO | Parsed Rand Water tender rows: 3
+2026-07-31 08:02:55,903 | INFO | Saved raw outputs
+2026-07-31 08:02:55,906 | INFO | Filtered current Rand Water tenders: 3 -> 3 rows
+2026-07-31 08:02:56,209 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_delta.xlsx | rows: 1
+2026-07-31 08:02:56,209 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_updates.xlsx | rows: 0
+2026-07-31 08:02:56,209 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_top_delta.xlsx | rows: 1
+2026-07-31 08:02:56,210 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_master.xlsx | rows: 5
+2026-08-03 08:03:44,338 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-03 08:03:44,340 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-08-03 08:03:44,341 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-08-03 08:03:44,341 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-08-03 08:03:44,341 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-08-03 08:03:44,341 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-08-03 08:03:44,341 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-08-03 08:03:44,415 | WARNING | SSL verification failed for https://www.randwater.co.za/availabletenders.php. Retrying without certificate verification for this public tender page.
+2026-08-03 08:03:44,542 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData\randwater_raw_page.html
+2026-08-03 08:03:44,583 | INFO | HTML tables found: 1
+2026-08-03 08:03:44,592 | INFO | Parsed Rand Water tender rows: 2
+2026-08-03 08:03:44,743 | INFO | Saved raw outputs
+2026-08-03 08:03:44,745 | INFO | Filtered current Rand Water tenders: 2 -> 2 rows
+2026-08-03 08:03:45,353 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_delta.xlsx | rows: 0
+2026-08-03 08:03:45,354 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_updates.xlsx | rows: 0
+2026-08-03 08:03:45,354 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_top_delta.xlsx | rows: 0
+2026-08-03 08:03:45,355 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_master.xlsx | rows: 5
+2026-08-04 08:03:56,201 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-04 08:03:56,203 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-08-04 08:03:56,203 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-08-04 08:03:56,204 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-08-04 08:03:56,204 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-08-04 08:03:56,204 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-08-04 08:03:56,204 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-08-04 08:03:56,261 | WARNING | SSL verification failed for https://www.randwater.co.za/availabletenders.php. Retrying without certificate verification for this public tender page.
+2026-08-04 08:03:56,338 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData\randwater_raw_page.html
+2026-08-04 08:03:56,353 | INFO | HTML tables found: 1
+2026-08-04 08:03:56,356 | INFO | Parsed Rand Water tender rows: 2
+2026-08-04 08:03:56,432 | INFO | Saved raw outputs
+2026-08-04 08:03:56,434 | INFO | Filtered current Rand Water tenders: 2 -> 2 rows
+2026-08-04 08:03:56,715 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_delta.xlsx | rows: 0
+2026-08-04 08:03:56,715 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_updates.xlsx | rows: 0
+2026-08-04 08:03:56,715 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_top_delta.xlsx | rows: 0
+2026-08-04 08:03:56,715 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_master.xlsx | rows: 5
+2026-08-05 08:03:07,923 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-05 08:03:07,924 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-08-05 08:03:07,924 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-08-05 08:03:07,924 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-08-05 08:03:07,924 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-08-05 08:03:07,924 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-08-05 08:03:07,924 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-08-05 08:03:28,965 | WARNING | Rand Water request failed for https://www.randwater.co.za/availabletenders.php: HTTPSConnectionPool(host='www.randwater.co.za', port=443): Max retries exceeded with url: /availabletenders.php (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.randwater.co.za', port=443) at 0x26a5cf91fd0>, 'Connection to www.randwater.co.za timed out. (connect timeout=60)'))
+2026-08-05 08:03:50,025 | WARNING | Rand Water request failed for http://www.randwater.co.za/availabletenders.php: HTTPConnectionPool(host='www.randwater.co.za', port=80): Max retries exceeded with url: /availabletenders.php (Caused by ConnectTimeoutError(<HTTPConnection(host='www.randwater.co.za', port=80) at 0x26a5cf92660>, 'Connection to www.randwater.co.za timed out. (connect timeout=60)'))
+2026-08-05 08:03:50,026 | ERROR | Rand Water fetch failed; preserving existing master where possible: Could not fetch Rand Water tender page after HTTPS/HTTP attempts: HTTPConnectionPool(host='www.randwater.co.za', port=80): Max retries exceeded with url: /availabletenders.php (Caused by ConnectTimeoutError(<HTTPConnection(host='www.randwater.co.za', port=80) at 0x26a5cf92660>, 'Connection to www.randwater.co.za timed out. (connect timeout=60)'))
+Traceback (most recent call last):
+  File "C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\00_Scripts\randwater_tender_pull_and_clean.py", line 574, in main
+    html = fetch_html(SOURCE_URL)
+  File "C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\00_Scripts\randwater_tender_pull_and_clean.py", line 154, in fetch_html
+    raise RuntimeError(f"Could not fetch Rand Water tender page after HTTPS/HTTP attempts: {last_exc}")
+RuntimeError: Could not fetch Rand Water tender page after HTTPS/HTTP attempts: HTTPConnectionPool(host='www.randwater.co.za', port=80): Max retries exceeded with url: /availabletenders.php (Caused by ConnectTimeoutError(<HTTPConnection(host='www.randwater.co.za', port=80) at 0x26a5cf92660>, 'Connection to www.randwater.co.za timed out. (connect timeout=60)'))
+2026-08-05 08:03:50,032 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData\randwater_raw_page.html
+2026-08-05 08:03:50,033 | INFO | Parsed Rand Water tender rows: 0
+2026-08-05 08:03:50,227 | INFO | Saved raw outputs
+2026-08-05 08:03:51,008 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_delta.xlsx | rows: 0
+2026-08-05 08:03:51,008 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_updates.xlsx | rows: 0
+2026-08-05 08:03:51,008 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_top_delta.xlsx | rows: 0
+2026-08-05 08:03:51,008 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_master.xlsx | rows: 5
+2026-08-07 08:02:35,681 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-07 08:02:35,683 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-08-07 08:02:35,683 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-08-07 08:02:35,683 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-08-07 08:02:35,683 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-08-07 08:02:35,683 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-08-07 08:02:35,683 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-08-07 08:02:35,766 | WARNING | SSL verification failed for https://www.randwater.co.za/availabletenders.php. Retrying without certificate verification for this public tender page.
+2026-08-07 08:02:35,910 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData\randwater_raw_page.html
+2026-08-07 08:02:35,925 | INFO | HTML tables found: 1
+2026-08-07 08:02:35,928 | INFO | Parsed Rand Water tender rows: 2
+2026-08-07 08:02:36,001 | INFO | Saved raw outputs
+2026-08-07 08:02:36,003 | INFO | Filtered current Rand Water tenders: 2 -> 2 rows
+2026-08-07 08:02:36,275 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_delta.xlsx | rows: 0
+2026-08-07 08:02:36,275 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_updates.xlsx | rows: 0
+2026-08-07 08:02:36,275 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_top_delta.xlsx | rows: 0
+2026-08-07 08:02:36,275 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_master.xlsx | rows: 5
+2026-08-10 08:03:49,439 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-10 08:03:49,440 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-08-10 08:03:49,441 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-08-10 08:03:49,441 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-08-10 08:03:49,441 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-08-10 08:03:49,441 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-08-10 08:03:49,441 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-08-10 08:03:51,522 | WARNING | Rand Water request failed for https://www.randwater.co.za/availabletenders.php: HTTPSConnectionPool(host='www.randwater.co.za', port=443): Max retries exceeded with url: /availabletenders.php (Caused by NewConnectionError("HTTPSConnection(host='www.randwater.co.za', port=443): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-08-10 08:04:12,554 | WARNING | Rand Water request failed for http://www.randwater.co.za/availabletenders.php: HTTPConnectionPool(host='www.randwater.co.za', port=80): Max retries exceeded with url: /availabletenders.php (Caused by ConnectTimeoutError(<HTTPConnection(host='www.randwater.co.za', port=80) at 0x19853da6510>, 'Connection to www.randwater.co.za timed out. (connect timeout=60)'))
+2026-08-10 08:04:12,554 | ERROR | Rand Water fetch failed; preserving existing master where possible: Could not fetch Rand Water tender page after HTTPS/HTTP attempts: HTTPConnectionPool(host='www.randwater.co.za', port=80): Max retries exceeded with url: /availabletenders.php (Caused by ConnectTimeoutError(<HTTPConnection(host='www.randwater.co.za', port=80) at 0x19853da6510>, 'Connection to www.randwater.co.za timed out. (connect timeout=60)'))
+Traceback (most recent call last):
+  File "C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\00_Scripts\randwater_tender_pull_and_clean.py", line 574, in main
+    html = fetch_html(SOURCE_URL)
+  File "C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\00_Scripts\randwater_tender_pull_and_clean.py", line 154, in fetch_html
+    raise RuntimeError(f"Could not fetch Rand Water tender page after HTTPS/HTTP attempts: {last_exc}")
+RuntimeError: Could not fetch Rand Water tender page after HTTPS/HTTP attempts: HTTPConnectionPool(host='www.randwater.co.za', port=80): Max retries exceeded with url: /availabletenders.php (Caused by ConnectTimeoutError(<HTTPConnection(host='www.randwater.co.za', port=80) at 0x19853da6510>, 'Connection to www.randwater.co.za timed out. (connect timeout=60)'))
+2026-08-10 08:04:12,559 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData\randwater_raw_page.html
+2026-08-10 08:04:12,560 | INFO | Parsed Rand Water tender rows: 0
+2026-08-10 08:04:12,744 | INFO | Saved raw outputs
+2026-08-10 08:04:13,516 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_delta.xlsx | rows: 0
+2026-08-10 08:04:13,516 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_updates.xlsx | rows: 0
+2026-08-10 08:04:13,516 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_top_delta.xlsx | rows: 0
+2026-08-10 08:04:13,516 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_master.xlsx | rows: 5
+2026-08-11 08:02:16,597 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-11 08:02:16,599 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-08-11 08:02:16,599 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-08-11 08:02:16,599 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-08-11 08:02:16,600 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-08-11 08:02:16,600 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-08-11 08:02:16,600 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-08-11 08:02:18,801 | WARNING | Rand Water request failed for https://www.randwater.co.za/availabletenders.php: HTTPSConnectionPool(host='www.randwater.co.za', port=443): Max retries exceeded with url: /availabletenders.php (Caused by NewConnectionError("HTTPSConnection(host='www.randwater.co.za', port=443): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it"))
+2026-08-11 08:02:39,871 | WARNING | Rand Water request failed for http://www.randwater.co.za/availabletenders.php: HTTPConnectionPool(host='www.randwater.co.za', port=80): Max retries exceeded with url: /availabletenders.php (Caused by ConnectTimeoutError(<HTTPConnection(host='www.randwater.co.za', port=80) at 0x268ddd76510>, 'Connection to www.randwater.co.za timed out. (connect timeout=60)'))
+2026-08-11 08:02:39,872 | ERROR | Rand Water fetch failed; preserving existing master where possible: Could not fetch Rand Water tender page after HTTPS/HTTP attempts: HTTPConnectionPool(host='www.randwater.co.za', port=80): Max retries exceeded with url: /availabletenders.php (Caused by ConnectTimeoutError(<HTTPConnection(host='www.randwater.co.za', port=80) at 0x268ddd76510>, 'Connection to www.randwater.co.za timed out. (connect timeout=60)'))
+Traceback (most recent call last):
+  File "C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\00_Scripts\randwater_tender_pull_and_clean.py", line 574, in main
+    html = fetch_html(SOURCE_URL)
+  File "C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\00_Scripts\randwater_tender_pull_and_clean.py", line 154, in fetch_html
+    raise RuntimeError(f"Could not fetch Rand Water tender page after HTTPS/HTTP attempts: {last_exc}")
+RuntimeError: Could not fetch Rand Water tender page after HTTPS/HTTP attempts: HTTPConnectionPool(host='www.randwater.co.za', port=80): Max retries exceeded with url: /availabletenders.php (Caused by ConnectTimeoutError(<HTTPConnection(host='www.randwater.co.za', port=80) at 0x268ddd76510>, 'Connection to www.randwater.co.za timed out. (connect timeout=60)'))
+2026-08-11 08:02:39,873 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData\randwater_raw_page.html
+2026-08-11 08:02:39,873 | INFO | Parsed Rand Water tender rows: 0
+2026-08-11 08:02:39,971 | INFO | Saved raw outputs
+2026-08-11 08:02:40,365 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_delta.xlsx | rows: 0
+2026-08-11 08:02:40,365 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_updates.xlsx | rows: 0
+2026-08-11 08:02:40,365 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_top_delta.xlsx | rows: 0
+2026-08-11 08:02:40,365 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_master.xlsx | rows: 5
+2026-08-12 08:02:24,010 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-12 08:02:24,011 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-08-12 08:02:24,011 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-08-12 08:02:24,011 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-08-12 08:02:24,012 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-08-12 08:02:24,012 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-08-12 08:02:24,012 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-08-12 08:02:24,101 | WARNING | SSL verification failed for https://www.randwater.co.za/availabletenders.php. Retrying without certificate verification for this public tender page.
+2026-08-12 08:02:24,672 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData\randwater_raw_page.html
+2026-08-12 08:02:24,688 | INFO | HTML tables found: 1
+2026-08-12 08:02:24,692 | INFO | Parsed Rand Water tender rows: 2
+2026-08-12 08:02:24,781 | INFO | Saved raw outputs
+2026-08-12 08:02:24,783 | INFO | Filtered current Rand Water tenders: 2 -> 2 rows
+2026-08-12 08:02:25,096 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_delta.xlsx | rows: 0
+2026-08-12 08:02:25,097 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_updates.xlsx | rows: 0
+2026-08-12 08:02:25,097 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_top_delta.xlsx | rows: 0
+2026-08-12 08:02:25,097 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_master.xlsx | rows: 5
+2026-08-14 08:01:53,943 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-14 08:01:53,945 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-08-14 08:01:53,945 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-08-14 08:01:53,945 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-08-14 08:01:53,945 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-08-14 08:01:53,946 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-08-14 08:01:53,946 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-08-14 08:01:54,009 | WARNING | SSL verification failed for https://www.randwater.co.za/availabletenders.php. Retrying without certificate verification for this public tender page.
+2026-08-14 08:01:54,115 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData\randwater_raw_page.html
+2026-08-14 08:01:54,145 | INFO | HTML tables found: 1
+2026-08-14 08:01:54,195 | INFO | Parsed Rand Water tender rows: 2
+2026-08-14 08:01:54,625 | INFO | Saved raw outputs
+2026-08-14 08:01:54,628 | INFO | Filtered current Rand Water tenders: 2 -> 2 rows
+2026-08-14 08:01:55,002 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_delta.xlsx | rows: 0
+2026-08-14 08:01:55,002 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_updates.xlsx | rows: 0
+2026-08-14 08:01:55,002 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_top_delta.xlsx | rows: 0
+2026-08-14 08:01:55,002 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_master.xlsx | rows: 5
+2026-08-17 08:03:41,040 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-17 08:03:41,090 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-08-17 08:03:41,090 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-08-17 08:03:41,091 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-08-17 08:03:41,091 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-08-17 08:03:41,092 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-08-17 08:03:41,092 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-08-17 08:03:41,672 | WARNING | SSL verification failed for https://www.randwater.co.za/availabletenders.php. Retrying without certificate verification for this public tender page.
+2026-08-17 08:03:41,778 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData\randwater_raw_page.html
+2026-08-17 08:03:41,810 | INFO | HTML tables found: 1
+2026-08-17 08:03:41,818 | INFO | Parsed Rand Water tender rows: 2
+2026-08-17 08:03:42,023 | INFO | Saved raw outputs
+2026-08-17 08:03:42,027 | INFO | Filtered current Rand Water tenders: 2 -> 2 rows
+2026-08-17 08:03:42,988 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_delta.xlsx | rows: 0
+2026-08-17 08:03:42,988 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_updates.xlsx | rows: 0
+2026-08-17 08:03:42,988 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_top_delta.xlsx | rows: 0
+2026-08-17 08:03:42,988 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_master.xlsx | rows: 5
+2026-08-18 08:02:20,881 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-18 08:02:20,882 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-08-18 08:02:20,882 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-08-18 08:02:20,882 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-08-18 08:02:20,882 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-08-18 08:02:20,882 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-08-18 08:02:20,882 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-08-18 08:02:21,269 | WARNING | SSL verification failed for https://www.randwater.co.za/availabletenders.php. Retrying without certificate verification for this public tender page.
+2026-08-18 08:02:21,371 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData\randwater_raw_page.html
+2026-08-18 08:02:21,385 | INFO | HTML tables found: 1
+2026-08-18 08:02:21,389 | INFO | Parsed Rand Water tender rows: 2
+2026-08-18 08:02:21,482 | INFO | Saved raw outputs
+2026-08-18 08:02:21,483 | INFO | Filtered current Rand Water tenders: 2 -> 2 rows
+2026-08-18 08:02:21,914 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_delta.xlsx | rows: 0
+2026-08-18 08:02:21,915 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_updates.xlsx | rows: 0
+2026-08-18 08:02:21,915 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_top_delta.xlsx | rows: 0
+2026-08-18 08:02:21,916 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_master.xlsx | rows: 5
+2026-08-20 08:02:19,668 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-20 08:02:19,669 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-08-20 08:02:19,669 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-08-20 08:02:19,669 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-08-20 08:02:19,670 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-08-20 08:02:19,670 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-08-20 08:02:19,670 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-08-20 08:02:19,722 | WARNING | SSL verification failed for https://www.randwater.co.za/availabletenders.php. Retrying without certificate verification for this public tender page.
+2026-08-20 08:02:19,850 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData\randwater_raw_page.html
+2026-08-20 08:02:19,866 | INFO | HTML tables found: 1
+2026-08-20 08:02:19,869 | INFO | Parsed Rand Water tender rows: 2
+2026-08-20 08:02:19,947 | INFO | Saved raw outputs
+2026-08-20 08:02:19,948 | INFO | Filtered current Rand Water tenders: 2 -> 2 rows
+2026-08-20 08:02:20,234 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_delta.xlsx | rows: 0
+2026-08-20 08:02:20,234 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_updates.xlsx | rows: 0
+2026-08-20 08:02:20,234 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_top_delta.xlsx | rows: 0
+2026-08-20 08:02:20,235 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_master.xlsx | rows: 5
+2026-08-21 08:01:44,443 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-21 08:01:44,444 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-08-21 08:01:44,444 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-08-21 08:01:44,445 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-08-21 08:01:44,445 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-08-21 08:01:44,445 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-08-21 08:01:44,445 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-08-21 08:01:44,494 | WARNING | SSL verification failed for https://www.randwater.co.za/availabletenders.php. Retrying without certificate verification for this public tender page.
+2026-08-21 08:01:44,599 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData\randwater_raw_page.html
+2026-08-21 08:01:44,614 | INFO | HTML tables found: 1
+2026-08-21 08:01:44,619 | INFO | Parsed Rand Water tender rows: 4
+2026-08-21 08:01:44,698 | INFO | Saved raw outputs
+2026-08-21 08:01:44,699 | INFO | Filtered current Rand Water tenders: 4 -> 4 rows
+2026-08-21 08:01:45,002 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_delta.xlsx | rows: 2
+2026-08-21 08:01:45,002 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_updates.xlsx | rows: 0
+2026-08-21 08:01:45,002 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_top_delta.xlsx | rows: 2
+2026-08-21 08:01:45,002 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_master.xlsx | rows: 7
+2026-08-24 08:03:01,649 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-24 08:03:01,699 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-08-24 08:03:01,706 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-08-24 08:03:01,707 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-08-24 08:03:01,707 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-08-24 08:03:01,709 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-08-24 08:03:01,709 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-08-24 08:03:01,858 | WARNING | SSL verification failed for https://www.randwater.co.za/availabletenders.php. Retrying without certificate verification for this public tender page.
+2026-08-24 08:03:02,103 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData\randwater_raw_page.html
+2026-08-24 08:03:02,176 | INFO | HTML tables found: 1
+2026-08-24 08:03:02,219 | INFO | Parsed Rand Water tender rows: 4
+2026-08-24 08:03:02,683 | INFO | Saved raw outputs
+2026-08-24 08:03:02,687 | INFO | Filtered current Rand Water tenders: 4 -> 4 rows
+2026-08-24 08:03:04,169 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_delta.xlsx | rows: 0
+2026-08-24 08:03:04,169 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_updates.xlsx | rows: 0
+2026-08-24 08:03:04,170 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_top_delta.xlsx | rows: 0
+2026-08-24 08:03:04,170 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_master.xlsx | rows: 7
+2026-08-25 08:02:28,164 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-25 08:02:28,165 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-08-25 08:02:28,165 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-08-25 08:02:28,165 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-08-25 08:02:28,165 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-08-25 08:02:28,165 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-08-25 08:02:28,165 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-08-25 08:02:28,214 | WARNING | SSL verification failed for https://www.randwater.co.za/availabletenders.php. Retrying without certificate verification for this public tender page.
+2026-08-25 08:02:28,326 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData\randwater_raw_page.html
+2026-08-25 08:02:28,340 | INFO | HTML tables found: 1
+2026-08-25 08:02:28,345 | INFO | Parsed Rand Water tender rows: 4
+2026-08-25 08:02:28,427 | INFO | Saved raw outputs
+2026-08-25 08:02:28,429 | INFO | Filtered current Rand Water tenders: 4 -> 4 rows
+2026-08-25 08:02:28,727 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_delta.xlsx | rows: 0
+2026-08-25 08:02:28,728 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_updates.xlsx | rows: 0
+2026-08-25 08:02:28,728 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_top_delta.xlsx | rows: 0
+2026-08-25 08:02:28,728 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_master.xlsx | rows: 7
+2026-08-26 08:01:50,877 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-26 08:01:50,878 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-08-26 08:01:50,878 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-08-26 08:01:50,879 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-08-26 08:01:50,879 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-08-26 08:01:50,879 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-08-26 08:01:50,879 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-08-26 08:01:50,941 | WARNING | SSL verification failed for https://www.randwater.co.za/availabletenders.php. Retrying without certificate verification for this public tender page.
+2026-08-26 08:01:51,037 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData\randwater_raw_page.html
+2026-08-26 08:01:51,053 | INFO | HTML tables found: 1
+2026-08-26 08:01:51,060 | INFO | Parsed Rand Water tender rows: 4
+2026-08-26 08:01:51,139 | INFO | Saved raw outputs
+2026-08-26 08:01:51,141 | INFO | Filtered current Rand Water tenders: 4 -> 4 rows
+2026-08-26 08:01:51,448 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_delta.xlsx | rows: 0
+2026-08-26 08:01:51,449 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_updates.xlsx | rows: 0
+2026-08-26 08:01:51,449 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_top_delta.xlsx | rows: 0
+2026-08-26 08:01:51,449 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_master.xlsx | rows: 7
+2026-08-28 08:01:53,365 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-28 08:01:53,367 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-08-28 08:01:53,367 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-08-28 08:01:53,367 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-08-28 08:01:53,367 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-08-28 08:01:53,367 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-08-28 08:01:53,367 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-08-28 08:01:53,430 | WARNING | SSL verification failed for https://www.randwater.co.za/availabletenders.php. Retrying without certificate verification for this public tender page.
+2026-08-28 08:01:53,533 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData\randwater_raw_page.html
+2026-08-28 08:01:53,549 | INFO | HTML tables found: 1
+2026-08-28 08:01:53,554 | INFO | Parsed Rand Water tender rows: 4
+2026-08-28 08:01:53,634 | INFO | Saved raw outputs
+2026-08-28 08:01:53,636 | INFO | Filtered current Rand Water tenders: 4 -> 4 rows
+2026-08-28 08:01:53,948 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_delta.xlsx | rows: 0
+2026-08-28 08:01:53,948 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_updates.xlsx | rows: 0
+2026-08-28 08:01:53,948 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_top_delta.xlsx | rows: 0
+2026-08-28 08:01:53,948 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_master.xlsx | rows: 7
+2026-08-31 10:07:03,090 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-08-31 10:07:03,092 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-08-31 10:07:03,095 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-08-31 10:07:03,096 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-08-31 10:07:03,096 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-08-31 10:07:03,104 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-08-31 10:07:03,104 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-08-31 10:07:03,360 | WARNING | SSL verification failed for https://www.randwater.co.za/availabletenders.php. Retrying without certificate verification for this public tender page.
+2026-08-31 10:07:03,491 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData\randwater_raw_page.html
+2026-08-31 10:07:03,531 | INFO | HTML tables found: 1
+2026-08-31 10:07:03,560 | INFO | Parsed Rand Water tender rows: 3
+2026-08-31 10:07:03,970 | INFO | Saved raw outputs
+2026-08-31 10:07:03,975 | INFO | Filtered current Rand Water tenders: 3 -> 3 rows
+2026-08-31 10:07:05,264 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_delta.xlsx | rows: 0
+2026-08-31 10:07:05,264 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_updates.xlsx | rows: 0
+2026-08-31 10:07:05,264 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_top_delta.xlsx | rows: 0
+2026-08-31 10:07:05,264 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_master.xlsx | rows: 7
+2026-09-02 14:58:32,920 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-09-02 14:58:32,970 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-09-02 14:58:32,972 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-09-02 14:58:32,972 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-09-02 14:58:32,973 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-09-02 14:58:32,974 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-09-02 14:58:32,975 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-09-02 14:58:33,088 | WARNING | SSL verification failed for https://www.randwater.co.za/availabletenders.php. Retrying without certificate verification for this public tender page.
+2026-09-02 14:58:33,231 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData\randwater_raw_page.html
+2026-09-02 14:58:33,270 | INFO | HTML tables found: 1
+2026-09-02 14:58:33,281 | INFO | Parsed Rand Water tender rows: 3
+2026-09-02 14:58:33,625 | INFO | Saved raw outputs
+2026-09-02 14:58:33,627 | INFO | Filtered current Rand Water tenders: 3 -> 3 rows
+2026-09-02 14:58:34,545 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_delta.xlsx | rows: 0
+2026-09-02 14:58:34,546 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_updates.xlsx | rows: 0
+2026-09-02 14:58:34,546 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_top_delta.xlsx | rows: 0
+2026-09-02 14:58:34,547 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs\randwater_master.xlsx | rows: 7
+2026-09-05 13:27:20,487 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-09-05 13:27:20,490 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-09-05 13:27:20,490 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-09-05 13:27:20,490 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-09-05 13:27:20,490 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-09-05 13:27:20,490 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-09-05 13:27:20,490 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-09-07 08:04:20,094 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-09-07 08:04:20,097 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-09-07 08:04:20,098 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-09-07 08:04:20,098 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-09-07 08:04:20,098 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-09-07 08:04:20,099 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-09-07 08:04:20,099 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-09-08 08:01:52,509 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-09-08 08:01:52,512 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-09-08 08:01:52,512 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-09-08 08:01:52,512 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-09-08 08:01:52,512 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-09-08 08:01:52,512 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-09-08 08:01:52,512 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-09-09 13:50:45,232 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-09-09 13:50:45,234 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-09-09 13:50:45,234 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-09-09 13:50:45,234 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-09-09 13:50:45,235 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-09-09 13:50:45,235 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-09-09 13:50:45,235 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-09-13 03:32:43,627 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-09-13 03:32:43,627 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+2026-09-13 03:32:43,627 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_RawData
+2026-09-13 03:32:43,627 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\02_Outputs
+2026-09-13 03:32:43,628 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\03_Logs
+2026-09-13 03:32:43,628 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\04_State
+2026-09-13 03:32:43,628 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php

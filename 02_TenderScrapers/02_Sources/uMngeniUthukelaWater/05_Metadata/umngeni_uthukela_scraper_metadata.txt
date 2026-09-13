@@ -1,0 +1,239 @@
+uMngeni-uThukela Water Tender Scraper Metadata
+=================================================
+
+Scraper Name
+------------
+uMngeni-uThukela Water Tender Scraper
+
+Script File
+-----------
+umngeni_uthukela_tender_pull_and_clean.py
+
+Source Website
+--------------
+https://www.umngeni-uthukela.co.za/tender/
+
+Source Type
+-----------
+Public HTML tender page / tender archive page.
+
+Purpose
+-------
+The scraper monitors advertised tenders from uMngeni-uThukela Water, extracts tender information from the public tender page, stores raw and cleaned outputs, identifies new tenders, identifies updated tenders, and produces a top-delta shortlist based on weighted relevance scoring.
+
+Root Folder
+-----------
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\uMngeniUthukelaWater
+
+Folder Structure
+----------------
+Logs:
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\uMngeniUthukelaWater\Logs
+
+Outputs:
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\uMngeniUthukelaWater\Outputs
+
+State:
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\uMngeniUthukelaWater\State
+
+Main Output Files
+-----------------
+umngeni_uthukela_raw.csv
+Raw parsed data from the website.
+
+umngeni_uthukela_raw_full.xlsx
+Raw parsed data in Excel format.
+
+umngeni_uthukela_raw_page.html
+Saved copy of the fetched source page for audit/debugging.
+
+umngeni_uthukela_master.xlsx
+Master register of current in-scope tenders, deduplicated by opportunity key.
+
+umngeni_uthukela_delta.xlsx
+New tenders identified in the current run only.
+
+umngeni_uthukela_updates.xlsx
+Existing tenders where monitored operational fields changed.
+
+umngeni_uthukela_top_delta.xlsx
+Highest-scoring new tenders from the current run.
+
+State and Log Files
+-------------------
+umngeni_uthukela_run.log
+Execution log.
+
+run.lock
+Temporary lock file used to prevent concurrent runs.
+
+seen_ids.json
+State file used to track previously seen opportunity keys, where applicable.
+
+Core Fields Captured
+--------------------
+source
+opportunity_key
+reference_number
+notice_type
+description
+client
+issue_date
+closing_date
+closing_datetime
+status
+title_url
+view_url
+document_names
+document_urls
+document_count
+source_url
+archived_flag
+cancellation_flag
+weight_score
+
+Filtering Logic
+---------------
+The raw outputs are kept unfiltered for audit and debugging.
+
+The cleaned operational outputs apply the following default filtering:
+- Keep only tenders where closing_datetime is greater than or equal to the current run date/time.
+- Exclude archived tenders.
+- Exclude cancelled or withdrawn notices.
+- Exclude rows without a usable tender identifier where no reliable opportunity key can be constructed.
+
+Optional command-line switches may override some of the default filtering:
+--include-expired
+--include-archived
+--include-cancellations
+
+Deduplication Logic
+-------------------
+The scraper uses opportunity_key as the unique identifier.
+
+Where a reference number is available, it is used to build the opportunity key.
+Where a reference number is not available, the scraper falls back to a stable combination of available fields such as description, closing date, and source URL.
+
+Update Detection
+----------------
+The scraper calculates a row hash over key operational fields.
+
+Typical fields used for update detection include:
+- description
+- issue_date
+- closing_date
+- closing_datetime
+- status
+- view_url
+- document_names
+- document_urls
+- archived_flag
+- cancellation_flag
+
+If an existing opportunity_key has a different row hash from the previous master record, the tender is written to the updates file.
+
+Delta Logic
+-----------
+A tender is written to the delta file when its opportunity_key does not already exist in the master file from a previous run.
+
+Top Delta Logic
+---------------
+The top-delta file is created from the delta file only.
+
+Rows are sorted by:
+1. weight_score descending
+2. closing_datetime ascending
+3. issue_date ascending, where available
+
+Default Behaviour
+-----------------
+The scraper creates all expected output files even where no qualifying rows are found.
+
+Scoring Logic
+-------------
+The scraper applies weighted scoring to help prioritise tenders for review.
+
+The score is based primarily on relevant words or phrases in the tender title/description, notice type, and source relevance.
+
+Typical keyword categories include:
+- Water
+- Sanitation
+- Engineering
+- Civil Engineering
+- Structural Engineering
+- Mechanical
+- Electrical
+- HVAC
+- Wet Services
+- Design
+- Refurbishment
+- Maintenance
+- Project Management
+- Programme Management
+- Feasibility Study
+- Advisory Services
+- Construction
+- Infrastructure
+
+The scoring should be reviewed and standardised later across all tender scrapers before creating the consolidated tender register.
+
+Run Command
+-----------
+Recommended command:
+
+& "C:/Users/Danie le Roux/AppData/Local/Programs/Python/Python314/python.exe" "C:/Users/Danie le Roux/OneDrive - Henry Fagan/Desktop/Data Analytics/uMngeniUthukelaWater/umngeni_uthukela_tender_pull_and_clean.py"
+
+Optional Commands
+-----------------
+Include expired tenders:
+
+& "C:/Users/Danie le Roux/AppData/Local/Programs/Python/Python314/python.exe" "C:/Users/Danie le Roux/OneDrive - Henry Fagan/Desktop/Data Analytics/uMngeniUthukelaWater/umngeni_uthukela_tender_pull_and_clean.py" --include-expired
+
+Include archived tenders:
+
+& "C:/Users/Danie le Roux/AppData/Local/Programs/Python/Python314/python.exe" "C:/Users/Danie le Roux/OneDrive - Henry Fagan/Desktop/Data Analytics/uMngeniUthukelaWater/umngeni_uthukela_tender_pull_and_clean.py" --include-archived
+
+Include cancellations:
+
+& "C:/Users/Danie le Roux/AppData/Local/Programs/Python/Python314/python.exe" "C:/Users/Danie le Roux/OneDrive - Henry Fagan/Desktop/Data Analytics/uMngeniUthukelaWater/umngeni_uthukela_tender_pull_and_clean.py" --include-cancellations
+
+Adjust top delta limit:
+
+& "C:/Users/Danie le Roux/AppData/Local/Programs/Python/Python314/python.exe" "C:/Users/Danie le Roux/OneDrive - Henry Fagan/Desktop/Data Analytics/uMngeniUthukelaWater/umngeni_uthukela_tender_pull_and_clean.py" --top-delta-limit 50
+
+Adjust minimum score for top delta:
+
+& "C:/Users/Danie le Roux/AppData/Local/Programs/Python/Python314/python.exe" "C:/Users/Danie le Roux/OneDrive - Henry Fagan/Desktop/Data Analytics/uMngeniUthukelaWater/umngeni_uthukela_tender_pull_and_clean.py" --top-delta-min-score 3
+
+Dependencies
+------------
+Python 3.14
+requests
+pandas
+openpyxl
+xlsxwriter
+beautifulsoup4
+lxml
+
+Notes and Limitations
+---------------------
+The scraper depends on the current structure of the public uMngeni-uThukela Water tender page. If the website layout changes, the parser may need to be updated.
+
+The scraper does not log into any private supplier portal and does not submit or download restricted tender information.
+
+Document links are captured where available from the public page/detail pages.
+
+The scraper should be reviewed after several live runs to confirm that:
+- all active tenders are being captured;
+- archived items are properly excluded;
+- closing dates are parsed correctly;
+- document links remain valid;
+- scoring produces useful prioritisation.
+
+Recommended Future Improvements
+-------------------------------
+1. Standardise scoring across all tender scrapers.
+2. Add a consolidated tender register across all sources.
+3. Add source-specific health checks to flag when a scraper returns zero rows unexpectedly.
+4. Add automated run scheduling through Windows Task Scheduler.
+5. Add a summary report showing new, updated, and top-scoring opportunities per source.

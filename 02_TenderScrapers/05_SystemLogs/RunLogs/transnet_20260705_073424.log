@@ -1,0 +1,50 @@
+command: C:\Users\Danie le Roux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Transnet\00_Scripts\transnet_esupplier_tender_pull_and_clean.py
+return_code: 0
+elapsed_seconds: 75.00
+
+--- STDOUT ---
+2026-07-05 07:33:10,035 | INFO | Using tender scrapers root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-05 07:33:10,035 | INFO | Using source root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Transnet
+2026-07-05 07:33:10,035 | INFO | Using raw directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Transnet\01_RawData
+2026-07-05 07:33:10,036 | INFO | Using output directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Transnet\02_Outputs
+2026-07-05 07:33:10,037 | INFO | Fetching Transnet page: eSupplier Advertised Tenders | https://esupplierportal.transnet.net/portal/advertisedTenders
+2026-07-05 07:33:11,467 | INFO | Saved static raw HTML: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Transnet\01_RawData\transnet_raw_page_static_esupplier_advertised_tenders.html
+2026-07-05 07:33:11,468 | INFO | Using Selenium full pagination capture for eSupplier Advertised Tenders
+2026-07-05 07:33:23,577 | INFO | Rendered parse rows for eSupplier Advertised Tenders page 1: 53
+2026-07-05 07:33:26,168 | INFO | Saved rendered raw HTML: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Transnet\01_RawData\transnet_raw_page_rendered_esupplier_advertised_tenders.html
+2026-07-05 07:33:26,169 | INFO | Rendered total rows for eSupplier Advertised Tenders: 53
+2026-07-05 07:33:26,572 | INFO | Fetching Transnet page: eSupplier Other Tenders | https://esupplierportal.transnet.net/portal/otherTenders
+2026-07-05 07:33:27,666 | INFO | Saved static raw HTML: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Transnet\01_RawData\transnet_raw_page_static_esupplier_other_tenders.html
+2026-07-05 07:33:27,667 | INFO | Using Selenium full pagination capture for eSupplier Other Tenders
+2026-07-05 07:33:40,285 | INFO | Rendered parse rows for eSupplier Other Tenders page 1: 10
+2026-07-05 07:33:43,023 | INFO | Saved rendered raw HTML: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Transnet\01_RawData\transnet_raw_page_rendered_esupplier_other_tenders.html
+2026-07-05 07:33:43,024 | INFO | Rendered total rows for eSupplier Other Tenders: 10
+2026-07-05 07:33:43,437 | INFO | Fetching Transnet page: Azure Open Tenders | https://transnetetenders.azurewebsites.net/Home/AdvertisedTenders
+2026-07-05 07:33:43,863 | INFO | Saved static raw HTML: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Transnet\01_RawData\transnet_raw_page_static_azure_open_tenders.html
+2026-07-05 07:33:43,865 | INFO | Using Selenium full pagination capture for Azure Open Tenders
+2026-07-05 07:33:59,792 | INFO | Rendered parse rows for Azure Open Tenders page 1: 60
+2026-07-05 07:34:02,807 | INFO | Saved rendered raw HTML: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Transnet\01_RawData\transnet_raw_page_rendered_azure_open_tenders.html
+2026-07-05 07:34:02,808 | INFO | Rendered total rows for Azure Open Tenders: 60
+2026-07-05 07:34:03,209 | INFO | Fetching Transnet page: Azure Other Tenders | https://transnetetenders.azurewebsites.net/Home/AdvertisedTenders
+2026-07-05 07:34:03,973 | INFO | Saved static raw HTML: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Transnet\01_RawData\transnet_raw_page_static_azure_other_tenders.html
+2026-07-05 07:34:03,974 | INFO | Using Selenium full pagination capture for Azure Other Tenders
+2026-07-05 07:34:20,051 | INFO | Rendered parse rows for Azure Other Tenders page 1: 60
+2026-07-05 07:34:22,841 | INFO | Saved rendered raw HTML: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Transnet\01_RawData\transnet_raw_page_rendered_azure_other_tenders.html
+2026-07-05 07:34:22,843 | INFO | Rendered total rows for Azure Other Tenders: 60
+2026-07-05 07:34:23,245 | INFO | Parsed Transnet raw rows: 183 | cols: 14
+2026-07-05 07:34:23,257 | INFO | Saved raw CSV: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Transnet\01_RawData\transnet_raw.csv
+2026-07-05 07:34:23,427 | INFO | Saved raw Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Transnet\01_RawData\transnet_raw_full.xlsx
+2026-07-05 07:34:23,578 | INFO | Filtered current Transnet tenders: 123 -> 102 rows
+2026-07-05 07:34:23,907 | INFO | Delta rows this run: 0
+2026-07-05 07:34:23,908 | INFO | Updates rows this run: 0
+2026-07-05 07:34:23,908 | INFO | Top delta rows this run: 0
+2026-07-05 07:34:23,949 | INFO | Saved delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Transnet\02_Outputs\transnet_delta.xlsx | rows: 0
+2026-07-05 07:34:23,974 | INFO | Saved updates Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Transnet\02_Outputs\transnet_updates.xlsx | rows: 0
+2026-07-05 07:34:24,004 | INFO | Saved top delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Transnet\02_Outputs\transnet_top_delta.xlsx | rows: 0
+2026-07-05 07:34:24,108 | INFO | Saved master Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Transnet\02_Outputs\transnet_master.xlsx | rows: 112
+
+--- STDERR ---
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Transnet\00_Scripts\transnet_esupplier_tender_pull_and_clean.py:899: UserWarning: Parsing dates in %Y-%m-%d format when dayfirst=True was specified. Pass `dayfirst=False` or specify a format to silence this warning.
+  dt = pd.to_datetime(cleaned, errors="coerce", dayfirst=dayfirst)
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Transnet\00_Scripts\transnet_esupplier_tender_pull_and_clean.py:899: UserWarning: Parsing dates in %m/%d/%Y %I:%M:%S %p format when dayfirst=True was specified. Pass `dayfirst=False` or specify a format to silence this warning.
+  dt = pd.to_datetime(cleaned, errors="coerce", dayfirst=dayfirst)

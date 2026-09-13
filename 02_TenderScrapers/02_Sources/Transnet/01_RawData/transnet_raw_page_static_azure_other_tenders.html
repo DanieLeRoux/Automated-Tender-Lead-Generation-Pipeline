@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Transnet eTenders Portal" />
+    <meta name="author" content="" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Expires" content="0" />
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/vnd.microsoft.icon" />
+
+    <title> - TRANSNET E-TENDERS</title>
+
+    
+    
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+<meta name="x-stylesheet-fallback-test" content="" class="sr-only" /><script>!function(a,b,c,d){var e,f=document,g=f.getElementsByTagName("SCRIPT"),h=g[g.length-1].previousElementSibling,i=f.defaultView&&f.defaultView.getComputedStyle?f.defaultView.getComputedStyle(h):h.currentStyle;if(i&&i[a]!==b)for(e=0;e<c.length;e++)f.write('<link href="'+c[e]+'" '+d+"/>")}("position","absolute",["/lib/bootstrap/dist/css/bootstrap.min.css"], "rel=\u0022stylesheet\u0022 ");</script>
+
+        <link rel="stylesheet" href="/css/eTenderingControls.css?v=h5_1IVIxy-wn_p87S7Q34I1tJgpU-WrVIR1TugCjGFI" />
+        <link rel="stylesheet" href="/css/eTendersCustom.css?v=tPpcrjkLq-ak3FdffzwmRKilflXBw49fJNFrdhC0qSw" />
+        <link rel="stylesheet" href="/css/site.min.css?v=kHvJwvVAK1eJLN4w8xygUR3nbvlLmRwi5yr-OuAO90E" />
+        <link rel="stylesheet" href="/css/jquery.dataTables.min.css?v=mKLnu0eHkZYRbKyTr1JALRMFxU47QsZ5BKDy9KVBQLo" />
+        <link rel="stylesheet" href="/css/Transnet_Internet.css?v=5_WOiVKyMuP-L1qH-F07HWwOPPDmF-TorI02qCu8us8" />
+        <link rel="stylesheet" href="/css/migration-banner.css?v=XoisASn-4VQiQxDQ__3hIjuNfZ2C_7K6pa2BqkmETqI" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="/css/fonts.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    
+</head>
+<body>
+
+    <div role="heading" id="header" class="header masthead ms-dialogHidden">
+        <div class="">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="header clearfix">
+                        <div class="container-fluid ">
+                            <div id="DeltaSiteLogo" class="pull-right">
+                                <a id="ctl00_x36d5bee949a7480783b3afc048c15598" class="ms-siteicon-a" href="/">
+                                    <img id="ctl00_x74bbee6762f840edad4fe46f496d8c78" class="ms-siteicon-img" name="onetidHeadbnnr0" src="/images/logo.png" alt="Transnet">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="navbar navbar-inverse" style="margin-bottom: 0px !important;">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/Home/AdvertisedTenders">Advertised Tenders</a></li>
+                            <li><a href="/Home/Contact">Contact</a></li>
+                        </ul>
+                        
+
+
+    <ul class="nav navbar-nav navbar-right">
+        <li><a href="/AzureADB2C/Account/SignIn">Sign in/Register</a></li>
+        <li><a class="btn btn-primary" style="padding-top:15px !important;padding-bottom:15px !important;" href="/Home/HelpGuide"><span class="bi-question-square"></span></a></li>
+    </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    
+
+    <nav id="cookieConsent" class="navbar navbar-default navbar-fixed-top" role="alert">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#cookieConsent .navbar-collapse">
+                    <span class="sr-only">Toggle cookie consent banner</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <span class="navbar-brand"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span></span>
+            </div>
+            <div class="collapse navbar-collapse">
+                <p class="navbar-text">
+                    By using our website, you agree to our Privacy Policy and our cookies usage.
+                </p>
+                <div class="navbar-right">
+                    <a class="btn btn-info navbar-btn" href="/Home/Privacy">Learn More</a>
+                    <button type="button" class="btn btn-default navbar-btn" data-cookie-string=".AspNet.Consent=yes; expires=Tue, 06 Jul 2027 06:06:30 GMT; path=/; secure; samesite=none">Accept</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <script>
+        (function () {
+            document.querySelector("#cookieConsent button[data-cookie-string]").addEventListener("click", function (el) {
+                document.cookie = el.target.dataset.cookieString;
+                document.querySelector("#cookieConsent").classList.add("hidden");
+                location.reload();
+            }, false);
+        })();
+    </script>
+
+
+    <div class="container-fluid body-content">
+        
+<div style="margin-top: 40px;"></div>
+
+<section class="page-section text-white mb-0">
+    <div class="container">
+        <div class="OD_header">Advertised Tenders</div>
+        <div class="row" id="advertised">
+            <div class="col-lg-12 ms-auto">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a data-toggle="tab" href="#opentender">Open Tenders</a></li>
+                    <li><a data-toggle="tab" href="#othertender">Other Tenders</a></li>
+
+                </ul>
+                <div class="tab-content">
+                    <div id="opentender" class="tab-pane fade in active">
+                        <table class="table table-dark table-hover table-striped" id="_advertisedTenders" data-page-length="5"></table>
+                        <div class="row" id="advertisedTendersEmpty">
+                            <div class="col-lg-12 ms-auto">
+                                Loading...
+                            </div>
+                        </div>
+                    </div>
+                    <div id="othertender" class="tab-pane fade">
+                        <table class="table table-dark table-hover table-striped" id="_advertisedOtherTenders" data-page-length="5" style="width:100%"></table>
+                        <div class="row" id="advertisedOtherTendersEmpty">
+                            <div class="col-lg-12 ms-auto">
+                                Loading...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+        <hr />
+    </div>
+
+    <div id="footer" class="mastfooter ms-dialogHidden">
+        <div class="">
+            <div class="">
+                <div class="">
+                    <div class="footer">
+                        <a href="/Home/Privacy">Privacy Policy</a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="/Home/Contact">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.3.1.min.js" crossorigin="anonymous" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT">
+        </script>
+<script>(window.jQuery||document.write("\u003Cscript src=\u0022/lib/jquery/dist/jquery.min.js\u0022 crossorigin=\u0022anonymous\u0022 integrity=\u0022sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV\u002BrXbYlF2cqB8txI/8aZajjp4Bqd\u002BV6D5IgvKT\u0022\u003E\u003C/script\u003E"));</script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" Transnet SOC is implementing crossorigin="anonymous" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd">
+        </script>
+<script>(window.jQuery && window.jQuery.fn && window.jQuery.fn.modal||document.write("\u003Cscript src=\u0022/lib/bootstrap/dist/js/bootstrap.min.js\u0022 Transnet SOC is implementing crossorigin=\u0022anonymous\u0022 integrity=\u0022sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd\u0022\u003E\u003C/script\u003E"));</script>
+        <script src="/js/site.min.js?v=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU"></script>
+        <script src="/js/jquery.dm-uploader.min.js?v=1BS3BTawsggD4vXpWvzfxE4sTD1cjmlmAN91eLi8VDQ"></script>
+        <script src="/js/jquery.uploadfile.min.js?v=NysHr1Qw7XIqyFSnnBN4t0rckJU2foDZFNRNqMQEKgo"></script>
+        <script src="/js/e-TendersCustom.js?v=EJLjsYpXnl6eTjrDZtmrjLEWDPYP_-B6cT4xP8up4Kg"></script>
+        <script src="/js/jquery.dataTables.min.js?v=kRYbONlCEkiXxK4QpuLGzkrU-zRsd840UNMsTL0kOfg"></script>
+        <script src="/js/ui-multiple.js?v=ZwcLDFB2P71xLsX1MgQrQUnOy1xoP8JAlQMNLH1onvM"></script>
+        <script src="/js/datetime.js?v=CmO_uSPg0WSBIS8Vv_ygTQrjt3tfJd5vnS1T2ALU6eE"></script>
+        <script src="/js/currency.min.js?v=587CHJ5UbVpIFgVj7q8YqzAjsMWbyI2LYZ0fsFdP6z8"></script>
+        <script src="/js/migration-banner.js?v=2GTkbvf8jNrLBssgfZmYxxqYUs8cDXbkP-Y1XTB3b6w"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+
+    <script>
+        $(document).ready(function () {
+            $("h2:contains(Signed out)").parent().css("margin-top", "100px")
+        });
+    </script>
+
+    
+</body>
+</html>

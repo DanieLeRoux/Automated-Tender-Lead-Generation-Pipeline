@@ -1,0 +1,221 @@
+<html><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Transnet eTenders Portal">
+    <meta name="author" content="">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="Expires" content="0">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/vnd.microsoft.icon">
+
+    <title> - TRANSNET E-TENDERS</title>
+
+    
+    
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<meta name="x-stylesheet-fallback-test" content="" class="sr-only"><script>!function(a,b,c,d){var e,f=document,g=f.getElementsByTagName("SCRIPT"),h=g[g.length-1].previousElementSibling,i=f.defaultView&&f.defaultView.getComputedStyle?f.defaultView.getComputedStyle(h):h.currentStyle;if(i&&i[a]!==b)for(e=0;e<c.length;e++)f.write('<link href="'+c[e]+'" '+d+"/>")}("position","absolute",["/lib/bootstrap/dist/css/bootstrap.min.css"], "rel=\u0022stylesheet\u0022 ");</script>
+
+        <link rel="stylesheet" href="/css/eTenderingControls.css?v=h5_1IVIxy-wn_p87S7Q34I1tJgpU-WrVIR1TugCjGFI">
+        <link rel="stylesheet" href="/css/eTendersCustom.css?v=tPpcrjkLq-ak3FdffzwmRKilflXBw49fJNFrdhC0qSw">
+        <link rel="stylesheet" href="/css/site.min.css?v=kHvJwvVAK1eJLN4w8xygUR3nbvlLmRwi5yr-OuAO90E">
+        <link rel="stylesheet" href="/css/jquery.dataTables.min.css?v=mKLnu0eHkZYRbKyTr1JALRMFxU47QsZ5BKDy9KVBQLo">
+        <link rel="stylesheet" href="/css/Transnet_Internet.css?v=5_WOiVKyMuP-L1qH-F07HWwOPPDmF-TorI02qCu8us8">
+        <link rel="stylesheet" href="/css/migration-banner.css?v=XoisASn-4VQiQxDQ__3hIjuNfZ2C_7K6pa2BqkmETqI">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/css/fonts.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    
+</head>
+<body>
+
+    <div role="heading" id="header" class="header masthead ms-dialogHidden">
+        <div class="">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="header clearfix">
+                        <div class="container-fluid ">
+                            <div id="DeltaSiteLogo" class="pull-right">
+                                <a id="ctl00_x36d5bee949a7480783b3afc048c15598" class="ms-siteicon-a" href="/">
+                                    <img id="ctl00_x74bbee6762f840edad4fe46f496d8c78" class="ms-siteicon-img" name="onetidHeadbnnr0" src="/images/logo.png" alt="Transnet">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="navbar navbar-inverse" style="margin-bottom: 0px !important;">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/Home/AdvertisedTenders">Advertised Tenders</a></li>
+                            <li><a href="/Home/Contact">Contact</a></li>
+                        </ul>
+                        
+
+
+    <ul class="nav navbar-nav navbar-right">
+        <li><a href="/AzureADB2C/Account/SignIn">Sign in/Register</a></li>
+        <li><a class="btn btn-primary" style="padding-top:15px !important;padding-bottom:15px !important;" href="/Home/HelpGuide"><span class="bi-question-square"></span></a></li>
+    </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    
+
+    <nav id="cookieConsent" class="navbar navbar-default navbar-fixed-top" role="alert">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#cookieConsent .navbar-collapse">
+                    <span class="sr-only">Toggle cookie consent banner</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <span class="navbar-brand"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span></span>
+            </div>
+            <div class="collapse navbar-collapse">
+                <p class="navbar-text">
+                    By using our website, you agree to our Privacy Policy and our cookies usage.
+                </p>
+                <div class="navbar-right">
+                    <a class="btn btn-info navbar-btn" href="/Home/Privacy">Learn More</a>
+                    <button type="button" class="btn btn-default navbar-btn" data-cookie-string=".AspNet.Consent=yes; expires=Tue, 06 Jul 2027 06:06:31 GMT; path=/; secure; samesite=none">Accept</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <script>
+        (function () {
+            document.querySelector("#cookieConsent button[data-cookie-string]").addEventListener("click", function (el) {
+                document.cookie = el.target.dataset.cookieString;
+                document.querySelector("#cookieConsent").classList.add("hidden");
+                location.reload();
+            }, false);
+        })();
+    </script>
+
+
+    <div class="container-fluid body-content">
+        
+<div style="margin-top: 40px;"></div>
+
+<section class="page-section text-white mb-0">
+    <div class="container">
+        <div class="OD_header">Advertised Tenders</div>
+        <div class="row" id="advertised">
+            <div class="col-lg-12 ms-auto">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a data-toggle="tab" href="#opentender">Open Tenders</a></li>
+                    <li><a data-toggle="tab" href="#othertender">Other Tenders</a></li>
+
+                </ul>
+                <div class="tab-content">
+                    <div id="opentender" class="tab-pane fade in active">
+                        <div id="_advertisedTenders_wrapper" class="dataTables_wrapper no-footer"><div class="dataTables_length" id="_advertisedTenders_length"><label>Show <select name="_advertisedTenders_length" aria-controls="_advertisedTenders" class=""><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div><div id="_advertisedTenders_filter" class="dataTables_filter"><label>Search:<input type="search" class="" placeholder="" aria-controls="_advertisedTenders"></label></div><table class="table table-dark table-hover table-striped dataTable no-footer" id="_advertisedTenders" data-page-length="5" role="grid" aria-describedby="_advertisedTenders_info" style="width: 1144px;"><thead><tr role="row"><th class="sorting" tabindex="0" aria-controls="_advertisedTenders" rowspan="1" colspan="1" aria-label="Reference Number: activate to sort column ascending" style="width: 204px;">Reference Number</th><th class="sorting" tabindex="0" aria-controls="_advertisedTenders" rowspan="1" colspan="1" aria-label="Tender Name: activate to sort column ascending" style="width: 170px;">Tender Name</th><th class="sorting" tabindex="0" aria-controls="_advertisedTenders" rowspan="1" colspan="1" aria-label="Description: activate to sort column ascending" style="width: 249px;">Description</th><th class="sorting" tabindex="0" aria-controls="_advertisedTenders" rowspan="1" colspan="1" aria-label="Briefing Session: activate to sort column ascending" style="width: 64px;">Briefing Session</th><th class="sorting sorting_desc" tabindex="0" aria-controls="_advertisedTenders" rowspan="1" colspan="1" aria-sort="descending" aria-label="Closing Date: activate to sort column ascending" style="width: 67px;">Closing Date</th><th class="sorting" tabindex="0" aria-controls="_advertisedTenders" rowspan="1" colspan="1" aria-label="Tender Status: activate to sort column ascending" style="width: 52px;">Tender Status</th><th class="sorting" tabindex="0" aria-controls="_advertisedTenders" rowspan="1" colspan="1" aria-label=": activate to sort column ascending" style="width: 86px;"></th></tr></thead><tbody><tr class="odd"><td>TNPA/2025/10/0002/108333/RFP</td><td>TNPA/2025/10/0002/108333/RFP</td><td>FOR THE APPOINTMENT OF A TERMINAL OPERATOR TO FINANCE, OPERATE, MAINTAIN, REFURBISH, AND/OR CONSTRUCT AND TRANSFER A LIQUID BULK TERMINAL INCLUDING BUT NOT LIMITED TO BUNKERING SERVICES FOR A TWENTY-FIVE (25) YEAR CONCESSION PERIOD AT THE PORT OF CAPE TOWN LIQUID BULK PRECINCT</td><td>5/19/2026 10:00:00 AM</td><td class="sorting_1">10/12/2026 4:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=108333">View Details</a></td></tr><tr class="even"><td>TFR/2026/07/0002/114548/RFI</td><td>TFR/2026/07/0002/114548/RFI</td><td>NOTICE TO THE MARKET: INVITATION FOR INTERESTED PARTIES TO COMMENT , AND /OR PROVIDE ALTERNATIVE PROPOSALS TO  A PROPOSAL FOR THE EXTENSION OF AN EXISTING TRANSNET RAIL INFRASTRUCTURE MANAGER PASSENGER RAIL SERVICE CONTRACT FOR THE PAARL–FRANSCHHOEK BRANCH LINE
+</td><td></td><td class="sorting_1">9/3/2026 11:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114548">View Details</a></td></tr><tr class="odd"><td>TCC/2026/02/0001/113395/RFQ</td><td>The Request for Qualification RFQ is issued to identify and pre-qualify respondents with the requisite technical, financial, legal, and operational capability to participate in the next stage of the transaction.</td><td>The Request for Qualification RFQ is issued to identify and pre-qualify respondents with the requisite technical, financial, legal, and operational capability to participate in the next stage of the transaction.</td><td>3/26/2026 11:00:00 AM</td><td class="sorting_1">8/31/2026 4:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=113395">View Details</a></td></tr><tr class="even"><td>TFR/2026/05/0002/114447/RFP</td><td>RFP/R-KBL/202605/EC Rosemead</td><td>Request For Proposal for the Concessioning of Transnet Rail Infrastructure Manager B-Network line for a minimum period of Twenty (25) years.</td><td>6/5/2026 11:00:00 AM</td><td class="sorting_1">8/21/2026 11:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114447">View Details</a></td></tr><tr class="odd"><td>TFR/2026/05/0003/114449/RFP</td><td>RFP/HBL/202605/GP Harties</td><td>Request For Proposal for the Concessioning of Transnet Rail Infrastructure Manager B-Network line for a minimum period of Twenty (25) years.</td><td>6/5/2026 11:00:00 AM</td><td class="sorting_1">8/21/2026 11:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114449">View Details</a></td></tr><tr class="even"><td>TFR/2026/05/0004/114450/RFP</td><td>RFP/W-PAHBL/202605/WC Ceres</td><td>Request For Proposal for the Concessioning of Transnet Rail Infrastructure Manager B-Network line for a minimum period of Twenty (25) years.</td><td>6/5/2026 11:00:00 AM</td><td class="sorting_1">8/21/2026 11:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114450">View Details</a></td></tr><tr class="odd"><td>TFR/2026/04/0006/114382/RFP</td><td>TRIM STAP1W02 Huguenot</td><td>For Leasing of the Transnet Rail Infrastructure Manager (TRIM) Station Precinct for a minimum period of ten (10) years.</td><td>5/5/2026 11:00:00 AM</td><td class="sorting_1">8/14/2026 11:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114382">View Details</a></td></tr><tr class="even"><td>TFR/2026/04/0007/114383/RFP</td><td>TRIM STAP1W01 Dal Josafat</td><td>For Leasing of the Transnet Rail Infrastructure Manager (TRIM) Station Precinct for a minimum period of ten (10) years.</td><td>5/5/2026 11:00:00 AM</td><td class="sorting_1">8/14/2026 11:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114383">View Details</a></td></tr><tr class="odd"><td>TFR/2026/04/0008/114384/RFP</td><td>TRIM STAP1W03 Bitterfontein</td><td>For Leasing of the Transnet Rail Infrastructure Manager (TRIM) Station Precinct for a minimum period of ten (10) years.</td><td>5/5/2026 11:00:00 AM</td><td class="sorting_1">8/14/2026 11:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114384">View Details</a></td></tr><tr class="even"><td>TNPA/2026/06/0002/114474/RFP</td><td>TNPA/2026/06/0002/114474/RFP</td><td>REQUEST FOR PROPOSAL NO. PEH/06/2026/FPF FOR THE LEASING AND POTENTIAL DEVELOPMENT, REDEVELOPMENT, REFURBISHMENT AND/OR USE OF LAND AND EXISTING IMPROVEMENTS FOR FISHING INDUSTRY OPERATIONS AT THE PORT OF PORT ELIZABETH FOR A PERIOD OF UP TO TWENTY (20) YEARS.</td><td>6/19/2026 12:00:00 PM</td><td class="sorting_1">8/7/2026 12:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114474">View Details</a></td></tr><tr class="odd"><td>TE/2026/07/0002/114547/RFP</td><td>TE/2026/07/0002/114547/RFP</td><td>SUPPLY AND DELIVERY OF DIESEL LOCOMOTIVE ENGINE OIL FOR VARIOUS LOCOMOTIVE FLEETS NATIONALLY* FOR A PERIOD OF FIVE (5) YEARS, ON AN “AS AND WHEN REQUIRED” BASIS </td><td>7/10/2026 1:30:00 PM</td><td class="sorting_1">7/31/2026 4:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114547">View Details</a></td></tr><tr class="even"><td>TFR/2026/05/0003/114441/RFI</td><td>HOAC HO 57808</td><td>REQUEST FOR INFORMATION TO PARTICIPATE IN PARTNERSHIP OPPORTUNITIES ON THE B NETWORK RAILWAY LINES, INCLUDING BRANCH LINES FOR FREIGHT AND PASSENGER TRAINS, TO INFORM THE FRAMING OF THE PROBLEM STATEMENT FOR THE PURPOSE OF DESIGNING ONE OR MORE PROCUREMENT PROGRAMMES</td><td>5/29/2026 10:00:00 AM</td><td class="sorting_1">7/31/2026 10:00:00 AM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114441">View Details</a></td></tr><tr class="odd"><td>TNPA/2026/06/0002/114503/RFP</td><td>TNPA/2026/06/0002/114503/RFP</td><td>Lease of Premises for Workshop and Storage at Ocean Road</td><td>6/22/2026 10:00:00 AM</td><td class="sorting_1">7/17/2026 12:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114503">View Details</a></td></tr><tr class="even"><td>TNPA/2026/06/0003/114504/RFP</td><td>TNPA/2026/06/0003/114504/RFP</td><td>Lease of Premises at Coode Crescent</td><td>6/22/2026 10:00:00 AM</td><td class="sorting_1">7/17/2026 12:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114504">View Details</a></td></tr><tr class="odd"><td>TNPA/2026/06/0004/114505/RFP</td><td>TNPA/2026/06/0004/114505/RFP</td><td>Lease of Premises at Coode Crescent </td><td>6/22/2026 10:00:00 AM</td><td class="sorting_1">7/17/2026 12:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114505">View Details</a></td></tr><tr class="even"><td>TNPA/2026/06/0005/114506/RFP</td><td>TNPA/2026/06/0005/114506/RFP</td><td>Lease of Land at Alkmaar Road</td><td>6/22/2026 10:00:00 AM</td><td class="sorting_1">7/17/2026 12:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114506">View Details</a></td></tr><tr class="odd"><td>TNPA/2026/06/0006/114507/RFP</td><td>TNPA/2026/06/0006/114507/RFP</td><td>Lease of Land at Eastern Mole- Tanker Basin</td><td>6/22/2026 10:00:00 AM</td><td class="sorting_1">7/17/2026 12:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114507">View Details</a></td></tr><tr class="even"><td>TNPA/2026/06/0007/114508/RFP</td><td>TNPA/2026/06/0007/114508/RFP</td><td>Lease of Land at Eastern Mole- Tanker Basin</td><td>6/22/2026 10:00:00 AM</td><td class="sorting_1">7/17/2026 12:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114508">View Details</a></td></tr><tr class="odd"><td>TNPA/2026/06/0008/114509/RFP</td><td>TNPA/2026/06/0008/114509/RFP</td><td>Lease of Land Eastern Mole- Tanker Basin</td><td>6/22/2026 10:00:00 AM</td><td class="sorting_1">7/17/2026 12:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114509">View Details</a></td></tr><tr class="even"><td>TNPA/2026/06/0009/114510/RFP</td><td>TNPA/2026/06/0009/114510/RFP</td><td>Lease of Land Alkmaar Road</td><td>6/22/2026 10:00:00 AM</td><td class="sorting_1">7/17/2026 12:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114510">View Details</a></td></tr><tr class="odd"><td>TNPA/2026/06/0010/114511/RFP</td><td>TNPA/2026/06/0010/114511/RFP</td><td>Lease of Land at Alkmaar Road</td><td>6/22/2026 10:00:00 AM</td><td class="sorting_1">7/17/2026 12:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114511">View Details</a></td></tr><tr class="even"><td>TNPA/2026/06/0011/114512/RFP</td><td>TNPA/2026/06/0011/114512/RFP</td><td>Lease of Land at Alkmaar Road</td><td>6/22/2026 10:00:00 AM</td><td class="sorting_1">7/17/2026 12:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114512">View Details</a></td></tr><tr class="odd"><td>TNPA/2026/06/0012/114513/RFP</td><td>TNPA/2026/06/0012/114513/RFP</td><td>Lease of Land at Sceptre Crescent</td><td>6/22/2026 10:00:00 AM</td><td class="sorting_1">7/17/2026 12:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114513">View Details</a></td></tr><tr class="even"><td>TNPA/2026/06/0013/114514/RFP</td><td>TNPA/2026/06/0013/114514/RFP</td><td>Lease of land at Elliott Basin</td><td>6/22/2026 10:00:00 AM</td><td class="sorting_1">7/17/2026 12:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114514">View Details</a></td></tr><tr class="odd"><td>TNPA/2026/06/0014/114515/RFP</td><td>TNPA/2026/06/0014/114515/RFP</td><td>Lease of land at Elliott Basin</td><td>6/22/2026 10:00:00 AM</td><td class="sorting_1">7/17/2026 12:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114515">View Details</a></td></tr><tr class="even"><td>TNPA/2026/06/0015/114516/RFP</td><td>TNPA/2026/06/0015/114516/RFP</td><td>Lease of land at Elliott Basin</td><td>6/22/2026 10:00:00 AM</td><td class="sorting_1">7/17/2026 12:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114516">View Details</a></td></tr><tr class="odd"><td>TNPA/2026/06/0016/114517/RFP</td><td>TNPA/2026/06/0016/114517/RFP</td><td>Lease of land at Elliott Basin</td><td>6/22/2026 10:00:00 AM</td><td class="sorting_1">7/17/2026 12:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114517">View Details</a></td></tr><tr class="even"><td>TNPA/2026/06/0017/114518/RFP</td><td>Lease of premises at Alkmaar Road </td><td>REQUEST FOR PROPOSAL TO LEASE PREMISES IN EXTENT OF 607.5m2 AT ALKMAAR ROAD
+IN THE PORT OF CAPE TOWN FOR A PERIOD OF UP TO TEN (10) YEARS</td><td>6/22/2026 10:00:00 AM</td><td class="sorting_1">7/17/2026 12:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114518">View Details</a></td></tr><tr class="odd"><td>TNPA/2026/06/0018/114519/RFP</td><td>Lease of Premises at Heribi House</td><td>REQUEST FOR PROPOSAL TO LEASE PREMISES IN EXTENT OF 199.7m2 AT HERIBI HOUSE
+IN THE PORT OF CAPE TOWN FOR A PERIOD OF UP TO TEN (10) YEARS</td><td>6/22/2026 10:00:00 AM</td><td class="sorting_1">7/17/2026 12:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114519">View Details</a></td></tr><tr class="even"><td>TNPA/2026/06/0019/114520/RFP</td><td>Lease of Land at Alkmaar Road </td><td>REQUEST FOR PROPOSAL TO LEASE LAND IN EXTENT OF 153.4m2 AT ALKMAAR ROAD IN
+THE PORT OF CAPE TOWN FOR A PERIOD OF UP TO FIVE (5) YEARS</td><td>6/22/2026 10:00:00 AM</td><td class="sorting_1">7/17/2026 12:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114520">View Details</a></td></tr><tr class="odd"><td>TNPA/2026/06/0020/114521/RFP</td><td>Lease of Premises at Bon 1 with 1 parking bay </td><td>REQUEST FOR PROPOSAL TO LEASE PREMISES IN EXTENT OF 156m2 AT BON 1 WITH
+PARKING IN THE PORT OF CAPE TOWN FOR A PERIOD OF UP TO TEN (10) YEARS</td><td>6/22/2026 10:00:00 AM</td><td class="sorting_1">7/17/2026 12:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114521">View Details</a></td></tr><tr class="even"><td>TNPA/2026/06/0021/114522/RFP</td><td>Lease of Premises at Seafarer Circle</td><td>REQUEST FOR PROPOSAL TO LEASE LAND IN EXTENT OF 4452m2 AT SEAFARER CIRCLE IN
+THE PORT OF CAPE TOWN FOR A PERIOD OF UP TO TEN (10) YEARS</td><td>6/22/2026 10:00:00 AM</td><td class="sorting_1">7/17/2026 12:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114522">View Details</a></td></tr><tr class="odd"><td>TNPA/2026/06/0022/114523/RFP</td><td>Lease of Land with building at Seafarer Circle </td><td>REQUEST FOR PROPOSAL TO LEASE PREMISES IN EXTENT OF 812,6m2 AT SEAFARER IN
+THE PORT OF CAPE TOWN FOR A PERIOD OF UP TO TEN (10) YEARS</td><td>6/22/2026 10:00:00 AM</td><td class="sorting_1">7/17/2026 12:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114523">View Details</a></td></tr><tr class="even"><td>TNPA/2026/06/0023/114524/RFP</td><td>Lease of premises at Duncan Road</td><td>REQUEST FOR PROPOSAL TO LEASE PREMISES IN EXTENT OF 240.7m2 AT DUNCAN ROAD
+IN THE PORT OF CAPE TOWN FOR A PERIOD OF UP TO TEN (10) YEARS.</td><td>6/22/2026 10:00:00 AM</td><td class="sorting_1">7/17/2026 12:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114524">View Details</a></td></tr><tr class="odd"><td>TNPA/2026/06/0024/114525/RFP</td><td>Lease of premises at Marine Drive</td><td>REQUEST FOR PROPOSAL TO LEASE LAND IN EXTENT OF 2499.9m2 AT MARINE DRIVE IN
+THE PORT OF CAPE TOWN FOR A PERIOD OF UP TO TEN (10) YEARS</td><td>6/22/2026 10:00:00 AM</td><td class="sorting_1">7/17/2026 12:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114525">View Details</a></td></tr><tr class="even"><td>TNPA/2026/06/0025/114526/RFP</td><td>Lease of premises at Alkmaar Road</td><td>REQUEST FOR PROPOSAL TO LEASE LAND IN EXTENT OF 192m2 AT ALKMAAR ROAD N THE
+PORT OF CAPE TOWN FOR A PERIOD OF UP TO TEN (10) YEARS</td><td>6/22/2026 10:00:00 AM</td><td class="sorting_1">7/17/2026 12:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114526">View Details</a></td></tr><tr class="odd"><td>TNPA/2026/06/0026/114527/RFP</td><td>Lease of Land at Ocean Road </td><td>REQUEST FOR PROPOSAL TO LEASE LAND IN EXTENT OF 1341m2 AT OCEAN ROAD IN THE
+PORT OF CAPE TOWN FOR A PERIOD OF UP TO TEN (10) YEARS</td><td>6/22/2026 10:00:00 AM</td><td class="sorting_1">7/17/2026 12:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114527">View Details</a></td></tr><tr class="even"><td>TNPA/2026/06/0027/114528/RFP</td><td>Lease of Premises Link Road </td><td>REQUEST FOR PROPOSAL TO LEASE PREMISES IN EXTENT OF 2390.7m2 AT LINK ROAD IN
+THE PORT OF CAPE TOWN FOR A PERIOD OF UP TO TEN (10) YEARS</td><td>6/22/2026 10:00:00 AM</td><td class="sorting_1">7/17/2026 12:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114528">View Details</a></td></tr><tr class="odd"><td>TNPA/2026/06/0028/114529/RFP</td><td>Lease of Premises at Berio Road</td><td>REQUEST FOR PROPOSAL TO LEASE PREMISES IN EXTENT OF 204m2 AT BERIO ROAD IN
+THE PORT OF CAPE TOWN FOR A PERIOD OF UP TO TEN (10) YEARS</td><td>6/22/2026 10:00:00 AM</td><td class="sorting_1">7/17/2026 12:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114529">View Details</a></td></tr><tr class="even"><td>TNPA/2026/06/0029/114530/RFP</td><td>Lease of Premises at Ocean Road </td><td>REQUEST FOR PROPOSAL TO LEASE PREMISES IN EXTENT OF 440m2 AT OCEAN ROAD IN
+THE PORT OF CAPE TOWN FOR A PERIOD OF UP TO TEN (10) YEARS</td><td>6/22/2026 10:00:00 AM</td><td class="sorting_1">7/17/2026 12:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114530">View Details</a></td></tr><tr class="odd"><td>TNPA/2026/06/0030/114531/RFP</td><td>Lease of Premises at M Berth</td><td> REQUEST FOR PROPOSAL TO LEASE PREMISES IN EXTENT OF 105m2 AT M BERTH IN THE
+PORT OF CAPE TOWN FOR A PERIOD OF UP TO TEN (10) YEARS</td><td>6/22/2026 10:00:00 AM</td><td class="sorting_1">7/17/2026 12:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114531">View Details</a></td></tr><tr class="even"><td>TFR/2026/06/0002/114544/RFP</td><td>WRAC-BLQ-51121</td><td>DESIGN,CONSTRUCTION AND INSTALLATION OF HIGH-SECURITY DOUBLE-LINE FENCE SYSTEM,IN WOLSELEY WESTERN CAPE.</td><td>7/6/2026 10:00:00 AM</td><td class="sorting_1">7/14/2026 11:00:00 AM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114544">View Details</a></td></tr><tr class="odd"><td>TNPA/2026/06/0002/114489/RFP</td><td>TNPA/2026/06/0002/114489/RFP</td><td>Lease of land at Marine Engineering Precinct ±47,484 m2 </td><td>6/23/2026 10:00:00 AM</td><td class="sorting_1">7/13/2026 4:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114489">View Details</a></td></tr><tr class="even"><td>TNPA/2026/06/0003/114490/RFP</td><td>TNPA/2026/06/0003/114490/RFP</td><td>Lease of land and warehouses at Marine Engineering Precinct ±27 39m2</td><td>6/23/2026 10:00:00 AM</td><td class="sorting_1">7/13/2026 4:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114490">View Details</a></td></tr><tr class="odd"><td>TNPA/2026/06/0004/114491/RFP</td><td>TNPA/2026/06/0004/114491/RFP</td><td>Lease of land ant warehouses at Marine Engineering Precinct ±49 090m2</td><td>6/23/2026 10:00:00 AM</td><td class="sorting_1">7/13/2026 4:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114491">View Details</a></td></tr><tr class="even"><td>TNPA/2026/06/0005/114492/RFP</td><td>TNPA/2026/06/0005/114492/RFP</td><td>Lease of land in Small Craft Harbour ±2 171m2</td><td>6/23/2026 10:00:00 AM</td><td class="sorting_1">7/13/2026 4:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114492">View Details</a></td></tr><tr class="odd"><td>TNPA/2026/06/0006/114493/RFP</td><td>TNPA/2026/06/0006/114493/RFP</td><td>Lease of land in Small Craft Harbour ±1 446m2</td><td>6/23/2026 10:00:00 AM</td><td class="sorting_1">7/13/2026 4:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114493">View Details</a></td></tr><tr class="even"><td>TNPA/2026/06/0007/114494/RFP</td><td>TNPA/2026/06/0007/114494/RFP</td><td>Lease of land in Logistic Corridor ±530m2</td><td>6/23/2026 10:00:00 AM</td><td class="sorting_1">7/13/2026 4:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114494">View Details</a></td></tr><tr class="odd"><td>TCC/2026/05/0002/114435/RFP</td><td>FOR THE SUPPLY AND DELIVERY OF HEALTH CLINIC CONSUMABLES FOR THE PHELOPHEPHA HEALTH CARE TRAINS I AND II “ON AN AS WHEN AND REQUIRED BASIS” FOR A PERIOD OF THREE 3 YEARS.</td><td>FOR THE SUPPLY AND DELIVERY OF HEALTH CLINIC CONSUMABLES FOR THE PHELOPHEPHA HEALTH CARE TRAINS I AND II ON AN AS WHEN AND REQUIRED BASIS FOR A PERIOD OF THREE 3 YEARS.</td><td></td><td class="sorting_1">7/10/2026 5:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114435">View Details</a></td></tr><tr class="even"><td>TCC/2026/05/0003/114436/RFP</td><td>FOR THE SUPPLY AND DELIVERY OF EYE CONSUMABLES FOR THE PHELOPHEPHA HEALTH CARE TRAINS I AND II “ON AN AS WHEN AND REQUIRED BASIS” FOR A PERIOD OF THREE 3 YEARS.</td><td>FOR THE SUPPLY AND DELIVERY OF EYE CONSUMABLES FOR THE PHELOPHEPHA HEALTH CARE TRAINS I AND II ON AN AS WHEN AND REQUIRED BASIS FOR A PERIOD OF THREE 3 YEARS.</td><td></td><td class="sorting_1">7/10/2026 3:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114436">View Details</a></td></tr><tr class="odd"><td>TCC/2026/05/0001/114434/RFP</td><td> FOR THE SUPPLY AND DELIVERY OF DENTAL CONSUMABLES FOR THE PHELOPHEPHA HEALTH CARE TRAINS I AND II ON AN AS WHEN AND REQUIRED BASIS FOR A PERIOD OF THREE 3 YEARS.</td><td>
+FOR THE SUPPLY AND DELIVERY OF DENTAL CONSUMABLES FOR THE PHELOPHEPHA HEALTH CARE TRAINS I AND II ON AN AS WHEN AND REQUIRED BASIS FOR A PERIOD OF THREE 3 YEARS.</td><td></td><td class="sorting_1">7/10/2026 12:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114434">View Details</a></td></tr><tr class="even"><td>TNPA/2026/06/0002/114540/RFI</td><td>TNPA/2026/06/0002/114540/RFI</td><td>NOTICE OF INTENTION TO ENTER INTO COMMERCIAL LEASE AGREEMENTS BY TRANSNET NATIONAL PORTS AUTHORITY IN THE PORT NGQURA</td><td></td><td class="sorting_1">7/10/2026 12:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114540">View Details</a></td></tr><tr class="odd"><td>TPT/2026/06/0002/114539/RFQ</td><td>TPT/2026/06/0002/114539/RFQ</td><td>Provision of an approved inspection authority to conduct an asbestos assessment and contaminated land register for Transnet SOC Ltd (Reg. no. 1990/000900/30) Operating as Transnet Port Terminals (hereinafter referred to as “TPT”) at various Transnet Port Terminals for a period of nine (9) months.</td><td></td><td class="sorting_1">7/10/2026 10:00:00 AM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114539">View Details</a></td></tr><tr class="even"><td>TP/2026/03/0002/113792/RFP</td><td>TP/2026/03/0002/113792/RFP</td><td>THE PROVISION OF NATIONAL PHYSICAL SECURITY FOR TRANSNET PROPERTY (TP) FOR A PERIOD OF TWELVE (12) MONTHS</td><td>6/19/2026 11:00:00 AM</td><td class="sorting_1">7/8/2026 4:00:00 PM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=113792">View Details</a></td></tr><tr class="odd"><td>TPT/2026/06/0002/114542/RFQ</td><td>TPT/2026/06/0002/114542/RFQ</td><td>PROVISION OF SHE COMPLIANCE OBLIGATION EVALUATIONS (SAFETY, HEALTH AND ENVIRONMENTAL LEGAL COMPLIACE AUDITS) FOR TRANSNET PORT TERMINALS (HEREINAFTER REFERRED TO AS “TPT”) AT VARIOUS TERMINALS FOR A PERIOD OF NINE (9) MONTHS.</td><td>7/2/2026 10:00:00 AM</td><td class="sorting_1">7/7/2026 10:00:00 AM</td><td>Open</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=114542">View Details</a></td></tr></tbody></table><div class="dataTables_info" id="_advertisedTenders_info" role="status" aria-live="polite">Showing 1 to 55 of 55 entries</div><div class="dataTables_paginate paging_full_numbers" id="_advertisedTenders_paginate"><a class="paginate_button first disabled" aria-controls="_advertisedTenders" data-dt-idx="0" tabindex="-1" id="_advertisedTenders_first">First</a><a class="paginate_button previous disabled" aria-controls="_advertisedTenders" data-dt-idx="1" tabindex="-1" id="_advertisedTenders_previous">Previous</a><span><a class="paginate_button current" aria-controls="_advertisedTenders" data-dt-idx="2" tabindex="0">1</a></span><a class="paginate_button next disabled" aria-controls="_advertisedTenders" data-dt-idx="3" tabindex="-1" id="_advertisedTenders_next">Next</a><a class="paginate_button last disabled" aria-controls="_advertisedTenders" data-dt-idx="4" tabindex="-1" id="_advertisedTenders_last">Last</a></div></div>
+                        <div class="row" id="advertisedTendersEmpty" style="display: none;">
+                            <div class="col-lg-12 ms-auto">
+                                Loading...
+                            </div>
+                        </div>
+                    </div>
+                    <div id="othertender" class="tab-pane fade">
+                        <div id="_advertisedOtherTenders_wrapper" class="dataTables_wrapper no-footer"><div class="dataTables_length" id="_advertisedOtherTenders_length"><label>Show <select name="_advertisedOtherTenders_length" aria-controls="_advertisedOtherTenders" class=""><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div><div id="_advertisedOtherTenders_filter" class="dataTables_filter"><label>Search:<input type="search" class="" placeholder="" aria-controls="_advertisedOtherTenders"></label></div><table class="table table-dark table-hover table-striped dataTable no-footer" id="_advertisedOtherTenders" data-page-length="5" style="width: 100%;" role="grid" aria-describedby="_advertisedOtherTenders_info"><thead><tr role="row"><th class="sorting" tabindex="0" aria-controls="_advertisedOtherTenders" rowspan="1" colspan="1" aria-label="Reference Number: activate to sort column ascending" style="width: 0px;">Reference Number</th><th class="sorting" tabindex="0" aria-controls="_advertisedOtherTenders" rowspan="1" colspan="1" aria-label="Tender Name: activate to sort column ascending" style="width: 0px;">Tender Name</th><th class="sorting" tabindex="0" aria-controls="_advertisedOtherTenders" rowspan="1" colspan="1" aria-label="Description: activate to sort column ascending" style="width: 0px;">Description</th><th class="sorting" tabindex="0" aria-controls="_advertisedOtherTenders" rowspan="1" colspan="1" aria-label="Briefing Session: activate to sort column ascending" style="width: 0px;">Briefing Session</th><th class="sorting sorting_asc" tabindex="0" aria-controls="_advertisedOtherTenders" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Closing Date: activate to sort column descending" style="width: 0px;">Closing Date</th><th class="sorting" tabindex="0" aria-controls="_advertisedOtherTenders" rowspan="1" colspan="1" aria-label="Tender Status: activate to sort column ascending" style="width: 0px;">Tender Status</th><th class="sorting" tabindex="0" aria-controls="_advertisedOtherTenders" rowspan="1" colspan="1" aria-label=": activate to sort column ascending" style="width: 0px;"></th></tr></thead><tbody><tr class="odd"><td>TPL/2022/01/0042/RFQ</td><td>PROVISSION OF RENTAL AND REFILL OF VARIOUS GAS CYLINDRS AS AND WHEN REQUIRED .</td><td>PROVISSION OF RENTAL AND REFILL OF VARIOUS GAS YLINDERS AS AND WHEN REQUIRED .
+2 X ACETYLENE 8KG
+3 X OXYGE 11.5KG
+2 X ARGON 17.4KG
+2 X NITROGEN 11.0KG
+2 X 14 HANDI GAS</td><td></td><td class="sorting_1">2/10/2022 12:00:00 PM</td><td>Closed</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=275">View Details</a></td></tr><tr class="even"><td>TPL/2022/02/0054/RFQ</td><td>SUPPLY AND DELIVERY OF 2X MICROWAVES AD 3X FRIDGES</td><td>SUPPLY AND DELIVERY 1 OFF 20L CAPACITY MICROWAVE FOR KROONSTAD WORKSHOP
+SUPPLY AND DELIVERY 1 OFF 32L CAPACITY MICROWAVE FOR LADYSMITH WORKSHOP
+SUPPLY AND DELIVERY1 OFF 350L CAPACITY COMBI FRIDGE FOR KROONSTAD
+SUPPLY AND DELIVERY 3 OFF 350L CAPACITY COMBI FRIDGE  FOR LADYSMITH
+SUPPLY AND DELIVERY 1 OFF 350L CAPACITY COMBI FRIDGE FOR SCHEEPERSNEK</td><td></td><td class="sorting_1">2/11/2022 12:00:00 PM</td><td>Closed</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=312">View Details</a></td></tr><tr class="odd"><td>TPL/2022/02/0056/RFQ</td><td>PROVISION OF ONE YEAR VMWARE LICENSE RENEWAL</td><td>PROVISION OF ONE YEAR VMWARE LICENSE RENEWAL</td><td></td><td class="sorting_1">2/11/2022 12:00:00 PM</td><td>Closed</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=320">View Details</a></td></tr><tr class="even"><td>TFR/2022/02/0041/RFQ</td><td>Supply and deliver Gabion stones </td><td>GABION BASKETS</td><td></td><td class="sorting_1">2/15/2022 10:00:00 AM</td><td>Closed</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=334">View Details</a></td></tr><tr class="odd"><td>TPL/2022/02/0043/RFQ</td><td>Calibration of Rigaku Micro X-Ray Test Equipment </td><td>Calibration of Rigaku Micro X-Ray Test Equipment </td><td></td><td class="sorting_1">2/16/2022 12:00:00 PM</td><td>Closed</td><td><a class="btn btn-eTender-primary" href="/Home/TenderDetails?Id=279">View Details</a></td></tr></tbody></table><div class="dataTables_info" id="_advertisedOtherTenders_info" role="status" aria-live="polite">Showing 1 to 5 of 17,998 entries</div><div class="dataTables_paginate paging_full_numbers" id="_advertisedOtherTenders_paginate"><a class="paginate_button first disabled" aria-controls="_advertisedOtherTenders" data-dt-idx="0" tabindex="-1" id="_advertisedOtherTenders_first">First</a><a class="paginate_button previous disabled" aria-controls="_advertisedOtherTenders" data-dt-idx="1" tabindex="-1" id="_advertisedOtherTenders_previous">Previous</a><span><a class="paginate_button current" aria-controls="_advertisedOtherTenders" data-dt-idx="2" tabindex="0">1</a><a class="paginate_button " aria-controls="_advertisedOtherTenders" data-dt-idx="3" tabindex="0">2</a><a class="paginate_button " aria-controls="_advertisedOtherTenders" data-dt-idx="4" tabindex="0">3</a><a class="paginate_button " aria-controls="_advertisedOtherTenders" data-dt-idx="5" tabindex="0">4</a><a class="paginate_button " aria-controls="_advertisedOtherTenders" data-dt-idx="6" tabindex="0">5</a><span class="ellipsis">…</span><a class="paginate_button " aria-controls="_advertisedOtherTenders" data-dt-idx="7" tabindex="0">3,600</a></span><a class="paginate_button next" aria-controls="_advertisedOtherTenders" data-dt-idx="8" tabindex="0" id="_advertisedOtherTenders_next">Next</a><a class="paginate_button last" aria-controls="_advertisedOtherTenders" data-dt-idx="9" tabindex="0" id="_advertisedOtherTenders_last">Last</a></div></div>
+                        <div class="row" id="advertisedOtherTendersEmpty" style="display: none;">
+                            <div class="col-lg-12 ms-auto">
+                                Loading...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+        <hr>
+    </div>
+
+    <div id="footer" class="mastfooter ms-dialogHidden">
+        <div class="">
+            <div class="">
+                <div class="">
+                    <div class="footer">
+                        <a href="/Home/Privacy">Privacy Policy</a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a href="/Home/Contact">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.3.1.min.js" crossorigin="anonymous" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT">
+        </script>
+<script>(window.jQuery||document.write("\u003Cscript src=\u0022/lib/jquery/dist/jquery.min.js\u0022 crossorigin=\u0022anonymous\u0022 integrity=\u0022sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV\u002BrXbYlF2cqB8txI/8aZajjp4Bqd\u002BV6D5IgvKT\u0022\u003E\u003C/script\u003E"));</script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" transnet="" soc="" is="" implementing="" crossorigin="anonymous" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd">
+        </script>
+<script>(window.jQuery && window.jQuery.fn && window.jQuery.fn.modal||document.write("\u003Cscript src=\u0022/lib/bootstrap/dist/js/bootstrap.min.js\u0022 Transnet SOC is implementing crossorigin=\u0022anonymous\u0022 integrity=\u0022sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd\u0022\u003E\u003C/script\u003E"));</script>
+        <script src="/js/site.min.js?v=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU"></script>
+        <script src="/js/jquery.dm-uploader.min.js?v=1BS3BTawsggD4vXpWvzfxE4sTD1cjmlmAN91eLi8VDQ"></script>
+        <script src="/js/jquery.uploadfile.min.js?v=NysHr1Qw7XIqyFSnnBN4t0rckJU2foDZFNRNqMQEKgo"></script>
+        <script src="/js/e-TendersCustom.js?v=EJLjsYpXnl6eTjrDZtmrjLEWDPYP_-B6cT4xP8up4Kg"></script>
+        <script src="/js/jquery.dataTables.min.js?v=kRYbONlCEkiXxK4QpuLGzkrU-zRsd840UNMsTL0kOfg"></script>
+        <script src="/js/ui-multiple.js?v=ZwcLDFB2P71xLsX1MgQrQUnOy1xoP8JAlQMNLH1onvM"></script>
+        <script src="/js/datetime.js?v=CmO_uSPg0WSBIS8Vv_ygTQrjt3tfJd5vnS1T2ALU6eE"></script>
+        <script src="/js/currency.min.js?v=587CHJ5UbVpIFgVj7q8YqzAjsMWbyI2LYZ0fsFdP6z8"></script>
+        <script src="/js/migration-banner.js?v=2GTkbvf8jNrLBssgfZmYxxqYUs8cDXbkP-Y1XTB3b6w"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+
+    <script>
+        $(document).ready(function () {
+            $("h2:contains(Signed out)").parent().css("margin-top", "100px")
+        });
+    </script>
+
+    
+
+</body></html>

@@ -1,0 +1,33 @@
+command: C:\Users\DanieLeRoux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\00_Scripts\cogta_tender_pull_and_clean.py
+return_code: 0
+elapsed_seconds: 54.17
+
+--- STDOUT ---
+2026-07-06 17:23:09,859 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-06 17:23:10,878 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA
+2026-07-06 17:23:10,878 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\01_RawData
+2026-07-06 17:23:10,878 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs
+2026-07-06 17:23:10,879 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\03_Logs
+2026-07-06 17:23:10,879 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\04_State
+2026-07-06 17:23:10,884 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/cogta-tenders/
+2026-07-06 17:23:10,974 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/cogta-tenders/. Retrying without verification.
+2026-07-06 17:23:37,128 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-07-06 17:23:37,129 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/cogta-tenders/: 0
+2026-07-06 17:23:37,129 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/new-tender-page/
+2026-07-06 17:23:37,164 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/new-tender-page/. Retrying without verification.
+2026-07-06 17:23:41,417 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-06 17:23:41,417 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/new-tender-page/: 0
+2026-07-06 17:23:41,417 | INFO | Fetching COGTA tender page: https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/
+2026-07-06 17:23:41,445 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/. Retrying without verification.
+2026-07-06 17:23:44,970 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-07-06 17:23:44,970 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-07-06 17:23:45,016 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-07-06 17:23:51,049 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-mpu/. Retrying without verification.
+2026-07-06 17:23:55,854 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+2026-07-06 17:23:59,659 | INFO | Parsed COGTA raw rows: 3
+2026-07-06 17:24:02,364 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_master.xlsx | rows: 1
+2026-07-06 17:24:02,364 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_delta.xlsx | rows: 0
+2026-07-06 17:24:02,364 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_updates.xlsx | rows: 0
+2026-07-06 17:24:02,364 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_Outputs\cogta_top_delta.xlsx | rows: 0
+
+--- STDERR ---

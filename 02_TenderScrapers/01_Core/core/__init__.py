@@ -1,0 +1,1 @@
+"""TenderScrapers standardised core package."""

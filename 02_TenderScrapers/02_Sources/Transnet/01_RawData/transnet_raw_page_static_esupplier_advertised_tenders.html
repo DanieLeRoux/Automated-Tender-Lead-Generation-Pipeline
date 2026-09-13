@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+<html>
+
+  
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Transnet eTenders and Supplier Relationship Management Portal " />
+  <meta name="author" content="" />
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Expires" content="0" />
+  <link rel="shortcut icon" href="/static/css/custom/img/transnet.png">
+
+
+  <title>Transnet SRM</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css">
+  
+  <link rel="stylesheet" href="/static/srm_site/assets/css/eTenderingControls.css?v=1789263166" />
+  <link rel="stylesheet" href="/static/srm_site/assets/css/eTendersCustom.css?v=1789263166" />
+  <link rel="stylesheet" href="/static/srm_site/assets/css/site.min.css?v=1789263166" />
+  <link rel="stylesheet" href="/static/srm_site/assets/css/jquery.dataTables.min.css?v=1789263166" />
+  <link rel="stylesheet" href="/static/srm_site/assets/css/Transnet_Internet.css?v=1789263166" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="/static/srm_site/assets/css/fonts.css?v=1789263166" />
+  <!-- Bootstrap CSS -->
+  <!-- Bootstrap Font Icon CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+
+  
+<div role="heading" id="header" class=" header masthead ms-dialogHidden">
+  <div class="">
+    
+    <div class="row">
+      <div class="col-md-12">
+        <div class="header clearfix">
+          <div class="container-fluid ">
+            <div id="DeltaSiteLogo" class="pull-right">
+              <a id="ctl00_x36d5bee949a7480783b3afc048c15598" class="ms-siteicon-a" href="index.html">
+                <img id="ctl00_x74bbee6762f840edad4fe46f496d8c78" class="ms-siteicon-img" name="onetidHeadbnnr0" src="/static/srm_site/assets/images/logo.png" alt="Transnet">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <nav class="navbar navbar-inverse" style="margin-bottom: 0px !important;">
+      <div class="container" style="    width: 100%;">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse">
+          
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="/portal/">Home</a>
+            </li>
+            <li>
+              <a class="nav-link dropdown-toggle" href="/portal/advertisedTenders">Advertised Tenders</a>
+            </li>
+            <li>
+              <a class="nav-link dropdown-toggle" href="/portal/otherTenders">Other Tenders</a>
+            </li>
+            <li>
+              <a href="/portal/contact">Contact</a>
+            </li>
+          </ul>
+          
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="/portal/supplier/login">Sign in/Register</a>
+            </li>
+            <li>
+              <a href="/portal/complaint?source=portal">SCM Complaints</a>
+            </li>
+            <li>
+              <a style="padding-top:15px !important;padding-bottom:15px !important;" href="/portal/help_guide">
+                Help Guide
+              </a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
+  
+
+  <div class="container-fluid  body-content">
+
+        
+    <div style="margin-top: 40px;"></div>
+    
+    <section class="page-section text-white mb-0">
+        <div class="container">
+            <div class="OD_header">Advertised Tenders</div>
+            <div class="row" id="advertised">
+                <div class="col-lg-12 ms-auto">
+                    <ul class="nav nav-tabs">
+                      <li class="active"><a data-toggle="tab" href="AdvertisedTenders.html#opentender">Open Tenders</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="opentender" class="tab-pane fade in active">
+                          <table class="table table-dark table-hover table-striped" id="_advertisedTenders" data-page-length="5"></table>
+                            <div class="row" id="advertisedTendersEmpty">
+                                <div class="col-lg-12 ms-auto">
+                                    Loading...
+                                </div>
+                            </div>
+                        </div> 
+                       
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+    
+    
+            <hr />
+    
+  </div>
+
+  
+<div id="footer" class="mastfooter ms-dialogHidden">
+  <div class="">
+    <div class="">
+      <div class="">
+        <div class="footer">
+          <a href="/portal/privacy_policy">
+            Privacy Policy
+          </a>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                    
+          <a href="/portal/contact">
+          Contact Us
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" crossorigin="anonymous" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"></script>
+<script src="/static/srm_site/assets/js/site.min.js?v=1789263166 "></script>
+<script src="/static/srm_site/assets/js/jquery.dm-uploader.min.js?v=1789263166 "></script>
+<script src="/static/srm_site/assets/js/jquery.uploadfile.min.js?v=1789263166 "></script>
+<script src="/static/srm_site/assets/js/e-TendersCustom.js?v=1789263166 "></script>
+<script src="/static/srm_site/assets/js/jquery.dataTables.min.js?v=1789263166 "></script>
+<script src="/static/srm_site/assets/js/ui-multiple.js?v=1789263166"></script>
+<script src="/static/srm_site/assets/js/datetime.js?v=1789263166"></script>
+<script src="/static/srm_site/assets/js/currency.min.js?v=1789263166"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+      
+    
+</body>
+</html>

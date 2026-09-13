@@ -1,0 +1,27 @@
+command: C:\Users\DanieLeRoux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbombela\00_Scripts\city_mbombela_tender_pull_and_clean.py
+return_code: 0
+elapsed_seconds: 46.99
+
+--- STDOUT ---
+2026-08-12 08:00:13,381 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbombela
+2026-08-12 08:00:13,384 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbombela\01_RawData
+2026-08-12 08:00:13,384 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbombela\02_Outputs
+2026-08-12 08:00:13,384 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbombela\03_Logs
+2026-08-12 08:00:13,385 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbombela\04_State
+2026-08-12 08:00:13,385 | INFO | Fetching City of Mbombela listing page 1: https://www.mbombela.gov.za/downloads/tenders/
+2026-08-12 08:00:14,036 | INFO | Found Mbombela listing entries on page 1: 10
+2026-08-12 08:00:25,968 | INFO | Fetching City of Mbombela listing page 2: https://www.mbombela.gov.za/downloads/tenders/page/2/
+2026-08-12 08:00:26,488 | INFO | Found Mbombela listing entries on page 2: 10
+2026-08-12 08:00:37,310 | INFO | Fetching City of Mbombela listing page 3: https://www.mbombela.gov.za/downloads/tenders/page/3/
+2026-08-12 08:00:37,821 | INFO | Found Mbombela listing entries on page 3: 10
+2026-08-12 08:00:38,910 | WARNING | Failed to fetch Mbombela page https://www.mbombela.gov.za/download/com76-2026-appointment-of-an-event-management-service-address-at-kamashego-community-hall/: 500 Server Error: Internal Server Error for url: https://www.mbombela.gov.za/download/com76-2026-appointment-of-an-event-management-service-address-at-kamashego-community-hall/
+2026-08-12 08:00:40,055 | WARNING | Failed to fetch Mbombela page https://www.mbombela.gov.za/download/com74-2026-appointment-of-an-event-management-service-address-at-kabokweni-community-hall/: 500 Server Error: Internal Server Error for url: https://www.mbombela.gov.za/download/com74-2026-appointment-of-an-event-management-service-address-at-kabokweni-community-hall/
+2026-08-12 08:00:46,822 | INFO | Fetching City of Mbombela listing page 4: https://www.mbombela.gov.za/downloads/tenders/page/4/
+2026-08-12 08:00:47,386 | INFO | Found Mbombela listing entries on page 4: 10
+2026-08-12 08:00:59,273 | INFO | Saved raw outputs | rows: 40
+2026-08-12 08:00:59,273 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbombela\02_Outputs\city_mbombela_master.xlsx | rows: 39
+2026-08-12 08:00:59,274 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbombela\02_Outputs\city_mbombela_delta.xlsx | rows: 0
+2026-08-12 08:00:59,274 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbombela\02_Outputs\city_mbombela_updates.xlsx | rows: 2
+2026-08-12 08:00:59,275 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbombela\02_Outputs\city_mbombela_top_delta.xlsx | rows: 0
+
+--- STDERR ---

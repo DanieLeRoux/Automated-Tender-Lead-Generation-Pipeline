@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>COEGA Development Corporation</title>
+  <base href="/site/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.3/angular.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
+  <link rel="stylesheet" href="/assets/css/icomoon/styles.min.css" />
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDycAxAMwDJFy3RlF3aAGgkk-TvEctHowU" async defer></script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+  <!-- Cookies libraries consent-->
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+  <!-- end of cookies libraries -->
+
+<!-- Google tag (gtag.js) --> 
+ <script async src=https://www.googletagmanager.com/gtag/js?id=G-GKQ7D1RH1N></script>
+ <script> 
+   window.dataLayer = window.dataLayer || []; 
+   function gtag(){dataLayer.push(arguments);} 
+   gtag('js', new Date()); 
+   gtag('config', 'G-GKQ7D1RH1N');
+   </script>
+
+<link rel="stylesheet" href="/styles.css"></head>
+<body>
+  
+  <app-root>
+    <div style="text-align:center">
+      Loading Coega site...
+      <br /><br />
+      <img src="./assets/images/global/360.gif" alt="Loading">
+    </div>
+  </app-root>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>
+    function refreshCarousel()
+    {
+      $('.carousel').carousel();
+    }
+
+    $(function () {
+      $("body").on("click", ".ctrlLeft", function () {
+        
+        $(this).closest('div').find('.controls').stop().animate({ scrollLeft: '-=177' }, 300);
+      });
+
+      $("body").on("click", ".ctrlRight", function () {
+        
+        $(this).closest('div').find('.controls').stop().animate({ scrollLeft: '+=177' }, 300);
+      });
+
+      $("body").on("click", ".navButton", function () {
+
+        $(this).closest('div').find('.navButton').removeClass("active");
+        $(this).addClass("active");
+      });
+
+      try {
+        $('.custom-file-input').on('change', function () {
+          let fileName = $(this).val().split('\\').pop();
+          $(this).next('.custom-file-label').addClass("selected").html(fileName);
+        });
+      } catch (e) {
+      }
+
+      try {
+        $("body").on('hidden.bs.modal', function (e) {
+          //console.log("Clearing iframe");
+          try {
+            var $iframes = $(e.target).find("iframe");
+            $iframes.each(function (index, iframe) {
+              $(iframe).attr("src", $(iframe).attr("src"));
+            });
+          } catch (e) {
+          }
+          
+          try {
+            $('video').trigger('pause');
+          } catch (e) {
+          }
+
+        });
+      } catch (e) {
+
+      }
+    });
+
+    //if (location.hash) {
+    //  console.log(location.hash);
+    //  location.href = location.hash;
+    //}
+
+
+  </script>
+  
+ 
+<script src="runtime.js" defer></script><script src="polyfills-es5.js" nomodule defer></script><script src="polyfills.js" defer></script><script src="scripts.js" defer></script><script src="vendor.js" defer></script><script src="main.js" defer></script><script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a3a362f41a6473e8',t:'MTc4OTI2MzAyNQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"12ec4c996bbd4dc4a8e92f8ea9b871f5","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>

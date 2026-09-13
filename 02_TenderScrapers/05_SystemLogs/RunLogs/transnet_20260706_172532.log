@@ -1,0 +1,46 @@
+command: C:\Users\DanieLeRoux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Transnet\00_Scripts\transnet_esupplier_tender_pull_and_clean.py
+return_code: 1
+elapsed_seconds: 3.59
+
+--- STDOUT ---
+2026-07-06 17:25:30,779 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-06 17:25:31,720 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Transnet
+2026-07-06 17:25:31,720 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Transnet\01_RawData
+2026-07-06 17:25:31,720 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Transnet\02_Outputs
+2026-07-06 17:25:31,722 | INFO | Fetching Transnet page: eSupplier Advertised Tenders | https://esupplierportal.transnet.net/portal/advertisedTenders
+2026-07-06 17:25:32,798 | INFO | Saved static raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Transnet\01_RawData\transnet_raw_page_static_esupplier_advertised_tenders.html
+2026-07-06 17:25:32,798 | INFO | Using Selenium full pagination capture for eSupplier Advertised Tenders
+2026-07-06 17:25:32,798 | ERROR | FAILED: The Transnet tender pages are JavaScript-rendered and Selenium is required for full pagination. Install it with: pip install selenium
+Traceback (most recent call last):
+  File "C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Transnet\00_Scripts\transnet_esupplier_tender_pull_and_clean.py", line 312, in _start_selenium_driver
+    from selenium import webdriver
+ModuleNotFoundError: No module named 'selenium'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Transnet\00_Scripts\transnet_esupplier_tender_pull_and_clean.py", line 1226, in main
+    raw_df = fetch_transnet_rows(
+        use_selenium=not args.no_selenium,
+    ...<2 lines>...
+        max_pages=args.max_pages,
+    )
+  File "C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Transnet\00_Scripts\transnet_esupplier_tender_pull_and_clean.py", line 859, in fetch_transnet_rows
+    rendered_df, rendered_html = fetch_rendered_table_pages_with_selenium(
+                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        url=url,
+        ^^^^^^^^
+    ...<4 lines>...
+        max_pages=max_pages,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Transnet\00_Scripts\transnet_esupplier_tender_pull_and_clean.py", line 570, in fetch_rendered_table_pages_with_selenium
+    driver = _start_selenium_driver()
+  File "C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Transnet\00_Scripts\transnet_esupplier_tender_pull_and_clean.py", line 317, in _start_selenium_driver
+    raise RuntimeError(
+    ...<2 lines>...
+    ) from exc
+RuntimeError: The Transnet tender pages are JavaScript-rendered and Selenium is required for full pagination. Install it with: pip install selenium
+
+--- STDERR ---

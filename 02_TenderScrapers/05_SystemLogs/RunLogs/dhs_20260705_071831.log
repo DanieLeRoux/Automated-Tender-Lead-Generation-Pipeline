@@ -1,0 +1,35 @@
+command: C:\Users\Danie le Roux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\DHS\00_Scripts\dhs_tender_pull_and_clean.py
+return_code: 0
+elapsed_seconds: 30.40
+
+--- STDOUT ---
+2026-07-05 07:18:01,874 | INFO | Using tender scrapers root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-05 07:18:01,875 | INFO | Using source root: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\DHS
+2026-07-05 07:18:01,875 | INFO | Using raw directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\DHS\01_RawData
+2026-07-05 07:18:01,875 | INFO | Using output directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\DHS\02_Outputs
+2026-07-05 07:18:01,876 | INFO | Using log directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\DHS\03_Logs
+2026-07-05 07:18:01,876 | INFO | Using state directory: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\DHS\04_State
+2026-07-05 07:18:02,786 | INFO | Saved static HTML: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\DHS\01_RawData\dhs_raw_page.html
+2026-07-05 07:18:03,065 | INFO | Saved quicktab HTML for Latest: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\DHS\01_RawData\dhs_raw_quicktab_latest.html
+2026-07-05 07:18:03,769 | INFO | Saved quicktab HTML for Received: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\DHS\01_RawData\dhs_raw_quicktab_received.html
+2026-07-05 07:18:04,369 | INFO | Saved quicktab HTML for Awarded: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\DHS\01_RawData\dhs_raw_quicktab_awarded.html
+2026-07-05 07:18:04,894 | INFO | Saved quicktab HTML for Cancelled: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\DHS\01_RawData\dhs_raw_quicktab_cancelled.html
+2026-07-05 07:18:05,442 | INFO | Saved quicktab HTML for Closed: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\DHS\01_RawData\dhs_raw_quicktab_closed.html
+2026-07-05 07:18:05,735 | INFO | Found tender detail links before Selenium fallback: 0
+2026-07-05 07:18:28,265 | INFO | Saved rendered HTML: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\DHS\01_RawData\dhs_raw_page_rendered.html
+2026-07-05 07:18:30,522 | INFO | Found tender detail links after Selenium fallback: 0
+2026-07-05 07:18:30,523 | INFO | Parsed DHS tender detail rows: 0
+2026-07-05 07:18:30,529 | INFO | Parsed DHS raw rows: 0 | cols: 17
+2026-07-05 07:18:30,533 | INFO | Saved raw CSV: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\DHS\01_RawData\dhs_raw.csv
+2026-07-05 07:18:30,584 | INFO | Saved raw Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\DHS\01_RawData\dhs_raw_full.xlsx
+2026-07-05 07:18:30,586 | INFO | Filtered cancellation/withdrawal notices: 0 -> 0 rows
+2026-07-05 07:18:30,587 | INFO | Filtered current tenders by closing date: 0 -> 0 rows
+2026-07-05 07:18:30,739 | INFO | Delta rows this run after filters: 0
+2026-07-05 07:18:30,739 | INFO | Updates rows this run after filters: 0
+2026-07-05 07:18:30,739 | INFO | Top delta rows this run: 0
+2026-07-05 07:18:30,759 | INFO | Saved delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\DHS\02_Outputs\dhs_delta.xlsx | rows: 0
+2026-07-05 07:18:30,782 | INFO | Saved updates Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\DHS\02_Outputs\dhs_updates.xlsx | rows: 0
+2026-07-05 07:18:30,804 | INFO | Saved top delta Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\DHS\02_Outputs\dhs_top_delta.xlsx | rows: 0
+2026-07-05 07:18:30,830 | INFO | Saved master Excel: C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\DHS\02_Outputs\dhs_master.xlsx | rows: 0
+
+--- STDERR ---

@@ -1,0 +1,221 @@
+WORLD BANK PROCUREMENT SCRAPER - METADATA
+=========================================
+
+Script name:
+worldbank_procurement_pull_and_clean_v4.py
+
+Purpose:
+Pull World Bank procurement notices, clean and normalise the records, identify new and updated opportunities, and produce prioritised outputs for daily review.
+
+Source portal:
+World Bank Projects & Operations - Procurement Opportunities
+https://projects.worldbank.org/en/projects-operations/opportunities?srce=both
+
+Underlying API used:
+World Bank Finances One / Data Catalog API
+API endpoint: https://datacatalogapi.worldbank.org/dexapps/fone/api/apiservice
+Dataset ID: DS00979
+Resource ID: RS00909
+
+Local root folder:
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\WorldBank
+
+Folder structure created by script:
+- Logs
+- Outputs
+- State
+
+Main outputs:
+- Outputs\worldbank_raw.csv
+- Outputs\worldbank_raw_full.xlsx
+- Outputs\worldbank_master.xlsx
+- Outputs\worldbank_delta.xlsx
+- Outputs\worldbank_updates.xlsx
+- Outputs\worldbank_top_delta.xlsx
+
+Log file:
+- Logs\worldbank_run.log
+
+Lock file:
+- State\run.lock
+
+Default run command:
+& "C:/Users/Danie le Roux/AppData/Local/Programs/Python/Python314/python.exe" "C:/Users/Danie le Roux/OneDrive - Henry Fagan/Desktop/Data Analytics/WorldBank/worldbank_procurement_pull_and_clean_v4.py"
+
+Recommended scheduled run:
+Run once per day, preferably early morning, after network/OneDrive sync is available.
+
+Default fetch behaviour:
+- Fetch mode: current
+- Fetches the latest tail-window of World Bank procurement records.
+- Default recent window: 20,000 records.
+- Applies local filtering after fetch.
+- Keeps notices where deadline_date is from today to today + 180 days.
+- Excludes expired notices by default.
+
+Reason for local filtering:
+Testing showed that World Bank API field/date filters may be ignored for this dataset. To avoid pulling the full historical archive from 2005 onward, the script fetches a controlled latest-record window and filters locally.
+
+Available fetch modes:
+1. current
+   Keeps currently open notices based on deadline_date.
+
+2. recent
+   Keeps notices based on recent publication_date.
+   Controlled by --since-days or --since-date.
+
+3. all
+   Pulls the full archive.
+   Use sparingly because the dataset is large.
+
+Useful optional command-line parameters:
+--fetch-mode current
+--fetch-mode recent
+--fetch-mode all
+--since-days 14
+--since-date YYYY-MM-DD
+--deadline-horizon-days 180
+--recent-window-records 20000
+--include-expired
+--country-name "South Africa"
+--region "Africa Eastern and Southern"
+--procurement-category "Consultant Services"
+--top-delta-limit 20
+--top-delta-min-score 0
+--base-root "C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\WorldBank"
+
+Raw API fields expected:
+- bid_description
+- country_code
+- country_name
+- deadline_date
+- id
+- notice_type
+- procurement_category
+- procurement_method
+- project_id
+- publication_date
+- region
+- sector
+- url
+
+Normalised output fields:
+- source
+- opportunity_key
+- notice_id
+- project_id
+- bid_description
+- country_code
+- country_name
+- region
+- sector
+- notice_type
+- procurement_category
+- procurement_method
+- publication_date
+- deadline_date
+- url
+- priority_procurement_category_match
+- matched_keywords
+- keyword_match_count
+- weight_score
+- row_hash
+- run_timestamp
+- change_type
+- previous_row_hash
+
+Unique identifier:
+opportunity_key
+
+Opportunity key logic:
+- Prefer official World Bank notice ID.
+- Prefix with worldbank:.
+- If no notice ID is available, use a stable fallback composite of project_id, bid_description, publication_date, and deadline_date.
+
+Master logic:
+- Maintains the latest cleaned snapshot per opportunity_key.
+- Deduplicates by opportunity_key.
+- Updates master using all currently fetched and cleaned records, not only delta/update records.
+
+Delta logic:
+- Delta contains records found in the current run that do not already exist in the master file.
+- change_type is set to NEW.
+
+Updates logic:
+- Updates contains existing records where the row hash has changed.
+- change_type is set to UPDATED.
+- previous_row_hash is included for comparison/audit purposes.
+
+Hash/change detection fields:
+- bid_description
+- deadline_date
+- notice_type
+- procurement_category
+- procurement_method
+- sector
+- url
+
+Top delta logic:
+- Based only on delta records.
+- Sorts by weight_score descending.
+- Secondary sorting uses deadline_date and publication_date where available.
+- Default top list limit: 20 records.
+- Default minimum score: 0.
+
+Priority procurement categories:
+- consultant services
+- consulting services
+
+Weight scoring:
+- Priority procurement category match: +5 points.
+- Each matched keyword: +1 point.
+
+Keyword list:
+- Water and Sanitation
+- Housing
+- Education
+- Transport
+- Nuclear
+- Bus Rapid Transit
+- BRT
+- International Transition Plan Network
+- ITPN
+- Design
+- Refurbishment
+- Engineering
+- Procurement
+- Construction
+- Engineering, Procurement, and Construction
+- EPC
+- Fire Engineering
+- HVAC
+- Mechanical
+- Electrical
+- Electronic
+- Wet Services
+- Project Management
+- Programme Management
+- Project Management Office
+- PMO
+- Advisory Services
+- Structural Engineering
+- Civil Engineering
+- Feasibility Study
+
+Python dependencies:
+- requests
+- pandas
+- openpyxl
+- xlsxwriter
+- urllib3
+
+Notes and limitations:
+- The official structured dataset appears to expose only the listed API fields.
+- Additional detail may be available from each notice URL, but that would require a second-stage notice-page scraper.
+- The current script does not scrape detail pages.
+- If the recent tail-window is too small, some current notices could be missed if they sit outside the latest fetched records.
+- If the recent tail-window is too large, the run will be slower but more complete.
+- Recommended starting point is 20,000 records, adjusted after observing daily output volume.
+
+Operational recommendation:
+Use the World Bank scraper as a separate source-specific pipeline. Once eTenders, World Bank, and future scrapers are stable, create a separate consolidation script that reads each portal's master/delta/top_delta files and compiles a combined opportunity register with standard columns.

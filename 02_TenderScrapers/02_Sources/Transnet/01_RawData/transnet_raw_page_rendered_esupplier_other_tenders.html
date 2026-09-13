@@ -1,0 +1,170 @@
+<html><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Transnet eTenders and Supplier Relationship Management Portal ">
+  <meta name="author" content="">
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <meta http-equiv="Expires" content="0">
+  <link rel="shortcut icon" href="/static/css/custom/img/transnet.png">
+
+
+  <title>Transnet SRM</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css">
+  
+  <link rel="stylesheet" href="/static/srm_site/assets/css/eTenderingControls.css?v=1783317956">
+  <link rel="stylesheet" href="/static/srm_site/assets/css/eTendersCustom.css?v=1783317956">
+  <link rel="stylesheet" href="/static/srm_site/assets/css/site.min.css?v=1783317956">
+  <link rel="stylesheet" href="/static/srm_site/assets/css/jquery.dataTables.min.css?v=1783317956">
+  <link rel="stylesheet" href="/static/srm_site/assets/css/Transnet_Internet.css?v=1783317956">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/static/srm_site/assets/css/fonts.css?v=1783317956">
+  <!-- Bootstrap CSS -->
+  <!-- Bootstrap Font Icon CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+
+  
+<div role="heading" id="header" class=" header masthead ms-dialogHidden">
+  <div class="">
+    
+    <div class="row">
+      <div class="col-md-12">
+        <div class="header clearfix">
+          <div class="container-fluid ">
+            <div id="DeltaSiteLogo" class="pull-right">
+              <a id="ctl00_x36d5bee949a7480783b3afc048c15598" class="ms-siteicon-a" href="index.html">
+                <img id="ctl00_x74bbee6762f840edad4fe46f496d8c78" class="ms-siteicon-img" name="onetidHeadbnnr0" src="/static/srm_site/assets/images/logo.png" alt="Transnet">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <nav class="navbar navbar-inverse" style="margin-bottom: 0px !important;">
+      <div class="container" style="    width: 100%;">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse">
+          
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="/portal/">Home</a>
+            </li>
+            <li>
+              <a class="nav-link dropdown-toggle" href="/portal/advertisedTenders">Advertised Tenders</a>
+            </li>
+            <li>
+              <a class="nav-link dropdown-toggle" href="/portal/otherTenders">Other Tenders</a>
+            </li>
+            <li>
+              <a href="/portal/contact">Contact</a>
+            </li>
+          </ul>
+          
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="/portal/supplier/login">Sign in/Register</a>
+            </li>
+            <li>
+              <a href="/portal/complaint?source=portal">SCM Complaints</a>
+            </li>
+            <li>
+              <a style="padding-top:15px !important;padding-bottom:15px !important;" href="/portal/help_guide">
+                Help Guide
+              </a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
+  
+
+  <div class="container-fluid  body-content">
+
+        
+    <div style="margin-top: 40px;"></div>
+    
+    <section class="page-section text-white mb-0">
+        <div class="container">
+            <div class="OD_header">Other Tenders</div>
+            <div class="row" id="advertised">
+                <div class="col-lg-12 ms-auto">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a data-toggle="tab" href="OtherTenders.html#othertender">Other Tenders</a></li>
+    
+                    </ul>
+                    <div class="tab-content">
+                        <div id="othertender" class="tab-pane fade in active">
+                            <div id="_advertisedOtherTenders_wrapper" class="dataTables_wrapper no-footer"><div class="dataTables_length" id="_advertisedOtherTenders_length"><label>Show <select name="_advertisedOtherTenders_length" aria-controls="_advertisedOtherTenders" class=""><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div><div id="_advertisedOtherTenders_filter" class="dataTables_filter"><label>Search:<input type="search" class="" placeholder="" aria-controls="_advertisedOtherTenders"></label></div><table class="table table-dark table-hover table-striped dataTable no-footer" id="_advertisedOtherTenders" data-page-length="5" style="width: 100%;" role="grid" aria-describedby="_advertisedOtherTenders_info"><thead><tr role="row"><th class="sorting" tabindex="0" aria-controls="_advertisedOtherTenders" rowspan="1" colspan="1" aria-label="Reference Number: activate to sort column ascending" style="width: 180px;">Reference Number</th><th class="sorting" tabindex="0" aria-controls="_advertisedOtherTenders" rowspan="1" colspan="1" aria-label="Tender Name: activate to sort column ascending" style="width: 226px;">Tender Name</th><th class="sorting" tabindex="0" aria-controls="_advertisedOtherTenders" rowspan="1" colspan="1" aria-label="Description: activate to sort column ascending" style="width: 226px;">Description</th><th class="sorting" tabindex="0" aria-controls="_advertisedOtherTenders" rowspan="1" colspan="1" aria-label="Briefing Session: activate to sort column ascending" style="width: 63px;">Briefing Session</th><th class="sorting sorting_asc" tabindex="0" aria-controls="_advertisedOtherTenders" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Closing Date: activate to sort column descending" style="width: 56px;">Closing Date</th><th class="sorting" tabindex="0" aria-controls="_advertisedOtherTenders" rowspan="1" colspan="1" aria-label="Tender Status: activate to sort column ascending" style="width: 53px;">Tender Status</th><th class="sorting" tabindex="0" aria-controls="_advertisedOtherTenders" rowspan="1" colspan="1" aria-label=": activate to sort column ascending" style="width: 86px;"></th></tr></thead><tbody><tr class="odd"><td>TE/2025/12/0010/821/RFQ</td><td>REPAIR AND RECOMISSIONING OF THE DE AAR EFFLUENT TREATMENT PLANT FOR A PERIOD OF 3 MONTHS</td><td>Repair of De Aar Effluent Plant</td><td>2026-02-12 12:00:00</td><td class="sorting_1">2026-02-16</td><td>Cancelled</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/821">View Details</a></td></tr><tr class="even"><td>TCC/2026/02/0016/1449/RFQ</td><td>FOR THE APPOINTMENT OF A SERVICE PROVIDER WHICH CAN PROVIDE QUALITY ASSURANCE SERVICE FOR THE ASSESSMENT OF QUALITY OF TRANSNET INTERNAL AUDIT FUNCATION FOR A PERIOD OF THREE (3) MONTHS</td><td>FOR THE APPOINTMENT OF A SERVICE PROVIDER WHICH CAN PROVIDE QUALITY ASSURANCE SERVICE FOR THE ASSESSMENT OF QUALITY OF TRANSNET INTERNAL AUDIT FUNCATION FOR A PERIOD OF THREE (3) MONTHS</td><td>-</td><td class="sorting_1">2026-03-06</td><td>Cancelled</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/1449">View Details</a></td></tr><tr class="odd"><td>TCC/2025/11/0002/797/RFP</td><td>Firewalls</td><td>Provision of Firewall for datacenter at Queeswarehouse and Johannesburg Network</td><td>2026-03-05 10:00:00</td><td class="sorting_1">2026-03-10</td><td>Cancelled</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/797">View Details</a></td></tr><tr class="even"><td>TE/2026/01/0015/833/RFQ</td><td>FOR THE SUPPLY AND DELIVERY OF COLD STRESS PERSONAL PROTECTIVE EQUIPMENT (PPE) FOR TRANSNET ENGINEERING GERMISTON MANUFACTURING AS A ONCE-OFF.</td><td>FOR THE SUPPLY AND DELIVERY OF COLD STRESS PERSONAL PROTECTIVE EQUIPMENT (PPE) FOR TRANSNET ENGINEERING GERMISTON MANUFACTURING AS A ONCE-OFF.</td><td>-</td><td class="sorting_1">2026-03-16</td><td>Cancelled</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/833">View Details</a></td></tr><tr class="odd"><td>TCC/2026/01/0011/966/RFQ</td><td>Provision of Personal Security Threat Risk and Vulnerability Assessment to Transnet SOC Ltd trading as Transnet Corporate Centre</td><td>Provision of Personal Security Threat Risk and Vulnerability Assessment to Transnet SOC Ltd trading as Transnet Corporate Centre</td><td>-</td><td class="sorting_1">2026-03-17</td><td>Closed</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/966">View Details</a></td></tr><tr class="even"><td>TE/2025/12/0005/810/RFP</td><td>Long Term Pest Control</td><td>FOR THE PROVISION OF PEST CONTROL SERVICES FOR CAPE CORRIDOR
+DEPOTS SERVICED BY THE BLOEMFONTEIN MAIN CENTRE</td><td>2026-03-04 10:00:00</td><td class="sorting_1">2026-03-19</td><td>Closed</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/810">View Details</a></td></tr><tr class="odd"><td>TCC/2026/03/0056/3517/RFQ</td><td>The Supply and Delivery of Camera Audiovisual Studio Equipment As A Once Off.</td><td>The Supply and Delivery of Camera Audiovisual Studio Equipment As A Once Off.</td><td>-</td><td class="sorting_1">2026-03-26</td><td>Closed</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/3517">View Details</a></td></tr><tr class="even"><td>TCC/2026/04/0059/4365/RFQ</td><td>REQUEST FOR THE PROCUREMENT OF SERVICES FOR ENGINE ROOM PREPARATION (PLUG‑AND‑PLAY READINESS)</td><td>REQUEST FOR THE PROCUREMENT OF SERVICES FOR ENGINE ROOM PREPARATION (PLUG‑AND‑PLAY READINESS) TO SUPPORT THE ENGINE ROOM SIMULATOR – FACULTY OF PORT TERMINALS &amp; MARINE, BAYHEAD.</td><td>-</td><td class="sorting_1">2026-05-22</td><td>Closed</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/4365">View Details</a></td></tr><tr class="odd"><td>TCC/2026/04/0061/4368/RFQ</td><td>REQUEST TO SUPPLY AND INSTALL PARTITION TO THE VTS ROOM, SOUNDPROOFING, AND DOORS</td><td>REQUEST TO SUPPLY AND INSTALL PARTITION TO THE VTS ROOM, SOUNDPROOFING, AND DOORS</td><td>-</td><td class="sorting_1">2026-05-22</td><td>Closed</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/4368">View Details</a></td></tr><tr class="even"><td>TCC/2026/04/0063/4729/RFP</td><td>FOR THE PROVISION OF DATA ARCHIVING APPLIANCE AND INFRASTRUCTURE FOR A PERIOD OF THREE (3) YEARS</td><td>FOR THE PROVISION OF DATA ARCHIVING APPLIANCE AND INFRASTRUCTURE FOR A PERIOD OF THREE (3) YEARS</td><td>-</td><td class="sorting_1">2026-06-05</td><td>Closed</td><td><a class="btn btn-eTender-primary" href="/portal/procurement/supplier_relationship_management/tenders/detailed/4729">View Details</a></td></tr></tbody></table><div class="dataTables_info" id="_advertisedOtherTenders_info" role="status" aria-live="polite">Showing 1 to 10 of 10 entries</div><div class="dataTables_paginate paging_full_numbers" id="_advertisedOtherTenders_paginate"><a class="paginate_button first disabled" aria-controls="_advertisedOtherTenders" data-dt-idx="0" tabindex="-1" id="_advertisedOtherTenders_first">First</a><a class="paginate_button previous disabled" aria-controls="_advertisedOtherTenders" data-dt-idx="1" tabindex="-1" id="_advertisedOtherTenders_previous">Previous</a><span><a class="paginate_button current" aria-controls="_advertisedOtherTenders" data-dt-idx="2" tabindex="0">1</a></span><a class="paginate_button next disabled" aria-controls="_advertisedOtherTenders" data-dt-idx="3" tabindex="-1" id="_advertisedOtherTenders_next">Next</a><a class="paginate_button last disabled" aria-controls="_advertisedOtherTenders" data-dt-idx="4" tabindex="-1" id="_advertisedOtherTenders_last">Last</a></div></div>
+                            <div class="row" id="advertisedOtherTendersEmpty" style="display: none;">
+                                <div class="col-lg-12 ms-auto">
+                                    Loading...
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+    
+    
+            <hr>
+    
+  </div>
+
+  
+<div id="footer" class="mastfooter ms-dialogHidden">
+  <div class="">
+    <div class="">
+      <div class="">
+        <div class="footer">
+          <a href="/portal/privacy_policy">
+            Privacy Policy
+          </a>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                    
+          <a href="/portal/contact">
+          Contact Us
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" crossorigin="anonymous" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"></script>
+<script src="/static/srm_site/assets/js/site.min.js?v=1783317956 "></script>
+<script src="/static/srm_site/assets/js/jquery.dm-uploader.min.js?v=1783317956 "></script>
+<script src="/static/srm_site/assets/js/jquery.uploadfile.min.js?v=1783317956 "></script>
+<script src="/static/srm_site/assets/js/e-TendersCustom.js?v=1783317956 "></script>
+<script src="/static/srm_site/assets/js/jquery.dataTables.min.js?v=1783317956 "></script>
+<script src="/static/srm_site/assets/js/ui-multiple.js?v=1783317956"></script>
+<script src="/static/srm_site/assets/js/datetime.js?v=1783317956"></script>
+<script src="/static/srm_site/assets/js/currency.min.js?v=1783317956"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    
+
+
+</body></html>

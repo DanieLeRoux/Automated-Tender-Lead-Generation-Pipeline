@@ -1,0 +1,255 @@
+VCWB Tender Scraper Metadata
+============================
+
+Script Name
+-----------
+vcwb_tender_pull_and_clean.py
+
+Source
+------
+Organisation: Vaal Central Water Board / Vaal Central Water
+Source URL: https://vaalcentralwater.co.za/advertised-tenders/
+Source Type: Public HTML webpage scraper
+
+Purpose
+-------
+The scraper monitors the VCWB advertised tenders webpage, extracts advertised tender notices, stores raw outputs for audit/debugging, filters to currently open tenders, applies a simple priority score, and maintains master, delta, updates, and top-delta Excel outputs.
+
+Root Folder
+-----------
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\VaalCentralWater
+
+Folder Structure
+----------------
+Logs:
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\VaalCentralWater\Logs
+
+Outputs:
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\VaalCentralWater\Outputs
+
+State:
+C:\Users\Danie le Roux\OneDrive - Henry Fagan\Desktop\Data Analytics\VaalCentralWater\State
+
+Generated Output Files
+----------------------
+Raw CSV:
+vcwb_raw.csv
+
+Raw Excel:
+vcwb_raw_full.xlsx
+
+Raw HTML:
+vcwb_raw_page.html
+
+Master Excel:
+vcwb_master.xlsx
+
+Delta Excel:
+vcwb_delta.xlsx
+
+Updates Excel:
+vcwb_updates.xlsx
+
+Top Delta Excel:
+vcwb_top_delta.xlsx
+
+Log File
+--------
+vcwb_run.log
+
+State File
+----------
+seen_ids.json
+
+Lock File
+---------
+run.lock
+
+Run Command
+-----------
+Standard daily run:
+python vcwb_tender_pull_and_clean.py
+
+Full PowerShell command:
+& "C:/Users/Danie le Roux/AppData/Local/Programs/Python/Python314/python.exe" "C:/Users/Danie le Roux/OneDrive - Henry Fagan/Desktop/Data Analytics/VaalCentralWater/vcwb_tender_pull_and_clean.py"
+
+Optional Run Arguments
+----------------------
+--include-expired
+Includes tenders where the closing date has already passed.
+
+--top-delta-limit 50
+Changes the maximum number of rows written to vcwb_top_delta.xlsx. Use 0 to include all qualifying delta rows.
+
+--top-delta-min-score 3
+Sets the minimum weight_score required for inclusion in vcwb_top_delta.xlsx.
+
+--state-file "path"
+Overrides the default JSON state file used to store seen opportunity keys.
+
+Data Extraction Method
+----------------------
+The scraper fetches the public VCWB advertised tenders webpage and saves the full HTML as vcwb_raw_page.html.
+
+It then parses the visible webpage content using BeautifulSoup. The parser creates a stream of visible text and document links, identifies tender blocks using reference number patterns, and extracts each notice into a structured row.
+
+The parser is designed around VCWB/Bloem Water reference number formats such as:
+VCW...
+VCWB...
+BW...
+
+Core Extracted Fields
+---------------------
+source
+opportunity_key
+reference_number
+notice_type
+description
+client
+date_uploaded
+closing_date
+document_names
+document_urls
+document_count
+source_url
+
+Generated / Processing Fields
+-----------------------------
+priority_client_match
+matched_description_keywords
+description_keyword_match_count
+weight_score
+row_hash
+run_timestamp
+change_type
+previous_row_hash
+
+Unique Identifier
+-----------------
+The scraper uses opportunity_key as the unique tender identifier.
+
+Format:
+vcwb:<normalised reference number>
+
+Example:
+vcwb:vcw/...
+
+Filtering Logic
+---------------
+Raw outputs are unfiltered and preserve the parsed webpage result.
+
+Clean outputs are filtered by default to only include tenders where:
+closing_date is present; and
+closing_date >= today's date.
+
+Expired tenders are excluded by default unless --include-expired is used.
+
+Scoring Logic
+-------------
+All records are from VCWB, so priority_client_match is set to True for all rows.
+
+The weight_score is currently based on description keyword matches only.
+
+Current scoring:
+Each matched description keyword = 1 point.
+
+weight_score = description_keyword_match_count
+
+Description Keyword Rules
+-------------------------
+The scraper checks the tender description for the following keyword labels and related phrases:
+
+Water and Sanitation
+Bulk Infrastructure
+Infrastructure Masterplan
+Design
+Implementation
+Refurbishment
+Construction
+Maintenance
+Mechanical
+Electrical
+Civil Engineering
+Structural Engineering
+Professional Service Provider
+Engineering
+Project Management
+Programme Management
+Feasibility Study
+Pipelines
+Pump Stations
+Reservoir
+Wastewater Treatment Works
+Water Treatment Works
+Fire Engineering
+HVAC
+Advisory Services
+
+Top Delta Logic
+---------------
+vcwb_top_delta.xlsx is created from vcwb_delta.xlsx only.
+
+Rows are sorted by:
+1. weight_score descending
+2. closing_date ascending
+3. date_uploaded ascending
+
+Default top-delta settings:
+Top delta limit: 20
+Minimum score: 0
+
+Delta Logic
+-----------
+vcwb_delta.xlsx contains tenders from the current run that are not already present in the existing master file, based on opportunity_key.
+
+Updates Logic
+-------------
+vcwb_updates.xlsx contains existing tenders whose operational hash has changed since the previous master file.
+
+Hash / Change Detection Fields
+------------------------------
+The following fields are used to determine whether an existing tender has materially changed:
+
+description
+date_uploaded
+closing_date
+document_names
+document_urls
+notice_type
+
+Document names and URLs are included because VCWB may publish addenda, errata, extensions, or revised tender documents.
+
+Master Logic
+------------
+vcwb_master.xlsx stores the latest current snapshot by opportunity_key.
+
+When an existing opportunity_key appears again, the newly fetched row is preferred and the master is deduplicated by opportunity_key.
+
+Excel Output Structure
+----------------------
+Each Excel output is written with a dedicated worksheet and Excel-style table where rows exist.
+
+Worksheets:
+Master: vcwb_master.xlsx
+Delta: vcwb_delta.xlsx
+Updates: vcwb_updates.xlsx
+Top_Delta: vcwb_top_delta.xlsx
+Raw_Data: vcwb_raw_full.xlsx
+
+Current Limitations / Notes
+---------------------------
+The scraper depends on the public VCWB webpage structure. If VCWB changes the layout, reference number format, or date labels, the parser may need to be updated.
+
+The scraper does not log in to any supplier portal and only uses publicly visible information.
+
+The scraper does not currently download or parse the tender documents themselves. It captures document names and document URLs only.
+
+If tender details are only contained inside PDFs or Word documents, those details will not be available unless a second-stage document parser is added later.
+
+Recommended Daily Use
+---------------------
+Run once per day.
+Review vcwb_top_delta.xlsx first.
+Then review vcwb_delta.xlsx for all new entries.
+Review vcwb_updates.xlsx for changes to existing opportunities.
+Use vcwb_raw_full.xlsx and vcwb_raw_page.html for troubleshooting or audit checks.

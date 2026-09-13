@@ -1,0 +1,516 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260713080007
+Username: AzureAD\DanieLeRoux
+RunAs User: AzureAD\DanieLeRoux
+Configuration Name: 
+Machine: LAPTOP-DANIELR (Microsoft Windows NT 10.0.26200.0)
+Host Application: powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\daily_run.ps1
+Process ID: 15260
+PSVersion: 5.1.26100.8655
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8655
+BuildVersion: 10.0.26100.8655
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\05_SystemLogs\DailyRun\daily_run_2026-07-13_08-00-06.log
+Project root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+Registry: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\00_Config\sources_registry.xlsx
+Log file: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\05_SystemLogs\DailyRun\daily_run_2026-07-13_08-00-06.log
+Python command: py -3
+
+Running source scrapers...
+Run logs: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\05_SystemLogs\RunLogs
+
+RUN ACSA
+C:\Users\DanieLeRoux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\0
+2_Sources\ACSA\00_Scripts\acsa_tender_pull_and_clean.py
+2026-07-13 08:00:14,667 | INFO | Filtered cancellation/withdrawal notices: 29 -> 29 rows
+2026-07-13 08:00:14,668 | INFO | Filtered current tenders by closing date: 29 -> 5 rows
+2026-07-13 08:00:14,882 | INFO | Filtered cancellation/withdrawal notices: 8 -> 8 rows
+2026-07-13 08:00:14,884 | INFO | Filtered current tenders by closing date: 8 -> 8 rows
+2026-07-13 08:00:14,889 | INFO | Delta (NEW) rows this run: 1
+2026-07-13 08:00:14,890 | INFO | Updates (CHANGED) rows this run: 0
+2026-07-13 08:00:14,890 | INFO | Top delta rows this run: 1
+2026-07-13 08:00:14,939 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\ACSA\02_Ou
+tputs\acsa_delta.xlsx | rows: 1
+2026-07-13 08:00:14,963 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\ACSA\02_
+Outputs\acsa_updates.xlsx | rows: 0
+2026-07-13 08:00:14,993 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\ACSA\0
+2_Outputs\acsa_top_delta.xlsx | rows: 1
+2026-07-13 08:00:15,053 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\ACSA\02_O
+utputs\acsa_master.xlsx | rows: 9
+2026-07-13 08:00:15,055 | INFO | Saved seen IDs state file: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\AC
+SA\04_State\seen_ids.json
+
+RUN City of Ekurhuleni
+C:\Users\DanieLeRoux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\0
+2_Sources\CityEkurhuleni\00_Scripts\city_ekurhuleni_tender_pull_and_clean.py
+2026-07-13 08:00:15,973 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-13 08:00:15,974 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityEkurhu
+leni
+2026-07-13 08:00:15,974 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityEkur
+huleni\01_RawData
+2026-07-13 08:00:15,982 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityE
+kurhuleni\02_Outputs
+2026-07-13 08:00:17,108 | INFO | City of Ekurhuleni listing pages queued: 8
+2026-07-13 08:00:17,127 | INFO | City of Ekurhuleni detail links from https://www.ekurhuleni.gov.za/for-my-business/tenders/open-tenders/: 8
+2026-07-13 08:00:17,476 | INFO | City of Ekurhuleni detail links from https://www.ekurhuleni.gov.za/for-my-business/tenders/open-tenders/2/: 1
+2026-07-13 08:00:19,993 | INFO | City of Ekurhuleni detail links from https://www.ekurhuleni.gov.za/for-my-business/tenders/open-tenders/3/: 0
+2026-07-13 08:00:19,995 | INFO | City of Ekurhuleni unique tender detail links: 9
+2026-07-13 08:00:25,795 | INFO | Parsed City of Ekurhuleni raw rows: 9
+2026-07-13 08:00:25,809 | INFO | Filtered current City of Ekurhuleni tenders: 9 -> 8 rows
+2026-07-13 08:00:26,874 | INFO | Saved City of Ekurhuleni outputs | raw=9 master=8 delta=1 updates=0 top_delta=1
+
+RUN City of Mbombela
+C:\Users\DanieLeRoux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\0
+2_Sources\CityMbombela\00_Scripts\city_mbombela_tender_pull_and_clean.py
+2026-07-13 08:00:28,176 | INFO | Found Mbombela listing entries on page 1: 10
+2026-07-13 08:00:38,611 | INFO | Fetching City of Mbombela listing page 2: https://www.mbombela.gov.za/downloads/tenders/page/2/
+2026-07-13 08:00:39,120 | INFO | Found Mbombela listing entries on page 2: 10
+2026-07-13 08:00:50,578 | INFO | Fetching City of Mbombela listing page 3: https://www.mbombela.gov.za/downloads/tenders/page/3/
+2026-07-13 08:00:51,231 | INFO | Found Mbombela listing entries on page 3: 10
+2026-07-13 08:01:14,010 | INFO | Fetching City of Mbombela listing page 4: https://www.mbombela.gov.za/downloads/tenders/page/4/
+2026-07-13 08:01:14,527 | INFO | Found Mbombela listing entries on page 4: 10
+2026-07-13 08:01:39,927 | INFO | Saved raw outputs | rows: 40
+2026-07-13 08:01:39,928 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbomb
+ela\02_Outputs\city_mbombela_master.xlsx | rows: 39
+2026-07-13 08:01:39,929 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbombe
+la\02_Outputs\city_mbombela_delta.xlsx | rows: 9
+2026-07-13 08:01:39,929 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMbom
+bela\02_Outputs\city_mbombela_updates.xlsx | rows: 0
+2026-07-13 08:01:39,930 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityMb
+ombela\02_Outputs\city_mbombela_top_delta.xlsx | rows: 9
+
+RUN City of Cape Town
+C:\Users\DanieLeRoux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\0
+2_Sources\CityOfCapeTown\00_Scripts\coct_tender_pull_and_clean.py
+2026-07-13 08:01:45,356 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityOfCapeTow
+n\01_RawData\coct_raw_page.html
+2026-07-13 08:01:45,490 | INFO | Raw tender table rows: 64 | cols: 11
+2026-07-13 08:01:45,495 | INFO | Saved raw CSV: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityOfCapeTown
+\01_RawData\coct_raw.csv
+2026-07-13 08:01:45,873 | INFO | Saved raw Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityOfCapeTo
+wn\01_RawData\coct_raw_full.xlsx
+2026-07-13 08:01:45,915 | INFO | Filtered current tenders by closing date: 59 -> 57 rows
+2026-07-13 08:01:49,444 | INFO | Delta (NEW) rows this run: 6
+2026-07-13 08:01:49,445 | INFO | Updates (CHANGED) rows this run: 26
+2026-07-13 08:01:49,446 | INFO | Top delta rows this run: 6
+2026-07-13 08:01:49,655 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityOfCape
+Town\02_Outputs\coct_delta.xlsx | rows: 6
+2026-07-13 08:01:49,933 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityOfCa
+peTown\02_Outputs\coct_updates.xlsx | rows: 26
+2026-07-13 08:01:50,100 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityOf
+CapeTown\02_Outputs\coct_top_delta.xlsx | rows: 6
+2026-07-13 08:01:50,363 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityOfCap
+eTown\02_Outputs\coct_master.xlsx | rows: 103
+C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityOfCapeTown\00_Scripts\coct_tender_pull_and_clean.py:313: U
+serWarning: Parsing dates in %Y-%m-%d format when dayfirst=True was specified. Pass `dayfirst=False` or specify a format to silence this warning.
+  return pd.to_datetime(series, errors="coerce", dayfirst=True)
+C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityOfCapeTown\00_Scripts\coct_tender_pull_and_clean.py:313: U
+serWarning: Parsing dates in %Y-%m-%d %I:%M %p format when dayfirst=True was specified. Pass `dayfirst=False` or specify a format to silence this warning.
+  return pd.to_datetime(series, errors="coerce", dayfirst=True)
+
+RUN City of Polokwane
+C:\Users\DanieLeRoux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\0
+2_Sources\CityPolokwane\00_Scripts\city_polokwane_tender_pull_and_clean.py
+2026-07-13 08:02:01,695 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityPolo
+kwane\03_Logs
+2026-07-13 08:02:01,696 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityPo
+lokwane\04_State
+2026-07-13 08:02:01,696 | INFO | Using metadata directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Cit
+yPolokwane\05_Metadata
+2026-07-13 08:02:01,700 | INFO | Fetching Polokwane tender page: https://www.polokwane.gov.za/tender-documents/
+2026-07-13 08:02:06,229 | INFO | Parsed Polokwane rows from https://www.polokwane.gov.za/tender-documents/: 95
+2026-07-13 08:02:06,230 | INFO | Fetching Polokwane tender page: https://www.polokwane.gov.za/bids-advertisements/
+2026-07-13 08:02:07,826 | INFO | Parsed Polokwane rows from https://www.polokwane.gov.za/bids-advertisements/: 89
+2026-07-13 08:02:08,116 | INFO | Parsed City of Polokwane raw rows: 184
+2026-07-13 08:02:31,693 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityPolok
+wane\02_Outputs\city_polokwane_master.xlsx | rows: 184
+2026-07-13 08:02:31,694 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityPolokw
+ane\02_Outputs\city_polokwane_delta.xlsx | rows: 0
+2026-07-13 08:02:31,694 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityPolo
+kwane\02_Outputs\city_polokwane_updates.xlsx | rows: 1
+2026-07-13 08:02:31,694 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\CityPo
+lokwane\02_Outputs\city_polokwane_top_delta.xlsx | rows: 0
+
+RUN Coega
+C:\Users\DanieLeRoux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\0
+2_Sources\Coega\00_Scripts\coega_tender_pull_and_clean.py
+2026-07-13 08:02:33,379 | INFO | Parsed Coega notice rows: 0
+2026-07-13 08:02:33,390 | INFO | Saved raw CSV: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Coega\01_RawDa
+ta\coega_raw.csv
+2026-07-13 08:02:33,525 | INFO | Saved raw Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Coega\01_Raw
+Data\coega_raw_full.xlsx
+2026-07-13 08:02:33,528 | INFO | Filtered cancellation/withdrawal notices: 0 -> 0 rows
+2026-07-13 08:02:33,529 | INFO | Filtered current tenders by closing date: 0 -> 0 rows
+2026-07-13 08:02:34,073 | INFO | Delta rows this run: 0
+2026-07-13 08:02:34,073 | INFO | Updates rows this run: 0
+2026-07-13 08:02:34,073 | INFO | Top delta rows this run: 0
+2026-07-13 08:02:34,158 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Coega\02_O
+utputs\coega_delta.xlsx | rows: 0
+2026-07-13 08:02:34,232 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Coega\02
+_Outputs\coega_updates.xlsx | rows: 0
+2026-07-13 08:02:34,667 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Coega\
+02_Outputs\coega_top_delta.xlsx | rows: 0
+2026-07-13 08:02:34,949 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Coega\02_
+Outputs\coega_master.xlsx | rows: 2
+
+RUN COGTA
+C:\Users\DanieLeRoux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\0
+2_Sources\COGTA\00_Scripts\cogta_tender_pull_and_clean.py
+2026-07-13 08:02:55,747 | INFO | Parsed COGTA table rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 0
+2026-07-13 08:02:55,748 | INFO | Parsed COGTA link rows from https://www.cogta.gov.za/index.php/category/cogta/dcog-cogta/documents/tenders/: 3
+2026-07-13 08:02:55,840 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2026/07/10/deputy-minister-dr-namane-dickson-masemola-to-un
+dertake-a-monitoring-and-oversight-visit-to-sekhukhune-district-municipality/. Retrying without verification.
+2026-07-13 08:03:02,247 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2026/07/10/deputy-minister-dr-namane-dickson-masemola-to-un
+dertake-a-monitoring-and-oversight-visit-to-sekhukhune-district-municipality/. Retrying without verification.
+2026-07-13 08:03:06,244 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2019/08/19/tenders/. Retrying without verification.
+2026-07-13 08:03:10,506 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2017/07/20/bid-document-tender-number-cogta-t-02-2017-cwp-m
+pu/. Retrying without verification.
+2026-07-13 08:03:14,662 | WARNING | SSL verification failed for https://www.cogta.gov.za/index.php/2016/11/22/dta-tender-2016/. Retrying without verification.
+
+2026-07-13 08:03:19,750 | INFO | Parsed COGTA raw rows: 4
+2026-07-13 08:03:21,291 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_
+Outputs\cogta_master.xlsx | rows: 2
+2026-07-13 08:03:21,291 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02_O
+utputs\cogta_delta.xlsx | rows: 1
+2026-07-13 08:03:21,292 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\02
+_Outputs\cogta_updates.xlsx | rows: 1
+2026-07-13 08:03:21,295 | INFO | Saved top_delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\COGTA\
+02_Outputs\cogta_top_delta.xlsx | rows: 1
+
+RUN DBSA
+C:\Users\DanieLeRoux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\0
+2_Sources\DBSA\00_Scripts\dbsa_procurement_pull_and_clean.py
+2026-07-13 08:03:22,719 | INFO | Parsed DBSA notice rows: 7 | cols: 14
+2026-07-13 08:03:22,748 | INFO | Saved raw CSV: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\DBSA\01_RawDat
+a\dbsa_raw.csv
+2026-07-13 08:03:23,229 | INFO | Saved raw Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\DBSA\01_RawD
+ata\dbsa_raw_full.xlsx
+2026-07-13 08:03:23,230 | INFO | Filtered cancellation notices: 7 -> 7 rows
+2026-07-13 08:03:23,231 | INFO | Filtered current tenders by closing date: 7 -> 0 rows
+2026-07-13 08:03:24,461 | INFO | Delta (NEW) rows this run: 0
+2026-07-13 08:03:24,462 | INFO | Updates (CHANGED) rows this run: 0
+2026-07-13 08:03:24,462 | INFO | Top delta rows this run: 0
+2026-07-13 08:03:24,857 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\DBSA\02_Ou
+tputs\dbsa_delta.xlsx | rows: 0
+2026-07-13 08:03:24,975 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\DBSA\02_
+Outputs\dbsa_updates.xlsx | rows: 0
+2026-07-13 08:03:25,066 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\DBSA\0
+2_Outputs\dbsa_top_delta.xlsx | rows: 0
+2026-07-13 08:03:25,175 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\DBSA\02_O
+utputs\dbsa_master.xlsx | rows: 7
+
+RUN DHS
+C:\Users\DanieLeRoux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\0
+2_Sources\DHS\00_Scripts\dhs_tender_pull_and_clean.py
+Traceback (most recent call last):
+  File "C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\DHS\00_Scripts\dhs_tender_pull_and_clean.py", line 869
+, in main
+    rows = fetch_and_parse()
+  File "C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\DHS\00_Scripts\dhs_tender_pull_and_clean.py", line 650
+, in fetch_and_parse
+    links = collect_detail_links()
+  File "C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\DHS\00_Scripts\dhs_tender_pull_and_clean.py", line 461
+, in collect_detail_links
+    rendered_html = fetch_rendered_html_with_selenium()
+  File "C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\DHS\00_Scripts\dhs_tender_pull_and_clean.py", line 416
+, in fetch_rendered_html_with_selenium
+    raise RuntimeError(
+    ...<2 lines>...
+    ) from exc
+RuntimeError: No tender detail links were found in static HTML and Selenium is not installed. Install it with: pip install selenium
+FAILED DHS with return code 1
+
+RUN eTenders
+C:\Users\DanieLeRoux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\0
+2_Sources\eTenders\00_Scripts\etenders_pull_and_clean.py
+2026-07-13 08:03:37,695 | INFO | Raw rows fetched: 1874 | cols: 61
+2026-07-13 08:03:37,828 | INFO | Saved raw CSV: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\eTenders\01_Ra
+wData\etenders_active_raw.csv
+2026-07-13 08:03:39,766 | INFO | Saved raw Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\eTenders\01_
+RawData\etenders_active_raw_full.xlsx
+2026-07-13 08:03:39,862 | INFO | Filtered clean output to category 'Services: Professional': 1874 -> 235 rows
+2026-07-13 08:03:40,618 | INFO | Filtered clean output to category 'Services: Professional': 709 -> 709 rows
+2026-07-13 08:03:40,650 | INFO | Delta (NEW) rows this run after category filter: 71
+2026-07-13 08:03:40,651 | INFO | Updates (CHANGED) rows this run after category filter: 11
+2026-07-13 08:03:40,651 | INFO | Top delta rows this run: 20 | min_score: 0 | limit: 20
+2026-07-13 08:03:40,790 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\eTenders\0
+2_Outputs\etenders_delta.xlsx | rows: 71
+2026-07-13 08:03:40,869 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\eTende
+rs\02_Outputs\etenders_top_delta.xlsx | rows: 20
+2026-07-13 08:03:40,935 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\eTenders
+\02_Outputs\etenders_updates.xlsx | rows: 11
+2026-07-13 08:03:41,578 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\eTenders\
+02_Outputs\etenders_master.xlsx | rows: 780
+C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\eTenders\00_Scripts\etenders_pull_and_clean.py:881: UserWarnin
+g: Cell contents too long (48456), truncated to 32767 characters
+  df_full.to_excel(writer, index=False, sheet_name="Raw_Data")
+SKIP inactive: GTAC
+
+RUN Johannesburg Water
+C:\Users\DanieLeRoux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\0
+2_Sources\JohannesburgWater\00_Scripts\johannesburg_water_tender_pull_and_clean.py
+2026-07-13 08:03:42,503 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Johannes
+burgWater\03_Logs
+2026-07-13 08:03:42,503 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Johann
+esburgWater\04_State
+2026-07-13 08:03:42,504 | INFO | Fetching Johannesburg Water Tender page: https://scm.johannesburgwater.co.za/supply-chain/tenders/all-open-tenders/
+2026-07-13 08:03:45,814 | INFO | Parsed Johannesburg Water Tender rows: 12
+2026-07-13 08:03:45,815 | INFO | Fetching Johannesburg Water RFP page: https://scm.johannesburgwater.co.za/supply-chain/request-for-proposal/all-advertised-rf
+ps/
+2026-07-13 08:03:48,752 | INFO | Parsed Johannesburg Water RFP rows: 1
+2026-07-13 08:03:48,769 | INFO | Raw Johannesburg Water rows: 13 | cols: 40
+2026-07-13 08:03:49,418 | INFO | Filtered current Johannesburg Water rows: 13 -> 12
+2026-07-13 08:03:49,784 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Johannesbu
+rgWater\02_Outputs\johannesburg_water_delta.xlsx | rows: 2
+2026-07-13 08:03:49,784 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Johannes
+burgWater\02_Outputs\johannesburg_water_updates.xlsx | rows: 5
+2026-07-13 08:03:49,784 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Johann
+esburgWater\02_Outputs\johannesburg_water_top_delta.xlsx | rows: 2
+2026-07-13 08:03:49,784 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Johannesb
+urgWater\02_Outputs\johannesburg_water_master.xlsx | rows: 12
+
+RUN NamWater
+C:\Users\DanieLeRoux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\0
+2_Sources\NamWater\00_Scripts\namwater_tender_pull_and_clean.py
+2026-07-13 08:03:51,106 | INFO | Using tender scrapers root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+2026-07-13 08:03:51,107 | INFO | Using source root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+2026-07-13 08:03:51,108 | INFO | Using raw directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+\01_RawData
+2026-07-13 08:03:51,108 | INFO | Using output directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWa
+ter\02_Outputs
+2026-07-13 08:03:51,108 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWater
+\03_Logs
+2026-07-13 08:03:51,108 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NamWat
+er\04_State
+2026-07-13 08:03:51,110 | INFO | Fetching NamWater bids list: https://www.namwater.com.na/index.php/bids-list
+2026-07-13 08:03:53,269 | INFO | Parsed NamWater rows: 4
+2026-07-13 08:03:53,286 | INFO | Raw NamWater rows: 4 | cols: 40
+2026-07-13 08:03:54,968 | INFO | Saved NamWater outputs | raw=4 master=4 delta=0 updates=1 top_delta=0
+
+RUN NECSA
+C:\Users\DanieLeRoux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\0
+2_Sources\NECSA\00_Scripts\necsa_tender_pull_and_clean.py
+2026-07-13 08:03:56,266 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NECSA\03
+_Logs
+2026-07-13 08:03:56,267 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NECSA\
+04_State
+2026-07-13 08:03:56,267 | INFO | Fetching NECSA tender page: https://www.necsa.co.za/tenders/
+2026-07-13 08:03:59,837 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NECSA\01_RawD
+ata\necsa_raw_page.html
+2026-07-13 08:04:00,075 | INFO | Parsed NECSA tender rows: 3
+2026-07-13 08:04:00,091 | INFO | Raw NECSA rows: 3 | cols: 40
+2026-07-13 08:04:00,115 | INFO | Filtered current NECSA tenders: 3 -> 3 rows
+2026-07-13 08:04:01,075 | INFO | Saved NECSA outputs | raw=3 master=3 delta=1 updates=0 top_delta=1
+2026-07-13 08:04:01,086 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NECSA\02_O
+utputs\necsa_delta.xlsx | rows: 1
+2026-07-13 08:04:01,087 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NECSA\02
+_Outputs\necsa_updates.xlsx | rows: 0
+2026-07-13 08:04:01,087 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NECSA\
+02_Outputs\necsa_top_delta.xlsx | rows: 1
+2026-07-13 08:04:01,089 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NECSA\02_
+Outputs\necsa_master.xlsx | rows: 3
+
+RUN NNR
+C:\Users\DanieLeRoux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\0
+2_Sources\NNR\00_Scripts\nnr_tender_pull_and_clean.py
+2026-07-13 08:04:02,065 | INFO | Using log directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\03_L
+ogs
+2026-07-13 08:04:02,066 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\04
+_State
+2026-07-13 08:04:02,074 | INFO | Fetching NNR tenders: https://nnr.co.za/tenders/
+2026-07-13 08:04:03,380 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\01_RawDat
+a\nnr_raw_page.html
+2026-07-13 08:04:03,498 | INFO | Parsed NNR open tender rows: 1
+2026-07-13 08:04:03,609 | INFO | Saved raw outputs
+2026-07-13 08:04:03,612 | INFO | Filtered current NNR tenders: 1 -> 0 rows
+2026-07-13 08:04:03,924 | WARNING | Current NNR parse returned no open/current rows. Preserving existing master.
+2026-07-13 08:04:04,051 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Out
+puts\nnr_delta.xlsx | rows: 0
+2026-07-13 08:04:04,051 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_O
+utputs\nnr_updates.xlsx | rows: 0
+2026-07-13 08:04:04,051 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02
+_Outputs\nnr_top_delta.xlsx | rows: 0
+2026-07-13 08:04:04,051 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\NNR\02_Ou
+tputs\nnr_master.xlsx | rows: 3
+
+RUN Rand Water
+C:\Users\DanieLeRoux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\0
+2_Sources\RandWater\00_Scripts\randwater_tender_pull_and_clean.py
+2026-07-13 08:04:04,752 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWa
+ter\04_State
+2026-07-13 08:04:04,752 | INFO | Fetching Rand Water tenders: https://www.randwater.co.za/availabletenders.php
+2026-07-13 08:04:04,831 | WARNING | SSL verification failed for https://www.randwater.co.za/availabletenders.php. Retrying without certificate verification fo
+r this public tender page.
+2026-07-13 08:04:04,955 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\01_
+RawData\randwater_raw_page.html
+2026-07-13 08:04:04,984 | INFO | HTML tables found: 1
+2026-07-13 08:04:04,991 | INFO | Parsed Rand Water tender rows: 2
+2026-07-13 08:04:05,170 | INFO | Saved raw outputs
+2026-07-13 08:04:05,173 | INFO | Filtered current Rand Water tenders: 2 -> 2 rows
+2026-07-13 08:04:05,469 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater\
+02_Outputs\randwater_delta.xlsx | rows: 0
+2026-07-13 08:04:05,469 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWate
+r\02_Outputs\randwater_updates.xlsx | rows: 1
+2026-07-13 08:04:05,469 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWa
+ter\02_Outputs\randwater_top_delta.xlsx | rows: 0
+2026-07-13 08:04:05,469 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\RandWater
+\02_Outputs\randwater_master.xlsx | rows: 4
+SKIP inactive: Sibanye Stillwater
+
+RUN TCTA
+C:\Users\DanieLeRoux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\0
+2_Sources\TCTA\00_Scripts\tcta_tender_pull_and_clean.py
+2026-07-13 08:04:06,377 | INFO | Using state directory: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\TCTA\0
+4_State
+2026-07-13 08:04:06,378 | INFO | Fetching TCTA tenders: https://www.tcta.co.za/tenders/
+2026-07-13 08:04:06,948 | INFO | Saved raw HTML: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\TCTA\01_RawDa
+ta\tcta_raw_page.html
+2026-07-13 08:04:07,009 | INFO | Candidate TCTA tender title headings found: 2
+2026-07-13 08:04:07,012 | INFO | Parsed TCTA tender rows: 2 | rows with closing dates: 2
+2026-07-13 08:04:07,017 | INFO | Parsed TCTA raw rows: 2 | cols: 41
+2026-07-13 08:04:07,021 | INFO | Filtered current TCTA tenders: 2 -> 2 rows
+2026-07-13 08:04:07,414 | INFO | Saved raw CSV: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\TCTA\01_RawDat
+a\tcta_raw.csv | rows: 2
+2026-07-13 08:04:07,415 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\TCTA\02_O
+utputs\tcta_master.xlsx | rows: 2
+2026-07-13 08:04:07,415 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\TCTA\02_Ou
+tputs\tcta_delta.xlsx | rows: 0
+2026-07-13 08:04:07,415 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\TCTA\02_
+Outputs\tcta_updates.xlsx | rows: 0
+2026-07-13 08:04:07,416 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\TCTA\0
+2_Outputs\tcta_top_delta.xlsx | rows: 0
+
+RUN Transnet
+C:\Users\DanieLeRoux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\0
+2_Sources\Transnet\00_Scripts\transnet_esupplier_tender_pull_and_clean.py
+    ...<4 lines>...
+        max_pages=max_pages,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Transnet\00_Scripts\transnet_esupplier_tender_pull_and
+_clean.py", line 570, in fetch_rendered_table_pages_with_selenium
+    driver = _start_selenium_driver()
+  File "C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\Transnet\00_Scripts\transnet_esupplier_tender_pull_and
+_clean.py", line 317, in _start_selenium_driver
+    raise RuntimeError(
+    ...<2 lines>...
+    ) from exc
+RuntimeError: The Transnet tender pages are JavaScript-rendered and Selenium is required for full pagination. Install it with: pip install selenium
+FAILED Transnet with return code 1
+
+RUN uMngeni-uThukela Water
+C:\Users\DanieLeRoux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\0
+2_Sources\uMngeniUthukelaWater\00_Scripts\umngeni_uthukela_tender_pull_and_clean.py
+2026-07-13 08:04:11,054 | INFO | Filtered archived notices: 130 -> 65 rows
+2026-07-13 08:04:11,057 | INFO | Filtered current tenders by closing_datetime >= now: 65 -> 8 rows
+2026-07-13 08:04:11,369 | INFO | Filtered cancellation/withdrawal notices: 8 -> 8 rows
+2026-07-13 08:04:11,369 | INFO | Filtered archived notices: 8 -> 8 rows
+2026-07-13 08:04:11,370 | INFO | Filtered current tenders by closing_datetime >= now: 8 -> 8 rows
+2026-07-13 08:04:11,380 | INFO | Delta rows this run: 0
+2026-07-13 08:04:11,380 | INFO | Updates rows this run: 0
+2026-07-13 08:04:11,380 | INFO | Top delta rows this run: 0
+2026-07-13 08:04:11,428 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\uMngeniUth
+ukelaWater\02_Outputs\umngeni_uthukela_delta.xlsx | rows: 0
+2026-07-13 08:04:11,473 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\uMngeniU
+thukelaWater\02_Outputs\umngeni_uthukela_updates.xlsx | rows: 0
+2026-07-13 08:04:11,516 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\uMngen
+iUthukelaWater\02_Outputs\umngeni_uthukela_top_delta.xlsx | rows: 0
+2026-07-13 08:04:11,579 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\uMngeniUt
+hukelaWater\02_Outputs\umngeni_uthukela_master.xlsx | rows: 8
+
+RUN Vaal Central Water
+C:\Users\DanieLeRoux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\0
+2_Sources\VaalCentralWater\00_Scripts\vcwb_tender_pull_and_clean.py
+2026-07-13 08:04:14,046 | INFO | VCWB notice blocks found: 2
+2026-07-13 08:04:14,051 | INFO | Parsed VCWB notice rows: 2 | cols: 12
+2026-07-13 08:04:14,057 | INFO | Saved raw CSV: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\VaalCentralWat
+er\01_RawData\vcwb_raw.csv
+2026-07-13 08:04:14,266 | INFO | Saved raw Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\VaalCentralW
+ater\01_RawData\vcwb_raw_full.xlsx
+2026-07-13 08:04:14,270 | INFO | Filtered current tenders by closing date: 2 -> 0 rows
+2026-07-13 08:04:14,585 | INFO | Delta (NEW) rows this run: 0
+2026-07-13 08:04:14,585 | INFO | Updates (CHANGED) rows this run: 0
+2026-07-13 08:04:14,585 | INFO | Top delta rows this run: 0
+2026-07-13 08:04:14,632 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\VaalCentra
+lWater\02_Outputs\vcwb_delta.xlsx | rows: 0
+2026-07-13 08:04:14,675 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\VaalCe
+ntralWater\02_Outputs\vcwb_top_delta.xlsx | rows: 0
+2026-07-13 08:04:14,717 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\VaalCent
+ralWater\02_Outputs\vcwb_updates.xlsx | rows: 0
+2026-07-13 08:04:14,769 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\VaalCentr
+alWater\02_Outputs\vcwb_master.xlsx | rows: 0
+
+RUN World Bank
+C:\Users\DanieLeRoux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\0
+2_Sources\WorldBank\00_Scripts\worldbank_procurement_pull_and_clean.py
+2026-07-13 08:04:38,057 | INFO | Fetched World Bank rows after raw de-duplication: 20322
+2026-07-13 08:04:38,199 | INFO | Raw rows fetched: 20322 | cols: 13
+2026-07-13 08:04:38,460 | INFO | Saved raw CSV: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\WorldBank\01_R
+awData\worldbank_raw.csv
+2026-07-13 08:04:43,893 | INFO | Saved raw Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\WorldBank\01
+_RawData\worldbank_raw_full.xlsx
+2026-07-13 08:04:47,531 | INFO | Rows after local filters: 68
+2026-07-13 08:04:49,200 | INFO | Delta (NEW) rows this run: 33
+2026-07-13 08:04:49,200 | INFO | Updates (CHANGED) rows this run: 1
+2026-07-13 08:04:49,200 | INFO | Top delta rows this run: 20
+2026-07-13 08:04:49,504 | INFO | Saved delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\WorldBank\
+02_Outputs\worldbank_delta.xlsx | rows: 33
+2026-07-13 08:04:49,602 | INFO | Saved updates Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\WorldBan
+k\02_Outputs\worldbank_updates.xlsx | rows: 1
+2026-07-13 08:04:49,778 | INFO | Saved top delta Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\WorldB
+ank\02_Outputs\worldbank_top_delta.xlsx | rows: 20
+2026-07-13 08:04:50,023 | INFO | Saved master Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\02_Sources\WorldBank
+\02_Outputs\worldbank_master.xlsx | rows: 208
+
+RUN consolidation
+C:\Users\DanieLeRoux\AppData\Local\Programs\Python\Python314\python.exe C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\0
+3_Consolidation\run_consolidation.py --project-root C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers --sources-registry C:
+\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\00_Config\sources_registry.xlsx
+Consolidation complete. Files created:
+- master: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\04_FinalOutputs\consolidated_master.xlsx
+- delta: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\04_FinalOutputs\consolidated_delta.xlsx
+- updates: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\04_FinalOutputs\consolidated_updates.xlsx
+- top_delta: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\04_FinalOutputs\consolidated_top_delta.xlsx
+- daily_review: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\04_FinalOutputs\consolidated_daily_review.xlsx
+- source_top_delta_standardised: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\04_FinalOutputs\source_top_delta_standar
+dised.xlsx
+
+Run summary: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\05_SystemLogs\RunLogs\run_summary_20260713_080623.csv
+Run summary Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\05_SystemLogs\RunLogs\run_summary_20260713_080623.xlsx
+
+
+Some active items failed:
+- DHS: return code 1
+- Transnet: return code 1
+
+Validating source outputs...
+Project root: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers
+Registry: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\00_Config\sources_registry.xlsx
+
+Validation summary
+------------------
+Total checks: 302
+Missing required checks: 0
+
+Inactive sources skipped:
+- GTAC
+- Sibanye Stillwater
+
+Validation report: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\05_SystemLogs\Validation\validation_report_20260713_08
+0624.csv
+Validation report Excel: C:\Users\DanieLeRoux\OneDrive - Henry Fagan\Desktop\Data Analytics\02_TenderScrapers\05_SystemLogs\Validation\validation_report_20260
+713_080624.xlsx
+
+Run exit code: 1
+Validation exit code: 0
+**********************
+Windows PowerShell transcript end
+End time: 20260713080624
+**********************

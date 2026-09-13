@@ -1,0 +1,393 @@
+{
+  "version": "1.2",
+  "description": "Central scoring configuration for the Henry Fagan tender scraper framework. Service keywords are weighted the same as technical keywords. Priority clients boost relevant tenders, but the daily review applies a central exclusion filter and core-scope gate so priority-client-only operational tenders do not appear in the bid-manager review tabs.",
+  "weights": {
+    "priority_client_match": 10,
+    "strategic_sector_keyword": 5,
+    "technical_keyword": 4,
+    "service_keyword": 4,
+    "procurement_delivery_keyword": 3,
+    "notice_type_match": 2,
+    "closing_soon": 2,
+    "has_documents": 1,
+    "has_contact_email": 1
+  },
+  "closing_soon_days": 14,
+  "priority_clients": [
+    "ACSA",
+    "Airports Company South Africa",
+    "City of Cape Town",
+    "Coega Development Corporation",
+    "DBSA",
+    "Development Bank of Southern Africa",
+    "Department of Human Settlements",
+    "Department of Public Works and Roads",
+    "Johannesburg Water",
+    "National Nuclear Regulator",
+    "Polokwane Local Municipality",
+    "South African Nuclear Energy Corporation",
+    "South African Nuclear Energy Corporation Limited",
+    "Transnet",
+    "Transnet SOC Ltd",
+    "Transnet National Ports Authority",
+    "uMngeni-uThukela Water",
+    "Umgeni Water",
+    "Vaal Central Water",
+    "Vaal Central Water Board",
+    "VCWB",
+    "Amatola Water",
+    "City of Ekurhuleni",
+    "City of Johannesburg",
+    "City of Joburg",
+    "City of Mbombela",
+    "City of Polokwane",
+    "City of Tshwane",
+    "Cooperative Governance and Traditional Affairs",
+    "COGTA",
+    "Department of Infrastructure Development",
+    "DID",
+    "Gauteng Department of Infrastructure Development",
+    "Department of Public Works and Infrastructure",
+    "DPWI",
+    "Public Works",
+    "Government Technical Advisory Centre",
+    "GTAC",
+    "Joburg Water",
+    "Lepelle Northern Water",
+    "NAMWATER",
+    "NNR",
+    "National Treasury",
+    "NECSA",
+    "Rand Water",
+    "Randwater",
+    "Trans-Caledon Tunnel Authority",
+    "TCTA",
+    "Western Cape Government"
+  ],
+  "priority_notice_types": [
+    "Tender",
+    "Invitation to Tender",
+    "RFP",
+    "RFQ",
+    "RFI",
+    "RFR",
+    "EOI",
+    "Expression of Interest",
+    "Request for Proposal",
+    "Request for Quotation",
+    "Request for Information"
+  ],
+  "strategic_sector_keywords": {
+    "Water and Sanitation": [
+      "water and sanitation",
+      "water",
+      "sanitation",
+      "wastewater",
+      "sewer",
+      "bulk water",
+      "potable water",
+      "reservoir",
+      "water treatment"
+    ],
+    "Housing / Human Settlements": [
+      "housing",
+      "human settlements",
+      "settlements",
+      "residential",
+      "social housing"
+    ],
+    "Education": [
+      "education",
+      "school",
+      "schools",
+      "university",
+      "college",
+      "campus"
+    ],
+    "Transport": [
+      "transport",
+      "transportation",
+      "bus",
+      "rail",
+      "road",
+      "roads",
+      "traffic",
+      "freight"
+    ],
+    "Bus Rapid Transit (BRT)": [
+      "bus rapid transit",
+      "brt",
+      "integrated rapid public transport"
+    ],
+    "Nuclear": [
+      "nuclear",
+      "national nuclear regulator",
+      "necsa",
+      "radiation"
+    ],
+    "Infrastructure": [
+      "infrastructure",
+      "public infrastructure",
+      "municipal infrastructure"
+    ],
+    "Public Works": [
+      "public works"
+    ],
+    "Ports": [
+      "port",
+      "ports",
+      "harbour",
+      "marine"
+    ],
+    "Airports": [
+      "airport",
+      "airports",
+      "runway",
+      "airside",
+      "landside",
+      "terminal"
+    ],
+    "Healthcare": [
+      "health",
+      "healthcare",
+      "hospital",
+      "clinic",
+      "primary health care",
+      "phc"
+    ]
+  },
+  "technical_keywords": {
+    "Civil Engineering": [
+      "civil engineering",
+      "civil works",
+      "civil infrastructure",
+      "civil"
+    ],
+    "Structural Engineering": [
+      "structural engineering",
+      "structural",
+      "structures"
+    ],
+    "Mechanical": [
+      "mechanical",
+      "mechanical engineering"
+    ],
+    "Electrical": [
+      "electrical",
+      "electrical engineering"
+    ],
+    "Electronic": [
+      "electronic",
+      "electronics",
+      "control systems"
+    ],
+    "HVAC": [
+      "hvac",
+      "heating ventilation and air conditioning",
+      "air conditioning",
+      "ventilation"
+    ],
+    "Fire Engineering": [
+      "fire engineering",
+      "fire safety",
+      "fire protection",
+      "fire detection"
+    ],
+    "Wet Services": [
+      "wet services",
+      "plumbing",
+      "drainage"
+    ],
+    "MEP": [
+      "mep",
+      "mechanical electrical plumbing",
+      "mechanical electrical"
+    ],
+    "Engineering": [
+      "engineering",
+      "engineer",
+      "engineers"
+    ],
+    "Design": [
+      "design",
+      "detailed design",
+      "concept design"
+    ],
+    "Refurbishment": [
+      "refurbishment",
+      "refurbish",
+      "renovation",
+      "repairs",
+      "rehabilitation"
+    ],
+    "Construction": [
+      "construction",
+      "construct",
+      "build",
+      "building works"
+    ],
+    "Maintenance": [
+      "maintenance",
+      "maintain",
+      "operations and maintenance"
+    ],
+    "Roads / Bridges": [
+      "road",
+      "roads",
+      "bridge",
+      "bridges",
+      "stormwater"
+    ]
+  },
+  "service_keywords": {
+    "Project Management": [
+      "project management",
+      "project manager",
+      "project management services"
+    ],
+    "Programme Management": [
+      "programme management",
+      "program management",
+      "programme manager"
+    ],
+    "Project Management Office (PMO)": [
+      "project management office",
+      "pmo"
+    ],
+    "Advisory Services": [
+      "advisory services",
+      "advisory",
+      "advisor",
+      "adviser"
+    ],
+    "Feasibility Study": [
+      "feasibility study",
+      "feasibility",
+      "pre feasibility",
+      "prefeasibility"
+    ],
+    "Professional Services": [
+      "professional services",
+      "professional service provider",
+      "psp"
+    ],
+    "Consulting Services": [
+      "consulting services",
+      "consultancy",
+      "consultant",
+      "consultants",
+      "consulting"
+    ],
+    "Transaction Advisory": [
+      "transaction advisory",
+      "transaction advisor"
+    ],
+    "Technical Advisory": [
+      "technical advisory",
+      "technical advisor",
+      "technical support"
+    ],
+    "Programme / Portfolio Support": [
+      "portfolio management",
+      "programme support",
+      "project support"
+    ]
+  },
+  "procurement_delivery_keywords": {
+    "EPC": [
+      "engineering procurement and construction",
+      "engineering, procurement and construction",
+      "engineering, procurement, and construction",
+      "epc"
+    ],
+    "EPCM": [
+      "engineering procurement and construction management",
+      "engineering, procurement and construction management",
+      "epcm"
+    ],
+    "Design and Build": [
+      "design and build",
+      "design & build"
+    ],
+    "Turnkey": [
+      "turnkey"
+    ],
+    "Framework Agreement": [
+      "framework agreement",
+      "framework contract"
+    ],
+    "Panel": [
+      "panel",
+      "panel of service providers"
+    ],
+    "Built Environment": [
+      "built environment",
+      "built-environment"
+    ]
+  },
+  "score_bands": [
+    {
+      "min": 20,
+      "band": "Very High"
+    },
+    {
+      "min": 12,
+      "band": "High"
+    },
+    {
+      "min": 6,
+      "band": "Medium"
+    },
+    {
+      "min": 1,
+      "band": "Low"
+    },
+    {
+      "min": 0,
+      "band": "No Match"
+    }
+  ],
+  "review_filter_notes": {
+    "purpose": "Daily-review exclusion logic is implemented in core/consolidation.py. Excluded tenders remain in consolidated_master.xlsx but do not appear in consolidated_daily_review priority tabs or consolidated_top_delta.xlsx.",
+    "excluded_themes": [
+      "Repairs",
+      "Maintenance",
+      "Financial Advisory",
+      "Employee Wellness",
+      "Labour",
+      "Cleaning",
+      "Software",
+      "Training",
+      "Equipment",
+      "Appliances",
+      "AI / Artificial Intelligence",
+      "Document Storage",
+      "Blasting",
+      "Vehicle",
+      "CIDB below 7",
+      "Licences / Licenses",
+      "Digital Media",
+      "Invasive Plants / Vegetation",
+      "Landscaping / Gardening",
+      "Auctioning",
+      "Newsletters",
+      "Grave Preparations",
+      "Animals",
+      "Towing Services",
+      "Software / ICT / Licences",
+      "Equipment / Hardware",
+      "Digital Media / Publications",
+      "Consumables / Supply Only",
+      "Compliance Certificates"
+    ],
+    "version": "v7 filtering refinement",
+    "additional_v7_exclusions": [
+      "Microsoft 365 / Azure / SQL / ICT / subscriptions / online platforms",
+      "Transformers / circuit breakers / electrical hardware / COC certificates",
+      "Annual reports / copyediting / proofreading / layout / printing / publications",
+      "Legal research platforms and database subscriptions",
+      "Consumables / canteen supplies / supply-and-delivery only tenders",
+      "Broader equipment, hardware, spares and supply-only wording"
+    ]
+  }
+}
